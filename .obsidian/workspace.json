@@ -138,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "github-sync:Sync with Remote": false,
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
