@@ -32,9 +32,11 @@ Una relazione potrebbe avere più chiavi alternative. Si sceglie quella più usa
 >[!note] Vincolo di integrità referenziale(**foreign key**) 
 >ci permette di correlare, attraverso valori di chiave, informazioni che si trovano in relazioni diverse. 
 
-I vincoli si impostano sulle coppie e non sui singoli attributi. Non tutte le proprietà di interesse possono essere rappresentate tramite vincoli espliciti nel modello logico. le dipendenze funzionali vengono definite direttamente nello schema prima ancora di inserire i dati, così da aggiungere una tupla solo se soddisfa tutti i vincoli imposti  *istanza legale*.
+I **vincoli** si impostano sulle coppie e **non** sui singoli attributi. Non tutte le proprietà di interesse possono essere rappresentate tramite vincoli espliciti nel modello logico.
 
-Una dipendenza funzionale stabilisce un particolare legame semantico tra due insiemi non vuoti di attributi X,Y appartenenti ad uno schema R. Tale vincolo si scrive: *X->Y* e si legge **X determina Y**. Una convenzione importante da usare: quando usiamo le **prime lettere** dell'alfabeto intendiamo i **singoli elementi** degli attributi, quando usiamo le **ultime** intendiamo **insiemi di attributi** (*attenzione che un insieme può anche essere un singolo attributo ma non viceversa*).
+Le dipendenze funzionali vengono definite direttamente nello schema prima ancora di inserire i dati, così da aggiungere una tupla solo se soddisfa tutti i vincoli imposti, in questo caso si parla della creazione di un'*istanza legale*.
+
+Una **dipendenza funzionale** stabilisce un particolare legame semantico tra due insiemi non vuoti di attributi X,Y appartenenti ad uno schema R.  Tale vincolo si scrive: $\X \to$ e si legge **X determina Y**. Una convenzione importante da usare: quando usiamo le **prime lettere** dell'alfabeto intendiamo i **singoli elementi** degli attributi, quando usiamo le **ultime** intendiamo **insiemi di attributi** (*attenzione che un insieme può anche essere un singolo attributo ma non viceversa*).
 Diremo che una relazione r con schema R soddisfa la dipendenza funzionale  
 X -> Y se
 - la dipendenza funzionale è applicabile ad R
