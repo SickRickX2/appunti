@@ -10,12 +10,19 @@ Il modello relazionale si basa su un *dominio* (un insieme infinito di valori). 
 
 >[!tips] Una relazione matematica è un qualsiasi sottoinsieme del prodotto cartesiano di uno o più *domini*. Una relazione di k domini si dice che è di grado k. La cardinalità di una relazione è data dal numero di tuple che la compongono. **Non c'è in nessun caso** un ordinamento delle tuple. Poiché una relazione è un insieme di tuple non ci possono essere duplicati (non compariranno mai due tuple uguali).
 
-*Grado relazione* = **numero domini**
+>[!note]  
+>*Grado relazione* = **numero domini**
 *Cardinalità relazione* = **numero tuple**
-Quasi sempre usiamo i domini predefiniti/base: stringhe, interi, reali.
-Il significato dell'istanza ce lo dà lo schema relazionale.
-Un attributo è definito dal nome e dal dominio dell'attributo. Una relazione può essere implementata come una tabella in cui ogni riga è una tupla della relazione e ogni colonna corrisponde ad una colonna, mentre la coppia attributo-dominio possiamo chiamarlo attributo, un insieme di attributi è uno schema. Lo schema di una base di dati è un insieme di relazioni con nomi differenti. Lo schema di base di dati relazionale è un insieme di schemi di relazione. 
-Tabella master -> esporta un valore univoco nella -> tabella slave (riferimento per valore).
+
+Quasi sempre usiamo i domini predefiniti/base: stringhe, interi, reali. Da soli gli attributi non ci dicono nulla, il significato dell'istanza ce lo dà lo schema relazionale.
+
+Un attributo è definito dal nome e dal dominio dell'attributo. Una relazione può essere implementata come una tabella in cui ogni riga è una tupla della relazione e ogni colonna corrisponde ad una colonna, mentre la coppia attributo-dominio possiamo chiamarlo attributo, un insieme di attributi è uno schema. 
+
+Lo **schema** di una base di dati è un insieme di relazioni con nomi differenti. Lo schema di base di dati relazionale è un insieme di schemi di relazione. 
+>[!example]  Funzionamento
+>Tabella master -> esporta un valore univoco nella -> tabella slave (riferimento per valore).
+
+
 Ogni campo di una tabella(che non sia un campo chiave) può contenere un valore *null*(può significare mancanza di informazione o il fatto che l'informazione non è applicabile).
 Una *chiave* di una relazione è un **attributo** o **insieme di attributi** che identifica univocamente una tupla. Un insieme che contiene una chiave, si dice **superchiave** (una chiave è anche superchiave perché contiene se stessa ma non è detto che sia vero il contrario).
 Una relazione potrebbe avere più chiavi alternative. Si sceglie quella più usata o quella composta da un numero minore di attributi = chiave *primaria*. La chiave primaria **non ammette valori nulli**.
