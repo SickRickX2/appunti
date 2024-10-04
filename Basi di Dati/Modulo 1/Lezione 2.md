@@ -1,11 +1,15 @@
 #  Il Modello Relazionale
-Il modello relazionale è basato sul concetto matematico di relazione (nel nostro caso le tabelle). I dati e le relazioni(riferimenti) vengono rappresentati come valori.
->[!reminder] Relazione ha diversi significati:
+>[!note] Il **modello relazionale** è basato sul concetto matematico di relazione (nel nostro caso le tabelle). I dati e le relazioni(riferimenti) vengono rappresentati come valori.
+
+>[!warning] Relazione ha diversi significati:
 > - Relazione matematica: come nella teoria degli insiemi
->- Relazione secondo il modello relazionale di dati quindi insiemi caratterizzati >ognuno dai propri campi
+>- Relazione secondo il modello relazionale di dati quindi insiemi caratterizzati ognuno dai propri campi
 > - Relazione (dalll'inglese relationship) che rappresenta una classe di fatti, nel modello concettuale entità-relazioni.
 
-Il Modello relazionale si basa su un dominio (un insieme infinito di valori). Ci sono domini di base e domini costruiti dai domini di base. I campi vanno valorizzati in base ai vincoli che formano una tupla, che a loro volta formano un'istanza di una relazione. Una relazione matematica è un qualsiasi sottoinsieme del prodotto cartesiano di uno o più domini. Una relazione di k domini si dice che è di grado k. La cardinalità di una relazione è data dal numero di tuple che la compongono. Non c'è in nessun caso un ordinamento delle tuple. Poiché una relazione è un insieme di tuple non ci possono essere duplicati (non compariranno mai due tuple uguali).
+Il modello relazionale si basa su un *dominio* (un insieme infinito di valori). Ci sono **domini di base** e **domini costruiti** dai domini di base. In questo modello i campi vanno valorizzati in base ai vincoli, formando una *tupla*, che a loro volta formano un'*istanza* di una relazione. 
+
+>[!tips] Una relazione matematica è un qualsiasi sottoinsieme del prodotto cartesiano di uno o più *domini*. Una relazione di k domini si dice che è di grado k. La cardinalità di una relazione è data dal numero di tuple che la compongono. **Non c'è in nessun caso** un ordinamento delle tuple. Poiché una relazione è un insieme di tuple non ci possono essere duplicati (non compariranno mai due tuple uguali).
+
 *Grado relazione* = **numero domini**
 *Cardinalità relazione* = **numero tuple**
 Quasi sempre usiamo i domini predefiniti/base: stringhe, interi, reali.
