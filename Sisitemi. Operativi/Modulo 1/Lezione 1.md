@@ -53,7 +53,7 @@ Con le eccezioni sincrone non è detto:
 #### Fase di interruzione
 Ad ogni ciclo **fetch-execute**, viene anche controllato se c’è stata un’interruzione ( o una **exception**). Se così è, il programma viene sospeso e viene eseguita una funzione che gestisce l’interruzione. ( *interrupt handler routine*).
 L'**interrupt handler** è una funzione particolare: nel programma utente non era prevista. Il SO e Hardware collaborano per salvare alcune informazioni sullo stato del processore in modo tale che dopo la gestione dell’interruzione si possa riprendere da dove si è lasciato (devono essere salvati almeno PC e registro di stato).
-
+mega prova finale
 
 
 
