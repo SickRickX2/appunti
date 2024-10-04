@@ -35,6 +35,7 @@ Si definisce col simbolo *theta* e ci consente di effetturare un taglio orizzont
 - Atheta'a'
 dove:
 theta è un operatore di confronto.
+feee
 
 
 
