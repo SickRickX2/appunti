@@ -11,9 +11,11 @@
             "id": "31b8ef642828e928",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png"
+                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
+                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
+                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png"
+                "file": "Basi di Dati/Modulo 1/Lezione 2.md"
               }
             }
           },
@@ -154,10 +156,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a0efb69d8bc00d10",
+  "active": "31b8ef642828e928",
   "lastOpenFiles": [
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212057.png",
     "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
+    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212057.png",
     "Basi di Dati/Modulo 1/imgs",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212124.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240927141127.png",
