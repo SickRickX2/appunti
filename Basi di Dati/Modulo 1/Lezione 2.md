@@ -29,7 +29,11 @@ Lo **schema** di una base di dati è un insieme di relazioni con nomi differenti
 >Una *chiave* di una relazione è un **attributo** o **insieme di attributi** che identifica univocamente una tupla. Un insieme che contiene una chiave, si dice **superchiave** (una chiave è anche superchiave perché contiene se stessa ma non è detto che sia vero il contrario).
 Una relazione potrebbe avere più chiavi alternative. Si sceglie quella più usata o quella composta da un numero minore di attributi = chiave *primaria*. La chiave primaria **non ammette valori nulli**.
 
-*Vincolo di integrità referenziale*(**foreign key**) ci permette di distinguere le tuple all'interno di una relazione. I vincoli si impostano sulle coppie e non sui singoli attributi. Non tutte le proprietà di interesse possono essere rappresentate tramite vincoli espliciti nel modello logico. le dipendenze funzionali vengono definite direttamente nello schema prima ancora di inserire i dati, così da aggiungere una tupla solo se soddisfa tutti i vincoli imposti  *istanza legale*.
+>[!note] Vincolo di integrità referenziale(**foreign key**) 
+>ci permette di correlare, attraverso valori di chiave, informazioni che si trovano in relazioni diverse. 
+
+I vincoli si impostano sulle coppie e non sui singoli attributi. Non tutte le proprietà di interesse possono essere rappresentate tramite vincoli espliciti nel modello logico. le dipendenze funzionali vengono definite direttamente nello schema prima ancora di inserire i dati, così da aggiungere una tupla solo se soddisfa tutti i vincoli imposti  *istanza legale*.
+
 Una dipendenza funzionale stabilisce un particolare legame semantico tra due insiemi non vuoti di attributi X,Y appartenenti ad uno schema R. Tale vincolo si scrive: *X->Y* e si legge **X determina Y**. Una convenzione importante da usare: quando usiamo le **prime lettere** dell'alfabeto intendiamo i **singoli elementi** degli attributi, quando usiamo le **ultime** intendiamo **insiemi di attributi** (*attenzione che un insieme può anche essere un singolo attributo ma non viceversa*).
 Diremo che una relazione r con schema R soddisfa la dipendenza funzionale  
 X -> Y se
