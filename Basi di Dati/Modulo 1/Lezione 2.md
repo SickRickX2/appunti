@@ -53,15 +53,17 @@ X -> Y se
 > [!note]
 > E' un linguaggio formale che ci permette di *interrogare* le istanze (estrarre le informazioni che ci interessano). Consiste in un insieme di operatori che ci permettono in maniera procedurale, costruendo passo passo l'interrogazione, di arrivare alla soluzione. Gli operatori possono essere binari o unari, i risultati possono essere salvati in una nuova istanza di relazione.
 
-**Proiezione**
-Si definisce col simbolo del *$\pi$*, il pedice sono gli attributi dello schema su cui vogliamo proiettare gli attributi della nostra istanza, seleziona le colonne di r che corrispondono agli attributi della istanza.
-**Selezione**
-Si definisce col simbolo $\theta$ e ci consente di effettuare un taglio orizzontale su una relazione, cioè di selezionare solo le righe/tuple che soddisfano una data condizione. la condizione di selezione è un espressione booleana composta, in cui i termini semplici sono del tipo:
-- A$\theta$B
-- oppure
-- A$\theta$'a'
+>[!tip] **Proiezione**
+Si definisce col simbolo del *$\pi$*, il pedice sono gli attributi dello schema su cui vogliamo proiettare gli attributi della nostra istanza. s
+Seleziona le colonne di r che corrispondono agli attributi della istanza.
+
+>[!tip] **Selezione**
+Si definisce col simbolo $\theta$ e ci consente di effettuare un "taglio orizzontale" su una relazione, cioè di selezionare solo le righe/tuple che soddisfano una data condizione. La condizione di selezione è un espressione booleana composta, in cui i termini semplici sono del tipo:
+>- A$\theta$B
+>- oppure
+>- A$\theta$'a'
 dove:
-theta è un operatore di confronto.
+$\theta$ è un operatore di confronto.
 
 
 
