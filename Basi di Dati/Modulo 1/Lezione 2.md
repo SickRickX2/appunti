@@ -50,7 +50,9 @@ X -> Y se
 >Se una dipendenza ha come determinante una chiave o una superchiave, la dipendenza non può essere violata.
 
 # Algebra Relazionale
-E' un linguaggio formale che ci permette di interrogare le istanze (estrarre le informazioni che ci interessano). Consiste in un insieme di operatori che ci permettono in maniera procedurale, costruendo passo passo l'interrogazione, di arrivare alla soluzione. Gli operatori possono essere binari o unari, i risultati possono essere salvati in una nuova istanza di relazione.
+> [!note]
+> E' un linguaggio formale che ci permette di *interrogare* le istanze (estrarre le informazioni che ci interessano). Consiste in un insieme di operatori che ci permettono in maniera procedurale, costruendo passo passo l'interrogazione, di arrivare alla soluzione. Gli operatori possono essere binari o unari, i risultati possono essere salvati in una nuova istanza di relazione.
+
 **Proiezione**
 Si definisce col simbolo del *$\pi$*, il pedice sono gli attributi dello schema su cui vogliamo proiettare gli attributi della nostra istanza, seleziona le colonne di r che corrispondono agli attributi della istanza.
 **Selezione**
