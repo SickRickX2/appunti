@@ -14,9 +14,9 @@ Il modello relazionale si basa su un *dominio* (un insieme infinito di valori). 
 >*Grado relazione* = **numero domini**
 *Cardinalità relazione* = **numero tuple**
 
-Quasi sempre usiamo i domini predefiniti/base: stringhe, interi, reali. Da soli gli attributi non ci dicono nulla, il significato dell'istanza ce lo dà lo schema relazionale.
+Quasi sempre usiamo i domini **predefiniti(o domini base)**: stringhe, interi, reali. Bisogna sempre ricordare che da soli gli attributi non ci dicono nulla, il significato dell'istanza infatti ce lo dà lo **schema relazionale**.
 
-Un attributo è definito dal nome e dal dominio dell'attributo. Una relazione può essere implementata come una tabella in cui ogni riga è una tupla della relazione e ogni colonna corrisponde ad una colonna, mentre la coppia attributo-dominio possiamo chiamarlo attributo, un insieme di attributi è uno schema. 
+Un **attributo** è definito dal nome e dal dominio dell'attributo. Una relazione può essere implementata come una tabella in cui ogni riga è una tupla della relazione e ogni colonna corrisponde ad una colonna, mentre la coppia attributo-dominio possiamo chiamarlo attributo, un insieme di attributi è uno schema. 
 
 Lo **schema** di una base di dati è un insieme di relazioni con nomi differenti. Lo schema di base di dati relazionale è un insieme di schemi di relazione. 
 >[!example]  Funzionamento
