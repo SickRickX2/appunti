@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 3.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md"
+                "file": "Basi di Dati/Modulo 1/Lezione 3.md"
               }
             }
           },
@@ -159,10 +158,10 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 1/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 3.md",
     "Basi di Dati/Modulo 1/Indice.md",
     "Basi di Dati/Modulo 1/Lezione 1.md",
-    "Basi di Dati/Modulo 1/Lezione 2.md",
     "Basi di Dati/Senza nome.md",
     "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212057.png",
