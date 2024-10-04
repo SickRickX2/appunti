@@ -36,14 +36,18 @@ I **vincoli** si impostano sulle coppie e **non** sui singoli attributi. Non tut
 
 Le dipendenze funzionali vengono definite direttamente nello schema prima ancora di inserire i dati, così da aggiungere una tupla solo se soddisfa tutti i vincoli imposti, in questo caso si parla della creazione di un'*istanza legale*.
 
-Una **dipendenza funzionale** stabilisce un particolare legame semantico tra due insiemi non vuoti di attributi X,Y appartenenti ad uno schema R.  Tale vincolo si scrive: $\X \to$ e si legge **X determina Y**. Una convenzione importante da usare: quando usiamo le **prime lettere** dell'alfabeto intendiamo i **singoli elementi** degli attributi, quando usiamo le **ultime** intendiamo **insiemi di attributi** (*attenzione che un insieme può anche essere un singolo attributo ma non viceversa*).
+Una **dipendenza funzionale** stabilisce un particolare legame semantico tra due insiemi non vuoti di attributi X,Y appartenenti ad uno schema R.  Tale vincolo si scrive: $$X \to Y$$ e si legge **X determina Y**. 
+>[!tip] Una convenzione importante da seguire: 
+>quando usiamo le **prime lettere** dell'alfabeto intendiamo i **singoli elementi** degli attributi, quando usiamo le **ultime** intendiamo **insiemi di attributi**
+> >[!danger]  Attenzione
+> >  Un insieme può anche essere un singolo attributo ma non viceversa.
+
 Diremo che una relazione r con schema R soddisfa la dipendenza funzionale  
 X -> Y se
 - la dipendenza funzionale è applicabile ad R
-- le ennuple di r che concordano su X concordano anche su Y, cioè per ogni coppia di ennupla t1,t2 in r
-	 t1[X] = t2[X] -> t1[Y] = t2[Y].
-se sono uguali su X devono essere uguali anche su Y.
-Se una dipendenza ha come determinante una chiave o una superchiave, la dipendenza non può essere violata.
+- le ennuple di r che concordano su X concordano anche su Y, cioè per ogni coppia di ennupla t1,t2 in r : $$t1[X] = t2[X] \to t1[Y] = t2[Y].$$se sono uguali su X devono essere uguali anche su Y.
+>[!warning] Ricorda
+>Se una dipendenza ha come determinante una chiave o una superchiave, la dipendenza non può essere violata.
 
 # Algebra Relazionale
 E' un linguaggio formale che ci permette di interrogare le istanze (estrarre le informazioni che ci interessano). Consiste in un insieme di operatori che ci permettono in maniera procedurale, costruendo passo passo l'interrogazione, di arrivare alla soluzione. Gli operatori possono essere binari o unari, i risultati possono essere salvati in una nuova istanza di relazione.
