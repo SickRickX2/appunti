@@ -16,16 +16,19 @@ Il modello relazionale si basa su un *dominio* (un insieme infinito di valori). 
 
 Quasi sempre usiamo i domini **predefiniti(o domini base)**: stringhe, interi, reali. Bisogna sempre ricordare che da soli gli attributi non ci dicono nulla, il significato dell'istanza infatti ce lo dà lo **schema relazionale**.
 
-Un **attributo** è definito dal *nome* e dal *dominio* (un insieme possibilmente infinito di valori) dell'attributo. Una relazione può essere implementata come una tabella in cui ogni riga è una tupla della relazione e ogni colonna corrisponde ad una colonna, mentre la coppia attributo-dominio possiamo chiamarlo attributo, un insieme di attributi è uno schema. 
+Un **attributo** è definito dal *nome* e dal *dominio* (un insieme possibilmente infinito di valori) dell'attributo. Una relazione può essere implementata come una tabella in cui ogni riga è una tupla della relazione e ogni colonna corrisponde ad una componente di valori *omogenei* (provenienti dallo stesso dominio), mentre la coppia attributo-dominio possiamo chiamarlo attributo, un insieme di attributi è uno schema. 
 
 Lo **schema** di una base di dati è un insieme di relazioni con nomi differenti. Lo schema di base di dati relazionale è un insieme di schemi di relazione. 
 >[!example]  Funzionamento
 >Tabella master -> esporta un valore univoco nella -> tabella slave (riferimento per valore).
 
+>[!tip]  null
+>Ogni campo di una tabella (che non sia un campo chiave) può contenere un valore *null* (è un valore **polimorfo** può significare mancanza di informazione o il fatto che l'informazione non è applicabile).
 
-Ogni campo di una tabella(che non sia un campo chiave) può contenere un valore *null*(può significare mancanza di informazione o il fatto che l'informazione non è applicabile).
-Una *chiave* di una relazione è un **attributo** o **insieme di attributi** che identifica univocamente una tupla. Un insieme che contiene una chiave, si dice **superchiave** (una chiave è anche superchiave perché contiene se stessa ma non è detto che sia vero il contrario).
+>[!note]  Chiavi
+>Una *chiave* di una relazione è un **attributo** o **insieme di attributi** che identifica univocamente una tupla. Un insieme che contiene una chiave, si dice **superchiave** (una chiave è anche superchiave perché contiene se stessa ma non è detto che sia vero il contrario).
 Una relazione potrebbe avere più chiavi alternative. Si sceglie quella più usata o quella composta da un numero minore di attributi = chiave *primaria*. La chiave primaria **non ammette valori nulli**.
+
 *Vincolo di integrità referenziale*(**foreign key**) ci permette di distinguere le tuple all'interno di una relazione. I vincoli si impostano sulle coppie e non sui singoli attributi. Non tutte le proprietà di interesse possono essere rappresentate tramite vincoli espliciti nel modello logico. le dipendenze funzionali vengono definite direttamente nello schema prima ancora di inserire i dati, così da aggiungere una tupla solo se soddisfa tutti i vincoli imposti  *istanza legale*.
 Una dipendenza funzionale stabilisce un particolare legame semantico tra due insiemi non vuoti di attributi X,Y appartenenti ad uno schema R. Tale vincolo si scrive: *X->Y* e si legge **X determina Y**. Una convenzione importante da usare: quando usiamo le **prime lettere** dell'alfabeto intendiamo i **singoli elementi** degli attributi, quando usiamo le **ultime** intendiamo **insiemi di attributi** (*attenzione che un insieme può anche essere un singolo attributo ma non viceversa*).
 Diremo che una relazione r con schema R soddisfa la dipendenza funzionale  

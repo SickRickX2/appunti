@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -157,7 +158,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50ed999ed366e579",
+  "active": "a0efb69d8bc00d10",
   "lastOpenFiles": [
     "Basi di Dati/Modulo 1/Lezione 3.md",
     "Basi di Dati/Modulo 1/Indice.md",
