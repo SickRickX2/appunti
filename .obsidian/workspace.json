@@ -11,11 +11,9 @@
             "id": "31b8ef642828e928",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Sisitemi. Operativi/Modulo 1/Lezione 3.md",
-                "mode": "source",
-                "source": false
+                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sisitemi. Operativi/Modulo 1/Lezione 3.md",
+                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sisitemi. Operativi/Modulo 1/Lezione 3.md",
+                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sisitemi. Operativi/Modulo 1/Lezione 3.md"
+                "file": "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png"
               }
             }
           },
@@ -156,25 +154,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31b8ef642828e928",
+  "active": "a0efb69d8bc00d10",
   "lastOpenFiles": [
-    "Sisitemi. Operativi/Modulo 1/Lezione 2.md",
-    "Sisitemi. Operativi/Modulo 1/Lezione 1.md",
+    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212057.png",
+    "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
+    "Basi di Dati/Modulo 1/imgs",
+    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212124.png",
+    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240927141127.png",
+    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241001143050.png",
+    "Sisitemi Operativi/Modulo 1/Lezione 3.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 1.md",
     "Basi di Dati/Modulo 1/Lezione 4.md",
     "Basi di Dati/Modulo 1/Lezione 3.md",
     "Basi di Dati/Modulo 1/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 1.md",
     "().md",
     "fytfhgfgh.md",
-    "Sisitemi. Operativi/Modulo 1/Lezione 3.md",
-    "imgs",
-    "imgs/Pasted image 20241001143050.png",
-    "imgs/Pasted image 20240927141127.png",
-    "imgs/Pasted image 20240926212124.png",
-    "imgs/Pasted image 20240926212057.png",
-    "Sisitemi. Operativi/Modulo 1",
-    "Sisitemi. Operativi",
-    "imgs/Pasted image 20240925234114.png",
+    "Sisitemi Operativi/Modulo 1/imgs",
+    "Sisitemi Operativi/Modulo 1",
+    "Sisitemi Operativi",
     "12.md",
     "Basi di Dati/Modulo 1",
     "Basi di Dati",
