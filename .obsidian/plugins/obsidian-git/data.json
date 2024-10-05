@@ -1,7 +1,7 @@
 {
-  "commitMessage": "from MacBook aggiornamento : {{date}}",
+  "commitMessage": "aggiornamento : {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 10,
+  "autoSaveInterval": 5,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
@@ -23,7 +23,7 @@
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
   "showBranchStatusBar": true,
-  "setLastSaveToLastCommit": false,
+  "setLastSaveToLastCommit": true,
   "submoduleRecurseCheckout": false,
   "gitDir": "",
   "showFileMenu": true,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "from MacBook aggiornamento: {{date}}"
+  "autoCommitMessage": "aggiornamento: {{date}}"
 }
