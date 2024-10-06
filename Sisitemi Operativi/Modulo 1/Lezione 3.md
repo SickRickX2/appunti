@@ -57,9 +57,9 @@ Non è una situazione ottimale, si può ottimare introducendo lo stato **suspend
 Si possono implementare anche due stati suspended (una transizione intermedia tra blocked/suspended e ready/suspended)
 Ci sono diversi motivi per sospendere un Processo
 
-|     |     |
-| --- | --- |
-|     |     |
+| **Motivo** | **Commento** |
+| ---------- | ------------ |
+| Swapping   |              |
 
 
 
