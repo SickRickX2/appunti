@@ -22,12 +22,14 @@
 
 Il Ciclo di vita del processo ha 3 macrofasi: *creazione, esecuzione, terminazione*.
 
->[!example]  
->Nella fase di creazione il SO deve accettare la richiesta di creazione del processo e va ad impostare tutte le risorse e strutture dati per l'esecuzione del processo(una fase di setup), in seguito abbiamo l'esecuzione. La terminazione può essere prevista oppure non prevista. 
+>[!example] .
+> Nella fase di creazione il SO deve accettare la richiesta di creazione del processo e va ad impostare tutte le risorse e strutture dati per l'esecuzione del processo(una fase di setup), in seguito abbiamo l'esecuzione. La terminazione può essere prevista oppure non prevista. 
 
 
-Finché il processo è in esecuzione abbiamo bisogno di generargli un identificatore e di osservare il suo stato. Inoltre dobbiamo tener conto della priorità dei vari processi (ci sono processi più importanti di altri), fondamentale anche *l'hardware context* che contiene informazioni relative al valore corrente dei registri della CPU (vedremo più avanti perché è importante salvare il contesto di esecuzione del processo) che include il program counter, bisogna considerare che il contesto viene aggiornato solo in casi particolari. Abbiamo bisogno anche di puntatori alla memoria che definiscono l'*immagine della memoria*, informazioni sullo stato di I/O e le informazioni di accounting (quale utente lo segue) fondamentale per la privacy e la sicurezza.
-Tutte queste informazioni vengono contenute nel **Process Control Block**, contiene gli elementi del processo e ce n'è uno diverso per ogni processo. Permette al So di gestire più processi contemporaneamente, contiente le informazioni necessarie per l'esecuzione,l'arresto e la sospensione.
+Finché il processo è in esecuzione abbiamo bisogno di generargli un **identificatore** e di **osservare il suo stato**. Inoltre dobbiamo tener conto della priorità dei vari processi (ci sono processi più importanti di altri), fondamentale anche *l'hardware context* che contiene informazioni relative al valore corrente dei registri della CPU (vedremo più avanti perché è importante salvare il contesto di esecuzione del processo) che include il **program counter**, bisogna considerare che il contesto viene aggiornato solo in casi particolari. Abbiamo bisogno anche di puntatori alla memoria che definiscono l'*immagine della memoria*, informazioni sullo stato di I/O e le informazioni di **accounting** (quale utente lo segue) fondamentale per la privacy e la sicurezza.
+
+>[!tip]  Process Control Block
+Tutte queste informazioni vengono contenute nel **Process Control Block**, contiene gli elementi del processo e ce n'è uno diverso per ogni processo. Permette al SO di gestire più processi contemporaneamente, contiente le informazioni necessarie per l'esecuzione,l'arresto e la sospensione.
 La **traccia (trace)** di un processo è la sequenza di istruzioni eseguita dal processo. Il **dispatcher** è un componente del SO che si occupa di scambiare i processi in esecuzione, si trova **sempre** in memoria.
 Modello di processi a 2 Stati:
 1) In esecuzione
