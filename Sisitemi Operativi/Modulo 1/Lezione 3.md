@@ -1,25 +1,31 @@
-Livelli:
-1) Ci sono alcuni compiti delegati all'hardware e alcuni delegati al SO
-2) insiemi di istruzioni macchina
-3) operazioni di chiamata e ritorno e subroutine
-4) interruzioni
-5) *processo* come programma in esecuzione
-6) dispositivi di memorizzazione secondaria, trasferimento di blocchi di dati 
-7) gestione dello spazio logico degli indirizzi (gestione della memoria)
-8) comunicazioni tra processi
-9) salvataggio di lungo termine di file con nome (filesystem)
-10) accesso ai dispositivi esterni 
-11) associazione tra identificatori interni esterni
-12) supporto di alto livello per i processi
-13) interfaccia utente
+>[!note] Livelli:
+>1) Ci sono alcuni compiti delegati all'hardware e alcuni delegati al SO
+>2) insiemi di istruzioni macchina
+>3) operazioni di chiamata e ritorno e subroutine
+>4) interruzioni
+>5) *processo* come programma in esecuzione
+>6) dispositivi di memorizzazione secondaria, trasferimento di blocchi di dati 
+>7) gestione dello spazio logico degli indirizzi (gestione della memoria)
+>8) comunicazioni tra processi
+>9) salvataggio di lungo termine di file con nome (filesystem)
+>10) accesso ai dispositivi esterni 
+>11) associazione tra identificatori interni esterni
+>12) supporto di alto livello per i processi
+>13) interfaccia utente
 # Processo
-E' un'istanza di un programma in esecuzione, il SO deve permetter che la stessa applicazione possa essere avviata/istanziata più volte in maniera indipendente l'una dall'altra. Il processo è caratterizzato da una sequenza di istruzioni, uno stato corrente (tutte le risorse che il processo utilizza, stato delle variabili ecc...) e da un insieme associato di risorse; è composto da:
-- codice
-- insieme di dati
-- insieme di attributi che descrivono lo stato del processo
-Processo in esecuzione lo intendiamo come un utente che richiede l'esecuzione di un programma, che ancora non è terminato. Questo significa che il processo è in esecuzione sul processore, dietro ogni processo c'è un programma.
-Ciclo di vita del processo ha 3 macrofasi: *creazione, esecuzione, terminazione*.
-Nella fase di creazione il SO deve accettare la richiesta di creazione del processo e va ad impostare tutte le risorse e strutture dati per l'esecuzione del processo(una fase di setup), in seguito abbiamo l'esecuzione. La terminazione può essere prevista oppure non prevista. 
+>[!note] E' un'**istanza di un programma** in esecuzione, il SO deve permettere che la stessa applicazione possa essere avviata/istanziata più volte in maniera indipendente l'una dall'altra. Il processo è caratterizzato da una **sequenza di istruzioni**, uno **stato corrente** (tutte le risorse che il processo utilizza, stato delle variabili ecc...) e da un insieme associato di **risorse**; è composto da:
+>- codice
+>- insieme di dati
+>- insieme di attributi che descrivono lo stato del processo
+
+*Processo in esecuzione* lo intendiamo come un utente che richiede l'esecuzione di un programma che ancora non è terminato. Questo significa che il processo è in esecuzione sul processore, dietro ogni processo c'è un programma.
+
+Il Ciclo di vita del processo ha 3 macrofasi: *creazione, esecuzione, terminazione*.
+
+>[!example]  
+>Nella fase di creazione il SO deve accettare la richiesta di creazione del processo e va ad impostare tutte le risorse e strutture dati per l'esecuzione del processo(una fase di setup), in seguito abbiamo l'esecuzione. La terminazione può essere prevista oppure non prevista. 
+
+
 Finché il processo è in esecuzione abbiamo bisogno di generargli un identificatore e di osservare il suo stato. Inoltre dobbiamo tener conto della priorità dei vari processi (ci sono processi più importanti di altri), fondamentale anche *l'hardware context* che contiene informazioni relative al valore corrente dei registri della CPU (vedremo più avanti perché è importante salvare il contesto di esecuzione del processo) che include il program counter, bisogna considerare che il contesto viene aggiornato solo in casi particolari. Abbiamo bisogno anche di puntatori alla memoria che definiscono l'*immagine della memoria*, informazioni sullo stato di I/O e le informazioni di accounting (quale utente lo segue) fondamentale per la privacy e la sicurezza.
 Tutte queste informazioni vengono contenute nel **Process Control Block**, contiene gli elementi del processo e ce n'è uno diverso per ogni processo. Permette al So di gestire più processi contemporaneamente, contiente le informazioni necessarie per l'esecuzione,l'arresto e la sospensione.
 La **traccia (trace)** di un processo è la sequenza di istruzioni eseguita dal processo. Il **dispatcher** è un componente del SO che si occupa di scambiare i processi in esecuzione, si trova **sempre** in memoria.
