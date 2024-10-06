@@ -57,9 +57,13 @@ Non è una situazione ottimale, si può ottimare introducendo lo stato **suspend
 Si possono implementare anche due stati suspended (una transizione intermedia tra blocked/suspended e ready/suspended)
 Ci sono diversi motivi per sospendere un Processo
 
-| **Motivo** | **Commento** |
-| ---------- | ------------ |
-| Swapping   |              |
+| **Motivo**                   | **Commento**                                                                           |
+| ---------------------------- | -------------------------------------------------------------------------------------- |
+| Swapping                     | Il SO ha bisogno di rilasciare abbastanza memoria da portarci dentro un processo ready |
+| Interno al SO                | Il SO sospetta che il processo stia causando dei problemi                              |
+| Richiesta utente interattiva | debugging, o correlato all'uso di una risorsa                                          |
+| Periodicità                  | Il processo viene eseguito periodicamente e può venire sopseso                         |
+|                              |                                                                                        |
 
 
 
