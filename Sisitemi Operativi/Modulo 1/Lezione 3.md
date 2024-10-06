@@ -53,7 +53,7 @@ Con questo modello vengono usate due code invece di una (in realtà sono multipl
 >Le risorse disponibili sono limitate quindi solo un determinato numero di processi può stare nello stato ready allo stesso momento, più grande è l'image process più processi saranno in esecuzione contemporaneamente. Anche un processo in stato blocked riempie la memoria e potrebbe creare dei problemi.
 
 ###### Ha senso che un blocked occupi la ram finché non viene sbloccato da un evento? 
-Non è una situazione ottimale, si può ottimare introducendo lo stato **suspended** (sospeso). Questo stato va ad indicare i processi che non sono pronti ad eseguire spostati dallla memoria principale alla memoria secondaria per liberare la memoria della RAM.
+Non è una situazione ottimale, si può ottimare introducendo lo stato **suspended** (sospeso). Questo stato va ad indicare i processi che non sono pronti ad eseguire spostati dalla memoria principale alla memoria secondaria per liberare la memoria della RAM.
 Si possono implementare anche due stati suspended (una transizione intermedia tra blocked/suspended e ready/suspended)
 Ci sono diversi motivi per sospendere un Processo
 
