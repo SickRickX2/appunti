@@ -32,20 +32,28 @@ Finché il processo è in esecuzione abbiamo bisogno di generargli un **identifi
 Tutte queste informazioni vengono contenute nel **Process Control Block**, contiene gli elementi del processo e ce n'è uno diverso per ogni processo. Permette al SO di gestire più processi contemporaneamente, contiente le informazioni necessarie per l'esecuzione,l'arresto e la sospensione.
 La **traccia (trace)** di un processo è la sequenza di istruzioni eseguita dal processo. Il **dispatcher** è un componente del SO che si occupa di scambiare i processi in esecuzione, si trova **sempre** in memoria.
 Modello di processi a 2 Stati:
-1) In esecuzione
-2) Non in esecuzione (ma è comunque un processo "attivo")
+>1) In esecuzione
+>2) Non in esecuzione (ma è comunque un processo "attivo")
 (In realtà è oversemplified in questo modo)
-Il dispatcher decide come scambiare i processi grazie al sistema *a coda*. Prende i processi dalla coda e lo mette in esecuzione del processore, viene messo in pausa alla fine della coda e si ricomincia.
+
+>[!note]
+Il **dispatcher** decide come scambiare i processi grazie al sistema *a coda*. Prende i processi dalla coda e lo mette in esecuzione del processore, viene messo in pausa alla fine della coda e si ricomincia.
 In un SO ci sono almeno un processo in esecuzione (n>= 1).  I processi possono essere creati dal SO oppure dall'utente tramite l'interfaccia utente. *Process spawning* c'è sempre un processo padre che crea il processo figlio.
 C'è sempre un processo *master* che non può essere terminato.
-**Modello dei processi a 5 Stati:** new, ready, running, exit, blocked
-- new: crea risorse e strutture dati
-- ready: il processo è pronto per essere eseguito
-- running: esecuzione del programma
-- blocked: processo bloccato finché non arriva un determinato evento che lo sblocca
-- exit: distrugge le strutture dati e le risorse vengono riallocate
-Con questo modello vengono usate due code invece di una (In realtà sono multiple).
-Le risorse disponibili sono limitate quindi solo un determinato numero di processi può stare nello stato ready allo stesso momento, più grande è l'image process più processi saranno in esecuzione contemporaneamente. Anche un processo in stato blocked riempie la memoria e potrebbe creare dei problemi. Ha senso che un blocked occupi la ram finché non viene sbloccato da un evento? Non è una situazione ottimale, si può ottimare introducendo lo stato **suspended** (sospeso). Questo stato va ad indicare i processi che non sono pronti ad eseguire spostati dallla memoria principale alla memoria secondaria per liberare la memoria della RAM.
+
+**Modello dei processi a 5 Stati:** *new, ready, running, exit, blocked*
+- *new*: crea risorse e strutture dati
+- *ready*: il processo è pronto per essere eseguito
+- *running*: esecuzione del programma
+- *blocked*: processo bloccato finché non arriva un determinato evento che lo sblocca
+- *exit*: distrugge le strutture dati e le risorse vengono riallocate
+Con questo modello vengono usate due code invece di una (in realtà sono multiple).
+
+>[!warning] 
+>Le risorse disponibili sono limitate quindi solo un determinato numero di processi può stare nello stato ready allo stesso momento, più grande è l'image process più processi saranno in esecuzione contemporaneamente. Anche un processo in stato blocked riempie la memoria e potrebbe creare dei problemi.
+
+###### Ha senso che un blocked occupi la ram finché non viene sbloccato da un evento? 
+Non è una situazione ottimale, si può ottimare introducendo lo stato **suspended** (sospeso). Questo stato va ad indicare i processi che non sono pronti ad eseguire spostati dallla memoria principale alla memoria secondaria per liberare la memoria della RAM.
 Si possono implementare anche due stati suspended (una transizione intermedia tra blocked/suspended e ready/suspended)
 Ci sono diversi motivi per sospendere un Processo
 
