@@ -78,7 +78,10 @@ Possiamo dire che il  PCB è la struttura dati più importante di un sistema ope
 >**Modo sistema**: pieno controllo, si può accedere a qualsiasi locazione di RAM, per il kernel
 >**Modo utente**: molte operazioni sono vietate, per i programmi utente
 
+>[!warning] Kernel Mode
+Viene usata per le operazioni effetuate dal kernel. Gestisce i processi tramite il PCB, gestisce la memoria principale allocando lo spazio per i processi, gestisce l'I/O e assegna le loro risorse ai processi e ha delle funzioni di supporto come gestione delle eccezioni, accounting e monitoraggio.
 
 
-
+## Da User Mode a Kernel Mode e Ritorno
+Questo è uno schema con il quale un processo utente può cambiare la modalità a sé stesso, ma solo per eseguire software di sistema. Il codice può ess
 
