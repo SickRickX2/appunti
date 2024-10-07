@@ -47,4 +47,12 @@ Molte tabelle del SO usano i PID per realizzare collegamenti tra le varie tabell
 
 >[!note] Control Block del Processo
 >Contiene le informazioni di cui il SO ha bisogno per controllare e coordinare i vari processi attivi. 
->Identi
+>Identificatori:
+>- del processo (PID)
+>- del processo padre (Parent PID o PPID)
+>Informazioni sullo stato del processore;
+>- registri utente (accessibili in linguaggio macchina/assembler)
+>- program counter
+>- stack pointer
+>- registri di stato: risultati di operazioni aritmetico/logiche, modalità di esecuzione, interrupt abilitati/disabilitati
+
