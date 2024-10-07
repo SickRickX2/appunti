@@ -73,6 +73,12 @@ Molte tabelle del SO usano i PID per realizzare collegamenti tra le varie tabell
 >**Uso delle risorse**
 
 Possiamo dire che il  PCB è la struttura dati più importante di un sistema operativo poiché definisce lo stato del SO stesso. Proprio per questo motivo richiede  delle protezioni, una funzione scritta male potrebbe infatti danneggiare il blocco, rendendo il SO incapace di gestire i processi. Ogni cambiamento nella progettazione del blocco ha effetti su molti moduli del SO.
+>[!tip] Modalità di Esecuzione
+>La maggior parte die processori supporta almeno due modalità di esecuzione.
+>**Modo sistema**: pieno controllo, si può accedere a qualsiasi locazione di RAM, per il kernel
+>**Modo utente**: molte operazioni sono vietate, per i programmi utente
+
+
 
 
 
