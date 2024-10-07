@@ -47,30 +47,30 @@ Molte tabelle del SO usano i PID per realizzare collegamenti tra le varie tabell
 
 >[!note] Control Block del Processo
 >Contiene le informazioni di cui il SO ha bisogno per controllare e coordinare i vari processi attivi. 
->Identificatori:
+>**Identificatori:**
 >- del processo (PID)
 >- del processo padre (Parent PID o PPID)
 >
-Informazioni sullo stato del processore:
+**Informazioni sullo stato del processore:**
 >- registri utente (accessibili in linguaggio macchina/assembler)
 >- program counter
 >- stack pointer
 >- registri di stato: risultati di operazioni aritmetico/logiche, modalità di esecuzione, interrupt abilitati/disabilitati
 >- 
->Informazioni per il controllo del processo:
+>**Informazioni per il controllo del processo:**
 >- stato del processo (ready, suspended, blocked, ...)
 >- priorità
 >- informazioni sullo scheduling (ad esempio per quanto tempo è stato in esecuzione l'ultima volta)
 >- l'evento da attendere per tornare ad essere ready se attualmente in attesa
 >
->Supporto per strutture dati:
+>**Supporto per strutture dati:**
 >- puntatori ad altri processi
 >- per mantenere liste concatenate di processi nei casi in cui siano necessarie (ad esempio code di processi per qualche risorsa)
 >
->Comunicazioni tra processi: flag, segnali. messaggi per la comunicazione tra processi
->Permessi speciali: non tutti i processi possono accedere a tutto
+>**Comunicazioni tra processi:** flag, segnali. messaggi per la comunicazione tra processi
+>**Permessi speciali**: non tutti i processi possono accedere a tutto
 >Gestione della memoria: puntatori ad aree di memoria che gestiscono l'uso della memoria virtuale
->
+>**Uso delle risorse**
 >
 
 
