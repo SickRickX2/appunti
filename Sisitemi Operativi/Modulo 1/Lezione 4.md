@@ -75,3 +75,4 @@ Molte tabelle del SO usano i PID per realizzare collegamenti tra le varie tabell
 Possiamo dire che il  PCB è la struttura dati più importante di un sistema operativo poiché definisce lo stato del SO stesso. Proprio per questo motivo richiede  delle protezioni, una funzione scritta male potrebbe infatti danneggiare il blocco, rendendo il SO incapace di gestire i processi. Ogni cambiamento nella progettazione del blocco ha effetti su molti moduli del SO.
 
 
+
