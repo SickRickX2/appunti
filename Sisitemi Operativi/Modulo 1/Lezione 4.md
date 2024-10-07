@@ -56,6 +56,22 @@ Informazioni sullo stato del processore:
 >- program counter
 >- stack pointer
 >- registri di stato: risultati di operazioni aritmetico/logiche, modalità di esecuzione, interrupt abilitati/disabilitati
+>- 
 >Informazioni per il controllo del processo:
->- stato
+>- stato del processo (ready, suspended, blocked, ...)
+>- priorità
+>- informazioni sullo scheduling (ad esempio per quanto tempo è stato in esecuzione l'ultima volta)
+>- l'evento da attendere per tornare ad essere ready se attualmente in attesa
+>
+>Supporto per strutture dati:
+>- puntatori ad altri processi
+>- per mantenere liste concatenate di processi nei casi in cui siano necessarie (ad esempio code di processi per qualche risorsa)
+>
+>Comunicazioni tra processi: flag, segnali. messaggi per la comunicazione tra processi
+>Permessi speciali: non tutti i processi possono accedere a tutto
+>Gestione della memoria: puntatori ad aree di memoria che gestiscono l'uso della memoria virtuale
+>
+>
+
+
 
