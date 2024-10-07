@@ -41,4 +41,10 @@ Molte tabelle del SO usano i PID per realizzare collegamenti tra le varie tabell
 >[!tips] Lo stato del processore
 >Da non confondere con lo stato, o meglio la modalità del processo (ready, blocked, ...). E' dato dai contenuti dei registri del processore stesso:
 >- registri visibili all'utente
->- registri di controllo e d
+>- registri di controllo e di stato
+>- puntatori allo stack
+>Il **Program Status Word(PSW)** contiene le informazioni di stato.
+
+>[!note] Control Block del Processo
+>Contiene le informazioni di cui il SO ha bisogno per controllare e coordinare i vari processi attivi. 
+>Identi
