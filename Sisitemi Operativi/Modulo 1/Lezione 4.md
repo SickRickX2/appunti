@@ -36,4 +36,9 @@ Le informazioni in ciascun blocco di controllo possono essere raggruppate in 3 c
 - stato
 - controllo
 **Come si identifica un processo?**
-Ad ogni processo è assegnato un numero identificativo, quindi unico: il 
+Ad ogni processo è assegnato un numero identificativo, quindi unico: il *PID* (Process Identifier).
+Molte tabelle del SO usano i PID per realizzare collegamenti tra le varie tabelle e la tabella dei processi. Ad esempio quella dei I/O deve mantenere, per ogni dispositivo, quale processo lo sta usando. Basta mettere il PID, e implicitamente si può accedere alle informazioni sul processo corrispondente.
+>[!tips] Lo stato del processore
+>Da non confondere con lo stato, o meglio la modalità del processo (ready, blocked, ...). E' dato dai contenuti dei registri del processore stesso:
+>- registri visibili all'utente
+>- registri di controllo e d
