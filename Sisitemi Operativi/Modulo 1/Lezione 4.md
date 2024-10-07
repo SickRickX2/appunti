@@ -83,5 +83,17 @@ Viene usata per le operazioni effetuate dal kernel. Gestisce i processi tramite 
 
 
 ## Da User Mode a Kernel Mode e Ritorno
-Questo è uno schema con il quale un processo utente può cambiare la modalità a sé stesso, ma solo per eseguire software di sistema. Il codice può ess
+Questo è uno schema con il quale un processo utente può cambiare la modalità a sé stesso, ma solo per eseguire software di sistema. Il codice può essere eseguito da tre entità:
+- Per conto  dello stesso processo interrotto, che non lo ha esplicitamente voluto e allora si ricade in due casi *abort* o *fault*
+- Per conto dello stesso processo interrotto, che lo ha esplicitamente voluto e questo può essere causato da una system call o in risposta ad una sua precedente richiesta di I/O
+- Per conto di un qualche altro processo in risposta ad una sua precedente richiesta di I/O o comunque di risorse
+
+>[!note] Creazione di un Processo
+>Per creare un processo il SO deve:
+>1) assegnargli un PID unico
+>2) allocargli spazio in memoria principale
+>3) inizializzare il process control block
+>4) inserire il processo nella giusta coda
+>5) creare o espandere altre strutture dati
+
 
