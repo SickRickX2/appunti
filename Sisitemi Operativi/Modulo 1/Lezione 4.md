@@ -71,6 +71,8 @@ Molte tabelle del SO usano i PID per realizzare collegamenti tra le varie tabell
 >**Permessi speciali**: non tutti i processi possono accedere a tutto
 >Gestione della memoria: puntatori ad aree di memoria che gestiscono l'uso della memoria virtuale
 >**Uso delle risorse**
+
+Possiamo dire che il  PCB è la struttura dati più importante di un sistema operativo poiché definisce lo stato del SO stesso
 >
 
 
