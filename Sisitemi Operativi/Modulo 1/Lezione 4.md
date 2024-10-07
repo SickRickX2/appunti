@@ -27,4 +27,5 @@ Il SO è l'entità che gestisce l'uso delle risorse di sistema da parte dei proc
 >- identificatore
 >- locazione in memoria
 >- etc
->All'interno vi è il Blocco di controllo del processo (Process Control Block PCB), le informazioni in
+>All'interno vi è il Blocco di controllo del processo (Process Control Block PCB), le informazioni in esso contenute sono spesso chiamate *attributi del processo*.
+>Si dice **process image** (immagine del processo) l'insieme di programma sorgente, dati, stack delle chiamate e PCB
