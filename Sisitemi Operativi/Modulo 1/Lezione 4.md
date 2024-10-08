@@ -120,4 +120,9 @@ Il Sistema Operativo può riprendere il controllo, togliendolo al processo attua
 >7) Ripristinare il contesto del processo selezionato
 
 ## Il SO è un processo?
-Il SO è solo un insieme di programmi, ed è esegutio dal processore come ogni altro programma
+Il SO è solo un insieme di programmi, ed è esegutio dal processore come ogni altro programma. Semplicemente, lascia che altri programmi vadano in esecuzione per poi riprendere il controllo tramite interrupt.
+
+## Il kernel non è un processo
+Il kernel è eseguito al di fuori dei processi, il concetto di processo si applica solo ai programmi utente. Il SO è eseguito come un'entità separata, con privilegi più elevati. Ha una zona di memoria dedicata sia per i dati che per il codice sorgente che per lo stack.
+
+Il SO viene eseguito nel contesto di un processo utente (cambia solo la modalità di esecuzione). Quindi non c'è bisogno di un process switch per eseguire una funzione del SO ma solo del mode switch. l
