@@ -166,5 +166,9 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 > - unblock: esplicito
 > - finish
 ## ULT vs KLT
-**ULT:** 
+**ULT:** è più facile ed efficiente lo switch. si può avere una politica di scheduling diversa per ogni applicazione, permettono di usare i threads anche su SO che non li offrono nativamente.
+**KLT:** rispetto agli ULT in cui se si blocca un thread allora si bloccano tutti quelli relativi a quel processo poiché usano tutti lo stesso processore, qui si può bloccare *solo* il thread richiedente. Mentre qui ogni thread può usare un processore differente il che porta ad un'esecuzione multithread parallela.
+
+##  Processi e Threads in Linux
+
 
