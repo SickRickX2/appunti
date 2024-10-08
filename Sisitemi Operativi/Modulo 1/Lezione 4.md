@@ -125,4 +125,6 @@ Il SO è solo un insieme di programmi, ed è esegutio dal processore come ogni a
 ## Il kernel non è un processo
 Il kernel è eseguito al di fuori dei processi, il concetto di processo si applica solo ai programmi utente. Il SO è eseguito come un'entità separata, con privilegi più elevati. Ha una zona di memoria dedicata sia per i dati che per il codice sorgente che per lo stack.
 
-Il SO viene eseguito nel contesto di un processo utente (cambia solo la modalità di esecuzione). Quindi non c'è bisogno di un process switch per eseguire una funzione del SO ma solo del mode switch. l
+Il SO viene eseguito nel contesto di un processo utente (cambia solo la modalità di esecuzione). Quindi non c'è bisogno di un process switch per eseguire una funzione del SO ma solo del mode switch. Lo stack delle chiamate è separato mentre i dati e il codice macchina è condiviso coi processi. Il *process switch* viene eseguito solo, eventualmente, alla fine, se lo scheduler decide che tocca ad un altro processo. 
+>[!note] Il SO è basato sui processi
+>
