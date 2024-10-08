@@ -96,4 +96,15 @@ Questo è uno schema con il quale un processo utente può cambiare la modalità 
 >4) inserire il processo nella giusta coda
 >5) creare o espandere altre strutture dati
 
+>[!warning] Ricorda
+>Bisogna considerare che c'è una differenza tra switch di modalità di un processo e switching di processi.
+>**Switch di modalità:** da modalità utente a sistema e viceversa
+>**Switching tra processi:** per qualche motivo l'attuale processo non deve più usare il processore, che va concesso invece ad un altro processo
+
+Il Sistema Operativo può riprendere il controllo, togliendolo al processo attualmente in esecuzione per diversi motivi:
+
+| **Meccanismo** | **** |
+| -------------- | ---- |
+|                |      |
+
 
