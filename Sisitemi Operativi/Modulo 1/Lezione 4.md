@@ -129,3 +129,6 @@ Il SO viene eseguito nel contesto di un processo utente (cambia solo la modalit�
 
 >[!note] Il SO è basato sui processi
 >Il SO è implementato come un insieme di processi di sistema, ovviamente con privilegi più alti.
+
+## Linux
+Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrupt. Ci sono però anche dei processi di sistema *kernel threads* che competono per il processore come il processo utente creati dall'inizio dal sistema operativo (processi ciclici).
