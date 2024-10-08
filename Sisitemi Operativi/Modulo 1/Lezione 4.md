@@ -176,6 +176,7 @@ In Linux il PID è unico per tutti i thread di un processo, il *tid* (task ident
 >[!warning] C'è sempre un thread per il quale il tid coincide con il PID
 L'entry del PCB che dà il PID comune a tutti i thread di un processo è il *tgid* **Thread Group Leader Identifier** che coincide con il PID del primo thread del processo, come detto precedentemente.
 
-Ovviamente per processi con un solo thread tgid e 
+Ovviamente per processi con un solo thread, tgid e pid coincidono.
+
 
 
