@@ -141,7 +141,10 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 **Ready to run, Swapped:** può andare in esecuzione (non è in attesa di eventi esterni), ma prima deve essere portato in memoria.
 **Sleeping swapped:** non può essere eseguito finché un qualche evento non si manifesta ed il processo non si trova nella memoria primaria.
 >**Preempted:** il kernel ha appena tolto l'uso del processore a questo processo (*preemption*) per fare un context switch.
->**Created**
+>**Created:** appena creato, ma ancora non pronto all'esecuzione
+>**Zombie:** terminato, ma resta nelle tabelle dei processi perché il processo che l'ha cerato possa prendersi il suo valore di ritorno
+
+
 
 
 
