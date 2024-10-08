@@ -171,6 +171,11 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 
 ##  Processi e Threads in Linux
 Possiamo dire che in Linux l'unità di base non sono i Processi, ma i Threads che in questo caso vengono chiamati *LWP (Lightweight Process)*.
-Implementa sia i KLT che gli UL
+Implementa sia i KLT che gli ULT. C'è un'incongruenza di terminologia tra qeulla utente e quella del sistema.
+In Linux il PID è unico per tutti i thread di un processo, il *tid* (task identifier) identifica ogni singolo thread. 
+>[!warning] C'è sempre un thread per il quale il tid coincide con il PID
+L'entry del PCB che dà il PID comune a tutti i thread di un processo è il *tgid* **Thread Group Leader Identifier** che coincide con il PID del primo thread del processo, come detto precedentemente.
+
+Ovviamente per processi con un solo thread tgid e 
 
 
