@@ -159,5 +159,12 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 >- switchare ad un altro processo
 
 >[!note] I Threads
-> Generalmente i Threads sono diverse *esecuzioni* di uno stesso processo. Diversi threads di uno stesso processo condividono tutte le risorse tranne lo stack delle chiamate
+> Generalmente i Threads sono diverse *esecuzioni* di uno stesso processo. Diversi threads di uno stesso processo condividono tutte le risorse tranne lo stack delle chiamate. Rispetto ai processi è più semplice /efficiente: crrearli, terminarli, fare lo switching, farli comunicare
+> Ogni processo viene creato con almeno un thread con il quale è possibile effettuare le seguenti operazioni:
+> - spawn: "germina" un nuovo thread
+> - block: esplicito
+> - unblock: esplicito
+> - finish
+## ULT vs KLT
+**ULT:** 
 
