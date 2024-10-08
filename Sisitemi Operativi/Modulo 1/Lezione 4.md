@@ -144,7 +144,19 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 >**Created:** appena creato, ma ancora non pronto all'esecuzione
 >**Zombie:** terminato, ma resta nelle tabelle dei processi perché il processo che l'ha cerato possa prendersi il suo valore di ritorno
 
->[]
+>[!example] Creazione di un Processo in UNIX
+>Viene effetuata tramite la chiamata di sistema *fork()*
+>In seguito a ciò, il SO, in Kernel Mode:
+>1) Alloca una entry nella tabella dei processi per il nuovo processo (figlio)
+>2) Assegna un PID unico al processo figlio
+>3) Copia l'immagine del padre, escludendo dalla copia la memoria condivisa
+>4) Incrementa i contatori di ogni file aperto dal padre , per tenere conto del fatto che ora sono anche del figlio
+>5) Assegna al processo figlio lo stato Rady to Run
+>6) Fa ritornare alla fork il PID del figlio al padre, e 0 al figlio
+>Dopodiché il Kernel può scegliere tra:
+>- continuare ad eseguire il padre
+>- switchare al figlio
+>- switchare ad un altro processo
 
 
 
