@@ -115,4 +115,9 @@ Il Sistema Operativo può riprendere il controllo, togliendolo al processo attua
 >2) Aggiornare il process control block, attualmente in running
 >3) Spostare il process control block nella coda appropriata
 >4) Scegliere un altro processo da eseguire
->5) Aggiornare il 
+>5) Aggiornare il process control block del processo selezionato
+>6) Aggiornare le strutture dati per gestire la memoria
+>7) Ripristinare il contesto del processo selezionato
+
+## Il SO è un processo?
+Il SO è solo un insieme di programmi, ed è esegutio dal processore come ogni altro programma
