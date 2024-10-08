@@ -144,7 +144,7 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 >**Created:** appena creato, ma ancora non pronto all'esecuzione
 >**Zombie:** terminato, ma resta nelle tabelle dei processi perché il processo che l'ha cerato possa prendersi il suo valore di ritorno
 
-
+>[]
 
 
 
