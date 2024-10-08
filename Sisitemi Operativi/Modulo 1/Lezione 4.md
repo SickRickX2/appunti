@@ -132,3 +132,9 @@ Il SO viene eseguito nel contesto di un processo utente (cambia solo la modalit�
 
 ## Linux
 Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrupt. Ci sono però anche dei processi di sistema *kernel threads* che competono per il processore come il processo utente creati dall'inizio dal sistema operativo (processi ciclici).
+## Stati dei processi in UNIX
+**User Running** in esecuzione in modalità utente
+**Kernel running** in esecuzione in modalità sistema
+**Ready to Run, in Memory** può andare in esecuzione non appena il kernel lo seleziona
+**Asleep in Memory**  non può essere eseguito finché un qualche even
+
