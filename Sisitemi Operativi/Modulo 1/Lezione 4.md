@@ -103,8 +103,10 @@ Questo è uno schema con il quale un processo utente può cambiare la modalità 
 
 Il Sistema Operativo può riprendere il controllo, togliendolo al processo attualmente in esecuzione per diversi motivi:
 
-| **Meccanismo** | **** |
-| -------------- | ---- |
-|                |      |
+| **Meccanismo** | **Causa**                                           | **Uso**                                 |
+| -------------- | --------------------------------------------------- | --------------------------------------- |
+| Interruzione   | *Esterna* all'esecuzione dell'istruzione corrente   | Reazione ad un evento esterno asincorno |
+| Eccezione      | Associata all'esecuzione dell'*istruzione corrente* | Gestione di un errore sicnrono          |
+| Chiamata al SO | *Richiesta* esplicita                               | Chiamata a funzione di sistema          |
 
 
