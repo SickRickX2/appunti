@@ -109,4 +109,10 @@ Il Sistema Operativo può riprendere il controllo, togliendolo al processo attua
 | Eccezione      | Associata all'esecuzione dell'*istruzione corrente* | Gestione di un errore sicnrono          |
 | Chiamata al SO | *Richiesta* esplicita                               | Chiamata a funzione di sistema          |
 
-
+>[!example] Process Switch
+>Tutto in kernel mode
+>1) Salvare il contesto del programma (registri e PC)
+>2) Aggiornare il process control block, attualmente in running
+>3) Spostare il process control block nella coda appropriata
+>4) Scegliere un altro processo da eseguire
+>5) Aggiornare il 
