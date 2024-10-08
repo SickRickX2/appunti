@@ -170,5 +170,7 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 **KLT:** rispetto agli ULT in cui se si blocca un thread allora si bloccano tutti quelli relativi a quel processo poiché usano tutti lo stesso processore, qui si può bloccare *solo* il thread richiedente. Mentre qui ogni thread può usare un processore differente il che porta ad un'esecuzione multithread parallela.
 
 ##  Processi e Threads in Linux
+Possiamo dire che in Linux l'unità di base non sono i Processi, ma i Threads che in questo caso vengono chiamati *LWP (Lightweight Process)*.
+Implementa sia i KLT che gli UL
 
 
