@@ -158,5 +158,6 @@ Essenzialmente le funzioni del kernel sono per lo più eseguite tramite interrup
 >- switchare al figlio
 >- switchare ad un altro processo
 
-
+>[!note] I Threads
+> Generalmente i Threads sono diverse *esecuzioni* di uno stesso processo. Diversi threads di uno stesso processo condividono tutte le risorse tranne lo stack delle chiamate
 
