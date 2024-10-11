@@ -9,6 +9,9 @@ Quindi quando ci troviamo di fronte ad un problema del tipo:
 *Nomi e città dei clienti che hanno SEMPRE
 ordinato più di 100 pezzi per un articolo*
 Bisogna ragionare usando una doppia negazione:
->[warning] Ricorda
-> 
+>[!warning] Ricorda
+>La negazione di *per ogni* non è *per nessuno* ma *almeno un elemento non*
+>>[!example]
+>>La negazione di "**Tutti** i miei amici si chiamano Paolo" non è "**Nessun** amico si chiama Paolo" ma "Ho **un** amico che non si chiama Paolo"
 
+Quindi quando ci si trova di fronte ad una query di quel tipo, bisogna eseguire la query con la condizione negata
