@@ -37,4 +37,7 @@ La preemption può essere dovuta a due casi:
 - un processo passa dallo stato block a running
 - si esaurisce il tempo del processo attualmente in esecuzione
 
+# La gestione della Memoria
+## Gestione della memoria: requisiti di base
+
 
