@@ -54,5 +54,11 @@ Non prestazionali:
 #### Criteri di Sistema
 Prestazionali:
 - **Throughput** (volume di lavoro nel tempo)
-- **Processor**
+- **Processor utilization** (uso del processore)
+Non prestazionali
+- **Fairness** (equità)
+- **Enforcing priorities** (gestione delle priorità)
+- **Balancing resources** (bilanciamento nell'uso delle risorse)
+
+La modalità di decisione specifica in quali istanti di tempo la funzione di selezione viene invocata, 
 
