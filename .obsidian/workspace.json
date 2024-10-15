@@ -18,8 +18,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c1d3bbb0927bae4c",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 3.md",
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "f2df0f4990c44ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 1.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 1.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 1.md"
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 3.md"
               }
             }
           },
@@ -142,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,11 +180,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "31b8ef642828e928",
+  "active": "f2df0f4990c44ce6",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 5.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 4.md",
+    "README.md",
+    "Basi di Dati/Modulo 1/Lezione 5.md",
+    "Basi di Dati/Modulo 1/Lezione 1.md",
     "Basi di Dati/Modulo 1/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 3.md",
-    "Basi di Dati/Modulo 1/Lezione 1.md",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241001143050.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240927141127.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212124.png",
