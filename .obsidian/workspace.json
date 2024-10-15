@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,7 +158,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "31b8ef642828e928",
+  "active": "dfc3298d3ae1fa3c",
   "lastOpenFiles": [
     "Sisitemi Operativi/Modulo 1/Lezione 3.md",
     "Sisitemi Operativi/Modulo 1/Lezione 6.md",
