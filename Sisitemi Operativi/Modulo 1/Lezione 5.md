@@ -60,5 +60,7 @@ Non prestazionali
 - **Enforcing priorities** (gestione delle priorità)
 - **Balancing resources** (bilanciamento nell'uso delle risorse)
 
-La modalità di decisione specifica in quali istanti di tempo la funzione di selezione viene invocata, 
+La modalità di decisione specifica in quali istanti di tempo la funzione di selezione viene invocata, ci sono due possibilità:
+**Non-Preemptive**: se un processo è in esecuzione. allora arriva o fino a terminazione o fino ad una richiesta di I/O
+**Preemptive**: il sistema operativo può interrompere un processo in esecuzione anche se nessuna delle due precedenti condizioni è vera, in questo caso il processo passa allo stato *ready*. Questo può avvenire o per l'arrivo di nuovi processi appena forkati o per un interrupt
 
