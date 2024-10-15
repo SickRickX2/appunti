@@ -40,4 +40,19 @@ Ci sono vari tipi di scheduling:
 Ci sono diversi criteri per lo Short Term scheduling, e bisogna distinguere tra criteri per l'utente e criteri per il sistema
 - per l'utente: tempo di risposta
 - per il sistema: uso efficiente ed effettivo del processore
+Inoltre c'è una distinzione tra criteri correlati e non correlati alle prestazioni:
+- correlati: tempo di risposta, throughput
+- non correlati: predicibilità, equità
+#### Criteri Utente
+Prestazionali: 
+- **Turnaround time** (tempo di ritorno)
+- **Response time** (tempo di risposta)
+- **Deadline** (scadenza)
+Non prestazionali:
+- **Predictability** (predicibilità)
+
+#### Criteri di Sistema
+Prestazionali:
+- **Throughput** (volume di lavoro nel tempo)
+- **Processor**
 
