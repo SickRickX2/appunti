@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 5.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 5.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 5.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 5.md"
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 4.md"
               }
             }
           },
@@ -159,15 +158,15 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
-    "Basi di Dati/Modulo 1/Lezione 4.md",
-    "Basi di Dati/Modulo 1/Lezione 5.md",
-    "Basi di Dati/Modulo 1/Lezione 2.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 1.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 3.md",
     "Sisitemi Operativi/Modulo 1/Lezione 4.md",
+    "Basi di Dati/Modulo 1/Lezione 5.md",
+    "Basi di Dati/Modulo 1/Lezione 4.md",
+    "Basi di Dati/Modulo 1/Lezione 2.md",
     "Senza nome.md",
     "README.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 3.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 1.md",
     "Basi di Dati/Modulo 1/Lezione 3.md",
     "Basi di Dati/Modulo 1/Indice.md",
     "Basi di Dati/Modulo 1/Lezione 1.md",
