@@ -24,3 +24,9 @@ Ci sono diversi tipi di multiprocessore:
 ## Scheduling in Linux
 Cerca la velocità di esecuzione tramite semplicità di implementazione, non utilizza long term o medium term scheduler. 
 C'è però un embrione del long term, quando un processo viene creato viene aggiunto alla coda appropriata o non viene creato affatto (se non viene creato è perchè non c'è abbastanza memoria virtuale).
+Essenzialmente è derivato da UNIX quindi *preemptive* a priorità *dinamica*. Abbiamo una specie di round robin con quanto di esecuzione a 1 ms.
+Ci sono tre tipi di processi:
+- Interattivi: processi utente
+- Batch (non interattivi)
+- Real-Time: hanno scadenze temporali ben definite entro cui devono essere terminati
+-
