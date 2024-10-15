@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 2.md"
+                "file": "Basi di Dati/Modulo 1/Lezione 1.md"
               }
             }
           },
@@ -153,13 +152,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "dfc3298d3ae1fa3c",
+  "active": "31b8ef642828e928",
   "lastOpenFiles": [
-    "Basi di Dati/Modulo 1/Lezione 1.md",
     "Basi di Dati/Modulo 1/Lezione 2.md",
+    "Basi di Dati/Modulo 1/Lezione 3.md",
+    "Basi di Dati/Modulo 1/Lezione 1.md",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241001143050.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240927141127.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20240926212124.png",
@@ -178,7 +180,6 @@
     "Sisitemi. Operativi/Modulo 1/Lezione 2.md",
     "Sisitemi. Operativi/Modulo 1/Lezione 1.md",
     "Basi di Dati/Modulo 1/Lezione 4.md",
-    "Basi di Dati/Modulo 1/Lezione 3.md",
     "Sisitemi. Operativi/Modulo 1/Lezione 3.md",
     "imgs",
     "imgs/Pasted image 20241001143050.png",
