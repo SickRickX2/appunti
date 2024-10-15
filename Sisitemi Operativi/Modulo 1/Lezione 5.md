@@ -34,4 +34,5 @@ Ci sono vari tipi di scheduling:
 >- interruzioni
 >- chiamate di sistema
 >- segnali
->Il suo scopo è quello di allocare tempo di esecuzione su
+>Il suo scopo è quello di allocare tempo di esecuzione su un processore per ottimizzare il comportamento dell'intero sistema, dipendentemente da determinati indici prestazionali
+>
