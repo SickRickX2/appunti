@@ -17,4 +17,11 @@ Ci sono vari tipi di scheduling:
 **I/O scheduling**: decide a quale processo, tra quelli con una richiesta pendente per l'I/O, va assegnato il corrispondente dispositivo I/O
 
 
->[!tips###
+>[!tip] ### Long term scheduling
+>Decide quali programmi sono ammessi nel sistema per esser eseguiti, spesso il criterio adottato è quello FIFO (first in first out). Controlla il grado di multiprogrammazione, più processi ci sono e più è piccola la percentuale di tempo per cui ogni processo viene eseguito
+>Strategie tipiche:
+>- i lavori batch vengono accodati e il LTS li prende man mano che lo ritiene "giusto"
+>- i lavori interattivi vengono ammessi fino a "saturazione" del sistema
+>- cerca di mantenere un mix di processi I/O bound e CPU-bound
+>- cerca di bilanciare le richieste per i dispositivi I/O
+>Può essere chiamato in causa anche quando non ci sono nuovi processi, quando termina un processo oppure quando alcuni processi sono idle da tr
