@@ -24,6 +24,7 @@ Ci sono vari tipi di scheduling:
 >- i lavori interattivi vengono ammessi fino a "saturazione" del sistema
 >- cerca di mantenere un mix di processi I/O bound e CPU-bound
 >- cerca di bilanciare le richieste per i dispositivi I/O
+>
 >Può essere chiamato in causa anche quando non ci sono nuovi processi, quando termina un processo oppure quando alcuni processi sono idle da troppo tempo
 
 >[!tip] ### Medium Term scheduling
@@ -35,4 +36,8 @@ Ci sono vari tipi di scheduling:
 >- chiamate di sistema
 >- segnali
 >Il suo scopo è quello di allocare tempo di esecuzione su un processore per ottimizzare il comportamento dell'intero sistema, dipendentemente da determinati indici prestazionali
->
+
+Ci sono diversi criteri per lo Short Term scheduling, e bisogna distinguere tra criteri per l'utente e criteri per il sistema
+- per l'utente: tempo di risposta
+- per il sistema: uso efficiente ed effettivo del processore
+
