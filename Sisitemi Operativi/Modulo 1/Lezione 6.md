@@ -40,7 +40,15 @@ La preemption può essere dovuta a due casi:
 # La gestione della Memoria
 ## Gestione della memoria: requisiti di base
 Deve essere incapsulata da una funzione del SO, invisibile ai processi e ai processori. Include anche lo swapping di dati dalla memoria secondaria.
->[!note] Requisiti
->- Rilocazione: importante che ci sia aiuto hardware
->
+>[!tip] Requisiti
+>- **Rilocazione**: importante che ci sia aiuto hardware, *aiuto* e non gestione diretta, sistema operativo e hardware collaborano
+>- **Protezione**
+>- **Condivisione**
+>- **Organizzazione logica**
+>- **Organizzazione fisica**
+
+### Rilocazione
+Il programmatore non sa e non deve sapere in quale zona della memoria il programma verrà caricato. Potrebbe essere swappato sul disco e al ritorno si trova in una zona diversa di memoria, potrebbe non essere contiguo ecc...
+I riferimenti alla memoria devono essere tradotti nell'indirizzo fisico "vero" e abbiamo due modi diversi per farlo.
+
 
