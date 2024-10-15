@@ -39,5 +39,8 @@ La preemption può essere dovuta a due casi:
 
 # La gestione della Memoria
 ## Gestione della memoria: requisiti di base
-
+Deve essere incapsulata da una funzione del SO, invisibile ai processi e ai processori. Include anche lo swapping di dati dalla memoria secondaria.
+>[!note] Requisiti
+>- Rilocazione: importante che ci sia aiuto hardware
+>
 
