@@ -27,6 +27,14 @@ C'è però un embrione del long term, quando un processo viene creato viene aggi
 Essenzialmente è derivato da UNIX quindi *preemptive* a priorità *dinamica*. Abbiamo una specie di round robin con quanto di esecuzione a 1 ms.
 Ci sono tre tipi di processi:
 - Interattivi: processi utente
-- Batch (non interattivi)
-- Real-Time: hanno scadenze temporali ben definite entro cui devono essere terminati
--
+- Batch: (non interattivi)
+- Real-Time: hanno scadenze temporali ben definite entro cui devono essere terminati, normalmente utilizzati solo dai KLT di sistema
+Ci sono tre tipi di scheduling:
+- Sched_fifo
+- Sched_rr
+- Sched_other
+La preemption può essere dovuta a due casi:
+- un processo passa dallo stato block a running
+- si esaurisce il tempo del processo attualmente in esecuzione
+
+
