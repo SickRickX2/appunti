@@ -11,5 +11,7 @@ Introduciamo F^A
 >Denotiamo con F^A l'insieme di dipendenze funzionali definito nel modo seguente:
 >- se f $\in$ F allora f$\in$ F^A
 >- se Y$\subset$ X $\subset$R allora X$\to$ Y $\in$F^a (*assioma della riflessività*)
->- se X$\to$ Y $\in$ F^A allora XZ $\to$ YZ $\in$ F^A, per ogni Z $\subset$ R
->- se X $\to$ Y $\in$ F^A e Y $\to$ Z $\in
+>- se X$\to$ Y $\in$ F^A allora XZ $\to$ YZ $\in$ F^A, per ogni Z $\subset$ R (*Assioma dell'aumento*)
+>- se X $\to$ Y $\in$ F^A e Y $\to$ Z $\in$ F^A allora X $\to$ Z $\in$ F^A (*assioma della transitività*)
+
+**Dimostreremo che F+ = F^A**, cioè che la chiusura di un isnieme di dipendenze funzionali F può essere ottenuta a partire da F applicando ricorsivamente gli *assiomi di Armstrong*.
