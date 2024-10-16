@@ -9,4 +9,7 @@ Partiamo da un insieme diverso, "facile" da calcolare
 Introduciamo F^A
 >[!example] Assiomi di Armstrong
 >Denotiamo con F^A l'insieme di dipendenze funzionali definito nel modo seguente:
->- se f$\
+>- se f $\in$ F allora f$\in$ F^A
+>- se Y$\subset$ X $\subset$R allora X$\to$ Y $\in$F^a (*assioma della riflessività*)
+>- se X$\to$ Y $\in$ F^A allora XZ $\to$ YZ $\in$ F^A, per ogni Z $\subset$ R
+>- se X $\to$ Y $\in$ F^A e Y $\to$ Z $\in
