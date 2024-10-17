@@ -30,3 +30,9 @@ Dimostrazioni
 >[!warning] osservazione
 
 >[!note] Lemma
+>Siano R uno schema di relazione ed F un insieme di dipendenze funzionali su R. Si ha che:
+>$$ X \to Y \in F^A $$
+>**Dim**
+>Si
+
+
