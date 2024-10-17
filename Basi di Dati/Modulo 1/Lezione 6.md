@@ -21,8 +21,8 @@ Se due insiemi hanno la stessa chiusura, e $F^+ = G^+$, esiste un insieme $G$ co
 
 Dai tre assiomi si possono derivare tre regole che producono ancora elementi di $F^A$
 >[!note]
->se $X \to Y \in F^A$ e $X (*regola dell'unione*)
->*(regola della decomposizione)*
+>se $X \to Y \in F^A$ e $X \to Z \in F^A$ allora $X \to YZ \in F^A$(*regola dell'unione*)
+>se $X \to Y \in F^A$ e $Z \subseteq Y$ allora $X \to Z \in F^A$*(regola della decomposizione)*
 >*(regola della pseudotransitività)*
 
 Dimostrazioni
