@@ -19,9 +19,9 @@ Introduciamo $F^A$
 >[!tip]
 Se due insiemi hanno la stessa chiusura, e $F^+ = G^+$, esiste un insieme $G$ con le stesse chiusure di $F$. Allora un'istanza legale per $F$ sarà legale anche per $G^+$, quindi dire che due insiemi sono uguali vuol dire che contengono gli stessi elementi. Quindi due insiemi che hanno le stesse chiusure avranno le stesse istanze legali.
 
-Dai tre assiomi si possono derivare tre regole che prodcuono acnroa elementi di $F^A$
+Dai tre assiomi si possono derivare tre regole che producono ancora elementi di $F^A$
 >[!note]
->(*regola dell'unione*)
+>se $X \to Y \in F^A$ e $X (*regola dell'unione*)
 >*(regola della decomposizione)*
 >*(regola della pseudotransitività)*
 
