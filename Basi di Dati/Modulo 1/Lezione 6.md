@@ -26,4 +26,6 @@ Dai tre assiomi si possono derivare tre regole che prodcuono acnroa elementi di 
 >*(regola della pseudotransitività)*
 
 Dimostrazioni
-1) 
+
+>[!warning] osservazione
+
