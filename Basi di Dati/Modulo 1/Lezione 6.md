@@ -15,3 +15,4 @@ Introduciamo F^A
 >- se X $\to$ Y $\in$ F^A e Y $\to$ Z $\in$ F^A allora X $\to$ Z $\in$ F^A (*assioma della transitività*)
 
 **Dimostreremo che F+ = F^A**, cioè che la chiusura di un isnieme di dipendenze funzionali F può essere ottenuta a partire da F applicando ricorsivamente gli *assiomi di Armstrong*.
+Se due insiemi hanno la stessa chiusura, e F+ = G+, esiste un insieme G con le stesse chiusure d
