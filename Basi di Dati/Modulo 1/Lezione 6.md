@@ -41,7 +41,11 @@ Dimostrazioni
 > Poiché $X \to Y \in F^A$, per la regola della **decomposizione** si ha che, per ogni $i, i = 1,...,n$ e, quindi, $Y \subseteq X^+$
 
 >[!example] Teorema: $F^+ = F^A$
->
+> **Teorema** Siano R uno schema di relazione ed F un insieme di dipendenze funzionali su R. Si ha $F^+ = F^A$
+> **Dim** 
+> - (l'uguaglianza di insiemi si dimostra usando la *doppia inclusione*)
+> - $F^+ \supseteq F^A$ Sia $X \to Y$ una dipendenza funzionale in $F^A$. Dimostriamo che $X \to Y \in F^+$ *per induzione* sul numero *i* di *applicazioni di uno degli assiomi di Armstrong*
+
 
 
 
