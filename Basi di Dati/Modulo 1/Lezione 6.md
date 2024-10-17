@@ -29,4 +29,4 @@ Dimostrazioni
 
 >[!warning] osservazione
 
- 
+>[!note] Lemma
