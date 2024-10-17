@@ -55,7 +55,8 @@ Dimostrazioni
 > 
 > Dobbiamo dimostrarlo per un numero di volte uguale a ***i***. Si possono presentare tre casi:
 > - $X \to Y$ è stata ottenuta mediante l'assioma della ***riflessività*** in tal caso $Y \subseteq X$. Sia r un'istanza di $R$ e siano $t_1$ e $t_2$ due tuple di $r$ tali che $t_1[X] = t_2[Y]$
-> - $X \to Y$ è stata ottenuta applicando l'assioma dell'aumento ad una dipendenza funzionale $V \to W$ in $F^A$, ottenuta a sua volta applicando ricorsivamente gli assiomi di Armstrong un numero di volte **minore o uguale a i-1** (quindi per *l'ipotesi induttiva $V \to W \in F^+$*); sarà quindi $X = VZ$ e $Y = WZ$ per qualche $Z \subseteq R$. Sia $r$ un'istanza legale di $R$ e siano $t_1$ e $t_2$ due tuple di $r$ tali che $t_1[x$
+> - $X \to Y$ è stata ottenuta applicando l'assioma dell'aumento ad una dipendenza funzionale $V \to W$ in $F^A$, ottenuta a sua volta applicando ricorsivamente gli assiomi di Armstrong un numero di volte **minore o uguale a i-1** (quindi per *l'ipotesi induttiva $V \to W \in F^+$*); sarà quindi $X = VZ$ e $Y = WZ$ per qualche $Z \subseteq R$. 
+>  Sia $r$ un'istanza legale di $R$ e siano $t_1$ e $t_2$ due tuple di $r$ tali che $t_1[X] = t_2[X]$; banalmente si ha che $t_1[V] = t_2[V]$ e $t_1[Z] = t_2[Z]$. Per l'ipotesi induttiva da $t_1[V] = t_2[V]$ segue $t_1[W] = t_2[W]$; e da $t_1[W] = t_2[W]$ segue  $t_1[Z] = $t_2[Z]$
 
 
 
