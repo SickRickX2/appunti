@@ -22,12 +22,13 @@ Se due insiemi hanno la stessa chiusura, e $F^+ = G^+$, esiste un insieme $G$ co
 Dai tre assiomi si possono derivare tre regole che producono ancora elementi di $F^A$
 >[!note]
 >se $X \to Y \in F^A$ e $X \to Z \in F^A$ allora $X \to YZ \in F^A$(*regola dell'unione*)
->se $X \to Y \in F^A$ e $Z \subseteq Y$ allora $X \to Z \in F^A$*(regola della decomposizione)*
->*(regola della pseudotransitività)*
+>se $X \to Y \in F^A$ e $Z \subseteq Y$ allora $X \to Z \in F^A$ *(regola della decomposizione)*
+>se $X \to Y \in F^A$ e $WY \to Z \in F^A$ allora $WX  \to Z \in F^A$   *(regola della pseudotransitività)*
 
 Dimostrazioni
 
 >[!warning] osservazione
+>1) Per la regola dell'unione, se $X \to A_i \in F^A, i=1,...,n$ allora $X \to A_1,...,A_i$
 
 >[!note] Lemma
 >Siano R uno schema di relazione ed F un insieme di dipendenze funzionali su R. Si ha che:
