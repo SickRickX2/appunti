@@ -11,15 +11,15 @@ Introduciamo F^A
 >Denotiamo con F^A l'insieme di dipendenze funzionali definito nel modo seguente:
 >- se f $\in$ F allora f$\in$ F^A
 >- se Y$\subset$ X $\subset$R allora X$\to$ Y $\in$F^a (*assioma della riflessività*)
->- se X$\to$ Y $\in$ F^A allora XZ $\to$ YZ $\in$ F^A, per ogni Z $\subset$ R (*Assioma dell'aumento*)
->- se X $\to$ Y $\in$ F^A e Y $\to$ Z $\in$ F^A allora X $\to$ Z $\in$ F^A (*assioma della transitività*)
+>- se X$\to Y \in F^A$ allora $XZ \to$ YZ $\in$ F^A, per ogni Z $\subset$ R (*Assioma dell'aumento*)
+>- se X $\to Y \in F^A e Y \to Z \in F^A allora X \to Z \in F^A$(*assioma della transitività*)
 
-**Dimostreremo che F+ = F^A**, cioè che la chiusura di un isnieme di dipendenze funzionali F può essere ottenuta a partire da F applicando ricorsivamente gli *assiomi di Armstrong*.
+**Dimostreremo che $F^+ = F^A$**, cioè che la chiusura di un isnieme di dipendenze funzionali F può essere ottenuta a partire da F applicando ricorsivamente gli *assiomi di Armstrong*.
 
 >[!tip]
-Se due insiemi hanno la stessa chiusura, e F+ = G+, esiste un insieme G con le stesse chiusure di F. Allora un'istanza legale per F sarà legale anche per G+, quindi dire che due insiemi sono uguali vuol dire che contengono gli stessi elementi. Quindi due insiemi che hanno le stesse chiusure avranno le stesse istanze legali.
+Se due insiemi hanno la stessa chiusura, e $F^+ = G^+$, esiste un insieme $G$ con le stesse chiusure di $F$. Allora un'istanza legale per $F$ sarà legale anche per $G^+$, quindi dire che due insiemi sono uguali vuol dire che contengono gli stessi elementi. Quindi due insiemi che hanno le stesse chiusure avranno le stesse istanze legali.
 
-Dai tre assiomi si possono derivare tre regole che prodcuono acnroa elementi di F^A
+Dai tre assiomi si possono derivare tre regole che prodcuono acnroa elementi di $F^A$
 >[!note]
 >(*regola dell'unione*)
 >*(regola della decomposizione)*
