@@ -28,7 +28,12 @@ Dai tre assiomi si possono derivare tre regole che producono ancora elementi di 
 Dimostrazioni
 
 >[!warning] osservazione
->1) Per la regola dell'unione, se $X \to A_i \in F^A, i=1,...,n$ allora $X \to A_1,...,A_i$
+>1) Per la regola dell'***unione***, se $X \to A_i \in F^A, i=1,...,n$ allora $X \to A_1,...,A_i,...,A_n \in F^A$
+>2) Per la regola della ***decomposizione***, se $X \to A_1, ..., A_i, ..., A_n \in F^A$ allora $X \to A_i \in F^A, i=1,...,n$
+>Quindi
+>- $X \to A_1, ..., A_i, ..., A_n \in F^A$
+
+
 
 >[!note] Lemma
 >Siano R uno schema di relazione ed F un insieme di dipendenze funzionali su R. Si ha che:
