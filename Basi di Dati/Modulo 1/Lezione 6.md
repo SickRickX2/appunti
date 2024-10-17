@@ -31,12 +31,17 @@ Dimostrazioni
 
 >[!note] Lemma
 >Siano R uno schema di relazione ed F un insieme di dipendenze funzionali su R. Si ha che:
->$$ X \to Y \in F^A $$
+>$X \to Y \in F^A$
 >**Dim**
->Sia $$ Y = A_1, A_2, ..., A_n. $$
+>Sia $Y = A_1, A_2, ..., A_n.$
 > *Parte se*
-> Poiché $$Y \subset X^+ $$, per ogni $$ i,i =1,...,n$$ si ha che $$X \to A_i \in F^A.$$
-> Pertanto per la regola dell'unione, $$X\to Y \in F^A$$
+> Poiché $Y \subseteq X^+$, per ogni $ i,i =1,...,n$ si ha che $X \to A_i \in F^A.$
+> Pertanto per la regola dell'unione, $X\to Y \in F^A$
+> *Parte solo se*
+> Poiché $X \to Y \in F^A$, per la regola della **decomposizione** si ha che, per ogni $i, i = 1,...,n$ e, quindi, $Y \subseteq X^+$
+
+>[!example] Teorema: $F^+ = F^A$
+>
 
 
 
