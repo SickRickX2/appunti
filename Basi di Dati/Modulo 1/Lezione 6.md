@@ -33,6 +33,10 @@ Dimostrazioni
 >Siano R uno schema di relazione ed F un insieme di dipendenze funzionali su R. Si ha che:
 >$$ X \to Y \in F^A $$
 >**Dim**
->Si
+>Sia $$ Y = A_1, A_2, ..., A_n. $$
+> *Parte se*
+> Poiché $$Y \subset X^+ $$, per ogni $$ i,i =1,...,n$$ si ha che $$X \to A_i \in F^A.$$
+> Pertanto per la regola dell'unione, $$X\to Y \in F^A$$
+
 
 
