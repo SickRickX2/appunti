@@ -21,4 +21,9 @@ Se due insiemi hanno la stessa chiusura, e F+ = G+, esiste un insieme G con le s
 
 Dai tre assiomi si possono derivare tre regole che prodcuono acnroa elementi di F^A
 >[!note]
->(**)
+>(*regola dell'unione*)
+>*(regola della decomposizione)*
+>*(regola della pseudotransitività)*
+
+Dimostrazioni
+1) 
