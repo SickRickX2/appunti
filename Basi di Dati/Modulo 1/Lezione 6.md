@@ -51,7 +51,11 @@ Dimostrazioni
 > - (l'uguaglianza di insiemi si dimostra usando la *doppia inclusione*)
 > - $F^+ \supseteq F^A$ Sia $X \to Y$ una dipendenza funzionale in $F^A$. Dimostriamo che $X \to Y \in F^+$ *per induzione* sul numero *i* di *applicazioni di uno degli assiomi di Armstrong*
 > **Base dell'induzione**: $i = 0$. In tal caso $X \to Y$ è in $F$ e quindi, banalmente, $X \to Y$ è in $F^+$
-> **Induzione**: $i = 0$. Per l'***ipotesi induttiva*** ogni dipendenza funzionale ottenuta a partire da $F$ applicando gli assiomi di armstrong 
+> **Induzione**: $i = 0$. Per l'***ipotesi induttiva*** ogni dipendenza funzionale ottenuta a partire da $F$ applicando gli assiomi di Armstrong  un numero di volte **minore o uguale a -1** è in $F^+$. 
+> 
+> Dobbiamo dimostrarlo per un numero di volte uguale a ***i***. Si possono presentare tre casi:
+> - $X \to Y$ è stata ottenuta mediante l'assioma della ***riflessività*** in tal caso $Y \subseteq X$. Sia r un'istanza di $R$ e siano $t_1$ e $t_2$ due tuple di $r$ tali che $t_1[X] = t_2[Y]$
+
 
 
 
