@@ -77,5 +77,13 @@ Ogni volta che un processo viene riportato in memoria potrebbe essere in un post
 Il valore del registro base viene aggiunto al valore dell'indirizzo relativo per ottenere l'indirizzo assoluto, il risultato è confrontato col registro limite. Se va oltre viene generato un interrupt
 
 ## Protezione
-I processi non devono poter accedere a locazioni di memoria di un altro processo, a meno che n
+I processi non devono poter accedere a locazioni di memoria di un altro processo, a meno che non siano autorizzati. A causa della rilocazione non si può fare a tempo di compilazione. Bisogna farlo a tempo di esecuzione , quindi serve aiuto hardware.
+
+## Condivisione
+Deve essere possibile permettere a più processi di accedere alla stessa zona di memoria.
+- Caso tipico: più processi vengono creati eseguendo più volte lo stesso sorgente
+Ci sono anche casi in cui processi diversi vengono esplicitamente programmati per accedere a sezioni di memoria comuni.
+
+## Organizzazione Logica
+
 
