@@ -26,6 +26,7 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >In ogni caso il problema della compattazione rimane perché è tipico della partizione dinamica, cambia solo quanto frequentemente devo farla, per questo ad oggi nessuno di questi sistemi viene utilizzato.
 
 >[!note] Buddy System
->Compromesso tra partizionamento fisso e dinamico. Controlla se c'è un blocco di memoria libero per la dimensione del processo affinché sia sufficiente non solo per riceverlo ma anche che se divido in due quel blocco il processo non riesce ad entrarci.
+>Compromesso tra partizionamento fisso e dinamico. Controlla se c'è un blocco di memoria libero per la dimensione del processo affinché sia sufficiente non solo per riceverlo ma anche che se divido in due quel blocco il processo non riesce ad entrarci. Dopodiché viene controllato il buddy dei processi che mano a mano vengono liberati dalla memoria, se è libero si fondono altrimenti aspetta che il buddy viene liberato.
+
 
 
