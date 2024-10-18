@@ -60,5 +60,7 @@ Librerie statiche: implementano alcune funzioni che servono per eseguire il codi
 >Generazione di codice eseguibile: il *linker* mette tutto insieme tranne le librerie dinamiche. Il risultato si chiama ***load module***.
 >
 >Il ***load module*** viene caricato dal *loader*, verifica potenziali dipendenze su librerie dinamiche e vengono caricate in memoria principale, se servono a più programmi si utilizzano dei puntatori alla memoria principale in cui si trovano queste librerie.
-
-
+>>[!note]
+>>Ci sono vari modi per la rilocazione in questo caso
+1)**indirizzi assoluti**: si fa un assunzione dalla memoria di partenza e gli indirizzi simbolici vengono aggiornati con indirizzi assoluti della memoria principale
+>>2) **indirizzi relativi**: si assume che si parte da un indirizzo di riferimento e si contano le parole del programma che occupa in memoria e gli indirizzi si aggiorna
