@@ -66,5 +66,8 @@ Librerie statiche: implementano alcune funzioni che servono per eseguire il codi
 2)**indirizzi assoluti**: si fa un assunzione dalla memoria di partenza e gli indirizzi simbolici vengono aggiornati con indirizzi assoluti della memoria principale
 >>3) **indirizzi relativi(usato nei sistemi odierni)**: si assume che si parte da un indirizzo di riferimento e si contano le parole del programma che occupa in memoria e gli indirizzi si aggiornano con questi numerie
 ### Rilocazione a Run-Time senza Hardware Speciale
-Ogni volta che un processo viene riportato in memoria potrebbe essere in un posto diverso
+Ogni volta che un processo viene riportato in memoria potrebbe essere in un posto diverso. Nel frattempo potrebbero essere arrivati altri processi e averne preso il posto. Viene fatta in maniera automatica da una componente della CPU. Ad ogni caricamento in RAM occorre ispezionare tutto il codice sorgente del processo. Sostituisce man mano tutti i riferimenti agli indirizzi. 
+>[!warning] Troppo overhead
+>i costruttori hardware decidono di aiutare il SO
+
 
