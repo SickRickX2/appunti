@@ -52,3 +52,4 @@ Il programmatore non sa e non deve sapere in quale zona della memoria il program
 I riferimenti alla memoria devono essere tradotti nell'indirizzo fisico "vero" e abbiamo due modi diversi per farlo.
 
 
+
