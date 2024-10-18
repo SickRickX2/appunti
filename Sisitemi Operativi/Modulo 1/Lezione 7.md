@@ -25,3 +25,7 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >>Scorre la memoria dall'inizio; il primo blocco con abbastanza memoria viene subito scelto, molto veloce e tende a riempire solo la prima parte della memoria.(**il migliore**)
 >In ogni caso il problema della compattazione rimane perché è tipico della partizione dinamica, cambia solo quanto frequentemente devo farla, per questo ad oggi nessuno di questi sistemi viene utilizzato.
 
+>[!note] Buddy System
+>Compromesso tra partizionamento fisso e dinamico. Controlla se c'è un blocco di memoria libero per la dimensione del processo affinché sia sufficiente non solo per riceverlo ma anche che se divido in due quel blocco il processo non riesce ad entrarci.
+
+
