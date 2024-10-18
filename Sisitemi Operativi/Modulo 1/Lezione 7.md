@@ -14,3 +14,9 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >[!note] Algoritmo di Posizionamento
 >Partizioni di ugual lunghezza: algoritmo banale, non c'è scelta
 >Partizioni di diversa lunghezza: un processo va nella partizione più piccola che può contenerlo, questo minimizza la quantità di spazio sprecato. Può esserci una coda per ogni partizione, oppure una per tutte
+
+>[!note] Partizionamento Dinamico
+>Le partizioni variano sia in misura che in quantità, per ciascun processo viene allocata esattamente la quantità di memoria che serve. *Frammentazione esterna*: la memoria che non è usata per nessun processo viene frammentata. Si può risolvere con la compattazione, il SO sposta i processi in modo tale che siano contigui, però ha un elevato overhead.
+>Il SO deve decidere a quale blocco libero assegnare un processo.
+>>[!tip] Algoritmo best-fit
+>>Sceglie il blocco la cui misura è la più vicina a quella del processo da posizionare, nonostante 
