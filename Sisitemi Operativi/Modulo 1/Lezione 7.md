@@ -19,7 +19,9 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >Le partizioni variano sia in misura che in quantità, per ciascun processo viene allocata esattamente la quantità di memoria che serve. *Frammentazione esterna*: la memoria che non è usata per nessun processo viene frammentata. Si può risolvere con la compattazione, il SO sposta i processi in modo tale che siano contigui, però ha un elevato overhead.
 >Il SO deve decidere a quale blocco libero assegnare un processo.
 >>[!tip] Algoritmo best-fit
->>Sceglie il blocco la cui misura è la più vicina a quella del processo da posizionare, nonostante l'apparenza ragionevole, è quello con risultati peggiori perché lascia frammenti molto piccoli e costringe a fare spesso la compattazione
+>>Sceglie il blocco la cui misura è la più vicina a quella del processo da posizionare, nonostante l'apparenza ragionevole, è quello con risultati peggiori perché lascia frammenti molto piccoli e costringe a fare spesso la compattazione. (**il peggiore**)
 >
 >>[!tip] Algoritmo first-fit
->>Scorre la memoria dall'inizio; il primo blocco con abbastanza memoria viene subito scelto, molto veloce e tende a riempire solo la prima parte della memoria
+>>Scorre la memoria dall'inizio; il primo blocco con abbastanza memoria viene subito scelto, molto veloce e tende a riempire solo la prima parte della memoria.(**il migliore**)
+>In ogni caso il problema della compattazione rimane perché è tipico della partizione dinamica, cambia solo quanto frequentemente devo farla, per questo ad oggi nessuno di questi sistemi viene utilizzato.
+
