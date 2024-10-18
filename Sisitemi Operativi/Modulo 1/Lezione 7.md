@@ -28,5 +28,10 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >[!note] Buddy System
 >Compromesso tra partizionamento fisso e dinamico. Controlla se c'è un blocco di memoria libero per la dimensione del processo affinché sia sufficiente non solo per riceverlo ma anche che se divido in due quel blocco il processo non riesce ad entrarci. Dopodiché viene controllato il buddy dei processi che mano a mano vengono liberati dalla memoria, se è libero si fondono altrimenti aspetta che il buddy viene liberato.
 
+# Paginazione e segmentazione
+>[!note] Paginazione (Semplice)
+>**Non usata** ma importante per introdurre la memoria virtuale
+>La memoria viene partizionata in pezzi di grandezza uguale e piccola. Lo stesso trattamento viene riservato ai processi. I pezzi di processi sono chiamati *pagine*. I pezzi di memoria sono chiamati *frame*. Ogni pagina per essere usata dev'essere collocata in un frame.
+
 
 
