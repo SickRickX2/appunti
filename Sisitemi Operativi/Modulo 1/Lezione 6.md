@@ -70,4 +70,12 @@ Ogni volta che un processo viene riportato in memoria potrebbe essere in un post
 >[!warning] Troppo overhead
 >i costruttori hardware decidono di aiutare il SO
 
+#### Registri usati per la Rilocazione di Indirizzi Relativi
+- Base register: indirizzo di partenza
+- Bound register: indirizzo di fine del processo
+- I valori per questi registri vengono settati nel momento in cui il processo viene posizionato in memoria
+Il valore del registro base viene aggiunto al valore dell'indirizzo relativo per ottenere l'indirizzo assoluto, il risultato è confrontato col registro limite. Se va oltre viene generato un interrupt
+
+## Protezione
+I processi non devono poter accedere a locazioni di memoria di un altro processo, a meno che n
 
