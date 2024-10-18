@@ -52,11 +52,13 @@ Il programmatore non sa e non deve sapere in quale zona della memoria il program
 I riferimenti alla memoria devono essere tradotti nell'indirizzo fisico "vero" e abbiamo due modi diversi per farlo.
 
 >[!example] Gli Indirizzi nei Programmi
-Fase di compilazione
+*Fase di compilazione*
 I moduli devono essere pensati come in python, insiemi di funzioni.
 Librerie statiche: implementano alcune funzioni che servono per eseguire il codice
->Fase di linking
->Generazione di codice eseguibile: il *linker* mette tutto insieme tranne le librerie dinamiche.
->Il load module viene caricato dal loader, verifica potenziali dipendenze su 
+>
+>*Fase di linking*
+>Generazione di codice eseguibile: il *linker* mette tutto insieme tranne le librerie dinamiche. Il risultato si chiama ***load module***.
+>
+>Il ***load module*** viene caricato dal *loader*, verifica potenziali dipendenze su librerie dinamiche e vengono caricate in memoria principale, se servono a più programmi si utilizzano dei puntatori alla memoria principale in cui si trovano queste librerie.
 
 
