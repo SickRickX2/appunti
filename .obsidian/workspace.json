@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -176,9 +177,10 @@
   },
   "active": "f6df0bb2726be00b",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 1/Lezione 7.md",
+    "Basi di Dati/Modulo 1/Lezione 6.md",
     "Sisitemi Operativi/Modulo 1/Lezione 7.md",
     "Sisitemi Operativi/Modulo 1/Lezione 6.md",
-    "Basi di Dati/Modulo 1/Lezione 6.md",
     "Basi di Dati/Modulo 1/Lezione 5.md",
     "Sisitemi Operativi/Modulo 1/Lezione 3.md",
     "Basi di Dati/Modulo 1/Lezione 1.md",
