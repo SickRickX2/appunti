@@ -78,3 +78,6 @@ Consideriamo la seguente istanza $r$ di $R$
         <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>...</td><td>0</td>
     </tr>
 </table>
+
+Dimostreremo che questa istanza è *legale*.
+Utilizzando questa istanza dimostreremo che *se*  *$X \to Y \in F^+$* **avremo necessariamente** che *$X \to Y \in F^A$.
