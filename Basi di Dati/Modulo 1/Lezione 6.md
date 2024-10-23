@@ -79,7 +79,7 @@ Consideriamo la seguente istanza $r$ di $R$
 
 Dimostreremo che questa istanza è *legale*.
 Utilizzando questa istanza dimostreremo che se  **$X \to Y \in F^+$** **avremo necessariamente** che $X \to Y \in F^A$.
-Se $t_1[V
-v
-] \neq t_2[v]$
+- Se $t_1[v] \neq t_2[v]$ allora $V \bigcap R-X^+ \neq \emptyset$  ***OK***
+- 
+
 
