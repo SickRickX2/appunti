@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 7.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lezione 7"
+              "title": "Backlinks for Lezione 6"
             }
           },
           {
@@ -156,12 +156,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,7 +176,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f6df0bb2726be00b",
+  "active": "dfc3298d3ae1fa3c",
   "lastOpenFiles": [
     "Basi di Dati/Modulo 1/Lezione 7.md",
     "Basi di Dati/Modulo 1/Lezione 6.md",
