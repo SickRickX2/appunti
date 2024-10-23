@@ -65,7 +65,7 @@ Dimostrazioni
 ## Ulteriore dimostrazione 
 
 ---
-Consideriamo la seguente 
+Consideriamo la seguente istanza $r$ di $R$
 <table>
     <tr>
         <th colspan="2">X<sup>+</sup></th>
