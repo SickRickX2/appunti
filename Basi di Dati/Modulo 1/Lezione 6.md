@@ -61,10 +61,8 @@ Dimostrazioni
 >  - $X \to Y$ è stata ottenuta applicando l'assioma della transitività a due dipendenze funzionale $X \to Z$ e $Z \to Y$ in $F^A$, ottenute a loro volta applicando ricorsivamente gli assiomi di Armstrong un numero di volte minore o uguale a $i -1$(quindi per *l'ipotesi induttiva $X \to Z, Z \to Y \in F^+$*). Sia $r$ un'istanza *legale* di $R$ e siano $t_1,t_2$ due tuple di r tali che *$t_1[X] = t_2[X]$*. Per l'ipotesi innduttiva da *$t_1[X] = t_2[X]$* segue **$t_1[Z] = t_2[Z]$**; da **$t_1[Z] = t_2[Z]$** segue ***$t_1[Y] = t_2[Y]$***
 
 
-****
-## Ulteriore dimostrazione 
 
----
+## Ulteriore dimostrazione 
 Consideriamo la seguente istanza $r$ di $R$
 <table>
     <tr>
@@ -80,4 +78,8 @@ Consideriamo la seguente istanza $r$ di $R$
 </table>
 
 Dimostreremo che questa istanza è *legale*.
-Utilizzando questa istanza dimostreremo che *se*  *$X \to Y \in F^+$* **avremo necessariamente** che *$X \to Y \in F^A$.
+Utilizzando questa istanza dimostreremo che se  **$X \to Y \in F^+$** **avremo necessariamente** che $X \to Y \in F^A$.
+Se $t_1[V
+v
+] \neq t_2[v]$
+
