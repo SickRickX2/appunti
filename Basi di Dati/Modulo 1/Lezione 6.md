@@ -65,4 +65,13 @@ Dimostrazioni
 ## Ulteriore dimostrazione 
 
 ---
+$$\documentclass{article}
 
+\begin{document}
+
+\[
+r =
+\begin{array}{c|cc|cccccc}
+   & \multicolumn{2}{c|}{X^+} & \multicolumn{6}{c}{R - X^+} \\
+\hline
+1 & 1 & 1 & 1 & 1 & 1 & \cdots & 1 \
