@@ -79,7 +79,10 @@ Consideriamo la seguente istanza $r$ di $R$
 
 Dimostreremo che questa istanza è *legale*.
 Utilizzando questa istanza dimostreremo che se  **$X \to Y \in F^+$** **avremo necessariamente** che $X \to Y \in F^A$.
-- Se $t_1[v] \neq t_2[v]$ allora $V \bigcap R-X^+ \neq \emptyset$  ***OK***
-- 
+
+Prendiamo una qualunque dipendenza $V \to W \in F$ e mostriamo per prima cosa che r è un' istanza legale:
+
+- Se $t_1[V] \neq t_2[V]$ ovvero se  $V \cap R-X^+ \neq \emptyset$  ***OK***
+- Se
 
 
