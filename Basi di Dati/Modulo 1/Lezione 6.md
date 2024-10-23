@@ -65,15 +65,16 @@ Dimostrazioni
 ## Ulteriore dimostrazione 
 
 ---
-
-$$
-r =
-\begin{array}{c|cc|cccccc}
-   & \multicolumn{2}{c|}{X^+} & \multicolumn{6}{c}{R - X^+} \\
-\hline
-1 & 1 & 1 & 1 & 1 & 1 & \cdots & 1 \\
-1 & 1 & 1 & 1 & 0 & 0 & \cdots & 0 \\
-\end{array}
-$$
-
-
+Consideriamo la seguente 
+<table>
+    <tr>
+        <th colspan="2">X<sup>+</sup></th>
+        <th colspan="6">R - X<sup>+</sup></th>
+    </tr>
+    <tr>
+        <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>...</td><td>1</td>
+    </tr>
+    <tr>
+        <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>...</td><td>0</td>
+    </tr>
+</table>
