@@ -36,7 +36,7 @@ Dimostrazioni
 
 >[!note] Lemma
 >Siano R uno schema di relazione ed F un insieme di dipendenze funzionali su R. Si ha che:
->$X \to Y \in F^A$
+>$X \to Y \in F^A \iff Y \subseteq X^+$
 >**Dim**
 >Sia $Y = A_1, A_2, ..., A_n.$
 > *Parte se*
