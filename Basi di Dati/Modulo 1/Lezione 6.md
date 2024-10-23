@@ -81,8 +81,8 @@ Dimostreremo che questa istanza è *legale*.
 Utilizzando questa istanza dimostreremo che se  **$X \to Y \in F^+$** **avremo necessariamente** che $X \to Y \in F^A$.
 
 Prendiamo una qualunque dipendenza $V \to W \in F$ e mostriamo per prima cosa che r è un' istanza legale:
-
-- Se $t_1[V] \neq t_2[V]$ ovvero se  $V \cap R-X^+ \neq \emptyset$  allora è soddisfatta.
-- Se $t_1[V] = t_2[V] \implies V \subseteq X^+$ (sappiamo che sono uguali sicuramente solo in $X^+$). Per il *lemma 1* sappiamo che $V \subseteq X^+ \implies X \to Y \in F^A$  
+>[!example] Dim
+>- Se $t_1[V] \neq t_2[V]$ ovvero se  $V \cap R-X^+ \neq \emptyset$  allora è **soddisfatta**.
+>- Se $t_1[V] = t_2[V] \implies V \subseteq X^+$ (sappiamo che sono uguali sicuramente solo in $X^+$). Per il *lemma 1* sappiamo che $V \subseteq X^+ \implies X \to Y \in F^A$ e per ***transitività*** insieme a $V \to W \in F \implies X \to W \in F^A *\implies*  W \subseteq X^+ \implies t_1[W] = t_2[W]$. Quindile due tuple sono uguali sia sui v
 
 
