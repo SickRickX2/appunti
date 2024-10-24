@@ -87,5 +87,5 @@ Prendiamo una qualunque dipendenza $V \to W \in F$ e mostriamo per prima cosa ch
 >
 >***L'istanza è legale***
 
-Adesso dimostriamo che 
+Adesso dimostriamo che se $X \to Y \in F^+$ allora $X \to Y \in $ 
 
