@@ -13,4 +13,9 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 ## Memoria virtuale
 >[!note] Terminologia 
 >*Memoria virtuale:* schema di allocazione di memoria, in cui la memoria secondaria può essere usata come se fosse principale. 
->- Gl 
+>- gli indirizzi usati nei programmi e quelli usati dal sistema sono diversi
+>- c'è una fase di traduzione automatica dai primi nei secondi
+>- la dimensione della memoria virtuale è limitata dallo schema di indirizzamento, oltre che dalla dimensione della memoria secondaria
+>- la dimensione della memoria principale non influisce sulla dimensione della memoria virtuale
+>
+>*Indirizzo virtuale:*
