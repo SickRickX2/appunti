@@ -29,7 +29,7 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >Compromesso tra partizionamento fisso e dinamico. Controlla se c'è un blocco di memoria libero per la dimensione del processo affinché sia sufficiente non solo per riceverlo ma anche che se divido in due quel blocco il processo non riesce ad entrarci. Dopodiché viene controllato il buddy dei processi che mano a mano vengono liberati dalla memoria, se è libero si fondono altrimenti aspetta che il buddy viene liberato.
 
 # Paginazione e segmentazione
->[!note] Paginazione (Semplice)
+>[!tip] Paginazione (Semplice)
 >**Non usata** ma importante per introdurre la memoria virtuale
 >La memoria viene partizionata in pezzi di grandezza uguale e piccola. Lo stesso trattamento viene riservato ai processi. I pezzi di processi sono chiamati *pagine*. I pezzi di memoria sono chiamati *frame*. Ogni pagina per essere usata dev'essere collocata in un frame.
 
@@ -41,4 +41,4 @@ Per ogni processo, il numero di pagine è al più il numero di frames (non sarà
 
 >[!tip] Segmentazione (Semplice)
 >Un programma può essere diviso in segmenti; i segmenti hanno una lunghezza variabile e un limite massimo alla dimensione. Un indirizzo di memoria è un numero di segmento e uno spiazzamento al suo interno.
->- Simile al partizionamento dinamico, ma con una differenza fondamentale: il programmatore (o il compilatore) devono gestire esplicitamente la segmentazione dicendo quanti segmenti cinsono 
+>- Simile al partizionamento dinamico, ma con una differenza fondamentale: il programmatore (o il compilatore) devono gestire esplicitamente la segmentazione dicendo quanti segmenti ci sono e qual è la loro dimensione a metterli effettivamente in RAM e a risolvere gli indirizzi ci pensa il SO, sempre con aiuto hardware.
