@@ -34,4 +34,7 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >La memoria viene partizionata in pezzi di grandezza uguale e piccola. Lo stesso trattamento viene riservato ai processi. I pezzi di processi sono chiamati *pagine*. I pezzi di memoria sono chiamati *frame*. Ogni pagina per essere usata dev'essere collocata in un frame.
 
 >[!note] Paginazione
->I SO che la adottano mantengono una tabella delle pagine per ogni processo.Per ogni pagina del processo, questa tabella dice in quale frame effettivo si trova. Un indirizzo di memoria può essere visto come un numero di pagina e uno spiazzamento al suo interno (realizza anche la rilocazione, aggiornando lo schem)
+>I SO che la adottano mantengono una tabella delle pagine per ogni processo. Per ogni pagina del processo, questa tabella dice in quale frame effettivo si trova. Un indirizzo di memoria può essere visto come un numero di pagina e uno spiazzamento al suo interno (realizza anche la rilocazione, aggiornando lo schema con il solo base register).
+>Quando c'è un process switch, la tabella delle pagine del nuovo processo deve essere ricaricata.
+
+Per ogni processo, il numero di pagine è al più il numero di frames ()
