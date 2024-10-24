@@ -37,4 +37,8 @@ Uno dei primi metodi per la gestione della meoria. Antecedente all'introduzione 
 >I SO che la adottano mantengono una tabella delle pagine per ogni processo. Per ogni pagina del processo, questa tabella dice in quale frame effettivo si trova. Un indirizzo di memoria può essere visto come un numero di pagina e uno spiazzamento al suo interno (realizza anche la rilocazione, aggiornando lo schema con il solo base register).
 >Quando c'è un process switch, la tabella delle pagine del nuovo processo deve essere ricaricata.
 
-Per ogni processo, il numero di pagine è al più il numero di frames ()
+Per ogni processo, il numero di pagine è al più il numero di frames (non sarà più vero con la memoria virtuale).
+
+>[!tip] Segmentazione (Semplice)
+>Un programma può essere diviso in segmenti; i segmenti hanno una lunghezza variabile e un limite massimo alla dimensione. Un indirizzo di memoria è un numero di segmento e uno spiazzamento al suo interno.
+>- Simile al partizionamento dinamico, ma con una differenza fondamentale: il programmatore (o il compilatore) devono gestire esplicitamente la segmentazione dicendo quanti segmenti cinsono 
