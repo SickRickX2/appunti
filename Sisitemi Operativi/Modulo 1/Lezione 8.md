@@ -20,4 +20,4 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >
 >*Indirizzo virtuale:* l'indirizzo associato ad una locazione della virtuale, fa sì che si possa accedere a tale locazione come se fosse parte della memoria principale
 >*Spazio degli indirizzi virtuali:* la quantità di memoria virtuale assegnata ad un processo
->*Spazio degli indirizzi:* la quantità di memoria pri
+>*Spazio degli indirizzi:* la quantità di memoria principale 
