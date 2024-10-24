@@ -24,5 +24,10 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >la quantità di memoria principale 
 >*Indirizzo reale:* indirizzo di una locazione di memoria principale
 
-- Memo
->
+- Memoria reale: quella principale (RAM) 
+- Memoria virtuale: quella secondaria (su disco) 
+
+>[!note] Thrashing
+>Letteralmente bastonatura o sconfitta.
+>Il SO impiega la maggior parte del tempo a swappare pezzi di processi, anzichè ad eseguire le istruzioni. Quasi ogni richiesta di pagina dà luogo ad una page fault, per evitarlo il SO cerca di prevedere quali pezzi di processo saranno usati con minore o maggiore probabilità
+
