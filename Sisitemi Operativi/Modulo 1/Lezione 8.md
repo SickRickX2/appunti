@@ -10,4 +10,7 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 
 >[!warning] Conseguenze
 >Svariati processi possono essere in memoria principale, non necessariamente per intero, solo alcune parti per ciascun processo. Questo vuol dire che è molto probabile che ci sia sempre **almeno un processo ready**, quindi il **processore** viene **usato al meglio**. Oltretutto un processo potrebbe anche richiedere più dell'intera memoria principale.
-
+## Memoria virtuale
+>[!note] Terminologia 
+>*Memoria virtuale:* schema di allocazione di memoria, in cui la memoria secondaria può essere usata come se fosse principale. 
+>- Gl 
