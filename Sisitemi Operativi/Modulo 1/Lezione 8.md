@@ -7,5 +7,7 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >Il SO porta in memoria principale alcuni pezzi (pagine) del programma. Viene chiamato *resident set* (insieme residente) l'insieme dei programmi che si trovano in memoria principale, viene generato un interrupt quando al processo serve un indirizzo che non si trova in memoria principale (*page fault*). Questa è una richiesta di I/O a tutti gli effetti: il SO mette il processo in modalità blocked.
 >>[!tip] Page Fault
 >Il pezzo di processo che contiene l'indirizzo logico viene portato in memoria principale, a tal proposito il SO effetua una richiesta di lettura su disco (I/O) e fin quando questa operazione non viene completata un altro processo va in esecuzione, quando l'operazione viene completata, un interrupt farà sì che il processo torni ready. Quando verrà eseguito, occorrerà eseguire nuovamente la stessa istruzione che aveva causato il fault (questa volta la memoria c'è).
->>[!warning] Conseguenze
->>Svariati processi possono essere in memoria principale, non necessariamente per intero, solo alcune parti per ciascun processo. Questo vuol dire che è molto probabile che ci sia sempre almeno un processo ready 
+
+>[!warning] Conseguenze
+>Svariati processi possono essere in memoria principale, non necessariamente per intero, solo alcune parti per ciascun processo. Questo vuol dire che è molto probabile che ci sia sempre **almeno un processo ready**, quindi il **processore** viene **usato al meglio**. Oltretutto un processo potrebbe anche richiedere più dell'intera memoria principale.
+
