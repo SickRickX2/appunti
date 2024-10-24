@@ -18,4 +18,6 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >- la dimensione della memoria virtuale è limitata dallo schema di indirizzamento, oltre che dalla dimensione della memoria secondaria
 >- la dimensione della memoria principale non influisce sulla dimensione della memoria virtuale
 >
->*Indirizzo virtuale:*
+>*Indirizzo virtuale:* l'indirizzo associato ad una locazione della virtuale, fa sì che si possa accedere a tale locazione come se fosse parte della memoria principale
+>*Spazio degli indirizzi virtuali:* la quantità di memoria virtuale assegnata ad un processo
+>*Spazio degli indirizzi:* la quantità di memoria pri
