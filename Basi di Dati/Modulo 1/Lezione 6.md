@@ -87,5 +87,6 @@ Prendiamo una qualunque dipendenza $V \to W \in F$ e mostriamo per prima cosa ch
 >
 >***L'istanza è legale***
 
-Adesso dimostriamo che se $X \to Y \in F^+$ allora $X \to Y \in $ 
+Adesso dimostriamo che se $X \to Y \in F^+$ allora $X \to Y \in F^A$ 
+	Dato che un'istanza legale significa che $X \to Y \in F^+$, quindi se $t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]$, noi sappiamo che tuple sono uguali per gli attributi di $X^+$ e per riflessività $X \subseteq X$ 
 
