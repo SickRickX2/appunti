@@ -4,4 +4,5 @@
 
 Dall'osservazione che non occorre che tutte le pagine di un processo siano in memoria principale  per far sì che al processo venga concesso il processore, ma chel'unica cosa che serve è che la prossima istruzione e i dati di cui ha bisogno siano in memoria principale, si è passati dalla paginazione semplice alla paginazione con memoria virtuale.
 >[!example] Esecuzione di un processo
->Il SO porta in memoria principale alcuni pezzi (pagine) del programma. Viene chiamato *resident set* (insieme residente) l'insieme dei programmi che si trovano in memoria principale, viene generato un interrupt quando al processo serve un
+>Il SO porta in memoria principale alcuni pezzi (pagine) del programma. Viene chiamato *resident set* (insieme residente) l'insieme dei programmi che si trovano in memoria principale, viene generato un interrupt quando al processo serve un indirizzo che non si trova in memoria principale (*page fault*). Questa è una richiesta di I/O a tutti gli effetti: il SO mette il processo in modalità blocked.
+>Il pezzo di processo che contiene l'indirizzo logico viene portato in memoria principale, a tal proposito il SO effetua una richiesta di lettura su disco (I/O) e fin quando questa operazione non viene completata un altro processo va in esecuzione, quando l'operazione viene completata, un interrupt farà sì che il processo torni ready.
