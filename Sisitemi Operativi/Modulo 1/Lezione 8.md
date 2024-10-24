@@ -22,4 +22,7 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >*Spazio degli indirizzi virtuali:* la quantità di memoria virtuale assegnata ad un processo
 >*Spazio degli indirizzi:* la quantità di memoria assegnata ad un processo
 >la quantità di memoria principale 
+>*Indirizzo reale:* indirizzo di una locazione di memoria principale
+
+- Memo
 >
