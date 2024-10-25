@@ -31,3 +31,9 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >Letteralmente bastonatura o sconfitta.
 >Il SO impiega la maggior parte del tempo a swappare pezzi di processi, anzichè ad eseguire le istruzioni. Quasi ogni richiesta di pagina dà luogo ad una page fault, per evitarlo il SO cerca di prevedere quali pezzi di processo saranno usati con minore o maggiore probabilità
 
+>[!note] Paginazione
+>Ogni processo ha una sua tabella delle pagine, ogni entry di questa tabella contiene:
+>- il numero di frame in memoria principale 
+>- non c'è il numero di pagina, è direttamente usato per indicizzare la tabella 
+>- un bit per indicare se è in memoria principale o no
+>- un altro bit per indicare se la pagina è stata modificata in seguito all'ultima volta che è stata caricata in memoria princiaple
