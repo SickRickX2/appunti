@@ -37,3 +37,9 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >- non c'è il numero di pagina, è direttamente usato per indicizzare la tabella 
 >- un bit per indicare se è in memoria principale o no
 >- un altro bit per indicare se la pagina è stata modificata in seguito all'ultima volta che è stata caricata in memoria princiaple
+
+>[!tip] Caveat 
+>La traduzione è fatta dall'hardware, non è una semplice somma ma il numero di pagina va anche moltiplicato per il numero di bytes di ogni singola entry della tabella delle pagine, dopodiché si può sommare.
+>Affinchè lo schema funzioni il sistema operativo deve:
+>- caricare a partire da un certo indirizzo la tabella delle pagine del processo
+>- caricare il valore di in un opportuno registro dipendente dall'hardware (va fatto ad ogni process switch)
