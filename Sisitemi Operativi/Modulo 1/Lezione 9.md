@@ -15,3 +15,8 @@ Il sistema operativo ogni volta che cambiamo processo deve poter resettare il TL
 >Il TLB contiene solo alcuni elementi tratti dalle tabelle delle pagine, il numero della pagina non può essere usato direttamente come indice per il TLB.  Il SO può interrogare più elementi del TLB contemporaneamente per capire se c'è o no una hit.
 >- Altro problema: bisogna fare in modo che il TLB contenga solo pagine in **RAM.** 
 
+## Segmentazione
+Permette al programmatore di vedere la memoria come un insieme di spazi di indirizzi. La dimensione degli indirizzi è variabile. L'importante è che permette di condividere dati e allo stesso tempo proteggerli.
+
+Ogni processo ha una sua tabella dei segmenti (come per le pagine)
+
