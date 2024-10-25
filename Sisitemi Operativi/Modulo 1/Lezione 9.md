@@ -14,3 +14,4 @@ Il sistema operativo ogni volta che cambiamo processo deve poter resettare il TL
 >[!note] Mapping Associativo
 >Il TLB contiene solo alcuni elementi tratti dalle tabelle delle pagine, il numero della pagina non può essere usato direttamente come indice per il TLB.  Il SO può interrogare più elementi del TLB contemporaneamente per capire se c'è o no una hit.
 >- Altro problema: bisogna fare in modo che il TLB contenga solo pagine in **RAM.** 
+
