@@ -44,4 +44,5 @@ Dall'osservazione che non occorre che tutte le pagine di un processo siano in me
 >- caricare a partire da un certo indirizzo la tabella delle pagine del processo
 >- caricare il valore di in un opportuno registro dipendente dall'hardware (va fatto ad ogni process switch)
 
-Si va ad utilizzare tabelle dell pagine gerarchiche con una root che dentro ha dei puntatori alle altre tabelle, altrimenti dovremmo mettere tutte le tabelle delle pagine in memoria principale.
+Si va ad utilizzare tabelle dell pagine gerarchiche con una *root page table* che dentro ha dei puntatori alle altre tabelle, altrimenti dovremmo mettere tutte le tabelle delle pagine in memoria principale.
+![[Pasted image 20241025145041.png]]
