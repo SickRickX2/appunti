@@ -9,4 +9,7 @@
 Dato un indirizzo virtuale, il processore esamina dapprima il TLB. Se la pagina è presente si prende il frame number e si ricava l'indirizzo reale. Altrimenti si prende la normale tabella delle pagine del processo. Se la pagina risulta in memoria principale a posto, altrimenti si gestisce il page fault come descritto prima. Dopodiché il TLB viene aggiornato includendo la pagina appena acceduta.
 >![[Pasted image 20241025151022.png]]
 
-Il sistema operativo deve poter resettare il TLB, è la soluzione peggiore dal punto di vista delle prestazioni. Per far almeno un pò meglio alcuni processori permettono di etichetare con il PID ciascuna entry del TLB oppure di invalida
+Il sistema operativo deve poter resettare il TLB, è la soluzione peggiore dal punto di vista delle prestazioni. Per far almeno un pò meglio alcuni processori permettono di etichetare con il PID ciascuna entry del TLB oppure di invalidare solo alcune parti del TLB. E' comunque necessario anche senza TLB dire al processore dov'è la nuova tabella delle apgine 
+
+>[!note] Mapping Associativo
+>
