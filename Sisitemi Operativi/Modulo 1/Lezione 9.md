@@ -22,6 +22,6 @@ Ogni processo ha una sua tabella dei segmenti (come per le pagine)
 
 >[!note] Paginazione e Segmentazione 
 >La paginazione è "trasparente" al programmatore nel senso che il programmatore, questo vale  anche per il compilatore, non ne è a conoscenza
->Mentre la segmentazione è visibile al programmatore, ovviamente se programma in  
+>Mentre la segmentazione è visibile al programmatore, ovviamente se programma in  assembler  altrimenti ci pensa il compilatore
 
 

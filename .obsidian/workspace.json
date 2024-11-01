@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 9.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 9"
+              "title": "Lezione 10"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 9.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Lezione 9"
+              "title": "Riferimenti a Lezione 10"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 9.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da Lezione 9"
+              "title": "Collegamenti in uscita da Lezione 10"
             }
           },
           {
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 9.md"
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md"
               },
               "icon": "lucide-list",
-              "title": "Struttura di Lezione 9"
+              "title": "Struttura di Lezione 10"
             }
           },
           {
@@ -161,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,8 +179,9 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
-    "Sisitemi Operativi/Modulo 1/Lezione 8.md",
     "Sisitemi Operativi/Modulo 1/Lezione 9.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 10.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 8.md",
     "Sisitemi Operativi/Modulo 1/Lezione 5.md",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241025151022.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241025145041.png",
