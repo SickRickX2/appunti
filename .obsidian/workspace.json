@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Lezione 9"
             }
-          },
-          {
-            "id": "69218eb7648dbc8c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,13 +175,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69218eb7648dbc8c",
+  "active": "50ed999ed366e579",
   "lastOpenFiles": [
+    "Sisitemi Operativi/Modulo 1/Lezione 8.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 9.md",
     "Sisitemi Operativi/Modulo 1/Lezione 5.md",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241025151022.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241025145041.png",
-    "Sisitemi Operativi/Modulo 1/Lezione 9.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 8.md",
     "Sisitemi Operativi/Modulo 1/Lezione 7.md",
     "Sisitemi Operativi/Modulo 1/Lezione 6.md",
     "Basi di Dati/Modulo 1/Lezione 7.md",

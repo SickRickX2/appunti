@@ -20,3 +20,6 @@ Permette al programmatore di vedere la memoria come un insieme di spazi di indir
 
 Ogni processo ha una sua tabella dei segmenti (come per le pagine)
 
+>[!note] Paginazione e Segmentazione 
+>La paginazione è "trasparente" al programmatore nel senso che il programmatore, questo vale  anche per il compilatore, non ne è a 
+
