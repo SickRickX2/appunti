@@ -19,4 +19,4 @@ Decide quando una pagina data debba essere portata in memoria principale. Si usa
 Decide dove mettere una pagina in memoria principale quando c'è almeno un frame libero, se non ci sono frame liberi allora **replacement policy**.
 Tipicamente il primo frame libero è quello dove viene messa la pagina 
 ### Replacement Policy
-Decide quale pagina sostituire 
+Decide quale pagina sostituire, va fatta in modo da minimizzare la probabilità che la pagina appena sostituita venga subito richiesta di nuovo. Usando il principio di località, si cerca di predire il futuro sulla base del passato recente
