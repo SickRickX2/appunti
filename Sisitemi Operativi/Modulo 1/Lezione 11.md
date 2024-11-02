@@ -23,4 +23,9 @@ Ci sono tre categorie di dispositivi:
 >- controllori
 >- attuatori
 
->[!note] Dispositi
+>[!note] Dispositivi per la Comunicazione
+>Dispositivi usati per la comunicazione con dispositivi remoti
+>- modem
+>- schede Ethernet
+>- Wi-Fi
+

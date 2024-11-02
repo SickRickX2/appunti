@@ -160,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50ed999ed366e579",
+  "active": "dfc3298d3ae1fa3c",
   "lastOpenFiles": [
     "Sisitemi Operativi/Modulo 1/Lezione 10.md",
     "Sisitemi Operativi/Modulo 1/Lezione 11.md",
