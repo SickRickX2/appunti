@@ -19,4 +19,7 @@ Decide quando una pagina data debba essere portata in memoria principale. Si usa
 Decide dove mettere una pagina in memoria principale quando c'è almeno un frame libero, se non ci sono frame liberi allora **replacement policy**.
 Tipicamente il primo frame libero è quello dove viene messa la pagina 
 ### Replacement Policy
-Decide quale pagina sostituire, va fatta in modo da minimizzare la probabilità che la pagina appena sostituita venga subito richiesta di nuovo. Usando il principio di località, si cerca di predire il futuro sulla base del passato recente
+Decide quale pagina sostituire, va fatta in modo da minimizzare la probabilità che la pagina appena sostituita venga subito richiesta di nuovo. Usando il principio di località, si cerca di predire il futuro sulla base del passato recente.
+### Gestione del Resident Set
+1) *resident set management* propriamente detto, per ogni processo in esecuzione quanti frame di RAM vanno allocati 
+2) *replacement scope* decide se quando si rimpiazza un frame bisogna scegliere solo tra i 
