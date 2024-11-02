@@ -32,3 +32,6 @@ Ci sono due tecniche per ogni problema:
 
 >[!warning] Attenzione
 >Con l'allocazione fissa la politica globale non si può usare
+
+### Frame bloccati 
+*Frame Locking*: se un frame è bloccato non si può sostituire
