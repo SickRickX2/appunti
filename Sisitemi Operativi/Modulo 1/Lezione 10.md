@@ -49,4 +49,4 @@ Si cerca di aumentare e diminuire il numero di processi attivi, aumentando la mu
 >- **Clock**: compromesso tra LRU  e FIFO  c'è un use bit per ogni frame che indica se la pagina caricata nel frame è stata riferita, quando occorre sostituire una pagina il SO cerca come nella FIFO, ma seleziona il frame contenente la pagina che ha per prima lo use bit a 0 se invece ce lo ha ad 1, lo azzera e procede con la prossima
 
 >[!note] Buffering delle Pagine
->Ennesima cache (ma non hard)
+>Ennesima cache (ma non hardware) stavolta per le pagine. Se occorre rimpiazzare una pagina non viene subito buttata via ma viene messa in questa cache, così se viene referenziata si può subito riportare in memoria. Tipicamente divisa tra pagine modificate e non.
