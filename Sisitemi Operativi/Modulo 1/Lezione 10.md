@@ -43,7 +43,8 @@ Se un frame è stato modificato, va riportata la modifica anche sulla pagina cor
 Si cerca di aumentare e diminuire il numero di processi attivi, aumentando la multiprogrammazione ma senza arrivare al thrashing.
 
 >[!note ] Algoritmi di Sostituzione
->- Sostituzione ottimale: i sostituisce la pagina che verrà richiesta più in là nel futuro (ovviamente non è implementabile)
->- LRU: sostituisce la pagina a cui non sia fatto riferimento per il tempo più lungo, basandosi sul principio di località dovrebbe essere la pagina che ha meno probabilità di essere usata nel prossimo futuro (implementazione problematica)
->- FIFO: i frame allocati ad un qualunque processo sono trattati come una coda cricolare, le pagine vengono rimosse a turno (implementazione semplice) Si rimpiazzao le pagine che sono state in memoria
->- Clock
+>- **Sostituzione ottimale**: i sostituisce la pagina che verrà richiesta più in là nel futuro (ovviamente non è implementabile)
+>- **LRU**: sostituisce la pagina a cui non sia fatto riferimento per il tempo più lungo, basandosi sul principio di località dovrebbe essere la pagina che ha meno probabilità di essere usata nel prossimo futuro (implementazione problematica)
+>- **FIFO**: i frame allocati ad un qualunque processo sono trattati come una coda cricolare, le pagine vengono rimosse a turno (implementazione semplice) Si rimpiazzao le pagine che sono state in memoria per più tempo, però potrebbero servire
+>- **Clock**: compromesso tra LRU  e FIFO  c'è un use bit per ogni frame che indica se la pagina caricata nel frame è stata riferita, quando occorre sostituire una pagina il SO cerca come nella FIFO, ma seleziona il frame contenente la pagina che ha per prima lo use bit a 0 se invece ce lo ha ad 1, lo azzera e procede con la prossima
+
