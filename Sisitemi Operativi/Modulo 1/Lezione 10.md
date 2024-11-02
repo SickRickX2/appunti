@@ -45,5 +45,5 @@ Si cerca di aumentare e diminuire il numero di processi attivi, aumentando la mu
 >[!note ] Algoritmi di Sostituzione
 >- Sostituzione ottimale: i sostituisce la pagina che verrà richiesta più in là nel futuro (ovviamente non è implementabile)
 >- LRU: sostituisce la pagina a cui non sia fatto riferimento per il tempo più lungo, basandosi sul principio di località dovrebbe essere la pagina che ha meno probabilità di essere usata nel prossimo futuro (implementazione problematica)
->- FIFO
+>- FIFO: i frame allocati ad un qualunque processo sono trattati come una coda cricolare, le pagine vengono rimosse a turno (implementazione semplice) Si rimpiazzao le pagine che sono state in memoria
 >- Clock
