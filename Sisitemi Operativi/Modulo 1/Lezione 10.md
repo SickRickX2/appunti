@@ -27,4 +27,8 @@ Ci sono due tecniche per ogni problema:
 - **allocazione fissa**: il numero di frame è deciso al tempo di creazione di un processo
 - **allocazione dinamica**: il numero di frame varia durante la vita del processo, basandosi sulle statistiche che man mano vengono raccolte
 >[!note] Replacement Scope
->- Politica locale: se bisogna rimpiazzare un frame si sceglie un altro frame dello stesso processo 
+>- Politica locale: se bisogna rimpiazzare un frame si sceglie un altro frame dello stesso processo
+>- Politica globale: si può scegliere qualsiasi frame
+
+>[!warning] Attenzione
+>Con l'allocazione fissa la politica globale non si può usare
