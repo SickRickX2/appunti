@@ -43,7 +43,7 @@ Se un frame è stato modificato, va riportata la modifica anche sulla pagina cor
 Si cerca di aumentare e diminuire il numero di processi attivi, aumentando la multiprogrammazione ma senza arrivare al thrashing.
 
 >[!note ] Algoritmi di Sostituzione
->- Sostituzione ottimale: i sostituisce la pagina che verrà richiesta più in là nel futuro
->- LRU
+>- Sostituzione ottimale: i sostituisce la pagina che verrà richiesta più in là nel futuro (ovviamente non è implementabile)
+>- LRU: sostituisce la pagina a cui non sia fatto riferimento per il tempo più lungo, basandosi sul principio di località dovrebbe essere la pagina che ha meno probabilità di essere usata nel prossimo futuro (implementazione problematica)
 >- FIFO
 >- Clock
