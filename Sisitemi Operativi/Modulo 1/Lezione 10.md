@@ -40,4 +40,10 @@ Vengono bloccati i frame del sistema operativo ed eventualmente quelli di altri 
 ### Politica di pulitura
 Se un frame è stato modificato, va riportata la modifica anche sulla pagina corrispondente. Solitamente viene aggiornata  in un momento che è un compromesso tra quando avviene la modifica e non appena il frame viene sostituito.
 ## Medium Term Scheduler
-Si cerca di aumentare e diminuire il numero di processi attivi 
+Si cerca di aumentare e diminuire il numero di processi attivi, aumentando la multiprogrammazione ma senza arrivare al thrashing.
+
+>[!note ] Algoritmi di Sostituzione
+>- Sostituzione ottimale: i sostituisce la pagina che verrà richiesta più in là nel futuro
+>- LRU
+>- FIFO
+>- Clock
