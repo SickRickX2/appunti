@@ -33,5 +33,9 @@ Ci sono due tecniche per ogni problema:
 >[!warning] Attenzione
 >Con l'allocazione fissa la politica globale non si può usare
 
-### Frame bloccati 
-*Frame Locking*: se un frame è bloccato non si può sostituire
+>[!note] Frame bloccati 
+*Frame Locking*: se un frame è bloccato non si può sostituire, si fa a livello di kernel del sistema operativo, è sufficiente assegnare un bit ad ogni frame.
+Vengono bloccati i frame del sistema operativo ed eventualmente quelli di altri processi.
+
+### Politica di pulitura
+Se un frame è stato modificato, va riportata la modifica anche sulla pagina corrispondente.
