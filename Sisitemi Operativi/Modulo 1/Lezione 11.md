@@ -64,6 +64,6 @@ Il processore delega le operazioni di I/O al modulo DMA. Il modulo DMA trasferis
 2) Viene **aggiunto un modulo** (o controllore) di I/O direttamente sul dispositivo senza interrupt
 3) **Modulo** o controllare di I/O **con interrupt**, migliora l'efficienza del processore che non deve aspettare il completamento dell'operazione I/O
 4) **DMA**: blocchi di dati viaggiano tra dispositivo e memoria senza usare il processore che fa qualcosa solo all'inizio e alla fine dell'operazione
-5) Il modulo di I/O diventa un **processore separato** (*I/O channel*)
-6) 
-
+5) Il modulo di I/O diventa un **processore separato** (*I/O channel*), il processore principale comanda questo per eseguire un certo programma I/O in memoria principale
+6) **Processore per l'I/O**, ha una sua memoria dedicata, viene usato per le comunicazioni con terminali interattivi
+ƒ
