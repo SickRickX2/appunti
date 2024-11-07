@@ -51,9 +51,11 @@ Un processo che effettua una **syscall read** su un dispositivo del genere vuole
 - Guidato dagli interrupt
 - Accesso diretto in memoria(DMA)
 
-|                         | **Senza interruzioni** | **Con interruzioni** |
-| ----------------------- | ---------------------- | -------------------- |
-| **Passando per la CPU** | I/O programmato        | I/O guidato dalle in |
-|                         |                        |                      |
+|                             | **Senza interruzioni** | **Con interruzioni**           |
+| --------------------------- | ---------------------- | ------------------------------ |
+| **Passando per la CPU**     | I/O programmato        | I/O guidato dalle interruzioni |
+| **Direttamente in memoria** |                        | DMA                            |
 
+### Direct Memory Access
+Il processore delega le operazioni di I/O al modulo DMA. Il modulo DMA trasferisce i dati direttamente da o verso la memoria principale. Quando l'operazione è completata il modulo DMA genera un interrupt per il processore.
 
