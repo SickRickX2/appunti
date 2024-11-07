@@ -57,5 +57,9 @@ Un processo che effettua una **syscall read** su un dispositivo del genere vuole
 | **Direttamente in memoria** |                        | DMA                            |
 
 ### Direct Memory Access
-Il processore delega le operazioni di I/O al modulo DMA. Il modulo DMA trasferisce i dati direttamente da o verso la memoria principale. Quando l'operazione è completata il modulo DMA genera un interrupt per il processore.
+Il processore delega le operazioni di I/O al modulo DMA. Il modulo DMA trasferisce i dati direttamente da o verso la memoria principale. Quando l'operazione è completata il modulo DMA genera un interrupt per il processore. In sostanza permette di copiare un blocco di memoria direttamente senza passare per la CPU.
+
+## Funzione di I/O
+1) Il processore controlla il dispositivo periferico
+2) Viene aggiunto un modulo (o controllore di )
 
