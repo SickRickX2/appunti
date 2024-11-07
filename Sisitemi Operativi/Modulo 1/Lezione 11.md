@@ -71,6 +71,14 @@ Durante la progettazione bisogna prestare attenzione ad alcuni punti:
 - *Efficienza*: per fare in modo che i dispositivi I/O, essendo molto lenti rispetto alla memoria principale, non rallentino il processore
 - *Generalità*: Anche se diversi tra loro bisognerebbe gestire i dispositivi I/O in maniera uniforme
 
-Bisogna quindi approcciare una **progettazione gerarchica**.  Per l'I/O ci sono 3 macrotipi maggiormente usati per l'implementazione a livelli
+Bisogna quindi approcciare una **progettazione gerarchica**.  Per l'I/O ci sono 3 macrotipi maggiormente usati per l'implementazione a livelli 
+>[!note] **Dispositivo Locale**
+> (stampante, monitor, tastiera) 
+> - Logical I/O: il dispositivo viene visto come una richiesta logica
+> - Device I/O: trasforma richieste logiche in sequenze di comandi di I/O
+> - Scheduling and Control: esegue e controlla le sequenze di comandi eventualmente gestendo l'accodamento
+
+>[!note] **Dispositivo di Comunicazione**
+>
 
 
