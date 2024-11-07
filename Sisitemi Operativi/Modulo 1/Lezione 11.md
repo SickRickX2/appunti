@@ -46,4 +46,14 @@ Un processo che effettua una **syscall read** su un dispositivo del genere vuole
 >
 >Un processo che effetua una **syscall write** su un dispositivo del genere vuole cambiare qualcosa.
 
+## Tecniche per effettuare l'I/O
+- Programmato
+- Guidato dagli interrupt
+- Accesso diretto in memoria(DMA)
+
+|                         | **Senza interruzioni** | **Con interruzioni** |
+| ----------------------- | ---------------------- | -------------------- |
+| **Passando per la CPU** | I/O programmato        | I/O guidato dalle in |
+|                         |                        |                      |
+
 
