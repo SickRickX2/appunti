@@ -79,6 +79,16 @@ Bisogna quindi approcciare una **progettazione gerarchica**.  Per l'I/O ci sono 
 > - Scheduling and Control: esegue e controlla le sequenze di comandi eventualmente gestendo l'accodamento
 
 >[!note] **Dispositivo di Comunicazione**
->
+>(scheda Ethernet, WiFi, ...)
+>Come quello locale ma al posto del logical c'è un dispositivo per la comunicazione
+
+>[!note] **File System**
+>(vari dischi, USB key, ...)
+>- Directory Management: tutte le operazioni utente che hanno a che fare con i file
+>- File System: struttura logica delle operazioni
+>- Organizzazione fisica: da identificatori di file a indirizzi fisici su disco; allocazione/ deallocazione
+
+## Buffering dell'I/O
+
 
 
