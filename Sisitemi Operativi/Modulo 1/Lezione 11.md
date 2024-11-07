@@ -69,4 +69,8 @@ Il processore delega le operazioni di I/O al modulo DMA. Il modulo DMA trasferis
 
 Durante la progettazione bisogna prestare attenzione ad alcuni punti:
 - *Efficienza*: per fare in modo che i dispositivi I/O, essendo molto lenti rispetto alla memoria principale, non rallentino il processore
-- *Generalità*: Anche se diversi tra loro bisognerebbe gestire i dispositivi I/O 
+- *Generalità*: Anche se diversi tra loro bisognerebbe gestire i dispositivi I/O in maniera uniforme
+
+Bisogna quindi approcciare una **progettazione gerarchica**.  Per l'I/O ci sono 3 macrotipi maggiormente usati per l'implementazione a livelli
+
+
