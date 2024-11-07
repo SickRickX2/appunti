@@ -66,4 +66,7 @@ Il processore delega le operazioni di I/O al modulo DMA. Il modulo DMA trasferis
 4) **DMA**: blocchi di dati viaggiano tra dispositivo e memoria senza usare il processore che fa qualcosa solo all'inizio e alla fine dell'operazione
 5) Il modulo di I/O diventa un **processore separato** (*I/O channel*), il processore principale comanda questo per eseguire un certo programma I/O in memoria principale
 6) **Processore per l'I/O**, ha una sua memoria dedicata, viene usato per le comunicazioni con terminali interattivi
-ƒ
+
+Durante la progettazione bisogna prestare attenzione ad alcuni punti:
+- *Efficienza*: per fare in modo che i dispositivi I/O, essendo molto lenti rispetto alla memoria principale, non rallentino il processore
+- *Generalità*: Anche se diversi tra loro bisognerebbe gestire i dispositivi I/O 
