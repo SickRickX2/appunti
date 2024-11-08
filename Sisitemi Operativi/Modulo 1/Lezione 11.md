@@ -124,3 +124,5 @@ Gli SSD sono estremamente veloci. nessun tempo richiesto per il seek
 Contiene una copia di acluni settori letti dall' hard disk, che verrà usata in memoria principale. Ci sono diversi modi per decidere come gestire la cache.
 - *LRU* quello con la reference meno recente a quel settore
 - *LFU* quello con meno reference a quel settore
+- Sostituzione basata su Frequenza: stack diviso in due una parte nuova e una vecchia, una parte usa LRU e una LFU. L'idea  è quella di proteggere i settori "nuovi" che vengono utilizzati e vengono rimossi solo quando non vengono utilizzati e poi quando hanno poche reference
+- Sostituzione basata su Frequenza a 3 se
