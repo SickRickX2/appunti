@@ -146,3 +146,4 @@ L'implementazione dei RAID può cambiare di molto le caratteristiche:
 - RAID 4: stessa cosa del 3 ma invece di memorizare in byte si memorizza in blocchi, ma il funzionamento è lo stesso ![[Pasted image 20241108161839.png]]
 - RAID 5: stessa cosa ma il disco di parità e distribuito. L'informazione della parità non si trova quindi su un solo disco (è quello più usato) ![[Pasted image 20241108161929.png]]
 - RAID 6: come raid 5 ma con 2 dischi di parità indipendenti, più sicuro ma più lento in scrittura
+Il RAID viene usato generalmente sui server e non sui PC.
