@@ -110,4 +110,5 @@ A parte:
 >**Algoritmi migliori**
 >- SSCAN: cerca di ottimizzare il movimento della testina in modo tale che il braccio si muova sempre in un verso(avanti fino alla fine e indietro  fino all'inizio del disco), non c'è starvation ma è poco equo.
 >- C-SCAN: funziona allo stesso modo con una piccola modifica, quando torniamo indietro con il braccio non soddisfiamo nessuna richiesta il che lo rende più equo ma meno ottimizzato
->- F-SCAN: abbiamo due code separate, accumulo le richieste in coda F e uso l'algoritmo SCAN per servir
+>- F-SCAN: abbiamo due code separate, accumulo le richieste in coda F e uso l'algoritmo SCAN per servirle, tutte le nuove richieste vengono aggiunte alla coda R. Quando SCAN finisce F ed R si invertono. Quindi le nuove richieste non possono passare avanti a quelle più vecchie.
+>- N-step-scan: aumentando il numero delle code aumentiamo l'efficienza del disco
