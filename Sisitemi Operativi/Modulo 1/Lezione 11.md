@@ -29,3 +29,66 @@ Ci sono tre categorie di dispositivi:
 >- schede Ethernet
 >- Wi-Fi
 
+### Funzionamento
+>[!note] Input
+Un *dispositivo di input* prevede di essere interrogato sul valore di una certa grandezza fisica al suo interno.
+>- tastiera: codice Unicode degli ultimi tasti premuti 
+>- mouse: coordinate dell'ultimo spostamento effettuato, quali tasti sono stati premuti
+>- disco: valori dei bit che si trovano in una certa posizione al suo interno
+>
+Un processo che effettua una **syscall read** su un dispositivo del genere vuole conoscere questo dato..
+
+>[!note] Output
+>Un dispositivo di output prevede di poter cambiare il valore di una certa grandezza fisica al suo interno
+>- monitor moderno: valore RGB di tutti i suoi pixel
+>- stampante moderna: PDF o PS di un file da stampare 
+>- disco: valore dei bit che devono sovrascrivere quelli che si trovano in una certa posizione al suo interno
+>
+>Un processo che effetua una **syscall write** su un dispositivo del genere vuole cambiare qualcosa.
+
+## Tecniche per effettuare l'I/O
+- Programmato
+- Guidato dagli interrupt
+- Accesso diretto in memoria(DMA)
+
+|                             | **Senza interruzioni** | **Con interruzioni**           |
+| --------------------------- | ---------------------- | ------------------------------ |
+| **Passando per la CPU**     | I/O programmato        | I/O guidato dalle interruzioni |
+| **Direttamente in memoria** |                        | DMA                            |
+
+### Direct Memory Access
+Il processore delega le operazioni di I/O al modulo DMA. Il modulo DMA trasferisce i dati direttamente da o verso la memoria principale. Quando l'operazione è completata il modulo DMA genera un interrupt per il processore. In sostanza permette di copiare un blocco di memoria direttamente senza passare per la CPU.
+
+##  Evoluzione della Funzione di I/O
+1) Il **processore controlla** il dispositivo periferico
+2) Viene **aggiunto un modulo** (o controllore) di I/O direttamente sul dispositivo senza interrupt
+3) **Modulo** o controllare di I/O **con interrupt**, migliora l'efficienza del processore che non deve aspettare il completamento dell'operazione I/O
+4) **DMA**: blocchi di dati viaggiano tra dispositivo e memoria senza usare il processore che fa qualcosa solo all'inizio e alla fine dell'operazione
+5) Il modulo di I/O diventa un **processore separato** (*I/O channel*), il processore principale comanda questo per eseguire un certo programma I/O in memoria principale
+6) **Processore per l'I/O**, ha una sua memoria dedicata, viene usato per le comunicazioni con terminali interattivi
+
+Durante la progettazione bisogna prestare attenzione ad alcuni punti:
+- *Efficienza*: per fare in modo che i dispositivi I/O, essendo molto lenti rispetto alla memoria principale, non rallentino il processore
+- *Generalità*: Anche se diversi tra loro bisognerebbe gestire i dispositivi I/O in maniera uniforme
+
+Bisogna quindi approcciare una **progettazione gerarchica**.  Per l'I/O ci sono 3 macrotipi maggiormente usati per l'implementazione a livelli 
+>[!note] **Dispositivo Locale**
+> (stampante, monitor, tastiera) 
+> - Logical I/O: il dispositivo viene visto come una richiesta logica
+> - Device I/O: trasforma richieste logiche in sequenze di comandi di I/O
+> - Scheduling and Control: esegue e controlla le sequenze di comandi eventualmente gestendo l'accodamento
+
+>[!note] **Dispositivo di Comunicazione**
+>(scheda Ethernet, WiFi, ...)
+>Come quello locale ma al posto del logical c'è un dispositivo per la comunicazione
+
+>[!note] **File System**
+>(vari dischi, USB key, ...)
+>- Directory Management: tutte le operazioni utente che hanno a che fare con i file
+>- File System: struttura logica delle operazioni
+>- Organizzazione fisica: da identificatori di file a indirizzi fisici su disco; allocazione/ deallocazione
+
+## Buffering dell'I/O
+
+
+
