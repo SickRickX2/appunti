@@ -136,4 +136,9 @@ Redundant array of indipendent disks. Sono più dischi fisici da usare nel nostr
 >Alcuni file vengono memorizzati su un disco altri su un altro.
 
 >[!example] Dischi Raid
->Dare ridondanza in maniera tale di diminuire il rischio di perdita di informazione, inoltre riesce anche a velocizz.
+>Dare ridondanza in maniera tale di diminuire il rischio di perdita di informazione, inoltre riesce anche a velocizzare alcune operazioni.
+
+L'implementazione dei RAID può cambiare di molto le caratteristiche:
+- RAID 0: non c'è ridondanza, c'è rischio di perdita di informazione. Dischi suddivisi in strip e una singola informazione viene suddivisa in strip diversi su dischi diversi e non strips continui, il che permette di lavorare in parallelo.L' unico vantaggio
+![[Pasted image 20241108160715.png]]
+- 
