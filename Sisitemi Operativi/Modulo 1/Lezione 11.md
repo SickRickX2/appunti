@@ -101,4 +101,7 @@ A parte:
 - *wait for channel*: attesa che il sottodispositivo sia assegnato alla richiesta 
 
 
-
+>[!note] Politiche di scheduling
+>- random: il peggiore
+>- FIFO: simile al random
+>- 
