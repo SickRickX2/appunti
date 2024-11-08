@@ -143,5 +143,6 @@ L'implementazione dei RAID può cambiare di molto le caratteristiche:
 - RAID 1/MIRRORING: come il RAID 0 ma duplicando ogni dato, fisicamente si hanno 2N ma la capacità è di N. C'è uno spreo considerevole di spazio e non è sicuro al 100% ![[Pasted image 20241108160914.png]]
 - RAID 2: Invece di replicare tutti i dati si usa il codice di Hamming per memorizzare i dati. Servono ancora tanti dischi e il livello di ripartizione delle strip è molto piccolo perché si memorizzano byte e non bit. (infatti non viene utilizzato)
 - RAID 3: usa l'algoritmo di parità, si memorizzano le strip in byte e all'interno di esso si va a vedere se la somma dei vari strips in una determinata posizione è positiva o negativa.
-- RAID 4: stessa cosa del 3 ma invece di memorizare in byte si memorizza in blocchi, ma il funzionamento è lo stesso
-- RAID 5: stessa cosa ma il 
+- RAID 4: stessa cosa del 3 ma invece di memorizare in byte si memorizza in blocchi, ma il funzionamento è lo stesso ![[Pasted image 20241108161839.png]]
+- RAID 5: stessa cosa ma il disco di parità e distribuito. L'informazione della parità non si trova quindi su un solo disco (è quello più usato) ![[Pasted image 20241108161929.png]]
+- RAID 6: come raid 5 ma con 2 dischi di parità indipendenti, più sicuro ma più lento in scrittura
