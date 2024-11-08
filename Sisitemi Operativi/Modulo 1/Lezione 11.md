@@ -91,7 +91,7 @@ Bisogna quindi approcciare una **progettazione gerarchica**.  Per l'I/O ci sono 
 ## Buffering dell'I/O
 
 ## Come Funziona un disco
-I dati si torvano sulle tracce e all'interno delle tracce ci sono settori che contengono una determinata quantità di dati. La lettura fisica viene attrverso una testina magnetica che rileva il valore di un singolo bit (se magnetizzato 1 altrimenti 0)
+I dati si torvano sulle tracce e all'interno delle tracce ci sono settori che contengono una determinata quantità di dati. La lettura fisica viene attrverso una testina magnetica che rileva il valore di un singolo bit (se magnetizzato 1 altrimenti 0). Il disco ruota fisicamente per far leggere i diversi settori.
 
 
 
