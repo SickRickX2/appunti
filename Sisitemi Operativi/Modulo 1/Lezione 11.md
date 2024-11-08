@@ -114,5 +114,6 @@ A parte:
 >- N-step-scan: aumentando il numero delle code aumentiamo l'efficienza del disco
 
 ### SSD
-Struttura:
-- stack (pila) di flash chips organizzati in matrici, che allora volta hanno dei piani (planes suddivisi in blocchi composti da), in cui vengono salvati i dati
+Struttura: stack (pila) di flash chips organizzati in matrici, che allora volta hanno dei piani (planes suddivisi in blocchi composti da pagine), in cui vengono salvati i dati.
+- In lettura: possiamo aaccedere alle pagine
+- In scrittura: non è possibile sovrascrivere le pagine ma bisogna azzerare tutte le pagine di quel blocco, avendolo prima copiato e poi riscritto con la parte nuova.
