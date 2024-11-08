@@ -121,3 +121,4 @@ Struttura: stack (pila) di flash chips organizzati in matrici, che allora volta 
 Gli SSD sono estremamente veloci. nessun tempo richiesto per il seek
 
 ## Cache del disco
+Contiene una copia di acluni settori letti dall' hard disk, che verrà usata in memoria principale. Ci sono diversi modi per decidere come gestire la cache.
