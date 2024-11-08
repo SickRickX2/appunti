@@ -112,3 +112,7 @@ A parte:
 >- C-SCAN: funziona allo stesso modo con una piccola modifica, quando torniamo indietro con il braccio non soddisfiamo nessuna richiesta il che lo rende più equo ma meno ottimizzato
 >- F-SCAN: abbiamo due code separate, accumulo le richieste in coda F e uso l'algoritmo SCAN per servirle, tutte le nuove richieste vengono aggiunte alla coda R. Quando SCAN finisce F ed R si invertono. Quindi le nuove richieste non possono passare avanti a quelle più vecchie.
 >- N-step-scan: aumentando il numero delle code aumentiamo l'efficienza del disco
+
+### SSD
+Struttura:
+- stack (pila) di flash chips organizzati in matrici, che allora volta hanno dei piani (planes suddivisi in blocchi composti da), in cui vengono salvati i dati
