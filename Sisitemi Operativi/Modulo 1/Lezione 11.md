@@ -92,6 +92,13 @@ Bisogna quindi approcciare una **progettazione gerarchica**.  Per l'I/O ci sono 
 
 ## Come Funziona un disco
 I dati si torvano sulle tracce e all'interno delle tracce ci sono settori che contengono una determinata quantità di dati. La lettura fisica viene attrverso una testina magnetica che rileva il valore di un singolo bit (se magnetizzato 1 altrimenti 0). Il disco ruota fisicamente per far leggere i diversi settori.
+L'*Access time*, è la somma di:
+- **seek time**: tempo della testina
+- **rotational delay**: tempo di rotazione
+- **transfer time**: tempo di trasferimento dei dati
+A parte:
+- *wait for device*: attesa che il dispositivo sia asseganto alla richiesta
+- *wait for channel*: attesa che il sottodispositivo sia assegnato alla richiesta 
 
 
 
