@@ -139,6 +139,6 @@ Redundant array of indipendent disks. Sono più dischi fisici da usare nel nostr
 >Dare ridondanza in maniera tale di diminuire il rischio di perdita di informazione, inoltre riesce anche a velocizzare alcune operazioni.
 
 L'implementazione dei RAID può cambiare di molto le caratteristiche:
-- RAID 0: non c'è ridondanza, c'è rischio di perdita di informazione. Dischi suddivisi in strip e una singola informazione viene suddivisa in strip diversi su dischi diversi e non strips continui, il che permette di lavorare in parallelo.L' unico vantaggio
-![[Pasted image 20241108160715.png]]
-- 
+- RAID 0: non c'è ridondanza, c'è rischio di perdita di informazione. Dischi suddivisi in strip e una singola informazione viene suddivisa in strip diversi su dischi diversi e non strips continui, il che permette di lavorare in parallelo.L' unico vantaggio è la velocià.![[Pasted image 20241108160715.png]]
+- RAID 1/MIRRORING: come il RAID 0 ma duplicando ogni dato, fisicamente si hanno 2N ma la capacità è di N. C'è uno spreo considerevole di spazio e non è sicuro al 100% ![[Pasted image 20241108160914.png]]
+- RAID 2: Invece di replicare tutti i dati si usa il codice di Hamming per memorizzare i dati. Ser
