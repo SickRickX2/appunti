@@ -116,4 +116,6 @@ A parte:
 ### SSD
 Struttura: stack (pila) di flash chips organizzati in matrici, che allora volta hanno dei piani (planes suddivisi in blocchi composti da pagine), in cui vengono salvati i dati.
 - In lettura: possiamo aaccedere alle pagine
-- In scrittura: non è possibile sovrascrivere le pagine ma bisogna azzerare tutte le pagine di quel blocco, avendolo prima copiato e poi riscritto con la parte nuova.
+- In scrittura: non è possibile sovrascrivere le pagine ma bisogna azzerare tutte le pagine di quel blocco, avendolo prima copiato e poi riscritto con la parte nuova. Nel blocco vecchio viene salvata la versione precedente mentre in quello nuovo c'è sia la vecchia informazione  che quella nuova
+![[Pasted image 20241108151512.png]]
+Gli SSD sono estremamente veloci. n
