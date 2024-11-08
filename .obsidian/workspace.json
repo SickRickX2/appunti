@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lezione 7 La terza forma normale"
             }
+          },
+          {
+            "id": "11d93b45ceff6413",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50ed999ed366e579",
+  "active": "11d93b45ceff6413",
   "lastOpenFiles": [
     "Basi di Dati/Modulo 1/Lezione 6.md",
     "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
