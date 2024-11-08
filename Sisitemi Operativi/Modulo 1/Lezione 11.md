@@ -104,4 +104,6 @@ A parte:
 >[!note] Politiche di scheduling
 >- random: il peggiore
 >- FIFO: simile al random
->- 
+>- Priorità: non ottimizza effetivamente il discoe non è equo ma permette di raggiungere altri obiettivi
+>- LIFO: last in first out, buono per DBMS con transazioni, ma non è un algoritmo genericamente buono (non ha molto senso in situazioni generiche)
+>- SSTF: shortest service time fir
