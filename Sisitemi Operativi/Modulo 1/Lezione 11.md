@@ -129,3 +129,11 @@ Contiene una copia di acluni settori letti dall' hard disk, che verrà usata in 
 	- nuovo: non eleggibile per il rimpiazzamento
 	- medio: contatori vengono incrementati ma i settori non possono essere  rimpiazzati
 	- vecchio: vengono eliminati quelli che non vengono usati e hanno un contatore di referenze basse
+
+## Raid
+Redundant array of indipendent disks. Sono più dischi fisici da usare nel nostro sistema, è posssibile trattarli in maniera separata e indipendente oppure come se fossero un unico disco( *Volume Logico*). 
+>[!note] Linux Volume Manager
+>Alcuni file vengono memorizzati su un disco altri su un altro.
+
+>[!example] Dischi Raid
+>Dare ridondanza in maniera tale di diminuire il rischio di perdita di informazione, inoltre riesce anche a velocizz.
