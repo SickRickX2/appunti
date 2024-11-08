@@ -108,4 +108,6 @@ A parte:
 >- LIFO: last in first out, buono per DBMS con transazioni, ma non è un algoritmo genericamente buono (non ha molto senso in situazioni generiche)
 >- SSTF: shortest service time first, bisogna sapere la posizione della testina per decidere quale richiesta successiva soddisfare, sfrutta il disco al massimo ma non è equo, quindi c'è un alto rischio di starvation
 >**Algoritmi migliori**
->- SSCAN: cerca di ottimizzare il movimento della testina in modo tale che il braccio si muova sempre in un verso, non c'è starvation anche se poco 
+>- SSCAN: cerca di ottimizzare il movimento della testina in modo tale che il braccio si muova sempre in un verso(avanti fino alla fine e indietro  fino all'inizio del disco), non c'è starvation ma è poco equo.
+>- C-SCAN: funziona allo stesso modo con una piccola modifica, quando torniamo indietro con il braccio non soddisfiamo nessuna richiesta il che lo rende più equo ma meno ottimizzato
+>- F-SCAN: abbiamo due code separate, accumulo le richieste in coda F e uso l'algoritmo SCAN per servir
