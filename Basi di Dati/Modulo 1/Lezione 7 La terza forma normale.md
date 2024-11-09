@@ -8,4 +8,5 @@
 
 >[!warning] Attenzione
 >- Per quanto detto è sbagliato scrivere$X \to A \in F$ ,perchè non sapremmo se e come valutare una dipendenza del tipo $X \to AB$ (due o più attributi a destra)
->- Se sostituisco $X \to A \in F$  con 
+>- Se sostituisco $X \to A \in F$  con $X \to Y \in F$, non so come comportarmi se Y contiene sia attributi primi che non primi
+
