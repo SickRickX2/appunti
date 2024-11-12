@@ -32,7 +32,7 @@ Per ogni file vengono mantenuti degli attributi(o metadati), come proprietario, 
 >Collezioni di dati correlati che mantengono anche relazioni tra gli elementi memorizzati. Realizzati con uno o più file.
 
 I File Management Systems forniscono servizi agli utenti e alle applicazioni per l'uso di file, definiscono anche il modo in cui i file sono usati. Permettono ai programmatori di non scrivere codice per gestire i file.
-Obiettivi per i FMS:
+#### Obiettivi per i FMS:
 - Rispondere alle necessità degli utenti riguardo alla gestione dei dati
 - Garantire che i dati nei file sono validi
 - Ottimizzare le prestazioni
@@ -40,3 +40,9 @@ Obiettivi per i FMS:
 - Minimizzare i dati persi o distrutti
 - Fornire un insieme di interfacce standard per i processi utente
 - Fornire supporto per l'I/O effettuato da più utenti in contemporanea
+#### Requisiti per i FMS:
+1) Ogni utente dev'essere in grado di creare, cancellare, leggere scrivere e modificare un file
+2) Ogni utente deve poter accedere in modo controllato ai file di un altro utente
+3) Ogni utente deve poter leggere e modificare i permessi di accesso ai propri file
+4) Ogni utente deve poter ristrutturare i propri file in modo attinente al problema affrontato
+5) Ogni utente deve poter muovere dati da
