@@ -10,3 +10,14 @@ Proprietaà desiderabili:
 
 I programmi che gestiscono i file costituiscono il ***File Management System*** e vengono eseguiti come processi privilegiati (kernel mode). Le librerie invece a vengono invocate come system call. 
 Per ogni file vengono mantenuti degli attributi(o metadati), come proprietario, data di creazione, ecc...
+
+## Operazioni Tipiche sui File
+- Creazione
+- Cancellazione
+- Apertura
+- Lettura
+- Scrittura
+- Chiusura
+>[!note] Campi
+>Sono dati di base che contengono valori singoli. caratterizzati da una lunghezza e tipo di dato (es: carattere ASCII)
+
