@@ -32,3 +32,5 @@ Per ogni file vengono mantenuti degli attributi(o metadati), come proprietario, 
 >Collezioni di dati correlati che mantengono anche relazioni tra gli elementi memorizzati. Realizzati con uno o più file.
 
 I File Management Systems forniscono servizi agli utenti e alle applicazioni per l'uso di file, definiscono anche il modo in cui i file sono usati. Permettono ai programmatori di non scrivere codice per gestire i file.
+Obiettivi per i FMS:
+- Rispondere alle necessità degli utenti riguardo alla gestion
