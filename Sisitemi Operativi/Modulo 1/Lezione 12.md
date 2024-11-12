@@ -18,6 +18,7 @@ Per ogni file vengono mantenuti degli attributi(o metadati), come proprietario, 
 - Lettura
 - Scrittura
 - Chiusura
+
 >[!note] Campi
 >Sono dati di base che contengono valori singoli. caratterizzati da una lunghezza e tipo di dato (es: carattere ASCII)
 
@@ -29,3 +30,5 @@ Per ogni file vengono mantenuti degli attributi(o metadati), come proprietario, 
 
 >[!note] Database
 >Collezioni di dati correlati che mantengono anche relazioni tra gli elementi memorizzati. Realizzati con uno o più file.
+
+I File Management Systems forniscono servizi agli utenti e alle applicazioni per l'uso di file, definiscono anche il modo in cui i file sono usati. Permettono ai programmatori di non scrivere codice per gestire i file.
