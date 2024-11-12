@@ -7,4 +7,6 @@ Proprietaà desiderabili:
 - esistenza a lungo termine
 - condivisibilità con altri processi (tramite nomi simbolici)
 - strutturabilità (directory gerarchiche)
-- 
+
+I programmi che gestiscono i file costituiscono il ***File Management System*** e vengono eseguiti come processi privilegiati (kernel mode). Le librerie invece a vengono invocate come system call. 
+Per ogni file vengono mantenuti degli attributi(o metadati), come proprietario, data di creazione, ecc...
