@@ -21,3 +21,11 @@ Per ogni file vengono mantenuti degli attributi(o metadati), come proprietario, 
 >[!note] Campi
 >Sono dati di base che contengono valori singoli. caratterizzati da una lunghezza e tipo di dato (es: carattere ASCII)
 
+>[!note] Record
+>Sono insiemi di campi correlati, ognuno trattato come un'unità (es: record-nome, cognome, matricola, stipendio)
+
+>[!note] File
+>Hanno un nome, insiemi di record correlati. Possono implementare meccanismi di controllo dell'accesso
+
+>[!note] Database
+>Collezioni di dati correlati che mantengono anche relazioni tra gli elementi memorizzati. Realizzati con uno o più file.
