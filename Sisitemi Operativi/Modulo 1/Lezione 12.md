@@ -45,4 +45,18 @@ I File Management Systems forniscono servizi agli utenti e alle applicazioni per
 2) Ogni utente deve poter accedere in modo controllato ai file di un altro utente
 3) Ogni utente deve poter leggere e modificare i permessi di accesso ai propri file
 4) Ogni utente deve poter ristrutturare i propri file in modo attinente al problema affrontato
-5) Ogni utente deve poter muovere dati da
+5) Ogni utente deve poter muovere dati da un file ad un altro
+6) Ogni utente deve poter mantenere una copia di backup dei propri file
+7) Ogni utente deve poter accedere ai propri file tramite nomi simbolici
+
+
+#### Organizzazione del codice
+
+>[!note] Directory Management
+>Da nomi di file a identificatori di file; tutte le operazioni utente che hanno a che fare con i file (crearli, cancellarli, spostarli)
+
+>[!note]  File System
+>Struttura logica ed operazioni
+
+>[!note]  Organizzazione fisica
+>Da identificatori di file a indirizzi fisici su disco: allocazione/deallocazione
