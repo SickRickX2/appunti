@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lezione 12"
             }
+          },
+          {
+            "id": "92bb26617db8bc99",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50ed999ed366e579",
+  "active": "92bb26617db8bc99",
   "lastOpenFiles": [
     "Sisitemi Operativi/Modulo 1/Lezione 11.md",
     "Sisitemi Operativi/Modulo 1/Lezione 12.md",
