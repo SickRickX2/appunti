@@ -1,0 +1,1 @@
+Due insiemi che hanno la stessa chiusura si possono scmabiare perchè contegnono le stesse istanze reali.
