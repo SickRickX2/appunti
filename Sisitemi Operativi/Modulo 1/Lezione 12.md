@@ -60,3 +60,6 @@ I File Management Systems forniscono servizi agli utenti e alle applicazioni per
 
 >[!note]  Organizzazione fisica
 >Da identificatori di file a indirizzi fisici su disco: allocazione/deallocazione
+
+>[!note] Scheduling & Control: 
+ovviamente è qui che ci  sono i vari SCAN e compagnia bella
