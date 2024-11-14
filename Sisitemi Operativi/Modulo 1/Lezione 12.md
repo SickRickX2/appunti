@@ -107,4 +107,7 @@ Il SO è responsabile dell'assegnamento di blocchi a file.
 Da qui nascono due problemi:
  - occorre allocare spazio per i file, e mantenerne traccia una volta allocato
  - occorre tener traccia dello spazio allocabile
- 
+ I file si allocano in "porzioni" o "blocchi"
+ - l'unità minima è il settore del disco
+ - ogni porzione o blocco è una sequenza contigua di settori
+ slide 28
