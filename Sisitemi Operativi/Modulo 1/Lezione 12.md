@@ -100,4 +100,4 @@ Una directory per ogni utente, più una (master) che le contiene, la master cont
 >-  nomi duplicati sono possibili purché abbiano path diversi
 
 #### Directory di lavoro
-Dover dare ogni volta il path completo prima del nome del file può essere lungo e noioso. Solitamente gli utenti o processi interattivi hanno associata una directory di
+Dover dare ogni volta il path completo prima del nome del file può essere lungo e noioso. Solitamente gli utenti o processi interattivi hanno associata una directory di lavoro o corrente. Tutti i nomi di file sono dati relativamente a questa directory ed è sempre possibile dare esplicitamente l'intero percorso, se neccessario
