@@ -81,3 +81,4 @@ Ci sono vari elementi delle Directory
 - **Informazioni di base**: nome del file, tipo del file, organizzazione del file
 - **Informazioni sull'indirizzo**: volume(dispositivo su cui il file è memorizzato), indirizzo di partenza, dimensione attuale, dimensione allocata
 - **Controllo di accesso**: proprietario, informazioni sull'accesso, azioni permesse
+- **Informazioni sull**
