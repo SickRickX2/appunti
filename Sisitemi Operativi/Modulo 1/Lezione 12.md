@@ -94,3 +94,10 @@ Una directory per ogni utente, più una (master) che le contiene, la master cont
 >Una *directory master* che contiene le directory utente. Ogni directory utente può contenere file oppure altre directory utente. Ci sono anche sottodirectory di sistema, sempre dentro la directory master
 >![[Pasted image 20241114210336.png]]
 
+>[!tip]  Nomi
+>Gli utenti devono potersi riferire ad un file usando solo il suo nome, i nomi devono essere unici, ma un utente può non aver accesso a tutti i file dell'intero sistema
+>La struttura ad albero permette agli utenti di trovare un file seguendo un percorso nell'albero (*directory path*)
+>-  nomi duplicati sono possibili purché abbiano path diversi
+
+#### Directory di lavoro
+Dover dare ogni volta il path completo prima del nome del file può essere lungo e noioso. Solitamente gli utenti o processi interattivi hanno associata una directory di
