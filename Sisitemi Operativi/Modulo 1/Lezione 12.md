@@ -63,3 +63,10 @@ I File Management Systems forniscono servizi agli utenti e alle applicazioni per
 
 >[!note] Scheduling & Control: 
 ovviamente è qui che ci  sono i vari SCAN e compagnia bella
+
+## Le directory
+Le directory contengono varei informazioni sui file come:
+- attributi
+- posizione (dove sono i dati)
+- proprietario
+Una directory è essa stessa un file (speciale), fornisce il mapping tra nomi dei file e file stessi
