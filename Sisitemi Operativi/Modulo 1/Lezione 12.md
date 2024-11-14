@@ -88,4 +88,9 @@ Ci sono due problemi  importanti:
 1) non aiuta nell'organizzare i file
 2) non si può dare lo stesso nome a due file diversi
 >[!note] Schema a due livelli per le directory
-Una directory per ogni utente, più una (master) che le contiene, la master contiene anche l'indirizzo e le informazioni per il controllo all'accesso. Ogni dire
+Una directory per ogni utente, più una (master) che le contiene, la master contiene anche l'indirizzo e le informazioni per il controllo all'accesso. Ogni directory utente è solo una lista dei file di quell'utente, quindi non offre una struttura per insiemi di files
+
+>[!note] Schema gerarchico ad albero per le Directory
+>Una *directory master* che contiene le directory utente. Ogni directory utente può contenere file oppure altre directory utente. Ci sono anche sottodirectory di sistema, sempre dentro la directory master
+>![[Pasted image 20241114210336.png]]
+
