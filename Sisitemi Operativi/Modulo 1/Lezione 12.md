@@ -82,3 +82,10 @@ Ci sono vari elementi delle Directory
 - **Informazioni sull'indirizzo**: volume(dispositivo su cui il file è memorizzato), indirizzo di partenza, dimensione attuale, dimensione allocata
 - **Controllo di accesso**: proprietario, informazioni sull'accesso, azioni permesse
 - **Informazioni sull'uso**: data di creazione, identità del creatore, data dell'ultimo accesso in lettura, data dell'ultimo accesso in scrittura, identità dell'ultimo lettore, identità dell'ultimo scrittore, data dell'ultimo backup, uso attuale
+
+Il metodo usato per memorizzare le informazioni di cui sopra varia molto da sistema a sistema. Quello più semplice è fare una lista di entry, una per ogni file.
+Ci sono due problemi  importanti:
+1) non aiuta nell'organizzare i file
+2) non si può dare lo stesso nome a due file diversi
+>[!note] Schema a due livelli per le directory
+Una directory per ogni utente, più una (master) che le contiene, la master contiene anche l'indirizzo e le informazioni per il controllo all'accesso. Ogni dire
