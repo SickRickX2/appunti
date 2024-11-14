@@ -70,3 +70,14 @@ Le directory contengono varei informazioni sui file come:
 - posizione (dove sono i dati)
 - proprietario
 Una directory è essa stessa un file (speciale), fornisce il mapping tra nomi dei file e file stessi
+>[!example] Operazioni 
+>- Ricerca
+>- Creazione file
+>- Cancellazione file
+>- Lista del contenuto della directory
+>- Modifica della directory
+
+Ci sono vari elementi delle Directory
+- **Informazioni di base**: nome del file, tipo del file, organizzazione del file
+- **Informazioni sull'indirizzo**: volume(dispositivo su cui il file è memorizzato), indirizzo di partenza, dimensione attuale, dimensione allocata
+- **Controllo di accesso**: proprietario, informazioni sull'accesso, azioni permesse
