@@ -129,4 +129,7 @@ Ci sono tre metodi
 - Concatenato
 - Indicizzato
 >[!note] Allocazione Contigua
->Un insieme di blocchi viene allocato per il file quando quest'ultimo viene creato. In questo caso la preallocazione è necessaria, ma allo stesso tempo sarà necessaria una sola entry nella tabella di allocazione dei file
+>Un insieme di blocchi viene allocato per il file quando quest'ultimo viene creato. In questo caso la preallocazione è necessaria, ma allo stesso tempo sarà necessaria una sola entry nella tabella di allocazione dei file. Ci sarà frammentazione esterna con conseguente necessità di compattazione![[Pasted image 20241119205928.png]]
+
+>[!note] Allocazione Concatenata
+>Allocazione di un 
