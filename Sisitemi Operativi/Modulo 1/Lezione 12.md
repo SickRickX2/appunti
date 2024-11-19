@@ -122,4 +122,11 @@ Da qui nascono due problemi:
 
 >[!example] Preallocazione + porzioni grandi e di dimensione variabile
 >Se si usa questa combinazione, niente tabella di allocazione: per ogni file basta l'inizio e la lunghezza. Ogni file è un'unica porzion. Ma è inefficiente per lo spazio libero, necessita periodica compattazione, il che è molto oneroso
->
+
+#### Come allocare spazio per i File
+Ci sono tre metodi
+- Contiguo
+- Concatenato
+- Indicizzato
+>[!note] Allocazione Contigua
+>Un insieme di blocchi viene allocato per il file quando quest'ultimo viene creato. In questo caso la preallocazione è necessaria, ma allo stesso tempo sarà necessaria una sola entry nella tabella di allocazione dei file
