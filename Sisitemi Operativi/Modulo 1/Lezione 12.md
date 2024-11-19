@@ -110,4 +110,7 @@ Da qui nascono due problemi:
  I file si allocano in "porzioni" o "blocchi"
  - l'unità minima è il settore del disco
  - ogni porzione o blocco è una sequenza contigua di settori
- slide 28
+>[!note] Preallocazione vs Allocazione dinamica
+>**Preallocazione**: la massima dimensione è dichiarata a tempo di creazione. Questo metodo porta ad uno spreco di spazio su disco, a fronte di un modesto risparmio di computazione
+>**Allocazione dinamica**: quasi sempre preferita, la dimensione viene aggiustata in base alle append o alle truncate. Ci sono due possibilità agli estremi:
+>1) Si alloca una porzione larga a sufficienza per l'intero file, ecc
