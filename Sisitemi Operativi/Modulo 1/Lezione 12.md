@@ -119,3 +119,7 @@ Da qui nascono due problemi:
 >Si cerca un punto di incontro tra efficienza del sistema operativo e efficienza del singolo file. Ci sono dunque due possibilità valide sia per la preallocazione che per l'allocazione dinamica:
 > 1) Porzioni gandi e di dimensione variabile, dove ogni singola allocazione è contigua, ma è complicata la gestione dello spazio libero
 > 2) Porzioni fisse e piccole: tipicamente un blocco per porzione, molto meno contiguo del precedente
+
+>[!example] Preallocazione + porzioni grandi e di dimensione variabile
+>Se si usa questa combinazione, niente tabella di allocazione: per ogni file basta l'inizio e la lunghezza. Ogni file è un'unica porzion. Ma è inefficiente per lo spazio libero, necessita periodica compattazione, il che è molto oneroso
+>
