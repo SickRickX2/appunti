@@ -132,4 +132,5 @@ Ci sono tre metodi
 >Un insieme di blocchi viene allocato per il file quando quest'ultimo viene creato. In questo caso la preallocazione è necessaria, ma allo stesso tempo sarà necessaria una sola entry nella tabella di allocazione dei file. Ci sarà frammentazione esterna con conseguente necessità di compattazione![[Pasted image 20241119205928.png]]
 
 >[!note] Allocazione Concatenata
->Allocazione di un 
+>Allocazione di un blocco alla volta. Ogni blocco ha un puntatore al prossimo blocco. Anche in questo caso è necessaria una sola entry nella tabella di allocazione dei file. Niente frammentazione esterna. Con questo metodo invece della compattazione c'è analogalmente il *consolidamento* che permette di posizionare i blocchi di un file contigui e permette quindi di migliorare l'accesso sequenziale.![[Pasted image 20241119210737.png]]
+
