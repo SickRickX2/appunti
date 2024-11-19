@@ -113,4 +113,9 @@ Da qui nascono due problemi:
 >[!note] Preallocazione vs Allocazione dinamica
 >**Preallocazione**: la massima dimensione è dichiarata a tempo di creazione. Questo metodo porta ad uno spreco di spazio su disco, a fronte di un modesto risparmio di computazione
 >**Allocazione dinamica**: quasi sempre preferita, la dimensione viene aggiustata in base alle append o alle truncate. Ci sono due possibilità agli estremi:
->1) Si alloca una porzione larga a sufficienza per l'intero file, ecc
+>1) Si alloca una porzione larga a sufficienza per l'intero file, efficiente per il processo che vuole creare il file: l'accesso sequenziale è il più veloce 
+>2) Si alloca un blocco alla volta, efficiente per il SO che deve gestire tanti file
+>
+>Si cerca un punto di incontro tra efficienza del sistema operativo e efficienza del singolo file. Ci sono dunque due possibilità valide sia per la preallocazione che per l'allocazione dinamica:
+> 1) Porzioni gandi e di dimensione variabile, dove ogni singola allocazione è contigua, ma è complicata la gestione dello spazio libero
+> 2) Porzioni fisse e piccole: tipicamente un blocco per porzione, molto meno contiguo del precedente
