@@ -134,3 +134,5 @@ Ci sono tre metodi
 >[!note] Allocazione Concatenata
 >Allocazione di un blocco alla volta. Ogni blocco ha un puntatore al prossimo blocco. Anche in questo caso è necessaria una sola entry nella tabella di allocazione dei file. Niente frammentazione esterna. Con questo metodo invece della compattazione c'è analogalmente il *consolidamento* che permette di posizionare i blocchi di un file contigui e permette quindi di migliorare l'accesso sequenziale.![[Pasted image 20241119210737.png]]
 
+>[!note] Allocazione Indicizzata
+>Questa è una via di mezzo tra i due precedenti e ne risolve quasi tutti i problemi
