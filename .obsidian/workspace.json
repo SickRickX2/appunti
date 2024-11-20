@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Lezione 12"
             }
-          },
-          {
-            "id": "afc405a7de302437",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afc405a7de302437",
+  "active": "50ed999ed366e579",
   "lastOpenFiles": [
     "Pasted image 20241119211027.png",
     "Pasted image 20241119210737.png",
