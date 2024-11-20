@@ -138,4 +138,4 @@ Ci sono tre metodi
 >Questa è una via di mezzo tra i due precedenti e ne risolve quasi tutti i problemi. La tabella di allocazione dei file contiene, apparentemente, una sola entry, con l'indirizzo di un blocco. Questo blocco in realtà ha una entry per ogni porzione allocata al file. Ovviamente deve esserci un bit che dica se un blocco è composto da dati o è un indice.
 >Può essere fatta in due modi:
 >blocchi con lunghezza fissa: niente frammentazione esterna, ma occorre il consolidamento per una migliore località
->blocchi di lunghezza variabile
+>blocchi di lunghezza variabile: migliora la località, ma occorre il consolidamento per ridurre la dimensione dell'indice.
