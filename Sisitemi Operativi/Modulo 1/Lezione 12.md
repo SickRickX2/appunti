@@ -135,4 +135,7 @@ Ci sono tre metodi
 >Allocazione di un blocco alla volta. Ogni blocco ha un puntatore al prossimo blocco. Anche in questo caso è necessaria una sola entry nella tabella di allocazione dei file. Niente frammentazione esterna. Con questo metodo invece della compattazione c'è analogalmente il *consolidamento* che permette di posizionare i blocchi di un file contigui e permette quindi di migliorare l'accesso sequenziale.![[Pasted image 20241119210737.png]]
 
 >[!note] Allocazione Indicizzata
->Questa è una via di mezzo tra i due precedenti e ne risolve quasi tutti i problemi
+>Questa è una via di mezzo tra i due precedenti e ne risolve quasi tutti i problemi. La tabella di allocazione dei file contiene, apparentemente, una sola entry, con l'indirizzo di un blocco. Questo blocco in realtà ha una entry per ogni porzione allocata al file. Ovviamente deve esserci un bit che dica se un blocco è composto da dati o è un indice.
+>Può essere fatta in due modi:
+>blocchi con lunghezza fissa: niente frammentazione esterna, ma occorre il consolidamento per una migliore località
+>blocchi di lunghezza variabile
