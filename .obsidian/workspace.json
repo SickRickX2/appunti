@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a4db0618d86a2acd",
+        "id": "1e46525383250997",
         "type": "tabs",
         "children": [
           {
-            "id": "50ed999ed366e579",
+            "id": "03ad35acb49cbc57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 6.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 6"
+              "title": "Lezione 10"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -60,7 +60,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Ricerca"
+              "title": "Search"
             }
           },
           {
@@ -70,7 +70,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Segnalibri"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Lezione 10"
+              "title": "Backlinks for Lezione 9"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
+                "file": "Basi di Dati/Modulo 1/Lezione 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da Lezione 10"
+              "title": "Outgoing links from Lezione 6"
             }
           },
           {
@@ -130,7 +130,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Etichette"
+              "title": "Tags"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md"
+                "file": "Basi di Dati/Modulo 1/Lezione 6.md"
               },
               "icon": "lucide-list",
-              "title": "Struttura di Lezione 10"
+              "title": "Outline of Lezione 6"
             }
           },
           {
@@ -154,68 +154,83 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "bfbf455b2efb333a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "50ed999ed366e579",
+  "active": "03ad35acb49cbc57",
   "lastOpenFiles": [
-    "Basi di Dati/Modulo 1/Lezione 8.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 10.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 12.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 13.md",
-    "Pasted image 20241119211027.png",
-    "Pasted image 20241119210737.png",
-    "Sisitemi Operativi/Modulo 1/Lezione 1.md",
-    "Pasted image 20241119205928.png",
-    "Pasted image 20241114210336.png",
     "Basi di Dati/Modulo 1/Lezione 9.md",
-    "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
+    "Basi di Dati/Modulo 1/Lezione 10.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 13.md",
     "Sisitemi Operativi/Modulo 1/Lezione 11.md",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108161929.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108161839.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108160914.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108160715.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108151512.png",
+    "Sisitemi Operativi/Modulo 1/Lezione 12.md",
+    "Pasted image 20241119211027.png",
+    "Pasted image 20241119210737.png",
+    "Pasted image 20241119205928.png",
+    "Pasted image 20241114210336.png",
+    "Basi di Dati/Modulo 1/Lezione 8.md",
     "conflict-files-obsidian-git.md",
-    "Basi di Dati/Modulo 1/Lezione 6.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 9.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 8.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 5.md",
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241025151022.png",
     "Sisitemi Operativi/Modulo 1/Lezione 7.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 10.md",
+    "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 9.md",
+    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241025151022.png",
+    "Sisitemi Operativi/Modulo 1/Lezione 8.md",
+    "Basi di Dati/Modulo 1/Lezione 6.md",
+    "Basi di Dati/Modulo 1/Lezione 7.md",
     "Sisitemi Operativi/Modulo 1/Lezione 6.md",
-    "Senza nome.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 4.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 3.md",
     "Basi di Dati/Modulo 1/Lezione 5.md",
-    "Basi di Dati/Modulo 1/Lezione 4.md",
-    "Basi di Dati/Modulo 1/Lezione 2.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 3.md",
+    "Basi di Dati/Modulo 1/Lezione 1.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 4.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 5.md",
     "README.md",
+    "Basi di Dati/Modulo 1/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 3.md",
-    "Basi di Dati/Modulo 1/Indice.md",
-    "Basi di Dati/Modulo 1/imgs",
     "Sisitemi Operativi/Modulo 1/imgs",
+    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 1.md",
     "Sisitemi Operativi/Modulo 1",
     "Sisitemi Operativi",
+    "Basi di Dati/Modulo 1/imgs",
+    "Basi di Dati/Modulo 1/Indice.md",
+    "imgs",
+    "Sisitemi. Operativi/Modulo 1",
+    "Sisitemi. Operativi",
     "Basi di Dati/Modulo 1",
     "Basi di Dati"
   ]
