@@ -11,7 +11,7 @@ Ci sono diversi tipi di registri all'interno del processore:
 - *Registri interni:* sono usati dal processore tramite microprogrammazione, essenziali per la comunicazione con memoria e I/O. Sono di fatto gli unici che possono essere usati **direttamente** (con il loro nome) quando si programma in linguaggio macchina (o assembler). Possono contenere dati o indirizzi.
 ### Registri Interni
 - **Registri dell'indirizzo di memoria:** *Memory Address Register (MAR)* contiene l'indirizzo della prossima operazione di lettura/scrittura.
-- **Registro di memoria temporanea:** *Memory Buffer Register (MBR)* contiene i dati da scrivere in memoria, o fornisce lo sapzio dove scrivere i dati letti dalla memoria
+- **Registro di memoria temporanea:** *Memory Buffer Register (MBR)* contiene i dati da scrivere in memoria, o fornisce lo spazio dove scrivere i dati letti dalla memoria
 - **Registro dell'indirizzo di input/output:** I/O address register
 - **Registro di memoria temporanea per l'input/output:** I/O buffer register
 ## Registri di controllo di stato
