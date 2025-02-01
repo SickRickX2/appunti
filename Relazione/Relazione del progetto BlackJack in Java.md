@@ -48,3 +48,7 @@ All'interno del controller possiamo trovare:
 >- *StartPanel, ProfileSelectionPanel, PlayPanel, TiePanel, WinPanel, LosePanel*: sono tutte le schermate del gioco e in base al tipo di schermata disegnano a schermo elementi diversi: ad esempio se ci troviamo nello **StartPanel** verranno disegnate a schermo alcune immagini come il mio logo, il titolo del gioco e verranno aggiunti dei pulsanti per decidere di passare alla selezione del profilo oppure uscire dal gioco.
 
 ## Capitolo 3: I Design Pattern
+A parte il ben noto MVC ci sono altri design pattern che ho utilizzato all'interno del mio gioco:
+- Observer/Observable:
+- Singleton:
+- 
