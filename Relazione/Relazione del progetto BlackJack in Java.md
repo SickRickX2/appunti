@@ -20,3 +20,5 @@ E invece la musica del menù? Non è collegata ad Evangelion ma è un omaggio a 
 ![[Pasted image 20250201203014.png|400]]
 
 ## Capitolo 2: MVC
+L' MVC è il design pattern che separa le responsabilità e i compiti in:
+- *Model*: si occupa della logica del gioco
