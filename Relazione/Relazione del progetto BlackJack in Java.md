@@ -19,4 +19,4 @@ Ho voluto quindi creare un BlackJack ispirato alla serie (più che un gioco d'az
 E invece la musica del menù? Non è collegata ad Evangelion ma è un omaggio a Sonic, infatti è la storica *OST di Green Hill Zone.*
 ![[Pasted image 20250201203014.png|400]]
 
-## Capitolo 2: 
+## Capitolo 2: MVC
