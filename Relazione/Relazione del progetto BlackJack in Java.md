@@ -42,4 +42,5 @@ All'interno del model possiamo trovare:
 - *BlackJack*: contiene il main del gioco
 - *PlayPanelController, ProfileSelectionPanelController, StartPanelController*: gestiscono la logica dei pulsanti all'interno delle rispettive schermate e permette l'interazione tra il model e la view in maniera indiretta
 ## La view
-
+*GameWindow*: inizializza la finestra del gioco e crea il JPanel deck che racchiude a sua volta all'interno tutte le schermate del gioco. Per passare da una schermata all'altra utilizza la classe *Navigator* che implementa observable in modo tale da notificare ogni cambiamento di schermata.
+*StartPanel, ProfileSelection<*
