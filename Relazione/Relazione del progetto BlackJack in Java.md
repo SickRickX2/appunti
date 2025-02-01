@@ -14,4 +14,6 @@ Ho volutamente messo i protagonisti come personaggi giocabili dall'utente mentre
 Ho voluto quindi creare un BlackJack ispirato alla serie (più che un gioco d'azzardo è una sfida per sconfiggere  gli angeli). Motivo per cui come tracce audio del gioco ho inserito la versione 8-bit dei seguenti brani:
 - Fly Me To The Moon - per quando si gioca
 - The Cruel Angel's Thesis-per la vittoria  
-- Komm, Susser Tod - per la sconfitta ed il pareggio![[Pasted image 20250201201527.png]]
+- Komm, Susser Tod - per la sconfitta ed il pareggio
+![[Pasted image 20250201201527.png|400]]
+E invece la musica del menù? Non è collegata ad Evangelion ma è un omaggio a Sonic, infatti è la storica OST di Green Hill Zone.
