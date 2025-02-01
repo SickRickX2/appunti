@@ -31,3 +31,4 @@ Nello specifico:
 ### Il model
 All'interno del model possiamo trovare:
 - DeckModel, CardModel, Suit, Value: queste classi si occupano della logica dietro alla creazione delle singole carte che poi verranno usate all'interno del mazzo.
+- EntityModel, PlayerModel, BotModel,DealerModel: EntityModel è una classe astratta che rappresenta un giocatore generico che si siede al tavolo del blackjack, essa fornisce proprietà e metodi comuni a tutti i giocatori come il pescare le carte della mano, pescart
