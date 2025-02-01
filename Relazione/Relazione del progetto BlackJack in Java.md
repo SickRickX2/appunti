@@ -32,6 +32,10 @@ Nello specifico:
 All'interno del model possiamo trovare:
 - *DeckModel, CardModel, Suit, Value*: queste classi si occupano della logica dietro alla creazione delle singole carte che poi verranno usate all'interno del mazzo.
 - *EntityModel, PlayerModel, BotModel,DealerModel*: EntityModel è una classe astratta che rappresenta un giocatore generico che si siede al tavolo del blackjack, essa fornisce proprietà e metodi comuni a tutti i giocatori come ad esempio il pescare le carte della mano, pescare una carta (hit) o rimanere con le carte "originarie" (stay). Infatti le altre classi che estendono EntityModel implementano comportamenti specifici in base al tipo di giocatore, (esempio: il dealer deve necessariamente cercare di battere tutti i giocatori, ma questo non vale per gli altri)
-- *TurnManager*: si occupa della gestione dei turni tra i vari giocatori e notifica 
+- *TurnManager*: si occupa della gestione dei turni tra i vari giocatori e notifica gli observers quando si passa da un turno ad un altro ma anche il risultato della partita corrente
 - *AudioManager*: semplicemente gestisce la riproduzione dei brani
-- 
+- *ProfileManager, Profile*: si occupa della gestione dei profili, permette di implementarne di nuovi e tiene traccia delle partite giocate e quelle vinte che saranno poi utilizzate nella leaderboard
+- *Leaderboard*: crea e aggiorna la leaderboard usando i dati forniti dal ProfileManager
+
+## Il controller
+- *Game*: inizializza il gioco e crea il gameloop che serve per aggiornare e "ridisegnare" le interfacce ad ogni ciclo
