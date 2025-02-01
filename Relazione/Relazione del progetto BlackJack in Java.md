@@ -28,19 +28,20 @@ L'implementazione dell'MVC permette di estendere il gioco o di fare manutenzione
 
 Nello specifico:
 
-### Il model
-All'interno del model possiamo trovare:
-- *DeckModel, CardModel, Suit, Value*: queste classi si occupano della logica dietro alla creazione delle singole carte che poi verranno usate all'interno del mazzo.
-- *EntityModel, PlayerModel, BotModel,DealerModel*: EntityModel è una classe astratta che rappresenta un giocatore generico che si siede al tavolo del blackjack, essa fornisce proprietà e metodi comuni a tutti i giocatori come ad esempio il pescare le carte della mano, pescare una carta (hit) o rimanere con le carte "originarie" (stay). Infatti le altre classi che estendono EntityModel implementano comportamenti specifici in base al tipo di giocatore, (esempio: il dealer deve necessariamente cercare di battere tutti i giocatori, ma questo non vale per gli altri)
-- *TurnManager*: si occupa della gestione dei turni tra i vari giocatori e notifica gli observers quando si passa da un turno ad un altro ma anche il risultato della partita corrente
-- *AudioManager*: semplicemente gestisce la riproduzione dei brani
-- *ProfileManager, Profile*: si occupa della gestione dei profili, permette di implementarne di nuovi e tiene traccia delle partite giocate e quelle vinte che saranno poi utilizzate nella leaderboard
-- *Leaderboard*: crea e aggiorna la leaderboard usando i dati forniti dal ProfileManager
+>[!tip] Il model
+>All'interno del model possiamo trovare:
+>- *DeckModel, CardModel, Suit, Value*: queste classi si occupano della logica dietro alla creazione delle singole carte che poi verranno usate all'interno del mazzo.
+>- *EntityModel, PlayerModel, BotModel,DealerModel*: EntityModel è una classe astratta che rappresenta un giocatore generico che si siede al tavolo del blackjack, essa fornisce proprietà e metodi comuni a tutti i giocatori come ad esempio il pescare le carte della mano, pescare una carta (hit) o rimanere con le carte "originarie" (stay). Infatti le altre classi che estendono EntityModel implementano comportamenti specifici in base al tipo di giocatore, (esempio: il dealer deve necessariamente cercare di battere tutti i giocatori, ma questo non vale per gli altri)
+>- *TurnManager*: si occupa della gestione dei turni tra i vari giocatori e notifica gli observers quando si passa da un turno ad un altro ma anche il risultato della partita corrente
+>- *AudioManager*: semplicemente gestisce la riproduzione dei brani
+>- *ProfileManager, Profile*: si occupa della gestione dei profili, permette di implementarne di nuovi e tiene traccia delle partite giocate e quelle vinte che saranno poi utilizzate nella leaderboard
+>- *Leaderboard*: crea e aggiorna la leaderboard usando i dati forniti dal ProfileManager
 
 ## Il controller
+All'interno del controller possiamo trovare:
 - *Game*: inizializza il gioco e crea il gameloop che serve per aggiornare e "ridisegnare" le interfacce ad ogni ciclo
 - *BlackJack*: contiene il main del gioco
 - *PlayPanelController, ProfileSelectionPanelController, StartPanelController*: gestiscono la logica dei pulsanti all'interno delle rispettive schermate e permette l'interazione tra il model e la view in maniera indiretta
 ## La view
-*GameWindow*: inizializza la finestra del gioco e crea il JPanel deck che racchiude a sua volta all'interno tutte le schermate del gioco. Per passare da una schermata all'altra utilizza la classe *Navigator* che implementa observable in modo tale da notificare ogni cambiamento di schermata.
-*StartPanel, ProfileSelection<*
+- *GameWindow*: inizializza la finestra del gioco e crea il JPanel deck che racchiude a sua volta all'interno tutte le schermate del gioco. Per passare da una schermata all'altra utilizza la classe *Navigator* che implementa observable in modo tale da notificare ogni cambiamento di schermata.
+- *StartPanel, ProfileSelectionPanel, PlayPanel, TiePanel, WinPanel, LosePanel*: sono tutte le schermate del gioco e in base al tipo di schermata disegnano a schermo elementi diversi: ad esempio se ci troviamo nello **StartPanel** verranno disegnate a schermo alcune immagini come il mio logo, il titolo del gioco e verranno aggiunti dei pulsanti per decidere di passare alla selezione del profilo oppure uscire dal gioco.
