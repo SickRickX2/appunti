@@ -21,4 +21,7 @@ E invece la musica del menù? Non è collegata ad Evangelion ma è un omaggio a 
 
 ## Capitolo 2: MVC
 L' MVC è il design pattern che separa le responsabilità e i compiti in:
-- *Model*: si occupa della logica del gioco
+- *Model*: si occupa della logica del gioco, come ad esempio il mazzo, i giocatori, la musica,ecc...
+- *View*: si occupa dell'aspetto grafico
+- *Controller*: si occupa di inizializzare il gioco, aggiornare la view, e a coordinare l'interazione tra il model e la view.
+L'implementazione dell'MVC permette di estendere il gioco o di fare manutenzi
