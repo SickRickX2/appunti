@@ -39,3 +39,7 @@ All'interno del model possiamo trovare:
 
 ## Il controller
 - *Game*: inizializza il gioco e crea il gameloop che serve per aggiornare e "ridisegnare" le interfacce ad ogni ciclo
+- *BlackJack*: contiene il main del gioco
+- *PlayPanelController, ProfileSelectionPanelController, StartPanelController*: gestiscono la logica dei pulsanti all'interno delle rispettive schermate e permette l'interazione tra il model e la view in maniera indiretta
+## La view
+
