@@ -49,10 +49,22 @@ All'interno del controller possiamo trovare:
 
 ## Capitolo 3: I Design Pattern
 A parte il ben noto MVC ci sono altri design pattern che ho utilizzato all'interno del mio gioco:
-- **Observer/Observable:** come da richiesta, ma anche per una corretta implementazione dell'MVC, ho implementato nel codice questo design pattern che serve a notificare il cambiamento di stato di un oggetto (observable) agli oggetti osservatori (observers) in modo tale che si aggiornino in base alle loro funzionalità. Nel mio codice un esempio di **Observable** è *Navigator*;  ***navigator*** notifica il frame  (che implementa **Observer**)  a quale panel bisogna cambiare
-	>
-- 
-- 
-- . In questo modo ho potuto creare un panel denominato ***deck*** che contiene al suo interno tutte le schermate ma vengono mostrate a schermo solo una alla volta.
+- **Observer/Observable:** come da richiesta, ma anche per una corretta implementazione dell'MVC, ho implementato nel codice questo design pattern che serve a notificare il cambiamento di stato di un oggetto (observable) agli oggetti osservatori (observers) in modo tale che si aggiornino in base alle loro funzionalità. Nel mio codice un esempio di **Observable** è *Navigator*;  ***navigator*** notifica il frame  *GameWindow* (che implementa **Observer**)  a quale panel bisogna cambiare.
+```java
+public class Navigator extends Observable {  
+     public void navigate(Screen screen) {  
+        setChanged();  
+        notifyObservers(screen);  
+    }}
+```
+e in GameWindow:
+```java
+@Override  
+public void update(Observable o, Object arg) {  
+    if (o instanceof Navigator && arg instanceof Screen screen)  
+        ((CardLayout) deck.getLayout()).show(deck, screen.name());  
+}
+```
+>In questo modo ho potuto creare un panel denominato ***deck*** che contiene al suo interno tutte le schermate ma vengono mostrate a schermo solo una alla volta.
 - Singleton:
 - 
