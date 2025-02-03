@@ -49,6 +49,6 @@ All'interno del controller possiamo trovare:
 
 ## Capitolo 3: I Design Pattern
 A parte il ben noto MVC ci sono altri design pattern che ho utilizzato all'interno del mio gioco:
-- **Observer/Observable:** come da richiesta, ma anche per una corretta implementazione dell'MVC, ho implementato nel codice questo design pattern
+- **Observer/Observable:** come da richiesta, ma anche per una corretta implementazione dell'MVC, ho implementato nel codice questo design pattern che serve a notificare il cambiamento di stato di un oggetto (observable) agli oggetti osservatori (observers) in modo tale che si aggiornino in base alla loro funzionalità. Nel mio codice un esempio di **Observable** è *Navigator*; 
 - Singleton:
 - 
