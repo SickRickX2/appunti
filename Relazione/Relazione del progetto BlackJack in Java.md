@@ -47,7 +47,7 @@ All'interno del controller possiamo trovare:
 >- *GameWindow*: inizializza la finestra del gioco e crea il JPanel deck che racchiude a sua volta all'interno tutte le schermate del gioco. Per passare da una schermata all'altra utilizza *Navigator* che implementa observable in modo tale da notificare ogni cambiamento di schermata.
 >- *StartPanel, ProfileSelectionPanel, PlayPanel, TiePanel, WinPanel, LosePanel*: sono tutte le schermate del gioco e in base al tipo di schermata disegnano a schermo elementi diversi: ad esempio se ci troviamo nello **StartPanel** verranno disegnate a schermo alcune immagini come il mio logo, il titolo del gioco e verranno aggiunti dei pulsanti per decidere di passare alla selezione del profilo oppure uscire dal gioco.
 
-## Capitolo 3: I Design Pattern
+## Capitolo 3: Design Pattern
 A parte il ben noto MVC ci sono altri design pattern che ho utilizzato all'interno del mio gioco:
 - **Observer/Observable:** come da richiesta, ma anche per una corretta implementazione dell'MVC, ho implementato nel codice questo design pattern che serve a notificare il cambiamento di stato di un oggetto (**observable**) agli oggetti osservatori (**observers**) in modo tale che si aggiornino in base alle loro funzionalità.
   1) Nel mio codice un esempio di **Observable** è *Navigator*;  ***navigator*** notifica il frame  *GameWindow* (che implementa **Observer**)  a quale panel bisogna cambiare. In questo modo ho potuto creare un panel denominato ***deck*** che contiene al suo interno tutte le schermate ma vengono mostrate a schermo solamente una alla volta.
@@ -102,30 +102,19 @@ public class DealerModel {
 }
 ```
 ## Capitolo 4: Stream
-Nel mio programma l'utilizzo delle stream viene impiegato per creare la leaderboard, per prima cosa utilizzo una stream per inizializzare la lista dei profili e in base al numero di vittorie si ottengono quelli con il numero più alto, dopodiché  itero, raccolgo i profili e li ordino in una lista.
+Nel mio programma l'utilizzo delle stream viene impiegato per creare la leaderboard, iterando sui profili e comparando tra loro il proprio numero di vittorie creo una lista ordinata che rappresenta la classifica.
 ```java
 public class Leaderboard {  
     private static Leaderboard instance = null;  
     private List<Profile> profiles;  
   
-    /**  
-     * Private constructor to prevent instantiation.     * Initializes the profiles list with profiles from the ProfileManager.     */    private Leaderboard() {  
+     private Leaderboard() {  
         ProfileManager profileManager = ProfileManager.getInstance();  
         profiles = IntStream.range(0, profileManager.getProfilesSize())  
                 .mapToObj(profileManager::getProfile)  
                 .collect(Collectors.toList());  
     }  
-    /**  
-     * Returns the singleton instance of the Leaderboard.     *     * @return the singleton instance of the Leaderboard  
-     */    public static Leaderboard getInstance() {  
-        if (instance == null) {  
-            instance = new Leaderboard();  
-        }        return instance;  
-    }  
-    /**  
-     * Returns a list of the top profiles based on their wins.     * The list is sorted in descending order of wins and limited to the specified number of profiles.     *     * @param limit the maximum number of top profiles to return  
-     * @return a list of the top profiles based on their wins  
-     */    public List<Profile> getTopProfiles(int limit) {  
+ public List<Profile> getTopProfiles(int limit) {  
         return profiles.stream()  
                 .sorted((p1, p2) -> Integer.compare(p2.getWins(), p1.getWins()))  
                 .limit(limit)  
