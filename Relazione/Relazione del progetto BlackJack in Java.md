@@ -66,5 +66,24 @@ public void update(Observable o, Object arg) {
         ((CardLayout) deck.getLayout()).show(deck, screen.name());  
 }
 ```
- 2) Un altro utilizzo di Obsever/Observable si può trovare nelle classi *TurnManager* (**Observable**) e *PlayPanel* (**Observer**).
-- 
+ 2) Un altro utilizzo di Obsever/Observable si può trovare nelle classi *TurnManager* (**Observable**) e *PlayPanel* (**Observer**). Il TurnManager notifica il panel se il giocatore ha vinto, perso o pareggiato in maniera tale che la schermata finale sia coerente con l'esito del gioco.
+```java
+#In PlayPanel
+@Override  
+public void update(Observable o, Object arg) {  
+    if (arg instanceof String result) {  
+        switch (result) {  
+            case "WIN":  
+                switchToResultPanel(true, false, false);  
+                break;  
+            case "TIE":  
+                switchToResultPanel(false, true, false);  
+                break;  
+            case "LOSE":  
+                switchToResultPanel(false, false, true);  
+                break;  
+        }    } else {  
+        disableButtons();  
+    }}
+```
+- ****
