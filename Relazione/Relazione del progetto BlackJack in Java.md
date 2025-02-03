@@ -3,9 +3,6 @@
 >2136445
 >Canale M-Z
 
-_Introduzione_
-Vorrei iniziare dicendo che questo progetto è stata un'esperienza particolarmente significativa per me. In un periodo della mia vita in cui sto affrontando molte difficoltà, la programmazione è stata sia una sfida che una sorta di via di fuga, un modo per distrarmi e concentrarmi su qualcosa di costruttivo. Nonostante le difficoltà, sono molto soddisfatto del risultato ottenuto. Voglio anche esprimere la mia gratitudine più sincera alla mia famiglia, che mi ha supportato in ogni momento di questo percorso.
-
 ## Capitolo 1: estetica e concept
 Per quanto riguarda le carte del gioco, sia il back che il front, sono le tipiche carte da gioco; mentre gli avatar che ho inserito all'interno del gioco sono delle pixelart di alcuni personaggi del mio anime preferito: Neon Genesis Evangelion. 
 ![[Pasted image 20250201201901.png|300]]
@@ -20,8 +17,7 @@ E invece la musica del menù? Non è collegata ad Evangelion ma è un omaggio a 
 ![[Pasted image 20250201203014.png|400]]
 
 ## Capitolo 2: Il Gioco
-L'utente deve per prima cosa scegliere il profilo da usare per la partita e, contemporaneamente, scegliere anche il numero di bot che giocheranno con lui al tavolo (0,1,2). L'obiettivo del gioco è quello di battere il Dealer, ovvero fare un punteggio superiore senza superare la soglia del 21. S
-
+L'utente deve per prima cosa scegliere il profilo da usare per la partita e, contemporaneamente, scegliere anche il numero di bot che giocheranno con lui al tavolo (0,1,2). L'obiettivo del gioco, come nel blackjack reale, è quello di battere il Dealer. 
 ## Capitolo 3: MVC
 L' MVC è il design pattern che separa le responsabilità e i compiti in:
 - *Model*: si occupa della logica del gioco, come ad esempio il mazzo, i giocatori, i profili, la musica,ecc...

@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Relazione del progetto BlackJack in Java"
             }
+          },
+          {
+            "id": "d6d991852f98b5a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relazione/Relazione del progetto BlackJack in Java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relazione del progetto BlackJack in Java"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -187,8 +201,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9b4c4a6714cccfea",
+  "active": "a0efb69d8bc00d10",
   "lastOpenFiles": [
+    "boh.md",
+    "Relazione/Relazione del progetto BlackJack in Java.md",
     "Pasted image 20250201203014.png",
     "Pasted image 20250201202215.png",
     "Pasted image 20250201202133.png",
@@ -196,7 +212,6 @@
     "Pasted image 20250201201901.png",
     "Pasted image 20250201201527.png",
     "Relazione/Untitled.canvas",
-    "Relazione/Relazione del progetto BlackJack in Java.md",
     "Relazione",
     "Sisitemi Operativi/Modulo 1/Lezione 1.md",
     "Relazione",
@@ -217,7 +232,6 @@
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108161839.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108160914.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108160715.png",
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241108151512.png",
     "Basi di Dati/Modulo 1/Lezione 8.md",
     "conflict-files-obsidian-git.md",
     "Sisitemi Operativi/Modulo 1/Lezione 7.md",
