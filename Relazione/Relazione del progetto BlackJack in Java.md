@@ -9,7 +9,7 @@ Vorrei iniziare dicendo che questo progetto è stata un'esperienza particolarmen
 ## Capitolo 1: estetica e concept
 Per quanto riguarda le carte del gioco, sia il back che il front, sono le tipiche carte da gioco; mentre gli avatar che ho inserito all'interno del gioco sono delle pixelart di alcuni personaggi del mio anime preferito: Neon Genesis Evangelion. 
 ![[Pasted image 20250201201901.png|300]]
-Ho volutamente messo i protagonisti come personaggi giocabili dall'utente mentre gli avatar riservati al dealer e ai bot sono degli "angeli", ovvero gli antagonisti della serie animata. 
+Ho volutamente messo i protagonisti come personaggi giocabili dall'utente, mentre gli avatar riservati al dealer e ai bot sono degli "angeli", ovvero gli antagonisti della serie animata. 
 ![[Pasted image 20250201202215.png|100]]
 Ho voluto quindi creare un BlackJack ispirato alla serie (più che un gioco d'azzardo è una sfida per sconfiggere  gli angeli). Motivo per cui come tracce audio del gioco ho inserito la versione 8-bit dei seguenti brani:
 - **Fly Me To The Moon** - per quando si gioca
@@ -44,7 +44,7 @@ All'interno del controller possiamo trovare:
 >- *PlayPanelController, ProfileSelectionPanelController, StartPanelController*: gestiscono la logica dei pulsanti all'interno delle rispettive schermate e permette l'interazione tra il model e la view in maniera indiretta
 
 >[!Example] La View
->- *GameWindow*: inizializza la finestra del gioco e crea il JPanel deck che racchiude a sua volta all'interno tutte le schermate del gioco. Per passare da una schermata all'altra utilizza la classe *Navigator* che implementa observable in modo tale da notificare ogni cambiamento di schermata.
+>- *GameWindow*: inizializza la finestra del gioco e crea il JPanel deck che racchiude a sua volta all'interno tutte le schermate del gioco. Per passare da una schermata all'altra utilizza *Navigator* che implementa observable in modo tale da notificare ogni cambiamento di schermata.
 >- *StartPanel, ProfileSelectionPanel, PlayPanel, TiePanel, WinPanel, LosePanel*: sono tutte le schermate del gioco e in base al tipo di schermata disegnano a schermo elementi diversi: ad esempio se ci troviamo nello **StartPanel** verranno disegnate a schermo alcune immagini come il mio logo, il titolo del gioco e verranno aggiunti dei pulsanti per decidere di passare alla selezione del profilo oppure uscire dal gioco.
 
 ## Capitolo 3: I Design Pattern
@@ -101,4 +101,5 @@ public class DealerModel {
     // altri metodi... 
 }
 ```
-## Capitolo 4: 
+## Capitolo 4: Stream
+Nel mio programma l'utilizzo delle stream viene impiegato per creare la leaderboard, per prima cosa utilizzo una stream per inizializzare la lista
