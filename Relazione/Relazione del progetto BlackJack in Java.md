@@ -87,3 +87,4 @@ public void update(Observable o, Object arg) {
     }}
 ```
 - **Singleton**: ho implementato questo design pattern in tutte le classi che devono avere solo un'istanza: i giocatori, i manager e la leaderboard. Il design pattern "singleton" evita la duplicazione o incongruenze nei dati, si usa un costruttore privato in maniera tale che la classe non venga istanziata da altre parti del codice, per accedere all'istanza si usa il metodo  statico *getIstance()*  e nel caso in cui l'istanza non esista (quindi è pari a null) il metodo chiama il costruttore privato per poterla creare
+- 
