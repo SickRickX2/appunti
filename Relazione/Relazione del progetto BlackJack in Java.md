@@ -21,7 +21,7 @@ E invece la musica del menù? Non è collegata ad Evangelion ma è un omaggio a 
 
 ## Capitolo 2: MVC
 L' MVC è il design pattern che separa le responsabilità e i compiti in:
-- *Model*: si occupa della logica del gioco, come ad esempio il mazzo, i giocatori, la musica,ecc...
+- *Model*: si occupa della logica del gioco, come ad esempio il mazzo, i giocatori, i profili, la musica,ecc...
 - *View*: si occupa dell'aspetto grafico
 - *Controller*: si occupa di inizializzare il gioco, aggiornare la view, e a coordinare l'interazione tra il model e la view.
 L'implementazione dell'MVC permette di estendere il gioco o di fare manutenzione al codice in maniera più semplice.
@@ -65,5 +65,5 @@ public void update(Observable o, Object arg) {
         ((CardLayout) deck.getLayout()).show(deck, screen.name());  
 }
 ```
-- Singleton:
+	
 - 
