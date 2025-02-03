@@ -66,6 +66,5 @@ public void update(Observable o, Object arg) {
         ((CardLayout) deck.getLayout()).show(deck, screen.name());  
 }
 ```
- 2) Un altro utilizzo di Obsever/Observable si può trovare nelle classi *TurnManager* (**Observable**) e *PlayPanel* (**Observer**)
-- 
+ 2) Un altro utilizzo di Obsever/Observable si può trovare nelle classi *TurnManager* (**Observable**) e *PlayPanel* (**Observer**).
 - 
