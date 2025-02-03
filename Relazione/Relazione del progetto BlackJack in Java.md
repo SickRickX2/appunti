@@ -49,6 +49,6 @@ All'interno del controller possiamo trovare:
 
 ## Capitolo 3: I Design Pattern
 A parte il ben noto MVC ci sono altri design pattern che ho utilizzato all'interno del mio gioco:
-- Observer/Observable:
+- **Observer/Observable:** come da richiesta, ma anche per una corretta implementazione dell'MVC, ho implementato nel codice questo desi
 - Singleton:
 - 
