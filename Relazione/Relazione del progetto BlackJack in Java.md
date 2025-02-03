@@ -86,4 +86,4 @@ public void update(Observable o, Object arg) {
         disableButtons();  
     }}
 ```
-- ****
+- **Singleton**: ho implementato questo design pattern in tutte le classi che devono avere solo un'istanza: i giocatori, i manager e la leaderboard. Il design pattern "singleton" evita lad
