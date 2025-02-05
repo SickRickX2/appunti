@@ -6,4 +6,4 @@ I campi costituiscono la memoria di un oggetto, sono delle variabili e hanno qui
 >Se un oggetto o un metodo viene definito **statico** significa che è in comune fra tutti gli oggetti di quella classe 
 
 ## Costruttore 
-Il costruttore è un metodo speciale all'interno di una classe dato che serve a creare gli oggetti, ha il nome uguale a quello della classe, non restituisce nessun valore e all'interno, ha il nome uguale a quello della classe, non restituisce nessun valore e all'interno di una classe ce ne può essere più di uno di solito con parametri diversi
+Il costruttore è un metodo speciale all'interno di una classe dato che serve a creare gli oggetti, ha il nome uguale a quello della classe, non restituisce nessun valore e all'interno, ha il nome uguale a quello della classe, non restituisce nessun valore e all'interno di una classe ce ne può essere più di uno di solito con parametri diversi. Solitamente al loro interno vengono inizializzati i campi dell'oggetto.
