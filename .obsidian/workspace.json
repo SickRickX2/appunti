@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/1 Introduzione di Java.md",
+                "file": "JAVA/2 Classi e Oggetti.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Introduzione di Java"
+              "title": "2 Classi e Oggetti"
             }
           }
         ]
@@ -179,8 +179,8 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
-    "JAVA/2 Classi e Oggetti.md",
     "JAVA/1 Introduzione di Java.md",
+    "JAVA/2 Classi e Oggetti.md",
     "Pasted image 20250205184715.png",
     "Relazione/imgs/Pasted image 20250201202125.png",
     "JAVA",

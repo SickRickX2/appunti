@@ -1,1 +1,4 @@
-Una classe è quel pezzo di codice che descrive i campi ed i metodi di un oggetto, viene definita dal programmatore, un oggetto quindi altro non è che un'istanza di una classe. In Java esistono delle classi già implementate in delle librerie, si possono trovare anche online scritte da altri programmatori. Queste sono organizzate in **package**.
+Una *classe* è quel pezzo di codice che **descrive** i campi ed i metodi di un oggetto, viene definita dal programmatore, un *oggetto* quindi altro non è che un'**istanza** di una classe. In Java esistono delle classi già implementate in delle librerie, si possono trovare anche online scritte da altri programmatori. Queste sono organizzate in **package**.
+
+## Campi e metodi
+I campi costituiscono la memoria di un oggetto, sono delle variabili e hanno quindi un tipo e un nome. Di solito si definiscono privati all'interno della classe. I metodi invece sono tipicamente pubblici e restituiscono i valori privati dei campi (o operazioni con essi), per convenzione i nomi iniziano con lettera minuscola e le seguenti parole
