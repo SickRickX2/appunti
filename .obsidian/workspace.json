@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/01.md",
+                "file": "JAVA/02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01"
+              "title": "02"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -179,9 +178,10 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
+    "JAVA/01.md",
+    "JAVA/02.md",
     "Pasted image 20250205184715.png",
     "Relazione/imgs/Pasted image 20250201202125.png",
-    "JAVA/01.md",
     "JAVA",
     "Relazione/imgs/Pasted image 20250201201527.png",
     "Relazione/imgs/Pasted image 20250201201901.png",
@@ -195,7 +195,6 @@
     "Pasted image 20250201202133.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119211027.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119210737.png",
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119205928.png",
     "Basi di Dati/Modulo 1/Lezione 6.md",
     "Relazione",
     "Basi di Dati/Modulo 1/Lezione 10.md",
