@@ -1,4 +1,4 @@
-# Introduzione di Java
+
 Java è orientato alla programmazione ad oggetti, ogni oggetto:
 - Ha uno **stato**, ovvero i suoi **campi**
 - Ha la possibilità di compiere azioni
@@ -53,6 +53,7 @@ Esistono diversi tipi di conversioni:
 - **Cast Implicito:** Avviene quando forniamo un valore meno preciso rispetto al tipo dichiarato, Java converte automaticamente al valore più preciso. Ad esempio double num = 2, abbiamo fornito un intero ad un double quindi verrà convertito in 2.0
 ### Regole per il cast implicito
 Questo tipo di cast può avvenire o in fase di **assegnazione** ad esempio da int a long, o da float a double oppure in caso di un'espressione, se è presente un operando double infatti questa viene convertita indouvle, un altro esempio è nel caso di una concatenazione con una stringa che comporta ad un cast a string.
+
 
 
 

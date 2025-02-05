@@ -1,0 +1,1 @@
+Una classe è quel pezzo di codice che descrive i campi ed i metodi di un oggetto, viene definita dal programmatore, un oggetto quindi altro non è che un'istanza di una classe. In Java esistono delle classi già implementate in delle librerie, si possono trovare anche online scritte da altri programmatori. Queste sono organizzate in **package**.
