@@ -11,12 +11,14 @@
             "id": "50ed999ed366e579",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250201202133.png"
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250201202133"
+              "icon": "lucide-file",
+              "title": "Lezione 1"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -158,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,19 +179,20 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
+    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
+    "Pasted image 20250201203014.png",
+    "Pasted image 20250201202215.png",
     "Pasted image 20250201202125.png",
     "Pasted image 20250201201901.png",
     "Pasted image 20250201201527.png",
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119211027.png",
-    "Pasted image 20250201203014.png",
+    "Basi di Dati/Modulo 1/imgs/Pasted image 20240925234114.png",
+    "Relazione/Relazione del progetto BlackJack in Java.md",
     "Pasted image 20250201202133.png",
+    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119211027.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119210737.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119205928.png",
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241114210336.png",
-    "Relazione/Relazione del progetto BlackJack in Java.md",
     "Basi di Dati/Modulo 1/Lezione 6.md",
     "Relazione",
-    "Pasted image 20250201202215.png",
     "Basi di Dati/Modulo 1/Lezione 10.md",
     "Basi di Dati/Modulo 1/Lezione 8.md",
     "Sisitemi Operativi/Modulo 1/Lezione 10.md",
@@ -205,7 +210,6 @@
     "Sisitemi Operativi/Modulo 1/Lezione 6.md",
     "Senza nome.md",
     "Sisitemi Operativi/Modulo 1/Lezione 4.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
     "Sisitemi Operativi/Modulo 1/Lezione 3.md",
     "Basi di Dati/Modulo 1/Lezione 5.md",
     "Basi di Dati/Modulo 1/Lezione 4.md",

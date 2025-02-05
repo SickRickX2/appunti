@@ -1,8 +1,8 @@
 Il **Sistema operativo** gestisce le risorse hardware del computer. Il suo scopo è fornire un insieme di servizi agli utenti finali(sviluppatori, utenti base, ecc...) ognuno con esigenze diverse.
 Possiamo dire che all'interno di un computer moderno ci sono tre componenti principali:
-- CPU
-- RAM(Main Memory)
-- MODULI DI INPUT/OUTPUT
+- *CPU*
+- *RAM*(Main Memory)
+- *MODULI DI INPUT/OUTPUT*
 Per comunicare tra di loro le parti interne vengono collegate tramite i *bus di sistema*.
 ## Registri del Processorre
 Ci sono diversi tipi di registri all'interno del processore:
