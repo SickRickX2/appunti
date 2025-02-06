@@ -33,7 +33,7 @@ Dall'alto al basso:
 - Rilevamento di e reazioni ad errori
 - Accounting (chi fa cosa)
 ## Il kernel
-La parte di so che si trova sempre nella memoria principale. Contiene le funzioni più usate, sta nel "nucleo". 
+La parte di SO che si trova sempre nella memoria principale. Contiene le funzioni più usate, sta nel "nucleo". 
 ## Caratteristiche Hardware
 Prima di arrivare ai SO moderni si usavano i sistemi Batch. Con le seguenti caratteristiche.
 **Protezione della memoria**, non permette che la zona di memoria contenente il monitor venga modificata. 
