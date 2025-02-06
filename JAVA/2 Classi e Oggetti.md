@@ -11,4 +11,4 @@ Il costruttore è un metodo speciale all'interno di una classe dato che serve a 
 >I campi sono visibili solo all'interno dell'oggetto ed esistono per tutta la sua durata di vita mentre le variabili locali vengono definite all'interno di un metodo o come parametri, una volta terminata la sua eseacuzione queste non esistono più
 
 ## Campi e metodi
-I campi costituiscono la memoria di un oggetto, sono delle variabile
+I campi costituiscono la memoria di un oggetto, sono delle variabili e hanno quindi un tipo e un nome
