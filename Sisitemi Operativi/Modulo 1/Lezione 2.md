@@ -36,7 +36,8 @@ Dall'alto al basso:
 La parte di so che si trova sempre nella memoria principale. Contiene le funzioni più usate, sta nel "nucleo". 
 ## Caratteristiche Hardware
 Prima di arrivare ai SO moderni si usavano i sistemi Batch. Con le seguenti caratteristiche.
-Protezione della memoria, non permette che la zona di memoria contenente il monitor venga modificata. Timer, impedisce che un job monopolizzi l'intero sistema. Istruzioni privilegiate, alcune istruzioni macchina possono essere eseguite solo dal monitor, implementa le interruzioni mentre i primi modelli di computer non le avevano.
+**Protezione della memoria**, non permette che la zona di memoria contenente il monitor venga modificata. 
+**Timer**, impedisce che un job monopolizzi l'intero sistema. Istruzioni privilegiate, alcune istruzioni macchina possono essere eseguite solo dal monitor, implementa le interruzioni mentre i primi modelli di computer non le avevano.
 - **Protezione della Memoria:** i programmi utente vengono eseguiti in *modalità utente* alcune istruzioni non possono essere eseguite.
 - **Il monitor**: viene eseguito in *modalità sistema*, o modalità kernel, le istruzioni privilegiate possono essere eseguite e le aree protette della memoria possono essere accedute
 In questo modo più del 96% del tempo è sprecato ad aspettare i dispositivi di I/O.
