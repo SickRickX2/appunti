@@ -25,7 +25,12 @@ Gli array sono una sequenza di elementi dello stesso tipo (sia primitivi che ogg
 ## Matrici
 Rappresenta un array bidimensionale, per accedere quindi agli elementi è necessario fornire due indici, possiamo “visualizzarli” come delle tabelle con righe e colonne.
 # Confronti
-
 - **`==`**: si utilizza per confrontare l’**identità**, ci si confrontano tipi primitivi oppure i **riferimenti** agli oggetti e non gli oggetti stessi.
 - **equals**: Confronto logico, confronta i campi degli oggetti quindi è utilizzabile per quest’ultimi.
 - **compareTo**: Serve a comparare due oggetti, restituisce un intero, 0 se i due oggetti sono uguali, < 0 se il primo è minore del secondo e > 0 se il primo è maggiore del secondo.
+## Classi Astratte
+Sono classi con le quali non possiamo creare oggetti, di solito vengono estese da altre classi che possono invece essere istanziate. All’interno di queste classi possiamo definire **metodi astratti** che non hanno implementazione, le sottoclassi sono **obbligate** a fornirne una, l’unico caso in cui non lo sono è quando sono anche esse astratte.
+
+Quando definiamo una classe con un costruttore non vuoto le sue sottoclassi devono necessariamente chiamarlo tramite **super** nel loro costruttore, se invece non ci sono parametri i costruttori possono anche essere lasciati vuoti impliciti.
+## Overriding
+L’overriding avviene quando all’interno di una sottoclasse sovrascriviamo l’intera implementazione di un metodo della superclasse lasciando però la stessa intestazione, dobbiamo lasciare gli stessi argomenti, un tipo di ritorno compatibile e non dobbiamo cambiare il livello di visibilità.
