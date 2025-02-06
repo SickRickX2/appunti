@@ -42,8 +42,8 @@ Prima di arrivare ai SO moderni si usavano i sistemi Batch. Con le seguenti cara
 - **Il monitor**: viene eseguito in *modalità sistema*, o modalità kernel, le istruzioni privilegiate possono essere eseguite e le aree protette della memoria possono essere accedute
 In questo modo più del 96% del tempo è sprecato ad aspettare i dispositivi di I/O.
 ### Programmazione Singola vs Multiprogrammazione
-Singola: il processore dve aspettare che le istruzioni di I/O siano completate prima di procedere.
-Multi: se un job deve aspettare che si completi dell'I/O, allora il processore può passare ad un altro job.
+*Singola*: il processore dve aspettare che le istruzioni di I/O siano completate prima di procedere.
+*Multi*: se un job deve aspettare che si completi dell'I/O, allora il processore può passare ad un altro job.
 
 ## Sistemi Time Sharing
 In seguito si è passati ai Sistemi Time Sharing letteralmente sistemi a condivisione di tempo (dagli anni 70).  Implementa l'uso della multiprogrammazione per gestire contemporaneamente più jobs iterattivi, il tempo del processore è condiviso tra più utenti quindi più utenti accedono contemporaneamente al sistema tramite terminali.
@@ -55,10 +55,10 @@ In seguito si è passati ai Sistemi Time Sharing letteralmente sistemi a condivi
 
 Col passare degli anni si passa dal Job al Processo. Il *processo* riunisce in un unico concetto il job non-interattivo e quello interattivo. Incorpora anche un altro tipo di job che cominciò a manifestarsi dagli anni Settanta: quello transazionale real-time. Un'unità di attività caratterrizzata da: un singolo flusso (thread) di esecuzione, uno stato corrente, un insieme di risorse di sistema ad esso associate.
 ## Multiprogrammazione dei Processi: Difficoltà
-- Errori di sincronizzazione: gli interrupt si perdono o vengono ricevuti 2 volte
-- Violazione della mutua esclusione: se 2 processi vogliono accedere alla stessa risorsa, ci possono essere problemi
-- Programmi con esecuzione non deterministica: un processo accede ad una porzione di memoria modificata da un altro processo
-- Deadlock (stallo): un processo A attende un processo B che attende
+- **Errori di sincronizzazione**: gli interrupt si perdono o vengono ricevuti 2 volte
+- **Violazione della mutua esclusione**: se 2 processi vogliono accedere alla stessa risorsa, ci possono essere problemi
+- **Programmi con esecuzione non deterministica:** un processo accede ad una porzione di memoria modificata da un altro processo
+- **Deadlock** (stallo): un processo A attende un processo B che attende
 **Gestione della memoria**: Utilizza l'isolamento dei processi, una protezione e controllo degli accessi e una gestione automatica di allocazione e deallocazione. Supporto per la programmazione modulare (stack).  Ed è presente una memorizzazione a lungo termine.
 **Protezione dell'informazione e sicurezza:** 
 - **Disponibilità** (avaibility): il dover proteggere il sistema contro l'interruzione di servizio (DoS attacks)
