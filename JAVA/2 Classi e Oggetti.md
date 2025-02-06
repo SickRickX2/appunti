@@ -20,3 +20,7 @@ Per i valori primitivi la memoria utilizzata è allocata automaticamente a tempo
 Quando assegniamo un oggetto ad una variabile questa non conterrà l’oggetto ma un **riferimento** ad esso, ovvero l’indirizzo di memoria RAM che lo contiene.
 ## Metodi Static
 Sono dei **metodi di classe** e non **metodi di istanza**, questo significa che possono accedere soltanto ai campi statici (di classe) e non agli oggetti specifici, infatti non è possibile chiamarli tramite degli oggetti.
+# Array
+Gli array sono una sequenza di elementi dello stesso tipo (sia primitivi che oggetti). Per accedere ad un elemento dell’array dobbiamo specificare il suo indice all’interno della sequenza, non si possono fornire indici maggiori o minori della lunghezza dell’array altrimenti andiamo in contro ad un errore. Se vogliamo modificare le dimensioni di un array possiamo soltanto creare un nuovo array e copiare gli elementi del vecchio tramite il metodo static `Arrays.copyOf()`.
+## Matrici
+Rappresenta un array bidimensionale, per accedere quindi agli elementi è necessario fornire due indici, possiamo “visualizzarli” come delle tabelle con righe e colonne.
