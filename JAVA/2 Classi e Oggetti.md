@@ -11,4 +11,9 @@ Il costruttore è un metodo speciale all'interno di una classe dato che serve a 
 >I campi sono visibili solo all'interno dell'oggetto ed esistono per tutta la sua durata di vita mentre le variabili locali vengono definite all'interno di un metodo o come parametri, una volta terminata la sua eseacuzione queste non esistono più
 
 ## Overloading
-Accade quando abbiamo metodi con lo stesso nome ma che hanno parametri in input diversi, possiamo utilizzarlo quindi per metodi che svolgono operazioni simili, ma basta fornire il giusto tipo di parametri 
+Accade quando abbiamo metodi con lo stesso nome ma che hanno parametri in input diversi, possiamo utilizzarlo quindi per metodi che svolgono operazioni simili, ma basta fornire il giusto tipo di parametri  per chiamare la definizione corretta.
+## Modificatori di visibilità
+I campi e metodi di una classe possono essere **pubblici, privati o protetti**, i metodi di una classe possono chiamare sia metodi che campi pubblici o privati della stessa classe, mentre possono chiamare soltanto quelli pubblici di altre classi.
+## Oggetti vs Valori Primitivi
+Per i valori primitivi la memoria utilizzata è allocata automaticamente a tempo di compilazione mentre per gli oggetti la memoria viene allocata nel momento in cui vengono creati in tempo di esecuzione, inoltre non hanno una dimensione fissa ma lo spazio occupato dipende dai loro campi. In un oggetto a differenza delle variabili locali, i campi vengono inizializzati a dei valori predefiniti, ad esempio i booleani a false, i valori numeri a 0 e oggetti a null.
+
