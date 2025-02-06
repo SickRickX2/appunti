@@ -49,7 +49,7 @@ Con le eccezioni sincrone non è detto:
 - **faults**: errore correggibile, viene rieseguita la stessa istruzione
 - **aborts**: errore non correggibile, si esegue software collegato con l’errore
 - **traps** e **system** **calls**: si continua dall’istruzione successiva (sono delle operazioni messe a disposizione dal SO che non interrompono il flusso del programma
->La differenza principale tra sincrone e sincrone è il punto di interruzione e la decisione sull’istruzione successiva.
+>La differenza principale tra sincrone e asincrone è il punto di interruzione e la decisione sull’istruzione successiva.
 #### Fase di interruzione
 Ad ogni ciclo **fetch-execute**, viene anche controllato se c’è stata un’interruzione ( o una **exception**). Se così è, il programma viene sospeso e viene eseguita una funzione che gestisce l’interruzione. ( *interrupt handler routine*).
 L'**interrupt handler** è una funzione particolare: nel programma utente non era prevista. Il SO e Hardware collaborano per salvare alcune informazioni sullo stato del processore in modo tale che dopo la gestione dell’interruzione si possa riprendere da dove si è lasciato (devono essere salvati almeno PC e registro di stato).
