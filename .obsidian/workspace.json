@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2 Classi e Oggetti"
             }
-          },
-          {
-            "id": "3b2d03975d93411a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b2d03975d93411a",
+  "active": "50ed999ed366e579",
   "lastOpenFiles": [
     "JAVA/1 Introduzione di Java.md",
     "JAVA/2 Classi e Oggetti.md",
