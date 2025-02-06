@@ -23,7 +23,7 @@ Dall'alto al basso:
  **Lettura della cache:** legge un indirizzo dalla cpu se l'indirizzo non è presente nella cache è un miss che va ricercato nella RAM, viene allocato uno slot per l'indirizzo(o meglio il blocco che lo contiene) che stiamo cercando e in parallelo viene spostato il contenuto del registro ra nella cpu. Se è presente nella cache viene direttamente spedito alla cpu dopo aver fatto il fetch di ra. Cache anche piccole hanno un grande impatto sulle performance. I dati scambiati tra memoria e cache sono in quantità multiple di un blocco, incrementare la misura del blocco aumenta il numero di accessi riusciti, ma incrementarla troppo è controproducente perché aumenta anche il numero di dati da rimuovere, il che abbassa la probabilità di accesso riuscito. La cache utilizza una funzione di mappatura che determina la locazione della cache nella quale andrà messo il blocco proveniente dalla memoria. L'algoritmo di rimpiazzamento sceglie il blocco da rimpiazzare, secondo il *LRU* (least recently used) si rimpiazza il blocco usato meno di recente. La politica di scrittura determina quando occorre scrivere in memoria, può accadere :
  - ogni volta che un blocco viene modificato(write-through)
  - può accadere quando il blocco viene rimpiazzato(write-back)
- occorre minimizzare le operazioni di scrittura, questo vuol dire che la memoria può trovarsi in uno stato "obsoleto". Il SO può fare il falsh della cache che ripulisce completamente la cache.
+ occorre minimizzare le operazioni di scrittura, questo vuol dire che la memoria può trovarsi in uno stato "obsoleto". Il SO può fare il flash della cache che ripulisce completamente la cache.
 
 ## Servizi offerti da un SO
 - Esecuzioni di programmi: applicazioni, servizi
