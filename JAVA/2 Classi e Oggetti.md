@@ -24,3 +24,8 @@ Sono dei **metodi di classe** e non **metodi di istanza**, questo significa c
 Gli array sono una sequenza di elementi dello stesso tipo (sia primitivi che oggetti). Per accedere ad un elemento dell’array dobbiamo specificare il suo indice all’interno della sequenza, non si possono fornire indici maggiori o minori della lunghezza dell’array altrimenti andiamo in contro ad un errore. Se vogliamo modificare le dimensioni di un array possiamo soltanto creare un nuovo array e copiare gli elementi del vecchio tramite il metodo static `Arrays.copyOf()`.
 ## Matrici
 Rappresenta un array bidimensionale, per accedere quindi agli elementi è necessario fornire due indici, possiamo “visualizzarli” come delle tabelle con righe e colonne.
+# Confronti
+
+- **`==`**: si utilizza per confrontare l’**identità**, ci si confrontano tipi primitivi oppure i **riferimenti** agli oggetti e non gli oggetti stessi.
+- **equals**: Confronto logico, confronta i campi degli oggetti quindi è utilizzabile per quest’ultimi.
+- **compareTo**: Serve a comparare due oggetti, restituisce un intero, 0 se i due oggetti sono uguali, < 0 se il primo è minore del secondo e > 0 se il primo è maggiore del secondo.
