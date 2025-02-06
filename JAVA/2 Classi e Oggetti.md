@@ -7,3 +7,6 @@ I campi costituiscono la memoria di un oggetto, sono delle variabili e hanno qui
 
 ## Costruttore 
 Il costruttore è un metodo speciale all'interno di una classe dato che serve a creare gli oggetti, ha il nome uguale a quello della classe, non restituisce nessun valore e all'interno, ha il nome uguale a quello della classe, non restituisce nessun valore e all'interno di una classe ce ne può essere più di uno di solito con parametri diversi. Solitamente al loro interno vengono inizializzati i campi dell'oggetto.
+>[!note] Campi e variabili locali
+>I campi sono visibili solo all'interno dell'oggetto ed esistono per tutta la sua durata di vita mentre le variabili locali vengono definite all'interno di un metodo o come parametri, una volta terminata la sua eseacuzione queste non esistono più
+
