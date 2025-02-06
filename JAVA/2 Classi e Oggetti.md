@@ -16,4 +16,7 @@ Accade quando abbiamo metodi con lo stesso nome ma che hanno parametri in input 
 I campi e metodi di una classe possono essere **pubblici, privati o protetti**, i metodi di una classe possono chiamare sia metodi che campi pubblici o privati della stessa classe, mentre possono chiamare soltanto quelli pubblici di altre classi.
 ## Oggetti vs Valori Primitivi
 Per i valori primitivi la memoria utilizzata è allocata automaticamente a tempo di compilazione mentre per gli oggetti la memoria viene allocata nel momento in cui vengono creati in tempo di esecuzione, inoltre non hanno una dimensione fissa ma lo spazio occupato dipende dai loro campi. In un oggetto a differenza delle variabili locali, i campi vengono inizializzati a dei valori predefiniti, ad esempio i booleani a false, i valori numeri a 0 e oggetti a null.
-
+## Riferimenti ad oggetti
+Quando assegniamo un oggetto ad una variabile questa non conterrà l’oggetto ma un **riferimento** ad esso, ovvero l’indirizzo di memoria RAM che lo contiene.
+## Metodi Static
+Sono dei **metodi di classe** e non **metodi di istanza**, questo significa che possono accedere soltanto ai campi statici (di classe) e non agli oggetti specifici, infatti non è possibile chiamarli tramite degli oggetti.
