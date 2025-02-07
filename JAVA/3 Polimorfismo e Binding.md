@@ -17,4 +17,11 @@ Infatti per la presenza di polimorfismo, il tipo di riferimento (variabile) può
 >[!note] Binding Dinamico
 >**Binding Dinamico** o late binding, si verifica quando il tipo di un oggetto o di un metodo viene determinato durante *l'esecuzione* del codice.
 >Il metodo effettivo viene determinato a runtime in base al tipo concreto dell'oggetto e non al tipo della variabile di riferimento.
->Ad esempio
+>Ad esempio:
+>```Java
+>Animal animale = new Cane(); animale.abbaia();
+>```
+>
+> In questo caso il compilatore non può determinare con certezza quale metodo abbaia verrà chiamato, perché il tipo della variabile animale è Animal, ma l'oggetto vero e proprio è di tipo Cane. A runtime, il sistema verifica il tipo dell'oggetto e chiama il metodo.
+
+
