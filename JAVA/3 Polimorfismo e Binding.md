@@ -5,4 +5,12 @@ Più nello specifico permette di utilizzare lo stess ocodice su oggetti diversi,
 ## Binding
 Il binding è il processo che determina quale oggetto deve essere utilizzato quando si chiama un metodo o si accede a una variabile.
 
-Infatti per la presenza di polimorfismo, il tipo di riferimento (variabile) può non corrispondere al tipo dell'oggetto vero e proprio presente in memoria
+Infatti per la presenza di polimorfismo, il tipo di riferimento (variabile) può non corrispondere al tipo dell'oggetto vero e proprio presente in memoria.
+
+>[!note] Binding Statico
+>Il **Binding Statico** o early binding, si verifica quando il tipo di un oggetto o di un metodo viene determinato durante la compilazione del codice.
+>Si utilizza per tutti quei metodi che non possono essere sovrascritti dalle sottoclassi ovvero metodi:
+>- *statici*
+>- *final*
+>- private*
+
