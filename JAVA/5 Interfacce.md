@@ -10,7 +10,10 @@ Inoltre un'interfaccia può estendere un altra interfaccia ed ereditare tutti i 
 >[!note] ### SAM
 >Una SAM è un'interfaccia che contiene un solo metodo astratto, ovvero un metodo che non ha un'implementazione
 >>[!warning] Osservazione
->> ogni SAM è anche un'interfaccia funzionale, ma non è detto che 
+>> ogni SAM è anche un'interfaccia funzionale, ma non è detto che  un'interfaccia funzionale sia una SAM
+
+>[!tip] ### Interfacce Funzionali
+>Un'interfaccia funzionale è un'interfaccia che contiene
 
 
 
