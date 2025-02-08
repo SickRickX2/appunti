@@ -7,4 +7,10 @@ Le interfacce possono contenere:
 - **Campi costanti** che sono implicitamente *public, static, final*
 - **Metodi di Default** con implementazione ma che sono implicitamente *public* e *static*
 Inoltre un'interfaccia può estendere un altra interfaccia ed ereditare tutti i suoi metodi.
+>[!note] ### SAM
+>Una SAM è un'interfaccia che contiene un solo metodo astratto, ovvero un metodo che non ha un'implementazione
+
+
+
+
 
