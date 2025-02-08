@@ -4,5 +4,7 @@ Infatti non posssono essere istanziate ed il loro obiettivo è quello di fornire
 
 Le interfacce possono contenere:
 - **Metodi** senza implementazione che sono implicitamente *abstract* e *public*
-- 
+- **Campi costanti** che sono implicitamente *public, static, final*
+- **Metodi di Default** con implementazione ma che sono implicitamente *public* e *static*
+Inoltre un'interfaccia può estendere un altra interfaccia ed ereditare tutti i suoi metodi.
 
