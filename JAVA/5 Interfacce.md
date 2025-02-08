@@ -7,13 +7,15 @@ Le interfacce possono contenere:
 - **Campi costanti** che sono implicitamente *public, static, final*
 - **Metodi di Default** con implementazione ma che sono implicitamente *public* e *static*
 Inoltre un'interfaccia può estendere un altra interfaccia ed ereditare tutti i suoi metodi.
->[!note] ### SAM
+>[!note] ### SAM- Single Abstract Method
 >Una SAM è un'interfaccia che contiene un solo metodo astratto, ovvero un metodo che non ha un'implementazione
 >>[!warning] Osservazione
 >> ogni SAM è anche un'interfaccia funzionale, ma non è detto che  un'interfaccia funzionale sia una SAM
 
 >[!tip] ### Interfacce Funzionali
->Un'interfaccia funzionale è un'interfaccia che contiene
+>Un'interfaccia funzionale è un'interfaccia che contiene solo un metodo astratto e può avere degli opozionali metodi di default
+
+
 
 
 
