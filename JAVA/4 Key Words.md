@@ -10,4 +10,8 @@
 >- **Metodi**: i metodi statici appartengono alla classe e  non ad un'istanza specifica e possono solo utilizzare metodi e campi statici
 >- **Campi**: appartengono ad una classe e non ad un istanza precisa  quindi esiste una sola allocazione del dato che è condivisa tra tutte le istanze
 
->[!Example] 
+>[!Example] # Abstract
+>Può essere usata solo su metodi e classi:
+>- **Classi**: le classi astratte non possono essere istanziate ma solo estese, può contenere metodi astratti o non
+>- **Metodi**:i metodi astratti non forniscono un'implementazione, ma le sottoclassi non astratte sono obbligate a fornirla rispettando il nome del metodo, i parametri in in input e il tipo di ritorno
+
