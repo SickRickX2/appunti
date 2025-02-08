@@ -4,6 +4,6 @@
 >- **Campi**: i campi final non posssono essere modificati dopo la loro assegnazione
 
 >[!tip] # Static
->- **Classi**: non è possibile definire static una classe standard ma sono su una classe dichiarata all'interno di un'altra classe
+>- **Classi**: non è possibile definire static una classe standard ma sono su una classe dichiarata all'interno di un'altra classe. Un'*inner class*(non statica)
 >- 
 >
