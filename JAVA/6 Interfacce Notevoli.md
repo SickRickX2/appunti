@@ -10,4 +10,11 @@ In Java, le interfacce *Iterable* e *Iterator* sono due concetti fondamentali pe
 >- *remove()*: rimuove l'elemento corrente dalla collezione (non è obbligatorio implementare questo metodo)
 
 ## List Iterator
-*ListIterator* è un interfaccia che estende l'interfaccia *Iterator* ed è specifica per liste
+*ListIterator* è un interfaccia che estende l'interfaccia *Iterator* ed è specifica per liste. E implementa questi metodi:
+- `hasNext()`: restituisce `true` se ci sono ancora elementi da scorrere in avanti, `false` altrimenti.
+- `hasPrevious()`: restituisce `true` se ci sono ancora elementi da scorrere all'indietro, `false` altrimenti.
+- `next()`: restituisce l'elemento successivo nella lista.
+- `previous()`: restituisce l'elemento precedente nella lista.
+- `remove()`: rimuove l'elemento corrente dalla lista.
+- `set(Object o)`: sostituisce l'elemento corrente con l'oggetto specificato.
+- `add(Object o)`: aggiunge l'oggetto specificato alla lista.
