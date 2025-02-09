@@ -8,3 +8,8 @@ L'interfaccia `cloneable` è detta interfaccia segna posto perché non contien
 ## Clone Shallow Copy
 Per fare una shallow copy bisogna semplicemente chiamare il metodo clone() della superclasse (object).
 
+La shallow copy consiste in un nuovo oggetto in cui:
+- i campi primitivi saranno copiati e avranno valori identici all'oggetto originale
+- i riferimenti agli oggetti saranno copiati  ma punteranno alla stessa area di memoria dell'oggetto originale
+## Clone Deep Copy
+Il metodo più complesso per effettuare un clone è creare una copia in cui ogni riferimento ad un altro oggetto dovr
