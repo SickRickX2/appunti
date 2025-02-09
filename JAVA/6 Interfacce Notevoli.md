@@ -9,3 +9,5 @@ In Java, le interfacce *Iterable* e *Iterator* sono due concetti fondamentali pe
 >- *next()*: restituisce l'elemento successivo nella collezione
 >- *remove()*: rimuove l'elemento corrente dalla collezione (non è obbligatorio implementare questo metodo)
 
+## List Iterator
+*ListIterator* è un interfaccia 
