@@ -34,8 +34,9 @@ Una classe che implementa *Comparator* deve fornire un metodo *compare()* che co
 - *Comparable* definisce un ordinamento naturale per la classe , mentre *Comparator* definisce un ordinamento personalizzato
 ## Cloneable
 
+
 ## Serializable
-L'interfaccia Serializable in Java è un'interfaccia segna posto (cioè non contiene metodi) che indica
+L'interfaccia Serializable in Java è un'interfaccia segna posto (cioè non contiene metodi) che indica che un oggetto può essere serializzato, ovvero convertito in un flusso di byte che può essere scritto su un file o inviato su una rete.
 
 
 
