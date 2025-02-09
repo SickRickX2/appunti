@@ -32,4 +32,11 @@ Una classe che implementa *Comparator* deve fornire un metodo *compare()* che co
 **Differenze:**
 - *Comparable* è un'interfaccia che deve essere implementata dalla classe stessa, mentre *Comparator* può essere implementata da una classe esterna.
 - *Comparable* definisce un ordinamento naturale per la classe , mentre *Comparator* definisce un ordinamento personalizzato
+## Cloneable
+
+## Serializable
+L'interfaccia Serializable in Java è un'interfaccia segna posto (cioè non contiene metodi) che indica
+
+
+
 
