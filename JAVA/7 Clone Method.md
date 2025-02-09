@@ -1,0 +1,1 @@
+*Clone()* è un metodo che ogni classe eredita dalla superclasse *object* e restituisce una copia dell'oggetto clonato (ovvero una nuova istanza dell'oggetto con stessi campi ma area di memoria diversa).
