@@ -14,3 +14,7 @@ Per sovrascrivere *equals()* in modo tale che due oggetti siano logicamente ugua
 3) **Confrontare le proprietà**: il terzo passo è confrontare le proprietà dell'oggetto passato come parametro con le proprietà dell'oggetto corrente
 4) **Restituire il risultato**
 
+## HashCode
+*hashCode()* è un metodo di *object* che associa ad ogni oggetto un codice hash (ovvero un numreo intero) che sarà lo stesso per due oggetti uguali.
+
+Il metodo *hashcode* è utilizzato nelle strutture dati *HashMap* e *HashSet* 
