@@ -29,3 +29,7 @@ Una classe che implementa *Comparable* deve fornire un metodo *compareTo()* che 
 *Comparator* è un'interfaccia funzionale che consente di definire un ordinamento personalizzato per una classe di oggetti.
 
 Una classe che implementa *Comparator* deve fornire un metodo *compare()* che confronta due oggetti della stessa classe e restituisce un valore intero che indica l'ordinamento tra i due oggetti.
+**Differenze:**
+- *Comparable* è un'interfaccia che deve essere implementata dalla classe stessa, mentre *Comparator* può essere implementata da una classe esterna.
+- *Comparable* definisce un ordinamento naturale per la classe , mentre *Comparator* definisce un ordinamento personalizzato
+
