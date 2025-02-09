@@ -21,3 +21,7 @@ Il metodo *hashcode* è utilizzato nelle strutture dati *HashMap* e *HashSet*, c
 **Osservazione**: Se due oggetti sono uguali secondo equals() allora dovranno avere lo stesso hash code, tuttavia se due oggetti hanno lo stesso hash code non implica che siano necessariamente uguali secondo il metodo equals()
 
 ### Override
+Se equals viene sovrascritto allor dobbiamo ri-implementare anche hashCode.
+1) **Numeri Primi**: Scegliamo 2 numeri primi uno è utilizzato per inizializzare  il codice hash, l'altro per moltiplicare i valore dei campi
+2) **Hash dei campi**: si deve calcolare il codice hash di ogni campo dell'oggetto, i primitivi si sommano direttamente mentre gli altri
+3) 
