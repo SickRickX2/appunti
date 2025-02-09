@@ -23,5 +23,7 @@ Il metodo *hashcode* è utilizzato nelle strutture dati *HashMap* e *HashSet*, c
 ### Override
 Se equals viene sovrascritto allor dobbiamo ri-implementare anche hashCode.
 1) **Numeri Primi**: Scegliamo 2 numeri primi uno è utilizzato per inizializzare  il codice hash, l'altro per moltiplicare i valore dei campi
-2) **Hash dei campi**: si deve calcolare il codice hash di ogni campo dell'oggetto, i primitivi si sommano direttamente mentre gli altri
-3) 
+2) **Hash dei campi**: si deve calcolare il codice hash di ogni campo dell'oggetto, i primitivi si sommano direttamente mentre gli altri tipi si sommano usando il metodo hashCode()
+3) **Somme e Prodotto**: 
+	-  si inizializza il valore dell'hash con il primo numero prim che si è scelto
+	- per ogni campo dell'oggetto: si moltiplica il valore dell'hash con il secondo numero primo poi sommiamo al nuovo hash l'hash code del campo che si sta prendendo in considerazione
