@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/7 Clone Method.md",
+                "file": "JAVA/8 Lambda Expression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Clone Method"
+              "title": "8 Lambda Expression"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
-    "JAVA/2 Classi e Oggetti.md",
     "JAVA/7 Clone Method.md",
+    "JAVA/8 Lambda Expression.md",
+    "JAVA/2 Classi e Oggetti.md",
     "JAVA/6 Interfacce Notevoli.md",
     "JAVA/5 Interfacce.md",
     "JAVA/1 Introduzione di Java.md",
@@ -227,7 +228,6 @@
     "Sisitemi Operativi/Modulo 1/Lezione 8.md",
     "Sisitemi Operativi/Modulo 1/Lezione 5.md",
     "Sisitemi Operativi/Modulo 1/Lezione 7.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 6.md",
     "Basi di Dati/Modulo 1/imgs",
     "Sisitemi Operativi/Modulo 1/imgs",
     "Sisitemi Operativi/Modulo 1",

@@ -15,4 +15,5 @@ La shallow copy consiste in un nuovo oggetto in cui:
 Il metodo più complesso per effettuare un clone è creare una copia in cui ogni riferimento ad un altro oggetto dovrà implementare *cloneable*
 
 La deep copy consiste in:
-- I campi primitivi saranno copiati e avranno valor
+- I campi primitivi saranno copiati e avranno valori identici all'oggetto originale
+- I riferimenti agli oggetti saranno copiati e creeranno nuove istanze degli oggetti riferiti con valori identici a quelli originali
