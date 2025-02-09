@@ -20,4 +20,9 @@ In Java, le interfacce *Iterable* e *Iterator* sono due concetti fondamentali pe
 - `add(Object o)`: aggiunge l'oggetto specificato alla lista.
 
 ## Comparable
-**
+*Comparable* è un'interfaccia funzionale che consente di definire un ordinamento per una classe  di oggetti.
+Una classe che implementa *Comparable* deve fornire un metodo *compareTo()* che confronta l'oggetto da cui è chiamato con altro oggetto della stessa classe e restituisce:
+- 0 se sono uguali
+- 1 se il primo è maggiore
+- -1 se il primo è minore
+## Comp
