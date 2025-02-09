@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/5 Interfacce.md",
+                "file": "JAVA/6 Interfacce Notevoli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Interfacce"
+              "title": "6 Interfacce Notevoli"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,10 +191,10 @@
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
     "JAVA/2 Classi e Oggetti.md",
+    "JAVA/5 Interfacce.md",
     "JAVA/1 Introduzione di Java.md",
     "JAVA/6 Interfacce Notevoli.md",
     "JAVA/4 Key Words.md",
-    "JAVA/5 Interfacce.md",
     "JAVA/3 Polimorfismo e Binding.md",
     "Senza nome.md",
     "Sisitemi Operativi/Modulo 1/Lezione 1.md",

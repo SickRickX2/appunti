@@ -18,3 +18,6 @@ In Java, le interfacce *Iterable* e *Iterator* sono due concetti fondamentali pe
 - `remove()`: rimuove l'elemento corrente dalla lista.
 - `set(Object o)`: sostituisce l'elemento corrente con l'oggetto specificato.
 - `add(Object o)`: aggiunge l'oggetto specificato alla lista.
+
+## Comparable
+**
