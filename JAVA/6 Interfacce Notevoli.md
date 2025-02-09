@@ -28,4 +28,4 @@ Una classe che implementa *Comparable* deve fornire un metodo *compareTo()* che 
 ## Comparator
 *Comparator* è un'interfaccia funzionale che consente di definire un ordinamento personalizzato per una classe di oggetti.
 
-Una classe che implementa *Comparator* deve fornire un metodo *compare()* che confronta due oggetti della stessa classe e erestituisce un valore intero che indica l'ordinamento tra i due oggetti.
+Una classe che implementa *Comparator* deve fornire un metodo *compare()* che confronta due oggetti della stessa classe e restituisce un valore intero che indica l'ordinamento tra i due oggetti.
