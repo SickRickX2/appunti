@@ -34,3 +34,6 @@ aggiungiPera(mele);
 Tuttavia, questo ci darà un errore di compilazione. Il motivo è che il metodo `aggiungiPera` prende in input una lista di frutti, mentre noi gli stiamo passando una lista di mele. Questo non è possibile perché non si può fare l'upcasting dei tipi generici.
 
 Se fosse possibile, avremmo come risultato una lista di mele che contiene una pera, il che non è corretto. La lista di mele dovrebbe contenere solo mele, non frutti di tipo diverso.
+
+>[!note] Estendere Classi Generiche
+>In java è possibile estendere classi generiche o implementare interfacce generiche con classi a loro volta generiche, è possibile scegliere il tipo nelle loro sotto classi.
