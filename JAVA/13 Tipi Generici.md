@@ -1,6 +1,6 @@
 I tipi generici in Java sono un potente meccanismo che permette di scrivere codice flessibile e riutilizzabile; dando la possibilità di definire classi, interfacce e metodi che operano su tipi di dati specificati solo al momento dell'utilizzo.
 
-Ad esempio le collezioni sono classi generiche do ve il tipo su cui operano è definito soltanto al mometno dell'istanziamento attraverso l'*operatore diamante* <>. Questo ha permesso di utilizzare un singolo codice per creare delle collection per qualsiasi tipo, ad esempio senza i tipi generici si sarebbe dovuto definire un tipo specifico di ArrayList per ogni tipo d'oggetto esistente.
+Ad esempio le collezioni sono classi generiche dove il tipo su cui operano è definito soltanto al mometno dell'istanziamento attraverso l'*operatore diamante* <>. Questo ha permesso di utilizzare un singolo codice per creare delle collection per qualsiasi tipo, ad esempio senza i tipi generici si sarebbe dovuto definire un tipo specifico di ArrayList per ogni tipo d'oggetto esistente.
 
 >[!danger] Implementazione dei Tipi Generici
 >I tipi generici sono implementati attraverso la cancellazione del tipo.
