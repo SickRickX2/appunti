@@ -16,9 +16,21 @@ Ad esempio le collezioni sono classi generiche do ve il tipo su cui operano è d
 >Non è permesso l'upcasting nei tipi generici, ad esempio:
 >Creiamo una lista di mele
 >```java
-ArrayList`<Number> listaNumeri = new ArrayList<Integer>(); //errore
->
->Ma rimane comunque l'ereditarietà tra classi:
->```java
-List`<Integer> listaNumeri = new ArrayList<Integer>();
->```
+`ArrayList<Mela> mele = new ArrayList<Mela>();
+Definiamo un metodo che prende in input una lista di frutti e inserisce una pera (sotto classe di frutto)
+
+```java
+public static void aggiungiPera(`ArrayList<Frutto> frutti) {
+   frutti.add(new Pera());
+}
+```
+
+Ora, proviamo a utilizzare la lista di mele come input del metodo appena citato.
+
+```java
+aggiungiPera(mele);
+```
+
+Tuttavia, questo ci darà un errore di compilazione. Il motivo è che il metodo `aggiungiPera` prende in input una lista di frutti, mentre noi gli stiamo passando una lista di mele. Questo non è possibile perché non si può fare l'upcasting dei tipi generici.
+
+Se fosse possibile, avremmo come risultato una lista di mele che contiene una pera, il che non è corretto. La lista di mele dovrebbe contenere solo mele, non frutti di tipo diverso.
