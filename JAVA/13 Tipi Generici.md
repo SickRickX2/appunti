@@ -13,5 +13,12 @@ Ad esempio le collezioni sono classi generiche do ve il tipo su cui operano è d
 >Per le classi generiche non vale l'ereditarietà dei tipi generici 
 
 >[!note] No upcasting
->Non è permesso l'upcasting nei tipi generici, ad esempio
+>Non è permesso l'upcasting nei tipi generici, ad esempio:
+>Creiamo una lista di mele
+>```java
+ArrayList`<Number> listaNumeri = new ArrayList<Integer>(); //errore
 >
+>Ma rimane comunque l'ereditarietà tra classi:
+>```java
+List`<Integer> listaNumeri = new ArrayList<Integer>();
+>```
