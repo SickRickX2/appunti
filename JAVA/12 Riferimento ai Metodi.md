@@ -1,0 +1,1 @@
+In java il simbolo  `::` è chiamato **operatore di riferimento a metodo**, permette di fare riferimento
