@@ -9,4 +9,9 @@ Ad esempio le collezioni sono classi generiche do ve il tipo su cui operano è d
 >[!note] No Primitivi
 >Non è possibile utilizzare i tipi primitivi con tipi generici, questo perché durante la cancellazione del tipo, il tipo generico viene sostituito con Object e i primitivi non possono essere trattati come oggetti.
 
+>[!note] No ereditarietà dei tipi generici
+>Per le classi generiche non vale l'ereditarietà dei tipi generici 
 
+>[!note] No upcasting
+>Non è permesso l'upcasting nei tipi generici, ad esempio
+>
