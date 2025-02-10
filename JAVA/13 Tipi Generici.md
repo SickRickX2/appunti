@@ -37,3 +37,9 @@ Se fosse possibile, avremmo come risultato una lista di mele che contiene una pe
 
 >[!note] Estendere Classi Generiche
 >In java è possibile estendere classi generiche o implementare interfacce generiche con classi a loro volta generiche, è possibile scegliere il tipo nelle loro sotto classi.
+
+È possibile definire metodi generici in classi non generiche.
+
+## Overloading Metodi Generici
+
+Un metodo generico può essere sovraccaricato anche da un metodo non generico ma con lo stesso nome e numero di parametri. Quando il compilatore riceve una chiamata a questo metodo cerca prima l'implementazione più specifica, ovvero quella non generica e poi il generico, per garantire un'ottimizzazione in base al tipo.
