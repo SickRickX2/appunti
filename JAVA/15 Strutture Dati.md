@@ -51,4 +51,16 @@ Esistono tre tipi di set:
 
 
 ## Maps
-Sono strutture dati che implementano l'interfaccia Map ed organizzano i dati in coppie chiave-valore, in cui non possono esistere due elementi con la stessa chiave
+Sono strutture dati che implementano l'interfaccia Map ed organizzano i dati in coppie chiave-valore, in cui non possono esistere due elementi con la stessa chiave.
+Di base non è possibile iterare sulle mappe ma è possibile ottenere il set delle chiavi o il set dei valori su cui è possibile iterare.
+
+Ci sono tre tipologie di mappe:
+- HashMap
+- TreeMap
+- LinkedHashMap
+
+>[!note] HashMap
+>Memorizza la coppia chiave-valore in una tabella hash
+
+>[!note] TreeMap
+>Memorizza le coppie chiave-valore in una struttura ad albero che mantiene l'ordinamento naturale
