@@ -35,3 +35,10 @@ Le lsite più utilizzate sono ArrayList e LinkedList
 ## Set
 I set sono collezioni prive di duplicati che estendono la classe AbstractSet ed implementano l'interfaccia Set. Gli oggetti inseriti nei set devono implementare correttamente i metodi hashCode ed equals.
 
+Esistono tre tipi di set:
+- HashSet
+- TreeSet
+- LinkedHashSet
+
+>[!note] HashSet
+>Gli elementi della collezione vengono memorizzati in una tabella di a
