@@ -64,3 +64,6 @@ Ci sono tre tipologie di mappe:
 
 >[!note] TreeMap
 >Memorizza le coppie chiave-valore in una struttura ad albero che mantiene l'ordinamento naturale
+
+>[!note] LinkedHashMap
+>Memorizza le coppie 
