@@ -24,4 +24,14 @@ Le lsite più utilizzate sono ArrayList e LinkedList
 >- **Ridimensionamento automatico**
 
 >[!note] LinkedList
->In una LinkedList, ogni elem
+>In una LinkedList, ogni elemento è rahppresentato da un nodo che contiene un valore e un riferimento al nodo successivo.
+>Caratteristiche:
+>- **Accesso sequenziale**
+>- **Inserimento e rimozione** senza dover riallocare tutta la struttura dati
+>- **Accesso Lento**, bisogna scorrere tutti gli elementi per accederne ad uno specifco
+>- **Memoria aggiuntiva** per memorizzare anche i puntatori ai nodi
+
+
+## Set
+I set sono collezioni prive di duplicati che estendono la classe AbstractSet ed implementano l'interfaccia Set. Gli oggetti inseriti nei set devono implementare correttamente i metodi hashCode ed equals.
+
