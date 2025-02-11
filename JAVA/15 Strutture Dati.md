@@ -66,4 +66,5 @@ Ci sono tre tipologie di mappe:
 >Memorizza le coppie chiave-valore in una struttura ad albero che mantiene l'ordinamento naturale
 
 >[!note] LinkedHashMap
->Memorizza le coppie 
+>Memorizza le coppie chaive-valore in una tabella hash proprio come un HashMap ma allo stesso tempo mantiene una copia dei dati in una struttura dati in una struttura simile ad una LinkedList
+
