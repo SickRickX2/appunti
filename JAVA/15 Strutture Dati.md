@@ -50,4 +50,5 @@ Esistono tre tipi di set:
 >Memorizza gli elementi in una tabella hash proiprio come un HashSet ma allo stesso tempo mantiene una copia dei dati in una struttura simile ad una LinkedList. Questo permette di avere le prestazioni di un set ma l'ordinamento e inserimento di uan LinkedList. Ovviamente comporta ad un maggiore uso della memoria per le due strutture dati.
 
 
-## 
+## Maps
+Sono strutture dati che implementano l'interfaccia Map ed organizzano i dati in coppie chiave-valore, in cui non possono esistere due elementi con la stessa chiave
