@@ -11,3 +11,6 @@ C'è un'altra divisione da fare nelle operazioni:
 >[!warning] Lazy Behaviour
 >Le operazioni intermedie non vengono effettuate subito ma solo al momento dell'esecuzione di un'operazione terminale, questo comportamento serve per ottimizzare il consumo di memoria e ottimizzare le prestazioni
 
+## Tipologie di Stream
+### Stream Sequenziali vs Stream Parallele
+Una **stream sequenziale** ha un unico elemento corrente, elaborato in modo indipendente dagli altri, una **stream parallela** invece è in grado di suddivid
