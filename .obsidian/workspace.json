@@ -202,10 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a0efb69d8bc00d10",
+  "active": "5b3bd8709c64e059",
   "lastOpenFiles": [
-    "JAVA/17 Collectors.md",
+    "JAVA/7 Clone Method.md",
     "JAVA/18 PECS.md",
+    "JAVA/17 Collectors.md",
     "JAVA/13 Tipi Generici.md",
     "JAVA/12 Riferimento ai Metodi.md",
     "JAVA/14 Cancellazione del Tipo.md",
@@ -215,7 +216,6 @@
     "JAVA/16 Streams.md",
     "JAVA/10 Interfacce Funzionali Notevoli.md",
     "JAVA/8 Lambda Expression.md",
-    "JAVA/7 Clone Method.md",
     "JAVA/6 Interfacce Notevoli.md",
     "JAVA/5 Interfacce.md",
     "JAVA/4 Key Words.md",
