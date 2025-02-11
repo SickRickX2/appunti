@@ -5,4 +5,9 @@ Si possono effettuare due tipi di operazioni sulle stream:
 - **Operazioni terminali** che restituiscono un tipo atteso e terminano lo stream impedendone il riutilizzo, ad esempio: *collect(), sorted()*
 
 C'è un'altra divisione da fare nelle operazioni:
-- **Oper**
+- **Operazioni Stateless** che vengono elaborate in maniera indipendenete tra gli elementi, il che le rende parallelizabbili come ad esempio: *filter()*
+- **Operazioni Statefull** in cui invece l'elaborazione di  un elemento potrebbe dipendere da un altro, questo le rende non parallelizabili ad esempio: *sorted()*
+
+>[!warning] Lazy Behaviour
+>Le operazioni intermedie non vengono effettuate subito ma solo al momento dell'esecuzione di un'operazione terminale, questo comportamento serve per ottimizzare il consumo di memoria e ottimizzare le prestazioni
+
