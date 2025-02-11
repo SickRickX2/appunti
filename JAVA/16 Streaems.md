@@ -13,4 +13,9 @@ C'è un'altra divisione da fare nelle operazioni:
 
 ## Tipologie di Stream
 ### Stream Sequenziali vs Stream Parallele
-Una **stream sequenziale** ha un unico elemento corrente, elaborato in modo indipendente dagli altri, una **stream parallela** invece è in grado di suddivid
+Una **stream sequenziale** ha un unico elemento corrente, elaborato in modo indipendente dagli altri, una **stream parallela** invece è in grado di suddividere il suo lavoro in più parti, elaborando più elementi contemporaneamente.
+
+## Stream Primitive
+Le stream solitamente lavorano solo su degli oggetti, motivo per cui sonon state create delle stream speciali che lavorano solamente sui primitivi, in modo tale che non si debba passare attraverso a delle classi wrapper.
+Fanno parte di questa categoria ad esempio: *IntStream, DoubleStream e LongStream*
+
