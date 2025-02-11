@@ -1,0 +1,1 @@
+Sono oggetti in grado di ridurre il numero di elemento dello stream oppure collezionarli all'interno di una struttura dati.
