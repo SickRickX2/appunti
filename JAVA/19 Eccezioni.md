@@ -1,0 +1,1 @@
+Le eccezioni sono classi che ereditano *Exception*, sono utilizzate
