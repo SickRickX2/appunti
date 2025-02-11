@@ -41,4 +41,13 @@ Esistono tre tipi di set:
 - LinkedHashSet
 
 >[!note] HashSet
->Gli elementi della collezione vengono memorizzati in una tabella di a
+>Gli elementi della collezione vengono memorizzati in una tabella di hash, questi implica costi di ricerfa ed inserimento veloci e l'assenza di un ordinamento
+
+>[!note] TreeSet
+>Memorizza gli elementi della collezione in una struttura ad albero mantenendo il  loro ordine naturale trammite *compareTo()*. Questa struttura ci permette di cercare, rimuovere e inserire elementi con costo log(n)
+
+>[!note] LinkedHashSet
+>Memorizza gli elementi in una tabella hash proiprio come un HashSet ma allo stesso tempo mantiene una copia dei dati in una struttura simile ad una LinkedList. Questo permette di avere le prestazioni di un set ma l'ordinamento e inserimento di uan LinkedList. Ovviamente comporta ad un maggiore uso della memoria per le due strutture dati.
+
+
+## 
