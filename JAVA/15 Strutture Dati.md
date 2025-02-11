@@ -10,4 +10,18 @@ Ci sono tre principali interfacce:
 - *Queue*<E.>: collezioni basate sulla struttura FIFO
 
 >[!note]  Mappe
->Le mappe sono strutture dati basate sull'associazioni chiave-valore e sono implementate attraverso l'interfaccia Map, la quale, nonostante non estenda Collection, fa comunque parte del Jaca 
+>Le mappe sono strutture dati basate sull'associazioni chiave-valore e sono implementate attraverso l'interfaccia Map, la quale, nonostante non estenda Collection, fa comunque parte del Java Collection Framework
+
+
+## Lists
+Le liste sono strutture dati che implementano l'interfaccia List e memorizzano i dati in modo sequenziale e dinamico. Ciò significa che le liste possono aumentare o diminuire la loro dimensione in base alle esigenze.
+
+Le lsite più utilizzate sono ArrayList e LinkedList
+>[!note] Arraylist
+>L'Arraylist è una struttura dati ad accesso casuale che permette di accedere direttamente ad ogni elemento della lista. E' implementata attraverso un array a cui è stata aggiunta una funzionalità di ridimensionamento automatico.
+>Caratteristiche:
+>- **Accesso casuale**, è possibile accedere direttamente a ogni elementio della lista
+>- **Ridimensionamento automatico**
+
+>[!note] LinkedList
+>In una LinkedList, ogni elem
