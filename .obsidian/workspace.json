@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/16 Streaems.md",
+                "file": "JAVA/16 Streams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16 Streaems"
+              "title": "16 Streams"
             }
           }
         ]
@@ -190,7 +190,7 @@
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
     "JAVA/14 Cancellazione del Tipo.md",
-    "JAVA/16 Streaems.md",
+    "JAVA/16 Streams.md",
     "JAVA/13 Tipi Generici.md",
     "JAVA/12 Riferimento ai Metodi.md",
     "JAVA/11 Classi Anonime.md",

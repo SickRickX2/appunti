@@ -19,3 +19,9 @@ Una **stream sequenziale** ha un unico elemento corrente, elaborato in modo indi
 Le stream solitamente lavorano solo su degli oggetti, motivo per cui sonon state create delle stream speciali che lavorano solamente sui primitivi, in modo tale che non si debba passare attraverso a delle classi wrapper.
 Fanno parte di questa categoria ad esempio: *IntStream, DoubleStream e LongStream*
 
+## Creazione di una Stream
+Per creare una stream ci sono diversi modi:
+1. Utilizzare *Stream.of(elenco di dati)*
+2. Utilizzare *Array.stream(array)*
+3. Utilizzare *stream()* o *parallelStream()* delle collection
+
