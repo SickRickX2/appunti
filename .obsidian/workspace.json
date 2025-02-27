@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/0 Introduzione al corso.md",
+                "file": "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 Introduzione al corso"
+              "title": "0 Definizione di rete, calssificazioni delle reti e Internet"
             }
           }
         ]
@@ -190,7 +190,7 @@
   },
   "active": "22059a57f769a311",
   "lastOpenFiles": [
-    "Reti di Elaboratori/0 Introduzione al corso.md",
+    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "conflict-files-obsidian-git.md",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119211027.png",
     "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119210737.png",

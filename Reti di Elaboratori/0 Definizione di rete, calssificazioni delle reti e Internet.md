@@ -3,7 +3,9 @@
 >maselli@di.uniroma1.it
 >codice classroom: 27vt4xu
 
-I nodi sono una componente della rete, collegati tra loro tramite i link che permettono la comunicazione tra di loro. Ci sono nodi in cui girano le app (HOST o SERVER) e nodi intermedi  che si occupano di far viaggiare i dati(router o switch).
+Una rete è composta da dispositivi in grado di *scambiarsi informazioni*, quali **sistemi** **terminali** e **dispositivi di interconnessione**. 
+
+I nodi sono una componente della rete, collegati tra loro tramite i link che permettono la comunicazione tra di loro. Ci sono nodi in cui girano le app (Hosto Server) e nodi intermedi  che si occupano di far viaggiare i dati(router o switch).
 Una rete è composta da dispositivi in grado di scambiarsi informazioni (sistemi terminali) e sistemi che fanno viaggiare i dati (dispositivi di interconnessione)
 
 *Sistemi terminali:*
