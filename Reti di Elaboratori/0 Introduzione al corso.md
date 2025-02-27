@@ -7,8 +7,8 @@ I nodi sono una componente della rete, collegati tra loro tramite i link che per
 Una rete è composta da dispositivi in grado di scambiarsi informazioni (sistemi terminali) e sistemi che fanno viaggiare i dati (dispositivi di interconnessione)
 
 *Sistemi terminali:*
-- **host**: macchine in genere di proprietà dell'utente che ospitano le applicazioni
-- **server**: molto più potenti dell'host e forniscono servizio alle applicazioni utente. Tipicamente gestiti dagli amministratori di sistema
+- **Host**: macchine in genere di proprietà dell'utente che ospitano le applicazioni
+- **Server**: molto più potenti dell'host e forniscono servizio alle applicazioni utente. Tipicamente gestiti dagli amministratori di sistema
 
 *Dispositivi di interconnessione:*
 - **Router**: collegano una rete ad un'altra
