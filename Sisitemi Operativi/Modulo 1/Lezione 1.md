@@ -1,8 +1,8 @@
 Il **Sistema operativo** gestisce le risorse hardware del computer. Il suo scopo è fornire un insieme di servizi agli utenti finali(sviluppatori, utenti base, ecc...) ognuno con esigenze diverse.
 Possiamo dire che all'interno di un computer moderno ci sono tre componenti principali:
-- CPU
-- RAM(Main Memory)
-- MODULI DI INPUT/OUTPUT
+- *CPU*
+- *RAM*(Main Memory)
+- *MODULI DI INPUT/OUTPUT*
 Per comunicare tra di loro le parti interne vengono collegate tramite i *bus di sistema*.
 ## Registri del Processorre
 Ci sono diversi tipi di registri all'interno del processore:
@@ -49,7 +49,7 @@ Con le eccezioni sincrone non è detto:
 - **faults**: errore correggibile, viene rieseguita la stessa istruzione
 - **aborts**: errore non correggibile, si esegue software collegato con l’errore
 - **traps** e **system** **calls**: si continua dall’istruzione successiva (sono delle operazioni messe a disposizione dal SO che non interrompono il flusso del programma
->La differenza principale tra sincrone e sincrone è il punto di interruzione e la decisione sull’istruzione successiva.
+>La differenza principale tra sincrone e asincrone è il punto di interruzione e la decisione sull’istruzione successiva.
 #### Fase di interruzione
 Ad ogni ciclo **fetch-execute**, viene anche controllato se c’è stata un’interruzione ( o una **exception**). Se così è, il programma viene sospeso e viene eseguita una funzione che gestisce l’interruzione. ( *interrupt handler routine*).
 L'**interrupt handler** è una funzione particolare: nel programma utente non era prevista. Il SO e Hardware collaborano per salvare alcune informazioni sullo stato del processore in modo tale che dopo la gestione dell’interruzione si possa riprendere da dove si è lasciato (devono essere salvati almeno PC e registro di stato).

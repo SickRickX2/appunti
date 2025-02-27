@@ -23,7 +23,7 @@ Dall'alto al basso:
  **Lettura della cache:** legge un indirizzo dalla cpu se l'indirizzo non è presente nella cache è un miss che va ricercato nella RAM, viene allocato uno slot per l'indirizzo(o meglio il blocco che lo contiene) che stiamo cercando e in parallelo viene spostato il contenuto del registro ra nella cpu. Se è presente nella cache viene direttamente spedito alla cpu dopo aver fatto il fetch di ra. Cache anche piccole hanno un grande impatto sulle performance. I dati scambiati tra memoria e cache sono in quantità multiple di un blocco, incrementare la misura del blocco aumenta il numero di accessi riusciti, ma incrementarla troppo è controproducente perché aumenta anche il numero di dati da rimuovere, il che abbassa la probabilità di accesso riuscito. La cache utilizza una funzione di mappatura che determina la locazione della cache nella quale andrà messo il blocco proveniente dalla memoria. L'algoritmo di rimpiazzamento sceglie il blocco da rimpiazzare, secondo il *LRU* (least recently used) si rimpiazza il blocco usato meno di recente. La politica di scrittura determina quando occorre scrivere in memoria, può accadere :
  - ogni volta che un blocco viene modificato(write-through)
  - può accadere quando il blocco viene rimpiazzato(write-back)
- occorre minimizzare le operazioni di scrittura, questo vuol dire che la memoria può trovarsi in uno stato "obsoleto". Il SO può fare il falsh della cache che ripulisce completamente la cache.
+ occorre minimizzare le operazioni di scrittura, questo vuol dire che la memoria può trovarsi in uno stato "obsoleto". Il SO può fare il flash della cache che ripulisce completamente la cache.
 
 ## Servizi offerti da un SO
 - Esecuzioni di programmi: applicazioni, servizi
@@ -33,16 +33,17 @@ Dall'alto al basso:
 - Rilevamento di e reazioni ad errori
 - Accounting (chi fa cosa)
 ## Il kernel
-La parte di so che si trova sempre nella memoria principale. Contiene le funzioni più usate, sta nel "nucleo". 
+La parte di SO che si trova sempre nella memoria principale. Contiene le funzioni più usate, sta nel "nucleo". 
 ## Caratteristiche Hardware
 Prima di arrivare ai SO moderni si usavano i sistemi Batch. Con le seguenti caratteristiche.
-Protezione della memoria, non permette che la zona di memoria contenente il monitor venga modificata. Timer, impedisce che un job monopolizzi l'intero sistema. Istruzioni privilegiate, alcune istruzioni macchina possono essere eseguite solo dal monitor, implementa le interruzioni mentre i primi modelli di computer non le avevano.
+**Protezione della memoria**, non permette che la zona di memoria contenente il monitor venga modificata. 
+**Timer**, impedisce che un job monopolizzi l'intero sistema. Istruzioni privilegiate, alcune istruzioni macchina possono essere eseguite solo dal monitor, implementa le interruzioni mentre i primi modelli di computer non le avevano.
 - **Protezione della Memoria:** i programmi utente vengono eseguiti in *modalità utente* alcune istruzioni non possono essere eseguite.
 - **Il monitor**: viene eseguito in *modalità sistema*, o modalità kernel, le istruzioni privilegiate possono essere eseguite e le aree protette della memoria possono essere accedute
 In questo modo più del 96% del tempo è sprecato ad aspettare i dispositivi di I/O.
 ### Programmazione Singola vs Multiprogrammazione
-Singola: il processore dve aspettare che le istruzioni di I/O siano completate prima di procedere.
-Multi: se un job deve aspettare che si completi dell'I/O, allora il processore può passare ad un altro job.
+*Singola*: il processore dve aspettare che le istruzioni di I/O siano completate prima di procedere.
+*Multi*: se un job deve aspettare che si completi dell'I/O, allora il processore può passare ad un altro job.
 
 ## Sistemi Time Sharing
 In seguito si è passati ai Sistemi Time Sharing letteralmente sistemi a condivisione di tempo (dagli anni 70).  Implementa l'uso della multiprogrammazione per gestire contemporaneamente più jobs iterattivi, il tempo del processore è condiviso tra più utenti quindi più utenti accedono contemporaneamente al sistema tramite terminali.
@@ -54,10 +55,10 @@ In seguito si è passati ai Sistemi Time Sharing letteralmente sistemi a condivi
 
 Col passare degli anni si passa dal Job al Processo. Il *processo* riunisce in un unico concetto il job non-interattivo e quello interattivo. Incorpora anche un altro tipo di job che cominciò a manifestarsi dagli anni Settanta: quello transazionale real-time. Un'unità di attività caratterrizzata da: un singolo flusso (thread) di esecuzione, uno stato corrente, un insieme di risorse di sistema ad esso associate.
 ## Multiprogrammazione dei Processi: Difficoltà
-- Errori di sincronizzazione: gli interrupt si perdono o vengono ricevuti 2 volte
-- Violazione della mutua esclusione: se 2 processi vogliono accedere alla stessa risorsa, ci possono essere problemi
-- Programmi con esecuzione non deterministica: un processo accede ad una porzione di memoria modificata da un altro processo
-- Deadlock (stallo): un processo A attende un processo B che attende
+- **Errori di sincronizzazione**: gli interrupt si perdono o vengono ricevuti 2 volte
+- **Violazione della mutua esclusione**: se 2 processi vogliono accedere alla stessa risorsa, ci possono essere problemi
+- **Programmi con esecuzione non deterministica:** un processo accede ad una porzione di memoria modificata da un altro processo
+- **Deadlock** (stallo): un processo A attende un processo B che attende
 **Gestione della memoria**: Utilizza l'isolamento dei processi, una protezione e controllo degli accessi e una gestione automatica di allocazione e deallocazione. Supporto per la programmazione modulare (stack).  Ed è presente una memorizzazione a lungo termine.
 **Protezione dell'informazione e sicurezza:** 
 - **Disponibilità** (avaibility): il dover proteggere il sistema contro l'interruzione di servizio (DoS attacks)
