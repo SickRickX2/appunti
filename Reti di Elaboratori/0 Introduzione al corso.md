@@ -62,6 +62,10 @@ La rerte GARR collega luoghi di cultura e ha un'infrastruttura molto potente tra
 Una internet è una combinazione di link e dispositivi capaci di scambiarsi informazioni. In particolare i sistemi terminali appartenenti alla rete comunicano tra di loro per mezzo di dispositivi come switch e router che si trovano tra sistemi terminali.
 In base al funzionamento possiamo avere due tipi di reti:
 ## Reti a commutazione di circuito
-Viene stabilito un collegamento dedicato tra due dispositivi denominato **circuito**, dove viaggeranno tutte le informazioni fino a termine della comunicazione. Vengono riservate le risorse necessarie per la comunicazione, queste informazioni vengono mantenute dalla rete.
+Viene stabilito un collegamento dedicato tra due dispositivi denominato **circuito**, dove viaggeranno tutte le informazioni fino a termine della comunicazione. Vengono riservate le risorse necessarie per la comunicazione, queste informazioni vengono mantenute dalla rete. Non è flessibile in termini di gestione di risorse.
+La banda può essere allocata in modi diversi:
+- divisione su frequenza: lo spettro viene diviso in sottointervalli, in cui ogni sottointervallo può trasmettere consecutivamente ma con le risorse statiche
+- divisione temporale: dò tutte le risorse ad intervalli piccolissimi in maniera ciclica ad ogni utente
 
-## Reti
+## Reti a commutazione di pacchetto
+
