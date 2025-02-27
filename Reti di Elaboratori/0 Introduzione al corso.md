@@ -59,4 +59,9 @@ Essa è composta da due LAN e due WAN punto-punto per una rete privata altriment
 La rerte GARR collega luoghi di cultura e ha un'infrastruttura molto potente tra collegamenti in dorsale (100 Gbps) e di accesso (40 Gbps). 
 
 # Commutazione (switching)
-Una internet è una 
+Una internet è una combinazione di link e dispositivi capaci di scambiarsi informazioni. In particolare i sistemi terminali appartenenti alla rete comunicano tra di loro per mezzo di dispositivi come switch e router che si trovano tra sistemi terminali.
+In base al funzionamento possiamo avere due tipi di reti:
+## Reti a commutazione di circuito
+Viene stabilito un collegamento dedicato tra due dispositivi denominato **circuito**, dove viaggeranno tutte le informazioni fino a termine della comunicazione. Vengono riservate le risorse necessarie per la comunicazione, queste informazioni vengono mantenute dalla rete.
+
+## Reti
