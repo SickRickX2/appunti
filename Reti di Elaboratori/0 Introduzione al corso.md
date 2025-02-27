@@ -54,4 +54,9 @@ Rete geografica che può servire una città, regione o nazione. Questa rete non 
 - WAN a coomutazione: collega più dispositivi e viene utilizzzata nelle dorsali di internet
 
 ## Internetwork 
-Essa è composta da due LAN e due WAN pun
+Essa è composta da due LAN e due WAN punto-punto per una rete privata altrimenti si utilizza una wan più estesa. In base alle necessità si possono fare diverse tipe di combinazioni
+## Rete GARR 
+La rerte GARR collega luoghi di cultura e ha un'infrastruttura molto potente tra collegamenti in dorsale (100 Gbps) e di accesso (40 Gbps). 
+
+# Commutazione (switching)
+Una internet è una 
