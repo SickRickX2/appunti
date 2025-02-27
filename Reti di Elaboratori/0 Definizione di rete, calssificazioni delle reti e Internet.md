@@ -7,14 +7,14 @@ Una rete è composta da dispositivi in grado di *scambiarsi informazioni*, quali
 
 I **nodi** sono una componente della rete, collegati tra loro tramite i **link** che permettono la comunicazione. Ci sono nodi in cui girano le app (*Host* o *Server*) e nodi intermedi  che si occupano di far viaggiare i dati(*Router* o *Switch*).
 
-*Sistemi terminali:*
-- **Host**: macchine in genere di proprietà dell'utente che ospitano le applicazioni
-- **Server**: molto più potenti dell'host e forniscono servizio alle applicazioni utente. Tipicamente gestiti dagli amministratori di sistema
+>[!note] Sistemi terminali
+>- **Host**: macchine in genere di proprietà dell'utente che ospitano le applicazioni
+>- **Server**: molto più potenti dell'host e forniscono servizio alle applicazioni utente. Tipicamente gestiti dagli amministratori di sistema
 
-*Dispositivi di interconnessione:*
-- **Router**: collegano una rete ad un'altra
-- **Switch**: sono all'interno di una rete e collegano sistemi terminali tra di loro
-- **Modem**: trasformano i dati digitali in dati analogici e viceversa
+>[!note] Dispositivi di interconnessione
+>- **Router**: collegano una rete ad un'altra
+> - **Switch**: sono all'interno di una rete e collegano sistemi terminali tra di loro
+>- **Modem**: trasformano i dati digitali in dati analogici e viceversa
 
 *Collegamenti*:
 - **cablati o guidati**: rame o fibra ottica
