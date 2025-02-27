@@ -9,7 +9,7 @@ I **nodi** sono una componente della rete, collegati tra loro tramite i **link**
 
 >[!note] Sistemi terminali
 >- **Host**: macchine in genere di proprietà dell'utente che ospitano le applicazioni
->- **Server**: molto più potenti dell'host e forniscono servizio alle applicazioni utente. Tipicamente gestiti dagli amministratori di sistema
+>- **Server**: molto più potenti dell'host destinato ad eseguire programmi che forniscono servizio alle applicazioni utente. Tipicamente gestiti dagli amministratori di sistema
 
 >[!note] Dispositivi di interconnessione
 >- **Router**: collegano una rete ad un'altra
@@ -20,8 +20,9 @@ I **nodi** sono una componente della rete, collegati tra loro tramite i **link**
 >- **cablati o guidati**: rame o fibra ottica
 >- **wireless**: onde elettromagnetiche o satellite
 
+**bit**: viaggia da un sistema terminale ad un altro
+
 Mezzi trasmissivi cablati:
-- **bit**: viaggia da un sistema terminale ad un altro
 - mezzo fisico: che sta tra il trasmittente e il ricevente
 - Fibra ottica: viaggiano impulsi di luce e non subisce interferenze, il che riduce il tasso di errrore
 
