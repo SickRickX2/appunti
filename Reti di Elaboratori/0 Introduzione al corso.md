@@ -73,6 +73,19 @@ Internet funziona in questo modo oggi, in questo caso non viene riservata alcun 
 # Rappresentazione cocnettuale di Internet
 
 ## Dorsali
-
 ## Reti dei provider
 ## Reti private
+# L'accesso a internet
+è il collegamento verso l'utente:
+- via rete telefonica DSL
+- via reti wireless: Wi-Fi, Cellulare
+- Collegamento diretto: aziende di grandi dimensioni possono avere ISP locali, affittando delle reti WAN da un operatore.
+
+### Accesso via rete telefonica
+Si collega modificando la linea telefonica fra la sede del dispositivo che vuole connettersi e la centrale telefonica con una WAN punto-punto.
+Limiti:
+- lentezza
+- impossibilità di parlare e navigare contemporaneamente
+- 
+
+
