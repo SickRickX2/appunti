@@ -45,4 +45,13 @@ Nasce con lo scopo di condivider risorse tra sistemi terminali che ne facevano p
 ### LAN con cavo condiviso
 Il pacchetto inviato ad un dispositivo viene ricevuto da tutti gli altri tramite un singolo cavo, viene chiamata rete **broadcast**; solo il desinatario elabora il pacchetto mentre tutti gli altri lo ignorano. La regola è che può trasmettere un solo nodo alla volta, altrimenti si crea una collisione
 
-##
+### LAN con Switch
+Ogni nodo è direttamente collegato allo switch. Lo switch è in grado di riconoscere chi sta trasmettendo e capisce come distribuire i dati per la comunicazione lavorando sugli indirizzi dei nodi. A ricevere le informazioni è solo lo switch e non tutti i terminali insieme. Questo permette una comunicazione parallela.
+
+## Le reti WAN
+Rete geografica che può servire una città, regione o nazione. Questa rete non interconnette host ma switch, router e modem e viene. gestita da un operatore di telecomunicazioni:
+- WAN punto-punto: collega due mezzi
+- WAN a coomutazione: collega più dispositivi e viene utilizzzata nelle dorsali di internet
+
+## Internetwork 
+Essa è composta da due LAN e due WAN pun
