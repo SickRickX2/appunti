@@ -22,4 +22,19 @@ Una rete è composta da dispositivi in grado di scambiarsi informazioni (sistemi
 Mezzi trasmissivi cablati:
 - **bit**: viaggia da un sistema terminale ad un altro
 - mezzo fisico: che sta tra il trasmittente e il ricevente
-- Fibra ottica: viaggiano impulsi di luce e non subisce interferenze, il che riduce il tasso 
+- Fibra ottica: viaggiano impulsi di luce e non subisce interferenze, il che riduce il tasso di errrore
+
+Mezzi trasmissivi wireless:
+non richiedon installazione fisica di cavi, sono bidirezionali ma soffrono molto l'ambiente circostante a causa di:
+- riflessione
+- ostruzione da parte di ostacoli
+- interferenza
+
+canali radio:
+- LAN
+- wide-area
+- satellitari
+
+## Classificazione delle reti
+mettere tabella
+
