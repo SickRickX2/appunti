@@ -38,3 +38,11 @@ canali radio:
 ## Classificazione delle reti
 mettere tabella
 
+## Reti LAN: Local Area Network
+Solitamente una rete privata che collega i sistemi terminali in un singolo ufficio (azienda, università). Ogni sistema ha un indirizzo IP e non c'è un numero specifico minimo o massimo di dispositivi
+Nasce con lo scopo di condivider risorse tra sistemi terminali che ne facevano parte, in seguito è stata estesa ad altre lan o wan:
+
+### LAN con cavo condiviso
+Il pacchetto inviato ad un dispositivo viene ricevuto da tutti gli altri tramite un singolo cavo, viene chiamata rete **broadcast**; solo il desinatario elabora il pacchetto mentre tutti gli altri lo ignorano. La regola è che può trasmettere un solo nodo alla volta, altrimenti si crea una collisione
+
+##
