@@ -38,7 +38,7 @@ canali radio:
 - satellitari
 
 ## Classificazione delle reti
-mettere tabella
+![[Pasted image 20250227230557.png]]
 
 ## Reti LAN: Local Area Network
 Solitamente una rete privata che collega i sistemi terminali in un singolo ufficio (azienda, università). Ogni sistema ha un indirizzo IP e non c'è un numero specifico minimo o massimo di dispositivi
