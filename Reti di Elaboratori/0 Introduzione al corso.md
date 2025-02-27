@@ -68,4 +68,4 @@ La banda può essere allocata in modi diversi:
 - divisione temporale: dò tutte le risorse ad intervalli piccolissimi in maniera ciclica ad ogni utente
 
 ## Reti a commutazione di pacchetto
-
+Internet funziona in questo modo oggi, in questo caso non viene riservata alcun tipo di risorsa ma vengono suddivisi i dati in *pacchetti*. In questo caso la trasmissione non avvien in maniera continua ma c'è una coda all'interno del router per la spedizione dei pacchetti (indipendenti tra loro). Ogni router riceve il pacchetto, lo memorizza e lo inoltra al terminale di destinazione. Ci sono code di ingresso e code di uscita.
