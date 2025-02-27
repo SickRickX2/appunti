@@ -16,9 +16,9 @@ I **nodi** sono una componente della rete, collegati tra loro tramite i **link**
 > - **Switch**: sono all'interno di una rete e collegano sistemi terminali tra di loro
 >- **Modem**: trasformano i dati digitali in dati analogici e viceversa
 
-*Collegamenti*:
-- **cablati o guidati**: rame o fibra ottica
-- **wireless**: onde elettromagnetiche o satellite
+>[!note] Collegamenti
+>- **cablati o guidati**: rame o fibra ottica
+>- **wireless**: onde elettromagnetiche o satellite
 
 Mezzi trasmissivi cablati:
 - **bit**: viaggia da un sistema terminale ad un altro
