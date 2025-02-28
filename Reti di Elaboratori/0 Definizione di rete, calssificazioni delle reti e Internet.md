@@ -112,13 +112,11 @@ Si collega modificando la linea telefonica fra la sede del dispositivo che vuole
 Limiti:
 - lentezza
 - impossibilità di parlare e navigare contemporaneamente
-DSL ha semplicemente un filtro per il collegamento tra ISP e abitazione
+Il servizio **DSL** ha semplicemente un filtro per il collegamento tra ISP e abitazione, più veloce e permette di utilizzare voce e dati.
 
 ### Accesso tramite Ethernet
-Un metodo di accesso molto affidabile e veloce.
+Un metodo di accesso molto affidabile e veloce. Lo switch (Ethernet) della LAN è generalmente collegato a un router che è connesso ai router della dorsale.
 ### Accesso wireless
-Wi-Fi
- Ci si collega tramite accesspoint collegato alla rete cablata
- Cellulare
- Si usa la rete cellulare, acces point della compagnia telefonica cellulare con raggio di azione di decine di kilometri
+- Wi-Fi: Ci si collega tramite accesspoint collegato alla rete cablata
+ - Cellulare: si usa la rete cellulare, acces point della compagnia telefonica cellulare con raggio di azione di decine di kilometri
 
