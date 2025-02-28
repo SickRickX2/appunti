@@ -52,7 +52,7 @@ Il pacchetto inviato ad un dispositivo viene ricevuto da tutti gli altri tramite
 Ogni nodo è direttamente collegato allo switch. Lo switch è in grado di riconoscere chi sta trasmettendo e capisce come distribuire i dati per la comunicazione lavorando sugli indirizzi dei nodi. A ricevere le informazioni è solo lo switch e non tutti i terminali insieme. Questo permette una comunicazione parallela.
 ![[Pasted image 20250227231304.png]]
 
-## Le reti WAN 
+## Le reti WAN: Wide Area Network
 Rete geografica che può servire una città, regione o nazione. Questa rete non interconnette host ma switch, router e modem e viene. gestita da un operatore di telecomunicazioni:
 - WAN punto-punto: collega due mezzi
 - WAN a coomutazione: collega più dispositivi e viene utilizzzata nelle dorsali di internet
