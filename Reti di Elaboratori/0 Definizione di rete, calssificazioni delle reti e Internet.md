@@ -53,9 +53,15 @@ Ogni nodo è direttamente collegato allo switch. Lo switch è in grado di ricono
 ![[Pasted image 20250227231304.png]]
 
 ## Le reti WAN: Wide Area Network
-Rete geografica che può servire una città, regione o nazione. Questa rete non interconnette host ma switch, router e modem e viene. gestita da un operatore di telecomunicazioni:
-- WAN punto-punto: collega due mezzi
-- WAN a coomutazione: collega più dispositivi e viene utilizzzata nelle dorsali di internet
+Rete geografica, interconnessione di dispositivi che può servire una città, regione o nazione. Questa rete non interconnette host ma switch, router e modem e viene gestita da un operatore di telecomunicazioni (*Internet Service Provider- ISP*):
+ >[!note]  WAN Punto-punto
+> Collega due mezzi di comunicazione tramite un mezzo trasmissivo (cavo o rete wireless)
+> ![[Pasted image 20250228093618.png]]
+
+>[!note] WAN a commutazione
+>Rete con più di due punti di terminazione, viene utilizzata nelle dorsali di Internet
+
+
 
 ## Internetwork 
 Essa è composta da due LAN e due WAN punto-punto per una rete privata altrimenti si utilizza una wan più estesa. In base alle necessità si possono fare diverse tipe di combinazioni
