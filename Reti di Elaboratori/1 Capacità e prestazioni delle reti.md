@@ -39,4 +39,17 @@ Il ritardo di trasmissione è solo il tempo per uscire mentre la propagazione è
 
 Per calcoalre il ritardo di un pacchetto, vanno considerati tutti e 4 i ritardi.
 
+Il ritardo di accodamento dipende da pacchettoa pacchetto, dal tasso di arrivo, dal rate e dalla lunghezza dei pacchetti.
+R = rate
+L = lunghezza
+a = tasso medio di arrivo dei pacchetti
+intensità di traffico =  La / R
+
+se:
+- La/R = 0 poco ritardo
+- La/R => 1 il ritardo si fa consistente
+- La/R > 1 sto cheidendo più lavoro di quello che può essere svolto
+
+## Perdita di pacchetti
+
 
