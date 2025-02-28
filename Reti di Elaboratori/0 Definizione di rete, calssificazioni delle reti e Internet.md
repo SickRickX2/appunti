@@ -88,11 +88,10 @@ In questo caso la trasmissione non avviene in maniera continua ma c'è una **cod
 Ci sono **code di ingresso e code di uscita**.
 ![[Pasted image 20250228100837.png]]
 
+# Internet
+
 # Rappresentazione cocnettuale di Internet
 
-## Dorsali
-## Reti dei provider
-## Reti private
 # L'accesso a internet
 è il collegamento verso l'utente:
 - via rete telefonica DSL
