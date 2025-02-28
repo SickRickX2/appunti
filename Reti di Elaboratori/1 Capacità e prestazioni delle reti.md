@@ -23,5 +23,9 @@ Indica quanto velocemente riusciamo ***effettivamente*** a inviare dati tramite 
 Somiglia al rate ma:
 - è solitamente minore o uguale al rate, perché il rate è una misura potenziale mentre il throughput è una misura effettiva e può variare in ogni momento
 
+Un pacchetto durante il viaggio a destinazione può attraversare numerosi link ognuno con un throughput diverso
+>[!warning] Collo di bottiglia
+>Collegamento su un percorso punto a punto che vincola un throughput end to end
+
 
 
