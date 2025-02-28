@@ -65,10 +65,11 @@ Rete geografica, interconnessione di dispositivi che può servire una città, re
 Oggigiorno è difficile trovare LAN o WAN isolate: esse sono in genere connesse fra di loro per formare una internetwork, o internet
 >[!example] Internetwork composta da due LAN e una WAN punot-punto
 >![[Pasted image 20250228094130.png]]
->esempio: un'azienda ha due uffici in due città differenti. In Ciascun ufficio esiste una LAN che consente agli impiegati di comunicare tra di loro
+>esempio: un'azienda ha due uffici in due città differenti. In Ciascun ufficio esiste una LAN che consente agli impiegati di comunicare tra di loro. Per mettere in comunicazione le due LAN l'azienda affitta un'apposita WAN punto-punto da un ISP, realizzando una internetwork o internet privata. Il compito dei router è quello di instradare i pacchetti da una LAN all'altra.
 
-
-Essa è composta da due LAN e due WAN punto-punto per una rete privata altrimenti si utilizza una wan più estesa. In base alle necessità si possono fare diverse tipe di combinazioni
+>[!example] Rete eterogenea
+>Se si vuole creare una WAN più estesa in base alle proprie necessità si può fare usando diverse combinazioni. Un esempio composta da quattro WAN e tre LAN:
+>![[Pasted image 20250228094724.png]]
 ## Rete GARR 
 La rerte GARR collega luoghi di cultura e ha un'infrastruttura molto potente tra collegamenti in dorsale (100 Gbps) e di accesso (40 Gbps). 
 
