@@ -64,4 +64,8 @@ L'outpur presenta 6 colonne:
 6) // del terzo
 Il tempo di andata e ritorno *round trip time* include i 4 ritardi. Se un pacchetto non riceve rsiposta da un router intermedio o ne riceve meno di 3 allora pone un asterisco al posto del tempo RTT.
 
+>[!note] Prodotto Rate * Ritardo
+>Il prodotto ci dice il numero di bit che possono riempire il collegamento.
+
+
 
