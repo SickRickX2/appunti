@@ -37,4 +37,6 @@ Latenza ( ritardo o delay): quanto tempo serve affinché un pacchetto arrivi com
 4) Ritardo di propagazione:  quanto tempo impiega un pacchetto per propagarsi sul canale una volta immesso, ovvero il viaggio sul canale (s = velocità di propagazione per il simbolo bit che corrisponde alla velocità della luce, d = lunghezza del collegamento fisisco Ritardo di propagazione = d/s)
 Il ritardo di trasmissione è solo il tempo per uscire mentre la propagazione è il viaggio.
 
+Per calcoalre il ritardo di un pacchetto, vanno considerati tutti e 4 i ritardi.
+
 
