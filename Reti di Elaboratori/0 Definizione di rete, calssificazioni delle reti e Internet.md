@@ -94,11 +94,18 @@ L'internet più famosa è chiamata **Internet** ed è composta da migliaia di re
 >[!tip]  Rappresentazione concettuale di Internet
 >![[Pasted image 20250228101739.png]]
 ### L'accesso a internet
-
-è il collegamento verso l'utente:
-- via rete telefonica DSL
-- via reti wireless: Wi-Fi, Cellulare
-- Collegamento diretto: aziende di grandi dimensioni possono avere ISP locali, affittando delle reti WAN da un operatore.
+L'Internet è una internetwork che concsente a qualsiasi utente di farne parte.
+L'utente, tuttavia, deve essere fisicamente collegato a un ISP , solitamente mediante una WAN punto-punto.
+Il collegamento che connette l'utente al primo router di Internet è detto **rete di accesso**.
+L'accesso può avvenire tramite:
+- Rete telefonica: 
+	- DSL
+	- Servizio dial-up
+- Reti wireless: 
+	 - Wi-Fi
+	 - Cellulare
+- Collegamento diretto:
+	- aziende di grandi dimensioni possono avere ISP locali, affittando delle reti WAN da un operatore.
 
 ### Accesso via rete telefonica
 Si collega modificando la linea telefonica fra la sede del dispositivo che vuole connettersi e la centrale telefonica con una WAN punto-punto.
