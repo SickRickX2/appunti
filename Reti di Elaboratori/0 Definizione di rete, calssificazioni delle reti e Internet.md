@@ -60,10 +60,14 @@ Rete geografica, interconnessione di dispositivi che può servire una città, re
 
 >[!note] WAN a commutazione
 >Rete con più di due punti di terminazione, viene utilizzata nelle dorsali di Internet
-
-
-
+>![[Pasted image 20250228093746.png]]
 ## Internetwork 
+Oggigiorno è difficile trovare LAN o WAN isolate: esse sono in genere connesse fra di loro per formare una internetwork, o internet
+>[!example] Internetwork composta da due LAN e una WAN punot-punto
+>![[Pasted image 20250228094130.png]]
+>esempio: un'azienda ha due uffici in due città differenti. In Ciascun ufficio esiste una LAN che consente agli impiegati di comunicare tra di loro
+
+
 Essa è composta da due LAN e due WAN punto-punto per una rete privata altrimenti si utilizza una wan più estesa. In base alle necessità si possono fare diverse tipe di combinazioni
 ## Rete GARR 
 La rerte GARR collega luoghi di cultura e ha un'infrastruttura molto potente tra collegamenti in dorsale (100 Gbps) e di accesso (40 Gbps). 
