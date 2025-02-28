@@ -31,5 +31,7 @@ Nel caso in cui abbiamo più terminali, il throughput viene suddiviso in base al
 
 ## Latenze
 Latenza ( ritardo o delay): quanto tempo serve affinché un pacchetto arrivi completamente a destinazione dal momento in cui il primo bit parte dalla sorgente. Ci sono diversi fattori che determinano la latenza di un pacchetto perché passa attraverso diversi link e router.
-1) Ritardo di elaborazione del nodo (processing delay): 
+1) Ritardo di elaborazione del nodo (processing delay): il paccehtto arriva e si controlla l'integrità, (in caso negativo viene scartato) poi viene determinato il canale d'uscita e infine c'è il tempo dalla ricezione del pacchetto alla consegna alla porta output
+2) Ritardo di accodamento (queuing delay): il pacchetto viene messo in coda sul buffer d'uscita o d'entrata, questo dipende dal livello di congestione del router(numero di pacchetti nelle code del router). Questo ritardo può variare da pacchetto a pacchetto.
+3) Ritardo di trasmissione nelle reti a commutazione di pacchetto: dipende dal ca
 
