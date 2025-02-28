@@ -51,5 +51,10 @@ se:
 - La/R > 1 sto cheidendo più lavoro di quello che può essere svolto
 
 ## Perdita di pacchetti
+Se ho un'intensità elevata le code si riempiono e i pacchetti che arrivano vengono persi perchè il router non è in grado di memorizzarli. Se il pezzo di dati viene perso il pacchetto dovrà essee ritrasmesso e in questo modo aumenta il ritardo.
+
+
+C'è un comando *traceroute* che permette di fare una stima del ritardo.
+L'outpur presenta 6 colonne:
 
 
