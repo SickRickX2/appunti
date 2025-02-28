@@ -93,11 +93,7 @@ Ci sono **code di ingresso e code di uscita**.
 L'internet più famosa è chiamata **Internet** ed è composta da migliaia di reti interconnesse, è una rete a commutazione di pacchetto.
 >[!tip]  Rappresentazione concettuale di Internet
 >![[Pasted image 20250228101739.png]]
-
-
-
-# L'accesso a internet
-
+### L'accesso a internet
 
 è il collegamento verso l'utente:
 - via rete telefonica DSL
