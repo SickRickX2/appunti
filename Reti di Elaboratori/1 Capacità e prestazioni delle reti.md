@@ -56,5 +56,12 @@ Se ho un'intensità elevata le code si riempiono e i pacchetti che arrivano veng
 
 C'è un comando *traceroute* che permette di fare una stima del ritardo.
 L'outpur presenta 6 colonne:
+1) numero di router sulla rotta
+2) nome del router
+3) indirizzo del router
+4) tempo di andata eritorno del 1 pacchetto
+5) // del secondo
+6) // del terzo
+Il tempo di andata e ritorno *round trip time* include i 4 ritardi. Se un pacchetto non riceve rsiposta da un router intermedio o ne riceve meno di 3 allora pone un asterisco al posto del tempo RTT.
 
 
