@@ -82,8 +82,11 @@ La banda può essere allocata in modi diversi:
 - **Divisione su frequenza (FDM)**: lo spettro viene diviso in sottointervalli, in cui ogni sottointervallo può trasmettere consecutivamente ma con le risorse statiche
 - **Divisione temporale (TDM)**: dò tutte le risorse ad intervalli piccolissimi in maniera ciclica ad ogni utente
 
-## 2) Reti a commutazione di pacchetto
-Internet funziona in questo modo oggi, in questo caso non viene riservata alcun tipo di risorsa ma vengono suddivisi i dati in *pacchetti*. In questo caso la trasmissione non avvien in maniera continua ma c'è una coda all'interno del router per la spedizione dei pacchetti (indipendenti tra loro). Ogni router riceve il pacchetto, lo memorizza e lo inoltra al terminale di destinazione. Ci sono code di ingresso e code di uscita.
+## 2) Reti a commutazione di pacchetto (Store and Forward)
+Internet funziona in questo modo oggi, in questo caso non viene riservata alcun tipo di risorsa ma vengono suddivisi i dati in vlocchi di *pacchetti*.
+In questo caso la trasmissione non avviene in maniera continua ma c'è una **coda** all'interno del router per la spedizione dei pacchetti (indipendenti tra loro). Ogni router riceve il pacchetto, lo memorizza e lo inoltra al terminale di destinazione. 
+Ci sono **code di ingresso e code di uscita**.
+![[Pasted image 20250228100837.png]]
 
 # Rappresentazione cocnettuale di Internet
 
