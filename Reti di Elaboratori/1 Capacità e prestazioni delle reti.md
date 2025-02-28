@@ -27,5 +27,9 @@ Un pacchetto durante il viaggio a destinazione può attraversare numerosi link o
 >[!warning] Collo di bottiglia
 >Collegamento su un percorso punto a punto che vincola un throughput end to end
 
+Nel caso in cui abbiamo più terminali, il throughput viene suddiviso in base al numero di terminali.
 
+## Latenze
+Latenza ( ritardo o delay): quanto tempo serve affinché un pacchetto arrivi completamente a destinazione dal momento in cui il primo bit parte dalla sorgente. Ci sono diversi fattori che determinano la latenza di un pacchetto perché passa attraverso diversi link e router.
+1) Ritardo di elaborazione del nodo (processing delay): 
 
