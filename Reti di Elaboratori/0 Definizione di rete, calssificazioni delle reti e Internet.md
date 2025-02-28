@@ -2,6 +2,7 @@
 >Prof.ssa Gaia Maselli
 >maselli@di.uniroma1.it
 >codice classroom: 27vt4xu
+>**Materia:** [[Reti degli Elaboratori (class)]]
 # Le reti
 Una rete è composta da dispositivi in grado di *scambiarsi informazioni*, quali **sistemi** **terminali** e **dispositivi di interconnessione**. 
 
@@ -89,10 +90,15 @@ Ci sono **code di ingresso e code di uscita**.
 ![[Pasted image 20250228100837.png]]
 
 # Internet
+L'internet più famosa è chiamata **Internet** ed è composta da migliaia di reti interconnesse, è una rete a commutazione di pacchetto.
+>[!tip]  Rappresentazione concettuale di Internet
+>![[Pasted image 20250228101739.png]]
 
-# Rappresentazione cocnettuale di Internet
+
 
 # L'accesso a internet
+
+
 è il collegamento verso l'utente:
 - via rete telefonica DSL
 - via reti wireless: Wi-Fi, Cellulare

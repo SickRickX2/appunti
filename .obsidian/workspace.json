@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "0 Definizione di rete, calssificazioni delle reti e Internet"
             }
+          },
+          {
+            "id": "df91a85c9216b856",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nuova scheda"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,8 +199,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "22059a57f769a311",
+  "active": "df91a85c9216b856",
   "lastOpenFiles": [
+    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
+    "Pasted image 20250228101739.png",
     "Pasted image 20250228100837.png",
     "Pasted image 20250228100339.png",
     "Pasted image 20250228094724.png",
@@ -199,11 +212,8 @@
     "Pasted image 20250227231304.png",
     "Pasted image 20250227230836.png",
     "Senza nome.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Pasted image 20250227230557.png",
     "conflict-files-obsidian-git.md",
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119211027.png",
-    "Sisitemi Operativi/Modulo 1/imgs/Pasted image 20241119210737.png",
     "Relazione/imgs",
     "JAVA/9 HashCode e Equals.md",
     "JAVA/8 Lambda Expression.md",
