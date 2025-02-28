@@ -67,5 +67,7 @@ Il tempo di andata e ritorno *round trip time* include i 4 ritardi. Se un pacche
 >[!note] Prodotto Rate * Ritardo
 >Il prodotto ci dice il numero di bit che possono riempire il collegamento.
 
+>[!danger] Esercizio per casa
+
 
 
