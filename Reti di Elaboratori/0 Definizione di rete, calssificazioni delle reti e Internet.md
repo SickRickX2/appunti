@@ -72,17 +72,16 @@ Oggigiorno è difficile trovare LAN o WAN isolate: esse sono in genere connesse 
 >![[Pasted image 20250228094724.png]]
 ## Rete GARR 
 La rerte GARR collega luoghi di cultura e ha un'infrastruttura molto potente tra collegamenti in dorsale (100 Gbps) e di accesso (40 Gbps). 
-
 # Commutazione (switching)
-Una internet è una combinazione di link e dispositivi capaci di scambiarsi informazioni. In particolare i sistemi terminali appartenenti alla rete comunicano tra di loro per mezzo di dispositivi come switch e router che si trovano tra sistemi terminali.
+Una *internet* (internetwork) è una combinazione di link e dispositivi capaci di scambiarsi informazioni. In particolare i sistemi terminali appartenenti alla rete comunicano tra di loro per mezzo di dispositivi come **switch** e **router** che si trovano tra sistemi terminali.
 In base al funzionamento possiamo avere due tipi di reti:
-## Reti a commutazione di circuito
+## 1) Reti a commutazione di circuito
 Viene stabilito un collegamento dedicato tra due dispositivi denominato **circuito**, dove viaggeranno tutte le informazioni fino a termine della comunicazione. Vengono riservate le risorse necessarie per la comunicazione, queste informazioni vengono mantenute dalla rete. Non è flessibile in termini di gestione di risorse.
 La banda può essere allocata in modi diversi:
 - divisione su frequenza: lo spettro viene diviso in sottointervalli, in cui ogni sottointervallo può trasmettere consecutivamente ma con le risorse statiche
 - divisione temporale: dò tutte le risorse ad intervalli piccolissimi in maniera ciclica ad ogni utente
 
-## Reti a commutazione di pacchetto
+## 2) Reti a commutazione di pacchetto
 Internet funziona in questo modo oggi, in questo caso non viene riservata alcun tipo di risorsa ma vengono suddivisi i dati in *pacchetti*. In questo caso la trasmissione non avvien in maniera continua ma c'è una coda all'interno del router per la spedizione dei pacchetti (indipendenti tra loro). Ogni router riceve il pacchetto, lo memorizza e lo inoltra al terminale di destinazione. Ci sono code di ingresso e code di uscita.
 
 # Rappresentazione cocnettuale di Internet
