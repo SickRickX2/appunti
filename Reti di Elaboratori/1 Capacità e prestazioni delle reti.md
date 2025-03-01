@@ -1,4 +1,4 @@
-La rete di accesso sono tutti quei dispositivi che ci permettono di collegarci al primo router edge collegato al backbone.
+La rete di accesso è composta da tutti quei dispositivi che permettono di collegarci al primo **edge router** collegato al backbone.
 ## Struttura gerarchica
 ### Primo livello
 Copertura nazionale/internazionale, collegati tramite cavi, anche sottomarini per attraversare l'oceano
