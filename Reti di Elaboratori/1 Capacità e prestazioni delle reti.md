@@ -1,9 +1,10 @@
 La rete di accesso è composta da tutti quei dispositivi che permettono di collegarci al primo **edge router** collegato al backbone. 
 ## Struttura di Internet
-La struttura di in
-### Primo livello
-Copertura nazionale/internazionale, collegati tramite cavi, anche sottomarini per attraversare l'oceano
-### Secondo livello
+La struttura di Internet è fondamentalmente gerarchica e ogni livello si basa su quello precedente.
+>[!note] ISP di livello 1
+Copertura nazionale/internazionale, collegati tramite cavi, anche sottomarini per attraversare l'oceano. Gli ISP sono direttamente  collegati tra di loro come pari.
+
+>[!tip]  ISP di livello 2
 Sono ISP più piccoli e utilizzano la rete del livello 1, sono quindi i loro clienti.
 ### Terzo livello
 Usano il servizio del livello 2, sono ISP locali
