@@ -20,7 +20,7 @@ Per quanto riguarda il commutamento per le prestazioni ci sono diversi parametri
 - ritardi
 - perdita di pacchetti
 ## Ampiezza di Banda
-Una caratteristica del mezzo trasmissivo e ci dice quanto è in grado di trasmettere, rappresenta l'ampiezza del segnale di frequenze (più è ampio l'intervallo maggiori sono le informazioni veicolate attraverso il mezzo).
+L'ampiezza di banda è una caratteristica del mezzo trasmissivo e ci dice quanto è in grado di trasmettere, rappresenta l'ampiezza del segnale di frequenze (più è ampio l'intervallo maggiori sono le informazioni veicolate attraverso il mezzo).
 
 C'è anche una caratterizzazione di un collegamento, ovvero quanti bit si riesce a trasmettere al secondo. Il *rate* è la quantità di bit che un link riesce a trasmettere sul canale.
 >[!note] Bit rate
