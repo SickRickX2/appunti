@@ -10,10 +10,6 @@ Sono ISP più piccoli e utilizzano la rete del livello 1, sono quindi i loro cli
 >[!example] ISP livello 3
 >Sono ISP locali e sono le più vicine ai sistemi terminali.  Vengono chiamati anche ISP di accesso
 
-
-### Terzo livello
-Usano il servizio del livello 2, sono ISP locali
-
 Un pacchetto passa attraverso molte reti utilizzando quindi diversi ISP. Uno dei problemi principali delle reti è trovare la strada dei pacchetti per arrivare a destinazione, viene chiamato **routing** (instradamento).
 
 La velocità della rete o di un collegamento significa quanto la rete trasmette e riceve velocemente i dati.
