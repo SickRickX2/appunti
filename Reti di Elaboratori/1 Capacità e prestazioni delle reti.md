@@ -24,7 +24,9 @@ L'ampiezza di banda è una caratteristica del mezzo trasmissivo e ci dice quanto
 
 C'è anche una caratterizzazione di un collegamento, ovvero quanti bit si riesce a trasmettere al secondo. Il *rate* è la quantità di bit che un link riesce a trasmettere sul canale.
 
-Quindi con il temrine
+Quindi con il termine ampiezza di banda si indicano due concetti leggermente diversi ma strettamente legati.
+
+1) **Caratterizzazione del canale o del sistema trasmissivo**: quantità che si misura in hertz e rappresenta la larghezza
 >[!note] Bit rate
 >Dipende dalla banda e da altre caratteristiche, è proporzionale alla banda in hertz. Per banda di un tipo di rete si intende il bit rate garantito nominalmente dai suoi link, fornisce un'indicazione della capacità della rete di trasferire dati.
 
@@ -41,10 +43,10 @@ Nel caso in cui abbiamo più terminali, il throughput viene suddiviso in base al
 
 ## Latenze
 Latenza ( ritardo o delay): quanto tempo serve affinché un pacchetto arrivi completamente a destinazione dal momento in cui il primo bit parte dalla sorgente. Ci sono diversi fattori che determinano la latenza di un pacchetto perché passa attraverso diversi link e router.
-1) Ritardo di elaborazione del nodo (processing delay): il paccehtto arriva e si controlla l'integrità, (in caso negativo viene scartato) poi viene determinato il canale d'uscita e infine c'è il tempo dalla ricezione del pacchetto alla consegna alla porta output
-2) Ritardo di accodamento (queuing delay): il pacchetto viene messo in coda sul buffer d'uscita o d'entrata, questo dipende dal livello di congestione del router(numero di pacchetti nelle code del router). Questo ritardo può variare da pacchetto a pacchetto.
-3) Ritardo di trasmissione: dipende dal canale ed è il tempo richiesto per inserire tutto il pacchetto sul collegamento (trasmissione) L/R ( quanti pacchetti devo spedire fratto il rate)
-4) Ritardo di propagazione:  quanto tempo impiega un pacchetto per propagarsi sul canale una volta immesso, ovvero il viaggio sul canale (s = velocità di propagazione per il simbolo bit che corrisponde alla velocità della luce, d = lunghezza del collegamento fisisco Ritardo di propagazione = d/s)
+2) Ritardo di elaborazione del nodo (processing delay): il paccehtto arriva e si controlla l'integrità, (in caso negativo viene scartato) poi viene determinato il canale d'uscita e infine c'è il tempo dalla ricezione del pacchetto alla consegna alla porta output
+3) Ritardo di accodamento (queuing delay): il pacchetto viene messo in coda sul buffer d'uscita o d'entrata, questo dipende dal livello di congestione del router(numero di pacchetti nelle code del router). Questo ritardo può variare da pacchetto a pacchetto.
+4) Ritardo di trasmissione: dipende dal canale ed è il tempo richiesto per inserire tutto il pacchetto sul collegamento (trasmissione) L/R ( quanti pacchetti devo spedire fratto il rate)
+5) Ritardo di propagazione:  quanto tempo impiega un pacchetto per propagarsi sul canale una volta immesso, ovvero il viaggio sul canale (s = velocità di propagazione per il simbolo bit che corrisponde alla velocità della luce, d = lunghezza del collegamento fisisco Ritardo di propagazione = d/s)
 Il ritardo di trasmissione è solo il tempo per uscire mentre la propagazione è il viaggio.
 
 Per calcoalre il ritardo di un pacchetto, vanno considerati tutti e 4 i ritardi.
@@ -66,12 +68,12 @@ Se ho un'intensità elevata le code si riempiono e i pacchetti che arrivano veng
 
 C'è un comando *traceroute* che permette di fare una stima del ritardo.
 L'outpur presenta 6 colonne:
-1) numero di router sulla rotta
-2) nome del router
-3) indirizzo del router
-4) tempo di andata eritorno del 1 pacchetto
-5) // del secondo
-6) // del terzo
+6) numero di router sulla rotta
+7) nome del router
+8) indirizzo del router
+9) tempo di andata eritorno del 1 pacchetto
+10) // del secondo
+11) // del terzo
 Il tempo di andata e ritorno *round trip time* include i 4 ritardi. Se un pacchetto non riceve rsiposta da un router intermedio o ne riceve meno di 3 allora pone un asterisco al posto del tempo RTT.
 
 >[!note] Prodotto Rate * Ritardo
