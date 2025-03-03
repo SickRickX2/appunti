@@ -8,7 +8,9 @@ Copertura nazionale/internazionale, collegati tramite cavi, anche sottomarini pe
 Sono ISP più piccoli e utilizzano la rete del livello 1, sono quindi i loro clienti.
 
 >[!example] ISP livello 3
->
+>Sono ISP locali e sono le più vicine ai sistemi terminali.  Vengono chiamati anche ISP di accesso
+
+
 ### Terzo livello
 Usano il servizio del livello 2, sono ISP locali
 
