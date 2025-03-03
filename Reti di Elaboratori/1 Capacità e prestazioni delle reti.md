@@ -29,7 +29,7 @@ Quindi con il termine ampiezza di banda si indicano due concetti leggermente div
 1) **Caratterizzazione del canale o del sistema trasmissivo**: quantità che si misura in hertz e rappresenta la larghezza dell'intervallo di frequenze utilizzato dal sistema trasmissivo, ovvero l'intervallo di frequenze che un mezzo fisico conscente di trasmettere senza danneggiare il segnale in maniera irrecuperabile. Maggiore è l'ampiezza di banda, maggiore è l'informazione che può essere veicolata attraverso il mezzo trasmissivo
 2) **Caratterizzazione di un collegamento**: quantità espressa in bit al secondo (bps), detta anche *bit transmission rate (velocità di trasmissione)*
 >[!note] Bit rate
->Dipende dalla banda e da altre caratteristiche, è proporzionale alla banda in hertz. Per banda di un tipo di rete si intende il bit rate garantito nominalmente dai suoi link, fornisce un'indicazione della capacità della rete di trasferire dati.
+>Dipende dalla banda e dalla specifica tecnica di trasmissione, è proporzionale alla banda in hertz. Per **banda** di un tipo di rete si intende il **bit rate garantito nominalmente** dai suoi link, il rate fornisce un'indicazione della capacità della rete di trasferire dati.
 
 ## Throughput
 Indica quanto velocemente riusciamo ***effettivamente*** a inviare dati tramite una rete. Quindi è il numero di bit al secondo che passano attraverso un punto della rete.
