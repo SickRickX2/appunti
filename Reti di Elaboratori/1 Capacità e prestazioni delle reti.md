@@ -42,7 +42,7 @@ Un pacchetto durante il viaggio a destinazione può attraversare numerosi link o
 
 Nel caso in cui abbiamo più terminali, il throughput viene suddiviso in base al numero di terminali.
 >[!example] Esempio
->
+>Il rate 
 
 ## Latenze
 Latenza ( ritardo o delay): quanto tempo serve affinché un pacchetto arrivi completamente a destinazione dal momento in cui il primo bit parte dalla sorgente. Ci sono diversi fattori che determinano la latenza di un pacchetto perché passa attraverso diversi link e router.
