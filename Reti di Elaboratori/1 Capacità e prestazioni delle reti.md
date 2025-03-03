@@ -36,11 +36,13 @@ Indica quanto velocemente riusciamo ***effettivamente*** a inviare dati tramite 
 Somiglia al rate ma:
 - è solitamente minore o uguale al rate, perché il rate è una misura potenziale mentre il throughput è una misura effettiva e può variare in ogni momento
 
-Un pacchetto durante il viaggio a destinazione può attraversare numerosi link ognuno con un throughput diverso
+Un pacchetto durante il viaggio a destinazione può attraversare numerosi link ognuno con un throughput diverso, per calcolare il throughput medio basta calcolare il throughput minimo tra tutti i link.
 >[!warning] Collo di bottiglia
 >Collegamento su un percorso punto a punto che vincola un throughput end to end
 
 Nel caso in cui abbiamo più terminali, il throughput viene suddiviso in base al numero di terminali.
+>[!example] Esempio
+>
 
 ## Latenze
 Latenza ( ritardo o delay): quanto tempo serve affinché un pacchetto arrivi completamente a destinazione dal momento in cui il primo bit parte dalla sorgente. Ci sono diversi fattori che determinano la latenza di un pacchetto perché passa attraverso diversi link e router.
