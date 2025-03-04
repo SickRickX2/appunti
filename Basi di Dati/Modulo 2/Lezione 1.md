@@ -11,4 +11,6 @@ Nella fase di analisi si concentra più delle classi che sugli oggetti.
 >Una classe modella un insiem di oggetti omogenei ai quali sono associate proprietà statiche e dinamiche.
 >Ogni classe è descritta da:
 >- un nome
->- un in
+>- un insieme di proprietà
+
+
