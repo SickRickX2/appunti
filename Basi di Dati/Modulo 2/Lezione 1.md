@@ -55,4 +55,8 @@ Vogliamo però anche modellare la realtà in modo accurato
 ## Tipi di dato composto
 UML consente di definire anche tipi di dato composti da più campi: *tipi record*.
 
+>[!tip] Vincoli di molteplictià sugli attributi
+>Anche gli attributi di classe e associazione possono avere vincoli di molteplicità (default: 1..1)
+
+
 
