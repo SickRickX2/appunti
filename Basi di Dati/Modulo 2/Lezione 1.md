@@ -22,7 +22,7 @@ Nella fase di analisi si concentra più delle classi che sugli oggetti.
 >[!tip] Vincoli e molteplicità
 >UML permette di definire vincoli di integrità in un diagramma delle classi. Un vincolo di integrità impone ulteriori restrizioni sui livelli estensionali ammessi. 
 
->[!warning] vincolo di molteplicità
+>[!warning] Vincolo di molteplicità
 >La sinossi per mettere questo vincolo è la seguente
 >![[Pasted image 20250304150930.png]]
 
