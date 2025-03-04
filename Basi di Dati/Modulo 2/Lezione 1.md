@@ -29,10 +29,20 @@ Nella fase di analisi si concentra più delle classi che sugli oggetti.
 >[!danger] Associazioni che insistono più volte sulla stessa classe
 UML quando abbiamo un'associazione che insiste più volte sulla stessa classe ci obbliga a dare esplicitamente nomi distinti ai due ruoli ![[Pasted image 20250304153136.png]]
 
->[!note] Associazioni con attributi
->In UML si può definire un'associazione con attributi, sembra una classe ma il nome inizia con la lettera minuscola ed è legata con una linea tratteggiata all'associazione.
+>[!note] Associazioni con attributi (Association class)
+>In UML si può definire un'associazione con attributi, sembra una classe ma il nome inizia con la lettera minuscola ed è legata con una linea tratteggiata all'associazione. Si comporta come una classe perché può essere a sua volta terminale di ulteriori associazioni.
 >>[!danger] Attenzione
 >>Anche in presenza di attributi, la natura dell'associazione non cambia, non si può avere più di un link con la stessa coppia di oggetti
+
+## Tipi di dato concettuali
+>[!note] Tipi Base
+>Vogliamo utilizzare tipi concettuali che siano facilmente realizzabili con qualsiasi linguaggio o tecnologia:
+>- Intero
+>- Reale
+>- Booleano
+>- Data
+>- Ora
+>- DataOra
 
 
 
