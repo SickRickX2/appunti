@@ -26,5 +26,6 @@ Nella fase di analisi si concentra più delle classi che sugli oggetti.
 >La sinossi per mettere questo vincolo è la seguente
 >![[Pasted image 20250304150930.png]]
 
+>[!danger] Associazioni che insistono più volte sulla stessa classe
+UML quando abbiamo un'associazione che insiste più volte sulla stessa classe ci obbliga a dare esplicitamente nomi distinti ai due ruoli ![[Pasted image 20250304153136.png]]
 
-UML quando abbiamo un'associazione che insiste più volte sulla stessa classe ci obbliga a dare esplicitamente nomi distinti ai due ruoli
