@@ -50,6 +50,9 @@ Vogliamo però anche modellare la realtà in modo accurato
 >UML permette di definire tipi di dato specializzati.
 
 >[!note] Tipi enumerativi
->Quando i valori di un attributi sono pochi, finiti, immutabili...allora possiamo usare un insieme enumerativo. Bisogna solo usarli quando siamo ragionevolmente sicuri d
+>Quando i valori di un attributi sono pochi, finiti, immutabili...allora possiamo usare un insieme enumerativo. Bisogna solo usarli quando siamo ragionevolmente sicuri che i valori non cambiano. Elenca valori che non sono stringhe ma *etichette*
+
+## Tipi di dato composto
+UML consente di definire anche tipi di dato composti da più campi: *tipi record*.
 
 
