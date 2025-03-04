@@ -38,11 +38,18 @@ UML quando abbiamo un'associazione che insiste più volte sulla stessa classe ci
 >[!note] Tipi Base
 >Vogliamo utilizzare tipi concettuali che siano facilmente realizzabili con qualsiasi linguaggio o tecnologia:
 >- Intero
+>- Stringa
 >- Reale
 >- Booleano
 >- Data
 >- Ora
 >- DataOra
 
+Vogliamo però anche modellare la realtà in modo accurato
+>[!note] Tipi specializzati
+>UML permette di definire tipi di dato specializzati.
+
+>[!note] Tipi enumerativi
+>Quando i valori di un attributi sono pochi, finiti, immutabili...allora possiamo usare un insieme enumerativo. Bisogna solo usarli quando siamo ragionevolmente sicuri d
 
 
