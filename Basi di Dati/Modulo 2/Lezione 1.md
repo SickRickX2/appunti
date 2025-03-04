@@ -27,3 +27,4 @@ Nella fase di analisi si concentra più delle classi che sugli oggetti.
 >![[Pasted image 20250304150930.png]]
 
 
+UML quando abbiamo un'associazione che insiste più volte sulla stessa classe ci obbliga a dare esplicitamente nomi distinti ai due ruoli
