@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
+                "file": "Basi di Dati/Modulo 2/Lezione 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 Definizione di rete, calssificazioni delle reti e Internet"
+              "title": "Lezione 1"
             }
           },
           {
@@ -203,24 +203,26 @@
   },
   "active": "22059a57f769a311",
   "lastOpenFiles": [
+    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
+    "Basi di Dati/Modulo 2/Lezione 1.md",
+    "Relazione/imgs/Pasted image 20250227230557.png",
+    "Basi di Dati/Modulo 2",
     "Sisitemi Operativi/Modulo 2/Lezione 0.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Sisitemi Operativi/Modulo 2",
     "Sisitemi Operativi/Senza nome.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti degli Elaboratori (class).md",
     "Sisitemi Operativi/Modulo 1/Lezione 2.md",
-    "Pasted image 20250228101739.png",
-    "Pasted image 20250228100837.png",
-    "Pasted image 20250228100339.png",
-    "Pasted image 20250228094724.png",
-    "Pasted image 20250228094130.png",
-    "Pasted image 20250228093746.png",
-    "Pasted image 20250228093618.png",
-    "Pasted image 20250227231304.png",
-    "Pasted image 20250227230836.png",
+    "Relazione/imgs/Pasted image 20250228101739.png",
+    "Relazione/imgs/Pasted image 20250228100837.png",
+    "Relazione/imgs/Pasted image 20250228100339.png",
+    "Relazione/imgs/Pasted image 20250228094724.png",
+    "Relazione/imgs/Pasted image 20250228094130.png",
+    "Relazione/imgs/Pasted image 20250228093746.png",
+    "Relazione/imgs/Pasted image 20250228093618.png",
+    "Relazione/imgs/Pasted image 20250227231304.png",
+    "Relazione/imgs/Pasted image 20250227230836.png",
     "Senza nome.md",
-    "Pasted image 20250227230557.png",
     "conflict-files-obsidian-git.md",
     "Relazione/imgs",
     "JAVA/9 HashCode e Equals.md",
@@ -240,7 +242,6 @@
     "JAVA/13 Tipi Generici.md",
     "JAVA/12 Riferimento ai Metodi.md",
     "JAVA/11 Classi Anonime.md",
-    "JAVA/10 Interfacce Funzionali Notevoli.md",
     "JAVA",
     "Reti di Elaboratori",
     "Relazione/Untitled.canvas",
@@ -248,7 +249,6 @@
     "Relazione",
     "Sisitemi Operativi/Modulo 1/imgs",
     "Sisitemi Operativi/Modulo 1",
-    "Sisitemi Operativi",
-    "Basi di Dati/Modulo 1/imgs"
+    "Sisitemi Operativi"
   ]
 }
