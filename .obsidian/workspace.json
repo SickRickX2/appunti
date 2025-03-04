@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 2/Lezione 0.md",
+                "file": "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 0"
+              "title": "0 Definizione di rete, calssificazioni delle reti e Internet"
             }
           },
           {
@@ -203,8 +203,8 @@
   },
   "active": "22059a57f769a311",
   "lastOpenFiles": [
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Sisitemi Operativi/Modulo 2/Lezione 0.md",
+    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Sisitemi Operativi/Modulo 2",
     "Sisitemi Operativi/Senza nome.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
