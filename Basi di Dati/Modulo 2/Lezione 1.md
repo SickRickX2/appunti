@@ -13,4 +13,12 @@ Nella fase di analisi si concentra più delle classi che sugli oggetti.
 >- un nome
 >- un insieme di proprietà
 
+>[!note] Associazioni
+>Un'associazione modella la possibilità che oggetti di due o più classi abbiano dei legami. Devono avere un nome e possono avere una direzione di lettura opzionale
+
+>[!note] Link
+>I link sono istanze delle associazioni, a contrario degli oggetti però i link non hanno identificatori esplicit: un link è implicitamente identificato dalla coppia. Questo indica che la coppia o esiste o non esiste, non ci sono ripetizioni di link (come nell'insiemistica)
+
+
+
 
