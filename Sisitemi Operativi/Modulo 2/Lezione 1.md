@@ -9,5 +9,12 @@ All'interno di una directory **non possono esistere** due file/directory con due
 
 Il **.** rappresenta la directory corrente mentre il **..** rappresenta la directory precedente.
 
+>[!example] es
+>cd ../../Immagini/./faces
+>Da quale percorso bisogna partire per arrivare ad Immagini/faces?
+
+
+
+
 
 
