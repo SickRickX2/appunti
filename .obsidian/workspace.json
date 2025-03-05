@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 2/Lezione 1.md",
+                "file": "Basi di Dati/Modulo 2/Lezione 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 1"
+              "title": "Lezione 2"
             }
           }
         ]
@@ -189,10 +189,11 @@
   },
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 2/Lezione 1.md",
+    "Basi di Dati/Modulo 2/Lezione 2.md",
+    "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "JAVA/1 Introduzione di Java.md",
     "JAVA/19 Eccezioni.md",
-    "Sisitemi Operativi/Modulo 2/Lezione 1.md",
-    "Basi di Dati/Modulo 2/Lezione 1.md",
     "Pasted image 20250304153136.png",
     "Pasted image 20250304150930.png",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
@@ -227,7 +228,6 @@
     "JAVA/15 Strutture Dati.md",
     "JAVA/14 Cancellazione del Tipo.md",
     "JAVA/13 Tipi Generici.md",
-    "JAVA/12 Riferimento ai Metodi.md",
     "JAVA",
     "Reti di Elaboratori",
     "Relazione/Untitled.canvas",
