@@ -5,7 +5,9 @@ Esistono dei file speciali che permettono di trasferire dei dati, possono essere
 
 All'interno di una directory **non possono esistere** due file/directory con due **nomi uguali** ( in linux il nome è case-sensitive).
 >[!note] PWD
->Ci dice il path della directory corrente. Il *path assolluto* è il path che parte direttamente dalla radice
+>Ci dice il path della directory corrente. Il *path assoluto* è il path che parte direttamente dalla radice. I *path relativi* invece sono i path che non partono dalla root.
+
+Il **.** rappresenta la directory corrente mentre il **..** rappresenta la directory precedente.
 
 
 
