@@ -7,5 +7,11 @@ In UML permette di implementare il concetto di ''sottoclasse''. Viene chiamata *
 >Una classe, a differenza dei linguaggi di programmazione, può espendere anche più di una classe. ![[Pasted image 20250305153022.png]] 
 >L'insieme delle classi più specifiche di 'anna' è {Studente, Lavoratore} ma non Persona anche se 'anna' è istanza di Persona, Studente, Lavoratore
 
-
+>[!example] Azienda 1
+>1) Impiegato
+>	1.1 nome: Stringa
+>	1.2 cognome: Stringa
+>	1.3 data di nascita: Data
+>	1.4 stipendio: reale >= 0
+>	1.5 dipartiment di 
 
