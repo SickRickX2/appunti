@@ -18,6 +18,7 @@ In UML permette di implementare il concetto di ''sottoclasse''. Viene chiamata *
 >2) Dipartimento
 >	2.1 nome: Stringa,univoca
 >	2.2 telefono: intero
+>	2.4 Direttore (è un impiegato vedi 1)
 >	
 >	
 >	
