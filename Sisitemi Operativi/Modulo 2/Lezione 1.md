@@ -13,6 +13,7 @@ Il **.** rappresenta la directory corrente mentre il **..** rappresenta la direc
 >cd ../../Immagini/./faces
 >Da quale percorso bisogna partire per arrivare ad Immagini/faces?
 
+Per visitare ricorsivamente il contenuto di una directory si può fare utilizzando il comando *-R*. Un altro modo per visualizzare il contenuto di una directory è *tree*.
 
 
 
