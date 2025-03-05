@@ -14,7 +14,11 @@ In UML permette di implementare il concetto di ''sottoclasse''. Viene chiamata *
 >	1.3 data di nascita: Data
 >	1.4 stipendio: reale >= 0
 >	1.5 dipartimento di afferenza (uno)  (vedi 2)
+>		1.5.1 data di afferenza
 >2) Dipartimento
->	2.1 nome: Stringa
+>	2.1 nome: Stringa,univoca
+>	2.2 telefono: intero
+>	
+>	
 >	
 
