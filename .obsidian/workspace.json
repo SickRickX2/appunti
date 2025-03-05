@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 2/Lezione 2.md",
+                "file": "Basi di Dati/Modulo 2/Lezione 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 2"
+              "title": "Lezione 1"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,9 +189,9 @@
   },
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 2/Lezione 2.md",
     "Pasted image 20250305153022.png",
     "Basi di Dati/Modulo 2/Lezione 1.md",
-    "Basi di Dati/Modulo 2/Lezione 2.md",
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "JAVA/1 Introduzione di Java.md",
     "JAVA/19 Eccezioni.md",
@@ -212,7 +211,6 @@
     "Relazione/imgs/Pasted image 20250228094724.png",
     "Relazione/imgs/Pasted image 20250228094130.png",
     "Relazione/imgs/Pasted image 20250228093746.png",
-    "Relazione/imgs/Pasted image 20250228093618.png",
     "Senza nome.md",
     "conflict-files-obsidian-git.md",
     "Relazione/imgs",
