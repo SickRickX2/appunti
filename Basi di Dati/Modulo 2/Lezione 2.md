@@ -24,6 +24,5 @@ In UML permette di implementare il concetto di ''sottoclasse''. Viene chiamata *
 >	3.1 nome (stringa)
 >	3.2 budget (un reale >=0)
 >	3.3 Immpiegati partecipanti (v.1)
->	
->	
+
 
