@@ -52,7 +52,10 @@ $O(n+m)=O(m)$
 
 ## Connessioni
 >[!note] Componente Connessa
->U
+>Una componente connessa ( o semplicemente una componente) di un grafo (indiretto) è un sottografo composto da un insieme massimale di nodi connessi da cammini.
+>Un grafo si dice *connesso* se ha una sola componente connessa.
+
+
 
 
 
