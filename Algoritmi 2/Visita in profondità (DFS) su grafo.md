@@ -17,7 +17,6 @@ DFS(u,M,visitati)
 return [x for x in range(n) if visitati[x]]
 
 ```
-
 ## Rappresentato tramite lista di adiacenza
 ```Python
 def DFS(u,G):
@@ -33,3 +32,4 @@ DFS(u,G,visitati)
 return [x for x in range(n) if visitati[x]]
 
 ```
+
