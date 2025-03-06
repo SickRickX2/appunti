@@ -52,9 +52,14 @@ $O(n+m)=O(m)$
 
 ## Connessioni
 >[!note] Componente Connessa
->Una componente connessa ( o semplicemente una componente) di un grafo (indiretto) è un sottografo composto da un insieme massimale di nodi connessi da cammini.
+>Una *componente connessa* ( o semplicemente una componente) di un grafo (indiretto) è un sottografo composto da un *insieme massimale* di nodi connessi da cammini.
 >Un grafo si dice *connesso* se ha una sola componente connessa.
+>![[Pasted image 20250306190656.png]]
+>Vogliamo calcolare il *vettore C delle componenti connesse* di un grafo G. Vale a dire il vettore C che h
 
+
+
+ 
 
 
 
