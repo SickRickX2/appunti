@@ -32,8 +32,27 @@ Il caso "peggiore" in cui si richiedono $\Theta (n)$ colori è quando abbiamo un
 
 Nella versione che segue l'algoritmo produce una bi-colorazione se il grafo G è bi-colorabile mentre ritorna una lista vuota in caso contrario
 ```Python
-
+def Colora1(G):
+	Colore[x] = c
+	for y in G[x]:
+		if Colore[y] == -1:
+		if not DFSr(y, G, Coloroe, 1-c):
+			return False
+		elif Colore[y] == Colore[x]:
+			return False
+		return True
+	Colore = [-1] * len(G)
+	if DFSr(0, G, Colore, 0):
+		return Colore
+	return []
+	
 ```
+La complessità dell'algoritmo per testare se un grafo è bicolorabile è quella di una semplice visita del grafo connesso da colorare:
+$O(n+m)=O(m)$
+
+## Connessioni
+>[!note] Componente Connessa
+>U
 
 
 
