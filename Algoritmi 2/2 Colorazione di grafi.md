@@ -13,7 +13,18 @@ Il caso "peggiore" in cui si richiedono $\Theta (n)$ colori è quando abbiamo un
 >- effettua una visita in profondità del grafo a partire dal nodo 0.  Nel corso della visita, a ciascun nodo x che incontri assegna uno dei due colori 0 e 1. Scegli il colore da assegnare in modo che sia diverso dal colore assegnato al nodo padre che ti ha portato a visitare x
 >**La prova di correttezza:** Siano x  e y due nodi adiacenti in G, consideriamo i due possibili casi e facciamo vedere che in entrambi i casi i due nodi al termine avranno colori opposti.
 >1) *l'arco (x,y) viene attraversato durante la visita.* In questo caso banalmetne i due nodi hanno colori distinti.
->2) l'arco (x,y ) NON viene attraversato durante la visita. Sia x il nodo visitato prima. Esiste un cammino in G che da x porta a y ( quello seguito dalla visita), questo cammino si chiude formando un ciclo con l'arco (y,x). Il ciclo è di lunghezza pari per ipotesi, quindi il cammino è di lunghezza dispari. Quindi
+>2) l'arco (x,y ) NON viene attraversato durante la visita. Sia x il nodo visitato prima. Esiste un cammino in G che da x porta a y ( quello seguito dalla visita), questo cammino si chiude formando un ciclo con l'arco (y,x). Il ciclo è di lunghezza pari per ipotesi, quindi il cammino è di lunghezza dispari. Poiché sul cammino i colori si alternano il primo nodo (x) e l'ultimo nodo (y) del cammino avranno colori diversi.
+
+>[!example] Algoritmo per bicolorare
+>```Python
+>def Colora(G):
+>	def DFSr(x, G, Colore, c):
+>	Colore[x] = c
+>	for y in G[x]:
+>	
+>
+>
+>```
 
 
 
