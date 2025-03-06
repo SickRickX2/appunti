@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 2/Lezione 2.md",
+                "file": "Algoritmi 2/Visita in profondità (DFS) su grafo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 2"
+              "title": "Visita in profondità (DFS) su grafo"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,8 +189,10 @@
   },
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
-    "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
+    "Algoritmi 2/Visita in profondità (DFS) su grafo.md",
+    "Algoritmi 2",
+    "Basi di Dati/Modulo 2/Lezione 1.md",
     "Pasted image 20250305153022.png",
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "JAVA/1 Introduzione di Java.md",
@@ -234,7 +235,6 @@
     "Relazione",
     "Relazione",
     "Sisitemi Operativi/Modulo 1/imgs",
-    "Sisitemi Operativi/Modulo 1",
-    "Sisitemi Operativi"
+    "Sisitemi Operativi/Modulo 1"
   ]
 }
