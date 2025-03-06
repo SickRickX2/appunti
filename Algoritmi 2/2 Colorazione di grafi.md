@@ -7,3 +7,6 @@ Il caso "peggiore" in cui si richiedono $\Theta (n)$ colori è quando abbiamo un
 >>[!warning] Spiegazione
 >>Un ciclo di lunghezza dispari rende impossibile la colorazione del grafo con due colori perché lungo il ciclo i colori devono necessariamente alternarsi.
 
+>[!note] Algoritmo di bi-colorazione
+>
+
