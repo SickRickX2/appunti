@@ -5,4 +5,5 @@ Il caso "peggiore" in cui si richiedono $\Theta (n)$ colori è quando abbiamo un
 >Un grafo *2-colorabile* è un grafo che può essere colorato usando solamente due colori.
 >Affinché ciò sia possibile è necessario e sufficiente che il grafo non contenga cicli di lunghezza dispari.
 >>[!warning] Spiegazione
->>Un ciclo di lunghezza dispari rende impossibile la colorazione del grafo con due colori perché lungo il ciclo i co
+>>Un ciclo di lunghezza dispari rende impossibile la colorazione del grafo con due colori perché lungo il ciclo i colori devono necessariamente alternarsi.
+
