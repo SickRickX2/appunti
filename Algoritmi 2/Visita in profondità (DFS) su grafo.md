@@ -29,7 +29,7 @@ def DFS(u,G):
 ###
 n = len(M)
 visitati = [0] * n
-DFS(u,M,visitati)
+DFS(u,G,visitati)
 return [x for x in range(n) if visitati[x]]
 
 ```
