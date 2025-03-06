@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -189,9 +190,9 @@
   },
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
-    "Pasted image 20250306172343.png",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
+    "Pasted image 20250306172343.png",
     "Pasted image 20250306120940.png",
     "Basi di Dati/Modulo 2/Lezione 2.md",
     "Algoritmi 2",
@@ -214,7 +215,6 @@
     "Relazione/imgs/Pasted image 20250228100837.png",
     "Relazione/imgs/Pasted image 20250228100339.png",
     "Relazione/imgs/Pasted image 20250228094724.png",
-    "Relazione/imgs/Pasted image 20250228094130.png",
     "Senza nome.md",
     "conflict-files-obsidian-git.md",
     "Relazione/imgs",
