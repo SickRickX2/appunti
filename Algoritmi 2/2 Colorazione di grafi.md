@@ -9,4 +9,6 @@ Il caso "peggiore" in cui si richiedono $\Theta (n)$ colori è quando abbiamo un
 
 >[!note] Algoritmo di bi-colorazione
 >L'algoritmo di bi-colorazione che segue prova che un *grafo senza cicli dispari* può sempre essere 2-colorato.
+>- coloro il nodo 0
+>- effettua una visita in profondità dal grafo a partire dal nodo 0.  Nel corso della visista, a ciasscun nodo x che incontri assegna uno dei due colori 0 e 1. Scegli il colore da assegnare in modo che sia diverso dal colore
 
