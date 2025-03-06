@@ -21,10 +21,19 @@ Il caso "peggiore" in cui si richiedono $\Theta (n)$ colori è quando abbiamo un
 >	def DFSr(x, G, Colore, c):
 >	Colore[x] = c
 >	for y in G[x]:
->	
->
->
+>		if Colore[y] == -1:
+>		 DFSr (y, G Colore 1-c)
+>	Colore = [-1] * len(G)
+>	DFSr(0, G, Colore, o)
+>	return Colore
 >```
+>>[!danger] Attenzione
+>>Se il grafo G contiene cicli dispari l'algoritmo produce un assegnamento di colori sbagliato, per questo motivo esiste un algoritmo leggermente diverso che risolve questo problema
+
+Nella versione che segue l'algoritmo produce una bi-colorazione se il grafo G è bi-colorabile mentre ritorna una lista vuota in caso contrario
+```Python
+
+```
 
 
 
