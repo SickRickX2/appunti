@@ -16,15 +16,13 @@ visitati = [0] * n
 DFS(u,M,visitati)
 return [x for x in range(n) if visitati[x]]
 ```
+Al termine di *DFS(u, M)* si ha ```visitati[i]``` se e solo se *i* è raggiungibile da *u*
 >[!tip] Costo dell'algoritmo
 >La complessità della procedura è $O(n)\times\Theta(n) = O(n^2)$
 >>[!warning]  Spiegazione
 >>Il costo dell'algoritmo viene giustificato perché all'interno di DFSr:
->>- Il primo for lo eseguiamo esattamente n volte quindi $\Theta(n)$
->>- La chiamata ricorsiva a seguito dell'if statement, ovvero la visita, viene eseguita al massimo n volte se tutti i nodi sono raggiungibili partendo dal nodo u
-
-
-
+>>- Il *primo for* lo eseguiamo *esattamente n volte* quindi $\Theta(n)$
+>>- La *chiamata ricorsiva* a seguito dell'if statement, ovvero la visita, viene eseguita *al massimo n volte* se tutti i nodi sono raggiungibili partendo dal nodo u
 
 ## Rappresentato tramite lista di adiacenza
 ```Python
