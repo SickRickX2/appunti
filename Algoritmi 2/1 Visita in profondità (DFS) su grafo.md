@@ -16,6 +16,11 @@ visitati = [0] * n
 DFS(u,M,visitati)
 return [x for x in range(n) if visitati[x]]
 ```
+>[!tip] Costo dell'algoritmo
+>La complessità della procedura è $O(n)\times\Theta(n) = O(n^2)$
+>[!warning] Spiegazione
+>
+
 
 ## Rappresentato tramite lista di adiacenza
 ```Python
