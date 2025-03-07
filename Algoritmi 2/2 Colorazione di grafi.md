@@ -60,7 +60,16 @@ $O(n+m)=O(m)$
 
 ```Python
 def Componenti(G):
-	def DF
+	def DFSr(x, G, C, c):
+		C[x] = c
+		for y in G[x]:
+			if C[y] == 0:
+				DFSr(y, G, C, c)
+	C = [0]*len(G)
+	c = 0
+	for x in range(len(G)):
+	
+	
 ```
 
 
