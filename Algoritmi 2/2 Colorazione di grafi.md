@@ -58,7 +58,10 @@ $O(n+m)=O(m)$
 >Vogliamo calcolare il *vettore C delle componenti connesse* di un grafo G. Vale a dire il vettore C che ha tanti elementi quanti sono i nodi del grafo e C[u] = C[v] se  e solo se u e v sono nella stessa componente connessa.
 >![[Pasted image 20250306191209.png]]
 
-
+```Python
+def Componenti(G):
+	def DF
+```
 
 
 
