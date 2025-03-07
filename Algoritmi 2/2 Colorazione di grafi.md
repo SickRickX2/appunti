@@ -57,9 +57,10 @@ $O(n+m)=O(m)$
 >![[Pasted image 20250306190656.png]]
 >Vogliamo calcolare il *vettore C delle componenti connesse* di un grafo G. Vale a dire il vettore C che ha tanti elementi quanti sono i nodi del grafo e C[u] = C[v] se  e solo se u e v sono nella stessa componente connessa.
 >![[Pasted image 20250306191209.png]]
->
+>Se ho fatto n visite per esplorare il grafo, nel vettore troverò n valori che equivale a dire n componenti (n numero non i nodi). 
 
-```Python
+>[!example] Algoritmo
+>```Python
 def Componenti(G):
 	def DFSr(x, G, C, c):
 		C[x] = c
@@ -76,7 +77,10 @@ def Componenti(G):
 	
 ```
 ![[Pasted image 20250307101204.png|200]]
-La complessità di questo algoritmo è $O(n + m)$
+La complessità di questo algoritmo è $O(n + m)$.
+>[!tip] Spiegazione algoritmo
+>Se faccio più di una visita non percorrerò mai archi o nodi già visitati. Quindi visito ogni volta partizoni e in totale tutto il grafo, ovvero $O(n+m)$
+
 
 
 
