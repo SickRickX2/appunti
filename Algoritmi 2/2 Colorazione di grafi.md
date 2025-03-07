@@ -20,10 +20,11 @@ Il caso "peggiore" in cui si richiedono $\Theta (n)$ colori è quando abbiamo un
 >```Python
 >def Colora(G):
 >	def DFSr(x, G, Colore, c):
->	Colore[x] = c
->	for y in G[x]:
->		if Colore[y] == -1:
->		 DFSr (y, G Colore 1-c)
+>		Colore[x] = c
+>		for y in G[x]:
+>			if Colore[y] == -1:
+>			 DFSr (y, G Colore 1-c)
+>	
 >	Colore = [-1] * len(G)
 >	DFSr(0, G, Colore, o)
 >	return Colore
@@ -37,11 +38,12 @@ def Colora1(G):
 	Colore[x] = c
 	for y in G[x]:
 		if Colore[y] == -1:
-		if not DFSr(y, G, Coloroe, 1-c):
-			return False
+			if not DFSr(y, G, Coloroe, 1-c):
+				return False
 		elif Colore[y] == Colore[x]:
 			return False
-		return True
+	return True
+	
 	Colore = [-1] * len(G)
 	if DFSr(0, G, Colore, 0):
 		return Colore
@@ -63,17 +65,20 @@ $O(n+m)=O(m)$
 ```Python
 def Componenti(G):
 	def DFSr(x, G, C, c):
-	C[x] = c
+		C[x] = c
 		for y in G[x]:
 			if C[y] == 0:
 				DFSr(y, G, C, c)
+
+###
 	C = [0]*len(G)
 	c = 0
 	for x in range(len(G)):
 		if C[x] == 0:
 		c += 1
 		DFSr(x, G, C, c)
-	return C```
+	return C
+	```
 
 ![[Pasted image 20250307101204.png|200]]
 La complessità di questo algoritmo è $O(n + m)$.
