@@ -42,5 +42,6 @@ return [x for x in range(n) if visitati[x]]
 ```
 Esattamente come prima, al termine di *DFS(u, M)*  si ha ```visitati[i]``` se e solo se *i* è raggiungibile da *u*. 
 >[!tip] Costo dell'algoritmo
->La complessià della procedura è $O(n+m)$.
->
+>La complessià della procedura è $O(n+m)$ --->$O(n)$
+>>[!warning] Spiegazione
+>>La complessità dell'algoritmo vien giustificata perché visitiamo gli elementi della lista di adiacenza del nodo che corrispond al numero di archi, e in seguito eseguiamo la visita sui nodi al più n volte se sono raggiungibili tutti i nodi del grafo
