@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
+                "file": "Algoritmi 2/3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Visita in profondità (DFS) su grafo"
+              "title": "3"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,6 +190,7 @@
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
     "Algoritmi 2/2 Colorazione di grafi.md",
+    "Algoritmi 2/3.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Pasted image 20250307101204.png",
     "Pasted image 20250306191209.png",
