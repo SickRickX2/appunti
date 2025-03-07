@@ -68,9 +68,13 @@ def Componenti(G):
 	C = [0]*len(G)
 	c = 0
 	for x in range(len(G)):
-	
+		if C[x] == 0:
+		c += 1
+		DFSr(x, G, C, c)
+	return C
 	
 ```
+La complessità di questo algoritmo è $$
 
 
 
