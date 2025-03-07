@@ -18,8 +18,12 @@ return [x for x in range(n) if visitati[x]]
 ```
 >[!tip] Costo dell'algoritmo
 >La complessità della procedura è $O(n)\times\Theta(n) = O(n^2)$
->[!warning] Spiegazione
->
+>>[!warning]  Spiegazione
+>>Il costo dell'algoritmo viene giustificato perché all'interno di DFSr:
+>>- Il primo for lo eseguiamo esattamente n volte quindi $\Theta(n)$
+>>- La chiamata ricorsiva a seguito dell'if statement, ovvero la visita, viene eseguita al massimo n volte se tutti i nodi sono raggiungibili partendo dal nodo u
+
+
 
 
 ## Rappresentato tramite lista di adiacenza
