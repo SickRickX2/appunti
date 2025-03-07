@@ -52,4 +52,7 @@ I *nodi visitati* e gli *archi effettivamente attraversati* formano un albero de
 >[!note] Vettore dei padri
 >Un albero DFS può essere memorizzato tramitte il **vettore dei padri**.
 >I campi di questo vettore vengono inizialmente inizializzati a *-1*, che vuol dire **orfano** (non fa parte dell'albero), man mano che visitiamo il grafo mettiamo un numero $x$ ad ogni nodo che visitiamo, questo numero corrispode al padre del nodo corrente. *L'unico nodo che ha come padre sè stesso* è la **radice** dell'albero
+>INSERIRE FOTO ALBERO
+
+
 
