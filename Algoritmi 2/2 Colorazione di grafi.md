@@ -38,7 +38,7 @@ def Colora1(G):
 	Colore[x] = c
 	for y in G[x]:
 		if Colore[y] == -1:
-			if not DFSr(y, G, Coloroe, 1-c):
+			if not DFSr(y, G, Colore, 1-c):
 				return False
 		elif Colore[y] == Colore[x]:
 			return False
