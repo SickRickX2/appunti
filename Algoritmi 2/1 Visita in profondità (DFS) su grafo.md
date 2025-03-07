@@ -40,4 +40,7 @@ DFS(u,G,visitati)
 return [x for x in range(n) if visitati[x]]
 
 ```
-
+Esattamente come prima, al termine di *DFS(u, M)*  si ha ```visitati[i]``` se e solo se *i* è raggiungibile da *u*. 
+>[!tip] Costo dell'algoritmo
+>La complessià della procedura è $O(n+m)$.
+>
