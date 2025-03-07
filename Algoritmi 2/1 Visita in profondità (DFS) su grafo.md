@@ -24,7 +24,8 @@ Al termine di *DFS(u, M)* si ha ```visitati[i]``` se e solo se *i* è raggiungib
 >>- Il *primo for* lo eseguiamo *esattamente n volte* quindi $\Theta(n)$
 >>- La *chiamata ricorsiva* a seguito dell'if statement, ovvero la visita, viene eseguita *al massimo n volte* se tutti i nodi sono raggiungibili partendo dal nodo u
 
-## Rappresentato tramite lista di adiacenza
+## Rappresentato tramite liste di adiacenza
+Questo algoritmo è più veloce proprio grazie al tipo di rappresentazione del grafo, ovvero tramite liste di adiacenza
 ```Python
 def DFS(u,G):
 	def DFSr(u,G,visitati):
