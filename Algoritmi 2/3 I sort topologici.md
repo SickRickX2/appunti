@@ -23,6 +23,13 @@ def sortTop(G):
 	for i in range(n):
 		for j in G[i]:
 			gradoEnt[j] += 1
-			
+	sorgenti = [ i for i in range(len(G)) if gradoEnt[i] == 0]
+	ST = []
+	while sorgenti:
+		u = sorgenti.pop()
+		ST.append(u)
+		for v in G[u]:
+			gradoEnt[]
+
 ```
 
