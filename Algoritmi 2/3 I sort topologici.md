@@ -39,4 +39,4 @@ def sortTop(G):
 
 >[!tip] Il costo dell'algoritmo è $O(n+m)$
 >>[!warning] Spiegazione
->
+>Il ciclo while viene eseguito n volte quindi il costo è pari a $O(n)$ mentre 
