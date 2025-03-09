@@ -43,3 +43,5 @@ def sortTop(G):
 >>Inizializzare il vettore dei gradi entranti costa $O(n+m)$
 >Il ciclo while viene eseguito n volte quindi il costo è pari a $O(n)$ mentre il for all'intenro del while alcune volte ha pochi cicli (quindi pochi archi) e altre volte ne ha di più, ma il totale (del while e for)sarà sempre $O(m)$
 
+
+
