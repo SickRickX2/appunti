@@ -6,4 +6,6 @@ Un algoritmo esaustivo per il problema (che genera sistematicamente i differenti
 
 >![!note] DAG
 >Affinché un grafo G possa avere un ordinamento topologico è necessario che sia un DAG (Grafo Diretto Aciclico).
->
+>La presenza di un ciclo nel grafo implicache nessuno dei nodi del ciclo possa comparire nell'ordine giusto perché ognuno di essi richiede di apparire nell'ordinamento alla destra di chi lo precede.
+>Se il grafo è un DAG è una condizione necessaria e sufficiente affinché l'ordinamento topologico esista.
+>>[!tip] Un D
