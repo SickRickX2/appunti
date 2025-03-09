@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi 2/2 Colorazione di grafi.md",
+                "file": "Algoritmi 2/3 I sort topologici.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Colorazione di grafi"
+              "title": "3 I sort topologici"
             }
           }
         ]
@@ -152,8 +152,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin non più attivo"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -167,12 +167,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +188,10 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
-    "Algoritmi 2/3 I sort topologici.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
+    "Algoritmi 2/3 I sort topologici.md",
+    "Senza nome.md",
+    "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
@@ -198,7 +199,6 @@
     "Sisitemi Operativi/Modulo 1/Lezione 13.md",
     "JAVA/17 Collectors.md",
     "Sisitemi Operativi/Modulo 2",
-    "Senza nome.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori",
@@ -214,7 +214,6 @@
     "Relazione/imgs/Pasted image 20250227230836.png",
     "Relazione/imgs/Pasted image 20250227230557.png",
     "Basi di Dati/Modulo 2",
-    "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Algoritmi 2",
     "JAVA/18 PECS.md",
     "JAVA/16 Streams.md",
