@@ -37,6 +37,8 @@ def sortTop(G):
 	return []
 ```
 
->[!tip] Il costo dell'algoritmo è $O(n+m)$
+>[!tip]  Complessità dell'algoritmo
+>Il costo dell'algoritmo è $O(n+m)$
 >>[!warning] Spiegazione
->Il ciclo while viene eseguito n volte quindi il costo è pari a $O(n)$ mentre 
+>>
+>Il ciclo while viene eseguito n volte quindi il costo è pari a $O(n)$ mentre il for all'intenro del while alcune volte ha pochi cicli (quindi pochi archi) e altre volte ne ha di più, ma il totale sarà sempre $O(m)$
