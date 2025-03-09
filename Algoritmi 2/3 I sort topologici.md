@@ -9,4 +9,7 @@ Un algoritmo esaustivo per il problema (che genera sistematicamente i differenti
 >La presenza di un ciclo nel grafo implicache nessuno dei nodi del ciclo possa comparire nell'ordine giusto perché ognuno di essi richiede di apparire nell'ordinamento alla destra di chi lo precede.
 >Se il grafo è un DAG è una condizione necessaria e sufficiente affinché l'ordinamento topologico esista.
 >>[!tip]  Un DAG ha sempre un nodo sorgente 
->>Un nodo sorgente è un nodo in cui non entrano archi.
+>>Un nodo sorgente è un nodo in cui non entrano archi / ha solo archi uscenti
+
+Per creare un algoritmo efficiente per trovare l'ordinamento topologico dobbiam
+
