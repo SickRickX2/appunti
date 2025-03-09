@@ -29,7 +29,12 @@ def sortTop(G):
 		u = sorgenti.pop()
 		ST.append(u)
 		for v in G[u]:
-			gradoEnt[]
-
+			gradoEnt[v] -= 1
+			if gradoEnt[v] == 0:
+				sorgenti.append(v)
+	if len(ST) == len(G): return ST
+	return []
 ```
 
+>[!tip] Il costo dell'algoritmo è $O(n+m)$
+>
