@@ -11,5 +11,16 @@ Un algoritmo esaustivo per il problema (che genera sistematicamente i differenti
 >>[!tip]  Un DAG ha sempre un nodo sorgente 
 >>Un nodo sorgente è un nodo in cui non entrano archi / ha solo archi uscenti
 
-Per creare un algoritmo efficiente per trovare l'ordinamento topologico dobbiam
+Per creare un algoritmo efficiente per trovare l'ordinamento topologico dobbiamo seguire questi passaggi:
+- Inizio la sequenza dei nodi con una sorgente
+- Cancello dal DAG quel nodo sorgente e gli archi che partono da lui, ottenendo così un nuovo DAG
+- itero questo ragionamento finché non ho sistemato in ordine lineare tutti i nodi
+```Python
+def sortTop(G):
+	n = len(G)
+	gradoEnt = [0] * n
+	for i in range(n):
+		for j in G[i]:
+			
+```
 
