@@ -15,6 +15,7 @@ Per creare un algoritmo efficiente per trovare l'ordinamento topologico dobbiamo
 - Inizio la sequenza dei nodi con una sorgente
 - Cancello dal DAG quel nodo sorgente e gli archi che partono da lui, ottenendo così un nuovo DAG
 - itero questo ragionamento finché non ho sistemato in ordine lineare tutti i nodi
+
 Il grafo viene rappresentato tramite liste di adiacenza
 ```Python
 def sortTop(G):
@@ -37,4 +38,5 @@ def sortTop(G):
 ```
 
 >[!tip] Il costo dell'algoritmo è $O(n+m)$
+>>[!warning] Spiegazione
 >
