@@ -4,8 +4,9 @@ Questo tipo di ordinamento è utile perché i grafu diretti possono catturare re
 Un grafo diretto può avere da 0 fino a n! ordinamenti topologici.
 Un algoritmo esaustivo per il problema (che genera sistematicamente i differenti ordinamenti dei nodi del grafo e per ciascuno di questi testa se il vincolo sugli archi risulta soddisfatto) ha complessità $\Omega(n!)$ ed è quindi improponibile.
 
->![!note] DAG
+>[!note]  DAG
 >Affinché un grafo G possa avere un ordinamento topologico è necessario che sia un DAG (Grafo Diretto Aciclico).
 >La presenza di un ciclo nel grafo implicache nessuno dei nodi del ciclo possa comparire nell'ordine giusto perché ognuno di essi richiede di apparire nell'ordinamento alla destra di chi lo precede.
 >Se il grafo è un DAG è una condizione necessaria e sufficiente affinché l'ordinamento topologico esista.
->>[!tip] Un D
+>>[!tip]  Un DAG ha sempre un nodo sorgente 
+>>Un nodo sorgente è un nodo in cui non entrano archi.
