@@ -46,3 +46,5 @@ def sortTop(G):
 Ciola enorme
 davvero grande
 grande ciola enorme
+ciola gigante
+peni peni
