@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti degli Elaboratori (class).md",
+                "file": "Basi di Dati/Modulo 1/Lezione 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reti degli Elaboratori (class)"
+              "title": "Lezione 1"
             }
           }
         ]
@@ -188,6 +188,15 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 1/Lezione 2.md",
+    "Basi di Dati/Modulo 1/Lezione 4.md",
+    "Basi di Dati/Modulo 1/Lezione 5.md",
+    "Basi di Dati/Modulo 1/Lezione 6.md",
+    "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
+    "Basi di Dati/Modulo 1/Lezione 8.md",
+    "Basi di Dati/Modulo 1/Lezione 9.md",
+    "Basi di Dati/Modulo 1/Lezione 10.md",
+    "Reti degli Elaboratori (class).md",
     "Algoritmi 2/3 I sort topologici.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Senza nome.md",
@@ -202,7 +211,6 @@
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori",
-    "Reti degli Elaboratori (class).md",
     "Relazione/imgs/Pasted image 20250228101739.png",
     "Relazione/imgs/Pasted image 20250228100837.png",
     "Relazione/imgs/Pasted image 20250228100339.png",
@@ -220,14 +228,6 @@
     "JAVA/3 Polimorfismo e Binding.md",
     "JAVA/2 Classi e Oggetti.md",
     "JAVA/15 Strutture Dati.md",
-    "JAVA/11 Classi Anonime.md",
-    "JAVA/8 Lambda Expression.md",
-    "JAVA/13 Tipi Generici.md",
-    "JAVA/6 Interfacce Notevoli.md",
-    "JAVA/5 Interfacce.md",
-    "JAVA/9 HashCode e Equals.md",
-    "JAVA/7 Clone Method.md",
-    "JAVA/12 Riferimento ai Metodi.md",
     "JAVA",
     "Relazione/imgs",
     "Relazione",
