@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 1.md",
+                "file": "Algoritmi 2/3 I sort topologici.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 1"
+              "title": "3 I sort topologici"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "50ed999ed366e579",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 1/Lezione 1.md",
     "Basi di Dati/Modulo 1/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 4.md",
     "Basi di Dati/Modulo 1/Lezione 5.md",
@@ -227,7 +228,6 @@
     "JAVA/16 Streams.md",
     "JAVA/3 Polimorfismo e Binding.md",
     "JAVA/2 Classi e Oggetti.md",
-    "JAVA/15 Strutture Dati.md",
     "JAVA",
     "Relazione/imgs",
     "Relazione",
