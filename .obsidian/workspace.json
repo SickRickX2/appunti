@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi 2/3 I sort topologici.md",
+                "file": "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 I sort topologici"
-            }
-          },
-          {
-            "id": "25b04681a4653d6c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "1 Capacità e prestazioni delle reti"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -181,12 +167,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,11 +186,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "25b04681a4653d6c",
+  "active": "50ed999ed366e579",
   "lastOpenFiles": [
+    "Algoritmi 2/3 I sort topologici.md",
+    "conflict-files-obsidian-git.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
-    "Algoritmi 2/3 I sort topologici.md",
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
@@ -242,7 +228,6 @@
     "JAVA/5 Interfacce.md",
     "JAVA/9 HashCode e Equals.md",
     "JAVA/7 Clone Method.md",
-    "JAVA/12 Riferimento ai Metodi.md",
     "JAVA",
     "Relazione/imgs",
     "Relazione",
