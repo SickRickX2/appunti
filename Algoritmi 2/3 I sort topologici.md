@@ -1,4 +1,4 @@
-L'ordinamento topologico consiste nell'ordinare tutti i nodi del grafo in maniera tale che gli archi vadano tutti da sinistra verso destra (o viceversa).
+L'*ordinamento topologico* consiste nell'ordinare tutti i nodi del grafo in maniera tale che gli archi vadano tutti da sinistra verso destra (o viceversa).
 Questo tipo di ordinamento è utile perché i grafu diretti possono catturare relazioni di propedeuticità (un arco da *a* a *b* indica che *a*  è propedeutico a *b*)
 
 Un grafo diretto può avere da 0 fino a n! ordinamenti topologici.
@@ -14,7 +14,7 @@ Un algoritmo esaustivo per il problema (che genera sistematicamente i differenti
 Per creare un algoritmo efficiente per trovare l'ordinamento topologico dobbiamo seguire questi passaggi:
 - Inizio la sequenza dei nodi con una sorgente
 - Cancello dal DAG quel nodo sorgente e gli archi che partono da lui, ottenendo così un nuovo DAG
-- itero questo ragionamento finché non ho sistemato in ordine lineare tutti i nodi
+- Itero questo ragionamento finché non ho sistemato in ordine lineare tutti i nodi
 
 Il grafo viene rappresentato tramite liste di adiacenza
 ```Python
@@ -42,3 +42,5 @@ def sortTop(G):
 >>[!warning] Spiegazione
 >>Inizializzare il vettore dei gradi entranti costa $O(n+m)$
 >Il ciclo while viene eseguito n volte quindi il costo è pari a $O(n)$ mentre il for all'intenro del while alcune volte ha pochi cicli (quindi pochi archi) e altre volte ne ha di più, ma il totale (del while e for)sarà sempre $O(m)$
+
+

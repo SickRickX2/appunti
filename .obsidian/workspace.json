@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +188,9 @@
   },
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
-    "Algoritmi 2/3.md",
+    "conflict-files-obsidian-git.md",
     "Algoritmi 2/3 I sort topologici.md",
+    "Algoritmi 2/3.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Pasted image 20250307101204.png",
@@ -217,7 +217,6 @@
     "Sisitemi Operativi/Modulo 1/Lezione 2.md",
     "Relazione/imgs/Pasted image 20250228101739.png",
     "Senza nome.md",
-    "conflict-files-obsidian-git.md",
     "Relazione/imgs",
     "JAVA/9 HashCode e Equals.md",
     "JAVA/8 Lambda Expression.md",
