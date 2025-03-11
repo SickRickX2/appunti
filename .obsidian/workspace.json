@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
+                "file": "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Capacità e prestazioni delle reti"
+              "title": "0 Definizione di rete, calssificazioni delle reti e Internet"
             }
           }
         ]
@@ -187,8 +187,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50ed999ed366e579",
+  "active": "a0efb69d8bc00d10",
   "lastOpenFiles": [
+    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Algoritmi 2/3 I sort topologici.md",
     "conflict-files-obsidian-git.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
@@ -201,7 +202,6 @@
     "JAVA/17 Collectors.md",
     "Sisitemi Operativi/Modulo 2",
     "Senza nome.md",
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori",
     "Reti degli Elaboratori (class).md",
