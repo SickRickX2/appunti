@@ -87,12 +87,11 @@ Il tempo di andata e ritorno *round trip time* include i 4 ritardi. Se un pacche
 >collegamento = 2500km
 >velocità = 2,5 x 10^8 m/s
 >rate = 2 Mbps
+1) 2500 : 2,5 x 10^8 = 10 ms
+
+2) No, non dipende dalla lunghezza del pacchetto
+
+3) 1000 byte: 2 b/s = 8000 : 2 000 000 b/s = 4ms(ritardo di trasmissione)
 
 
-2500 : 2,5 x 10^8 = 10 ms
-No, non dipende dalla lunghezza del pacchetto
-
-1000 byte: 2 b/s = 8000 : 2 000 000 b/s = 4ms(ritardo di trasmissione)
-
-
-
+ 
