@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi 2/3 I sort topologici.md",
+                "file": "Reti di Elaboratori/2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 I sort topologici"
+              "title": "2"
             }
           }
         ]
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,8 +189,10 @@
   },
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
+    "Reti di Elaboratori/2.md",
     "Algoritmi 2/3 I sort topologici.md",
+    "conflict-files-obsidian-git.md",
     "Algoritmi 2/3.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
@@ -210,7 +213,6 @@
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Relazione/imgs/Pasted image 20250227230557.png",
     "Basi di Dati/Modulo 2",
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Sisitemi Operativi/Modulo 2",
     "Sisitemi Operativi/Senza nome.md",
     "Reti degli Elaboratori (class).md",
@@ -227,7 +229,6 @@
     "JAVA/3 Polimorfismo e Binding.md",
     "JAVA/2 Classi e Oggetti.md",
     "JAVA/18 PECS.md",
-    "JAVA/17 Collectors.md",
     "JAVA",
     "Reti di Elaboratori",
     "Relazione/Untitled.canvas",
