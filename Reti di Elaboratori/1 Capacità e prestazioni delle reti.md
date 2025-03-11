@@ -83,6 +83,13 @@ Il tempo di andata e ritorno *round trip time* include i 4 ritardi. Se un pacche
 >Il prodotto ci dice il numero di bit che possono riempire il collegamento.
 
 >[!danger] Esercizio per casa
+>Pacchetto = 1000 byte
+>collegamento = 2500km
+>velocità = 2,5 x 10^8 m/s
+>rate = 2 Mbps
 
+
+
+2500 : 2 = 1250 (ritardo di )
 
 
