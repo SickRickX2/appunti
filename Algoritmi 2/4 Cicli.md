@@ -90,11 +90,14 @@ Non è dificile modificare le procedure viste precedentemente senza alterarne la
 ### Versione corretta specifica per i grafi diretti
 ```Python
 def cicloD(G):
-	# 0: non visit
+# 0:non visitato,1:in elaborazione, 2:completato
 	visitati = [0] * len(G)
+	#controlla tutti i nodi del grafo
 	for u in range(len(G)):
 		if visitati[u] == 0:
+		#Avvia DFS solo dai nodi non ancora visitati
 			if DFSr(u, G, visitati):
 				return True
 	return False
 ```
+
