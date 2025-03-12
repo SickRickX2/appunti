@@ -1,0 +1,1 @@
+Dato un grafo *G* 

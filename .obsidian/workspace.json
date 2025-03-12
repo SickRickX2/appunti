@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
+                "file": "Algoritmi 2/4 Cicli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Capacità e prestazioni delle reti"
+              "title": "4 Cicli"
             }
           }
         ]
@@ -189,13 +189,14 @@
   },
   "active": "9626d5fb54b9f0d8",
   "lastOpenFiles": [
+    "Algoritmi 2/3 I sort topologici.md",
+    "Algoritmi 2/4 Cicli.md",
+    "Algoritmi 2/2 Colorazione di grafi.md",
+    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori/2.md",
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
-    "Algoritmi 2/3 I sort topologici.md",
     "conflict-files-obsidian-git.md",
     "Algoritmi 2/3.md",
-    "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Pasted image 20250307101204.png",
     "Pasted image 20250306191209.png",
@@ -228,7 +229,6 @@
     "JAVA/4 Key Words.md",
     "JAVA/3 Polimorfismo e Binding.md",
     "JAVA/2 Classi e Oggetti.md",
-    "JAVA/18 PECS.md",
     "JAVA",
     "Reti di Elaboratori",
     "Relazione/Untitled.canvas",
