@@ -5,6 +5,11 @@
  >	1.3 Data di fine
  >	1.4 Nave utilizzata (vedi 2)
  >	1.5 itinerario seguito (vedi 4)
+ >	1.6 Tipo, uno. tra
+ >		1.6.1 luna di miele, di cui interessa
+ >			1.6.1.1 sottotipo, uno tra 
+ >				1.6.1.1.1 tradizionali: quelle che prevedono un nmero di destinazioni romantiche >= al numero di destinazioni divertenti 
+ >		1.6.2 
  >
  >2) Nave
  >	2.1 Nome 
@@ -33,4 +38,5 @@
  >	
  >5) Posti da vedere
  >	5.1 Nome
- >	5.2 orari di apertura (una mappa che associa ad ogni giorno della settimana un insiem di fasce orarie, definita in termini di una coppia di orari)
+ >	5.2 orari di apertura (una mappa che associa ad ogni giorno della settimana un insiem di fasce orarie, definita in termini di una coppia di orari
+ >	
