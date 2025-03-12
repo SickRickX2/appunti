@@ -78,9 +78,17 @@ Durante la visita DFS possso incontrare nodi già visitati in tre modi diversi:
 >				return True
 >	visitati[u] == 2
 >	return False
+>	
 >def cicloD(u, G):
 >	visitati = [0] * len(G)
 >	return DFSr(u, G, visitati)
 >
 >```
 
+Se voglio sapere se un grafo (diretto o indiretto) contiene un ciclo o meno, devo visitarlo tutto non importa il punto da cui parto.
+Non è dificile modificare le procedure viste precedentemente senza alterarne la complessità $O(n + m)$.
+### Versione corretta specifica per i grafi diretti
+```Python
+def cicloD(G):
+	visitati = [0] * 
+```
