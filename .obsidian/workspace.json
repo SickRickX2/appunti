@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "1 Capacità e prestazioni delle reti"
             }
+          },
+          {
+            "id": "c8e81f8f622571aa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +200,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9626d5fb54b9f0d8",
+  "active": "c8e81f8f622571aa",
   "lastOpenFiles": [
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori/2.md",
