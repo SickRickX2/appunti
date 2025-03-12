@@ -49,4 +49,11 @@ def ciclo(u ,G):
 >[!danger] Anche questa soluzione non è corretta
 >Il codice è scorretto nel caso di grafi diretti, questo perché noi escludiamo che ci siano cicli coi padri ma in realtà possono esistere ma soprattutto **incontrare un nodo già visitato non significa necessafiamente che ci sia un ciclo**.
 
-
+## Tipologie di archi
+Durante la visita DFS possso incontrare nodi già visitati in tre modi diversi:
+- *archi in avanti*: frecce dirette da un antenato ad un discendente
+- *archi all'indietro*: frecce dirette da un discendente ad un antenato
+- *archi di attraversamento*: frecce tra due nodi che non sono imparentati
+>[!note] Archi che portano a cicli
+>**Solo la presenza di archi all'indietro testimonia la presenza del ciclo**.
+>Per risolvere il problema, durante la visita DFS alla ricerca del ciclo, devo poter distinguere la scoperta di nodi già visitati grazie ad un arco all'indietro dagli altri. Posso individuare i visitati da archi all'indietro notando che solo nel caso di archi all'indietro 
