@@ -21,6 +21,13 @@
  >4) Itinerari
  >	4.1 Nome
  >	4.2 Sequenza di destinazioni
+ >		4.2.1 Destinazione (v. 3)
+ >		4.2.2 Arrivo 
+ >			4.2.2.1 Ora
+ >			4.2.2.2 Numero d'ordine del giorno rispetto alla data di inizio della crociera
+ >		4.2.3 ripartenza
+ >			4.2.3.1 Ora
+ >			4.2.3..2
  >	
  >	
  >5) 
