@@ -90,5 +90,11 @@ Non è dificile modificare le procedure viste precedentemente senza alterarne la
 ### Versione corretta specifica per i grafi diretti
 ```Python
 def cicloD(G):
-	visitati = [0] * 
+	# 0: non visit
+	visitati = [0] * len(G)
+	for u in range(len(G)):
+		if visitati[u] == 0:
+			if DFSr(u, G, visitati):
+				return True
+	return False
 ```

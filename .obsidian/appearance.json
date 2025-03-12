@@ -1,4 +1,5 @@
 {
   "cssTheme": "Catppuccin",
-  "baseFontSize": 20
+  "baseFontSize": 29,
+  "translucency": true
 }
