@@ -68,6 +68,19 @@ Durante la visita DFS possso incontrare nodi già visitati in tre modi diversi:
 
 >[!note] Codice corretto
 >```Python
->def DFSr(u, G, visitati)
+>def DFSr(u, G, visitati): 
+>	visitati[u]
+>	for v in G[u]:
+>		if visitati[v] == 1:
+>			return True
+>		if visitati[v] == 0:
+>			if DFSr (v, G, visitati):
+>				return True
+>	visitati[u] == 2
+>	return False
+>def cicloD(u, G):
+>	visitati = [0] * len(G)
+>	return DFSr(u, G, visitati)
 >
 >```
+
