@@ -54,6 +54,20 @@ Durante la visita DFS possso incontrare nodi già visitati in tre modi diversi:
 - *archi in avanti*: frecce dirette da un antenato ad un discendente
 - *archi all'indietro*: frecce dirette da un discendente ad un antenato
 - *archi di attraversamento*: frecce tra due nodi che non sono imparentati
+
 >[!note] Archi che portano a cicli
 >**Solo la presenza di archi all'indietro testimonia la presenza del ciclo**.
->Per risolvere il problema, durante la visita DFS alla ricerca del ciclo, devo poter distinguere la scoperta di nodi già visitati grazie ad un arco all'indietro dagli altri. Posso individuare i visitati da archi all'indietro notando che solo nel caso di archi all'indietro 
+>Per risolvere il problema, durante la visita DFS alla ricerca del ciclo, devo poter distinguere la scoperta di nodi già visitati grazie ad un arco all'indietro dagli altri. Posso individuare i visitati da archi all'indietro notando che solo nel caso di archi all'indietro **la visita del nodo già visitato ha terminato la sua ricorsione**
+
+>[!warning] IDEA: per il vettore dei visitati uso tre step
+>- In V un nodo vale 0 se il nodo non è stato ancora visitato
+>- In V un nodo vale 1 se il nodo è stato visitato ma la ricorsione su quel nodo non è ancora finita
+>- In V un nodo vale 2 se il nodo è stato visitato e la ricorsione su quel nodo è finita
+>
+>In questo modo scopro un ciclo quando trovo un arco diretto verso un nodo già visitato che si trova nello stato 1.
+
+>[!note] Codice corretto
+>```Python
+>def DFSr(u, G, visitati)
+>
+>```
