@@ -44,4 +44,9 @@ def ciclo(u ,G):
 >Ogni nodo deve sapere chi è suo padre altrimenti il codice non funziona.
 
 >[!tip] Complessità
->La complessità di questo algoritmo è $O(n)$, questo costo è dovuto al fatto che se il grafo
+>La complessità di questo algoritmo è $O(n)$, questo costo è dovuto al fatto che se il grafo non contiene cicli allora ha al più n-1 archi e quindi $O(n+m) =O(n)$. Se al contrario il grafo contiene cicli se ne scopre uno dopo aver considerato al più n archi e a quel punto la procedura termina la visita
+
+>[!danger] Anche questa soluzione non è corretta
+>Il codice è scorretto nel caso di grafi diretti, questo perché noi escludiamo che ci siano cicli coi padri ma in realtà possono esistere ma soprattutto **incontrare un nodo già visitato non significa necessafiamente che ci sia un ciclo**.
+
+
