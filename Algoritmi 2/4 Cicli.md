@@ -6,5 +6,15 @@ Dato un grafo *G* diretto o indiretto ed un suo nodo *u*, vogliamo sapere se da 
 >>def ciclo(u, G):
 >>	visitati = [0] * len(G)
 >>	return DFSr(u, G, visitati)
->>		def DFSr(u, G, )
+>>	
+>>		def DFSr(u, G, visitati) :
+>>			visitati[u] == 1
+>>			for v in G[u]:
+>>				if visitati[v] == 1:
+>>					return True
+>>				if DFSr(v, G, visitati):
+>>					return True
+>>			return False
 >>```
+
+>[!danger] Il codice è scorretto nel caso di gr
