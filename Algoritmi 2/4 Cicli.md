@@ -20,3 +20,5 @@ Dato un grafo *G* diretto o indiretto ed un suo nodo *u*, vogliamo sapere se da 
 >[!danger] Il codice è scorretto nel caso di grafi non diretti
 >Il codice è sbagliato perché (per come è codificato il grafo non diretto) se x ha un arco che lo collega a  y nella lista di adiacenza di x è presente y e nella lista di adiacenza di y è presente x. Questo viene interpretato erroneamente come un ciclo di lunghezza 2. (**La procedura proposta termina quindi sempre con True**)
 
+Per risolvere il problema, durante la visita del ciclo, devo distinguere nella lista di adiacenza di ciascun nodo y che incontro il nodo x che mi ha portato a visitarlo, ovvero devo **tenere traccia dei padri**
+
