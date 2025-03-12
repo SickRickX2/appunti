@@ -39,4 +39,9 @@ def ciclo(u ,G):
 		return False
 	
 ```
+>[!tip] Spiegazione
+>Questo codice restituisce True se nella visita da u si incontra un nodo già visitato diverso dal padre, False altrimenti.
+>Ogni nodo deve sapere chi è suo padre altrimenti il codice non funziona.
 
+>[!tip] Complessità
+>La complessità di questo algoritmo è $O(n)$, questo costo è dovuto al fatto che se il grafo
