@@ -27,7 +27,10 @@
  >			4.2.2.2 Numero d'ordine del giorno rispetto alla data di inizio della crociera
  >		4.2.3 ripartenza
  >			4.2.3.1 Ora
- >			4.2.3..2
+ >			4.2.3.2 Numero d'ordine del giorno rispetto alla data di inizio della crociera
+ >			
  >	
  >	
- >5) 
+ >5) Posti da vedere
+ >	5.1 Nome
+ >	5.2 orari di apertura (una mappa che associa ad ogni giorno della settimana un insiem di fasce orarie, definita in termini di una coppia di orari)
