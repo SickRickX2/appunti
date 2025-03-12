@@ -3,8 +3,12 @@
  >	1.1 Codice (stringa)
  >	1.2 Data di inizio
  >	1.3 Data di fine
- >	1.4 Nave utilizzata
+ >	1.4 Nave utilizzata (vedi 2)
  >2) Nave
  >	2.1 Nome 
  >	2.2 Gradi di comfort (un intero tra 3 e 5)
- >	2.3 
+ >	2.3 Capienza(un intero > 0)
+ >3) requisiti sulle destinazioni
+ >	3.1 Nome 
+ >	3.2 Continente
+ >	3.3
