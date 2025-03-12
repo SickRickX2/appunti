@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 2/Lezione 3.md",
+                "file": "Algoritmi 2/4 Cicli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 3"
+              "title": "4 Cicli"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,9 +189,9 @@
   },
   "active": "3e425ff16b090314",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
-    "Basi di Dati/Modulo 2/Lezione 3.md",
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "Algoritmi 2/4 Cicli.md",
     "Algoritmi 2/3 I sort topologici.md",
