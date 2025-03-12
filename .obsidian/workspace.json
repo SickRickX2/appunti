@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi 2/4 Cicli.md",
+                "file": "Reti di Elaboratori/2 I protocolli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Cicli"
+              "title": "2 I protocolli"
             }
           }
         ]
@@ -188,16 +188,16 @@
   },
   "active": "3e425ff16b090314",
   "lastOpenFiles": [
+    "Algoritmi 2/4 Cicli.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
-    "Algoritmi 2/4 Cicli.md",
     "Algoritmi 2/3 I sort topologici.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
-    "Reti di Elaboratori/2.md",
+    "Reti di Elaboratori/2 I protocolli.md",
     "conflict-files-obsidian-git.md",
     "Algoritmi 2/3.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",

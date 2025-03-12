@@ -2,9 +2,9 @@
 Un protocollo definisce le regole che il mittente e destinatario devono rispettare per una corretta comunicazione.
 
 >[!note] Principi della strutturazione a livelli
->**Strutturazione a livelli**: questa strutturazione consente di suddividere un compito complesso in compitip iù semplici:
+>**Strutturazione a livelli**: questa strutturazione consente di suddividere un compito complesso in compiti più semplici:
 >- *Modularizzazione* (indipendenza dei livelli)
->- Collegamento logico: i livelli sono logicamente sono direttamente collegati, ovvero il protocollo implementato permette la comunicazione tra i livelli che si trovano pari tra di loro
+>- *Collegamento logico*: i livelli logicamente sono direttamente collegati, ovvero il protocollo implementato permette la comunicazione tra i livelli che si trovano pari (peer) tra di loro.
 
 >[!note] Stack protocollare TCP/IP
 >Sono i due protocolli principali di tutto lo stack, si tratta di una gerarchia di protocolli costituita da moduli interagenti tra loro.
@@ -12,24 +12,27 @@ Un protocollo definisce le regole che il mittente e destinatario devono rispetta
 **Applicazione** è la sede delle applicazioni di rete:
 - HTTP (protocollo che regalo la comunicazione col web), SMTP, (mail) FTP(file), DNS (generale)
 - I pacchetti sono denominati *messaggi*
+
 **Trasporto** trasferimento dei messaggi a livello di applicazione tra il modulo client e server di un'applicazione
 - TCP (affidabile), UDP (non affidabile)
 - I pacchetti sono denominati *segmenti* (per tcp) e *datagramma utente per* (udp)
+
 **Rete** implementa l'instradamento dei segmenti dalla sorgente alla destinazione e deve far in modo che i pacchetti seguano il percorso scelto
 - IP, protocolli di instradamento
 - I pacchetti sono denominati *datagrammi*
+
 **Link (collegamento)** si occupa di trasmettere i datagrammi da un nodo a quello successivo sul percorso 
 - Ethernet, WI-Fi, PPP
 - I pacchetti sono denominati *frame*
-**Fisico** il trasferimento fisico dei bit lungo il canale di comunicazione
+
+**Fisico** il trasferimento fisico dei *bit* lungo il canale di comunicazione
 
  I router e gli switch non implementano l'intero stack protocollare ma solo una parte, questo perché non ci sono utenti che devono usare le applicazioni ma devono fare cose diverse.
-
 ## Servizi e protocolli
-Un servizio èun insieme di primitive che uno strato offre a quello superiore. Mentre un protocollo è l'insieme di regole che controllano il formato e la comunicazione tra pari.
+Un servizio è un **insieme di primitive** che uno **strato offre a quello superiore**. Mentre un protocollo è l'insieme di regole che controllano il formato e la comunicazione tra pari.
 
 >[!note] Incapsulamento e decapsulamento
->Quando il pacchetto "scende" ad ogni livello viene incapsulato, vengono aggiunte mano mano informazioni per gestire quel pacchetto. Queste informazioni vengono denominate "intestazioni" e ogni livello ha la propria.
+>Quando il pacchetto "scende" ad ogni livello viene incapsulato, vengono **aggiunte** mano mano **informazioni per gestire** quel pacchetto. Queste informazioni vengono denominate *"intestazioni"* e ogni livello ha la propria.
 >Invece "salendo" verrà decapsulato, verranno man mano tolte le intestazioni di ogni livello.
 
 >[!note] Multiplexing e demultiplexing
