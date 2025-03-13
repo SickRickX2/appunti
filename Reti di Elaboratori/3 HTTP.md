@@ -33,4 +33,22 @@ Ci troviamo all'interno del livello applicativo.
  >[!note] Documenti Web
  >- Documento statico
  >- Documento dinamico
- >- 
+ >- Documento attivo: all'interno del file c'è un programma che viene eseguito dal lato client nel momento di visualizzazione
+ 
+ >[!note] HTTP 
+ >Il protocollo è client/server. Il server deve essere in grado di rispondere a più client.
+ >>[!tip] Lato Client
+ >>1) Il browser determina l'URL ed estrae l'host e il nome del file 
+ >>2) Esegue una connessione TCP alla porta 80 dell'host indicato nell'URL
+ >>3) Invia richiesta per il file
+ >>4) Riceve la risposta
+ >>5) Chiude la connessione
+ >>6) Visualizza il file
+ >>
+ >>[!tip] Lato Server
+ >>7) Accetta la connessione
+ >>8) Riceve il nome della richiesta
+ >>9) recupera il file da disco
+ >>10) Invia il file al client
+ >>11) Rilascia la connessione
+ >>
