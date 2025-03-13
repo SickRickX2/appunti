@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 2/Lezione 2.md",
+                "file": "Sisitemi Operativi/Modulo 2/2 Comandi del filesystem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 2"
+              "title": "2 Comandi del filesystem"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -171,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,7 +191,7 @@
   "active": "3e425ff16b090314",
   "lastOpenFiles": [
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
-    "Sisitemi Operativi/Modulo 2/Lezione 2.md",
+    "Sisitemi Operativi/Modulo 2/2 Comandi del filesystem.md",
     "Algoritmi 2/4 Cicli.md",
     "Sisitemi Operativi/Modulo 1/Lezione 13.md",
     "Reti di Elaboratori/2 I protocolli.md",
