@@ -81,6 +81,13 @@ Ci troviamo all'interno del livello applicativo.
 altra tabella daiiiiiih
 
 ## Cookie 
+Il protocollo HTTP è detto senza stato, se un client fa più richieste allo stesso server, il server tratta le richieste in maniera indipendente. Non c'è alcuna correlazione tra richieste consecutive dallo stesso cliente nello stesso server e quindi non mantiene informazioni sulle richieste fatte.
+
+Ci sono casi in cui si vorrebbero salvare gli stati, ad esempio per offrire un contenuto personalizzato in base al profilo dell'utente.
+
+Gli indirizzi IP degli host non sono adatti.
+La soluzion
+
 
 
 
