@@ -61,4 +61,6 @@ Ci troviamo all'interno del livello applicativo.
 	 Modalità di default, non c'è bisogno di aprire la connessione per ogni oggetto.
 
 >[!note] RTT
->tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritrardi di propagazione
+>tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritrardi di propagazione.
+
+ 
