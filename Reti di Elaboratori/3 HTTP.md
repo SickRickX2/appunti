@@ -71,3 +71,17 @@ Ci troviamo all'interno del livello applicativo.
  **Intestazioni nella richiesta**
  vedi tabella
 
+>[!note] Codici di stato nella risposta
+>- 200 OK
+>- 301 Moved Permanently: L'oggetto richiesto è stato trasferito
+>- 400 Bad Request
+>- 404 Not Found
+
+**Intestazioni nella risposta**
+altra tabella daiiiiiih
+
+>[!note]
+
+
+
+
