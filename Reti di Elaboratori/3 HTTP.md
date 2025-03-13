@@ -80,7 +80,8 @@ Ci troviamo all'interno del livello applicativo.
 **Intestazioni nella risposta**
 altra tabella daiiiiiih
 
->[!note]
+## Cookie 
+
 
 
 
