@@ -46,3 +46,4 @@ Tutto questo è possibile grazie al meccanismo del *mounting*
 - **Gruppo proprietario** gruppo primario dell'utente proprietario
 Il *proprietario* definisce i permessi di accesso: chi può leggere, scrivere, eseguire un file/directory
 
+slide 40
