@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi 2/4 Cicli.md",
+                "file": "Sisitemi Operativi/Modulo 2/Lezione 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Cicli"
+              "title": "Lezione 2"
             }
           }
         ]
@@ -189,12 +189,13 @@
   "active": "3e425ff16b090314",
   "lastOpenFiles": [
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
+    "Sisitemi Operativi/Modulo 2/Lezione 2.md",
+    "Algoritmi 2/4 Cicli.md",
     "Sisitemi Operativi/Modulo 1/Lezione 13.md",
     "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Relazione/Relazione del progetto BlackJack in Java.md",
-    "Algoritmi 2/4 Cicli.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
@@ -227,7 +228,6 @@
     "JAVA/8 Lambda Expression.md",
     "JAVA/7 Clone Method.md",
     "JAVA/6 Interfacce Notevoli.md",
-    "JAVA/5 Interfacce.md",
     "JAVA",
     "Reti di Elaboratori",
     "Relazione/Untitled.canvas",
