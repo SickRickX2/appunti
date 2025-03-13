@@ -121,7 +121,9 @@ Si può fare a livello di browser o proxy
 >[!note] Proxy
 >Viene fatta ad un livello più alto, una macchina dedicata per le richieste degli utenti. Il server proxy copia le pagine visitate e al momento di richiesta vengono restituite se contenute altrimenti si chiede direttamente al server. Però bisogna controllare che la pagina del proxy sia ancora "aggiornata", quindi non è immediata.
 
->[!danger]
+>[!danger] Inserimento di un oggetto in cache
+> Il client invia un messaggio di richiesta alla cache, se non ha l'oggetto fa la richiesta la server di origine, quest'ultimo manderà la risposta con intestazione last modified. Successivamente se viene richiesta la pagina risulta valida in locale. 
+> A questo punto la cache chiede al server per verificare se l'oggetto è ancora valido tramite il metodo *get condizionale*. Riceve una risposta solo se l'oggetto non è stato modificato, altrimenti verrà memorizzato in cache l'oggetto nuovo
 
 
 
