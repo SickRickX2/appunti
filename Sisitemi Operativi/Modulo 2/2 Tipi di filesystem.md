@@ -26,4 +26,11 @@ Tutto questo è possibile grazie al meccanismo del *mounting*
 
 
 >[!note] I file
->Ogni file nel filesystem è rappresentato da una struttra dati *inode*
+>Ogni file nel filesystem è rappresentato da una struttra dati *inode* ed è univocamente identificato da un *inode number*.
+>La cancellazione di un file libera l'*inode number* che verrà riutilizzato quando necessario per un nuovo file.
+>>[!tip] Struttura dati inode
+>>- Type: indica il tipo di file
+>>- User ID: ID del proprietario del file
+>>- Group ID: id del gruppo a cui è associato il file
+>>- Mode: Permessi (read, write, exec) di accesso per il proprietario, il gruppo e tutti gli altri
+>>- Size: dimensione in byte del file
