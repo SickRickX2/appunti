@@ -109,7 +109,10 @@ La soluzionee sono i *cookie*.
 >- preferenze dell'utente
 >- carta per acquisti
 >- autorizzazione
->**Privac**
+>
+>**Privacy**: mantenendo il profilo sul server costituisce un problema per la privacy.
+
+
 
 
 
