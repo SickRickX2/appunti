@@ -119,7 +119,9 @@ Si può fare a livello di browser o proxy
 >Il browser mantiene la cache delle pagine visitate (quindi è locale e non serve una richiesta al server).
 
 >[!note] Proxy
->
+>Viene fatta ad un livello più alto, una macchina dedicata per le richieste degli utenti. Il server proxy copia le pagine visitate e al momento di richiesta vengono restituite se contenute altrimenti si chiede direttamente al server. Però bisogna controllare che la pagina del proxy sia ancora "aggiornata", quindi non è immediata.
+
+>[!danger]
 
 
 
