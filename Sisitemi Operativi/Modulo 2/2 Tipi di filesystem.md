@@ -37,3 +37,5 @@ Tutto questo è possibile grazie al meccanismo del *mounting*
 >>- Timestamps: ctime (cambiamento di un attributo),atime (solo lettura)
 >>- Link count: numero di hard links
 >>- Data pointers: puntatore alla lista dei blocchi che compongono il file
+>
+>Questi dati vengono salvati all'interno della tabella inode che si trova all'inizio del disco.
