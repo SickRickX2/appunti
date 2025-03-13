@@ -63,4 +63,11 @@ Ci troviamo all'interno del livello applicativo.
 >[!note] RTT
 >tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritrardi di propagazione.
 
- 
+ **Metodi**
+ - POST: serve ad inviare dei dati
+ - GET: serve per recuperare un documento dal sever specificato nell'URL (ma si possono anche inviare)
+ - HEAD: vogliamo soltanto una porzione del documento
+ - PUT: è utilizzato per memorizzare un documento sul server
+ **Intestazioni nella richiesta**
+ vedi tabella
+
