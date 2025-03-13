@@ -112,6 +112,14 @@ La soluzionee sono i *cookie*.
 >
 >**Privacy**: mantenendo il profilo sul server costituisce un problema per la privacy.
 
+## Web caching
+Serve a migliorare le prestazioni della navigazione in tempi di risposta.
+Si può fare a livello di browser o proxy
+>[!note] Browser
+>Il browser mantiene la cache delle pagine visitate (quindi è locale e non serve una richiesta al server).
+
+>[!note] Proxy
+>
 
 
 
