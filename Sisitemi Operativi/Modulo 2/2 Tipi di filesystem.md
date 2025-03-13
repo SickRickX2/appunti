@@ -17,5 +17,13 @@ Tutto questo è possibile grazie al meccanismo del *mounting*
 
 >[!tip] File *passwd* e *group*
 >Rappresentano una delle filosofie di Linux, usare file di testo (con codifica ACII a 8 bit) con una struttura definita e conosciuta dai programmi che devono interagire con quei file.
->Sono file organizzati per righe ogni riga contiene vari campi separati da "*:*"
->
+>Sono file organizzati per righe ogni riga contiene vari campi separati da "*:*".
+>Struttura:
+>- *passwd* = username:password:uid:gid:gecos:homedir:shell
+>	al posto della password si vedrà a schermo una *x* a causa della cifratura
+>- *group* = password:groupID:lista utenti
+>	Gli utenti nella Lista utenti sono separati da "*,*". Anche qui la password non viene visualizzata
+
+
+>[!note] I file
+>Ogni file nel filesystem è rappresentato da una struttra dati *inode*
