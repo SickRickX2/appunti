@@ -13,4 +13,4 @@ Tutto questo è possibile grazie al meccanismo del *mounting*
 >- se D non è vuota, dopo il mount conterrà F ma ciò non significa che i file all'interno di D sono andati persi ma diventeranno di nuovo accessibili dopo l'unmount di F.
 
 >[!note] Partizioni
->Un singolo disco può essre suddiviso in due o più partizioni. Una partizione **A** può contenere il sistema
+>Un singolo disco può essre suddiviso in due o più partizioni. Una partizione **A** può contenere il sistema operativo e la partizione **B** i dati degli utenti
