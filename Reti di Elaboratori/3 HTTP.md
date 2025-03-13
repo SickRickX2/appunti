@@ -86,7 +86,23 @@ Il protocollo HTTP è detto senza stato, se un client fa più richieste allo ste
 Ci sono casi in cui si vorrebbero salvare gli stati, ad esempio per offrire un contenuto personalizzato in base al profilo dell'utente.
 
 Gli indirizzi IP degli host non sono adatti.
-La soluzion
+La soluzionee sono i *cookie*.
+
+>[!note] Cookie
+>Si cerca di creare una sorta di "sessione", va oltre alla singola risposta ma collega risposte provenienti dallo stesso client. 
+>Ogni sessione ha:
+>1) un inizio ed una fine
+>2) un tempo di vita
+>3) Sia il client che server possono chiuder la sessione
+>4) è implicita nello scambio di informazioni di stato
+>
+>Ci sono 4 componenti:
+>- Riga di intestazione nel messaggio di risposta
+>- riga intestazione nel messaggio di richiesta
+>- file cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente
+>- un database sul server
+
+
 
 
 
