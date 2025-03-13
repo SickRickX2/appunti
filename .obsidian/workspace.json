@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/2 I protocolli.md",
+                "file": "Algoritmi 2/4 Cicli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 I protocolli"
+              "title": "4 Cicli"
             }
           }
         ]
@@ -188,16 +188,18 @@
   },
   "active": "3e425ff16b090314",
   "lastOpenFiles": [
+    "Sisitemi Operativi/Modulo 2/Lezione 1.md",
+    "Sisitemi Operativi/Modulo 1/Lezione 13.md",
+    "Reti di Elaboratori/2 I protocolli.md",
+    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
+    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
+    "Relazione/Relazione del progetto BlackJack in Java.md",
     "Algoritmi 2/4 Cicli.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
-    "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "Algoritmi 2/3 I sort topologici.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
-    "Reti di Elaboratori/2 I protocolli.md",
     "conflict-files-obsidian-git.md",
     "Algoritmi 2/3.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
@@ -226,8 +228,6 @@
     "JAVA/7 Clone Method.md",
     "JAVA/6 Interfacce Notevoli.md",
     "JAVA/5 Interfacce.md",
-    "JAVA/4 Key Words.md",
-    "JAVA/3 Polimorfismo e Binding.md",
     "JAVA",
     "Reti di Elaboratori",
     "Relazione/Untitled.canvas",
