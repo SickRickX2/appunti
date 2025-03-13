@@ -38,4 +38,11 @@ Tutto questo è possibile grazie al meccanismo del *mounting*
 >>- Link count: numero di hard links
 >>- Data pointers: puntatore alla lista dei blocchi che compongono il file
 >
->Questi dati vengono salvati all'interno della tabella inode che si trova all'inizio del disco.
+>Questi dati vengono salvati all'interno della *tabella inode* che si trova all'inizio del disco.
+
+## Permessi di accesso ai file
+
+- **Utente proprietario**: solitamente chi crea il file/directory
+- **Gruppo proprietario** gruppo primario dell'utente proprietario
+Il *proprietario* definisce i permessi di accesso: chi può leggere, scrivere, eseguire un file/directory
+
