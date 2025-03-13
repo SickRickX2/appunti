@@ -123,7 +123,9 @@ Si può fare a livello di browser o proxy
 
 >[!danger] Inserimento di un oggetto in cache
 > Il client invia un messaggio di richiesta alla cache, se non ha l'oggetto fa la richiesta la server di origine, quest'ultimo manderà la risposta con intestazione last modified. Successivamente se viene richiesta la pagina risulta valida in locale. 
-> A questo punto la cache chiede al server per verificare se l'oggetto è ancora valido tramite il metodo *get condizionale*. Riceve una risposta solo se l'oggetto non è stato modificato, altrimenti verrà memorizzato in cache l'oggetto nuovo
+> A questo punto la cache chiede al server per verificare se l'oggetto è ancora valido tramite il metodo *get condizionale*. Riceve una risposta solo se l'oggetto non è stato modificato, altrimenti verrà memorizzato in cache l'oggetto nuovo.
+
+
 
 
 
