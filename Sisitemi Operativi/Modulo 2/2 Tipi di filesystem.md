@@ -34,3 +34,6 @@ Tutto questo è possibile grazie al meccanismo del *mounting*
 >>- Group ID: id del gruppo a cui è associato il file
 >>- Mode: Permessi (read, write, exec) di accesso per il proprietario, il gruppo e tutti gli altri
 >>- Size: dimensione in byte del file
+>>- Timestamps: ctime (cambiamento di un attributo),atime (solo lettura)
+>>- Link count: numero di hard links
+>>- Data pointers: puntatore alla lista dei blocchi che compongono il file
