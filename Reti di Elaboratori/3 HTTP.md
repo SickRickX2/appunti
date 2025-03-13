@@ -101,6 +101,15 @@ La soluzionee sono i *cookie*.
 >- riga intestazione nel messaggio di richiesta
 >- file cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente
 >- un database sul server
+>
+>Il server mantiene tutte le informazioni riguardanti il client su un file e glia assegna un identificatore che viene fornito dal client.
+>- Il cli
+>**Durata di un cookie**: è a discrezione del server, viene attribuita un attributo chiamato Max-age
+>**Cosa possono contenere i cookie**:
+>- preferenze dell'utente
+>- carta per acquisti
+>- autorizzazione
+>**Privac**
 
 
 
