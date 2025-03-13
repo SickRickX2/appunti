@@ -44,11 +44,21 @@ Ci troviamo all'interno del livello applicativo.
  >>4) Riceve la risposta
  >>5) Chiude la connessione
  >>6) Visualizza il file
- >>
- >>[!tip] Lato Server
+ >
+ >
+ >
+ >>[!tip]  Lato Server
  >>7) Accetta la connessione
  >>8) Riceve il nome della richiesta
- >>9) recupera il file da disco
- >>10) Invia il file al client
- >>11) Rilascia la connessione
- >>
+>>9) cupera il file da disco
+ >10)  Invia il file al client
+ >11)  Rilascia la connessione
+ 
+ **Connessioni non persistenti**
+	 Un solo oggetto viene trasmesso su una connessione TCP
+
+ **Connessione persistente** 
+	 Modalità di default, non c'è bisogno di aprire la connessione per ogni oggetto.
+
+>[!note] RTT
+>tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritrardi di propagazione
