@@ -33,9 +33,9 @@ Ci troviamo all'interno del livello applicativo.
 
 
  >[!note] Documenti Web
- >- **Documento statico**
- >- Documento dinamico
- >- Documento attivo: all'interno del file c'è un programma che viene eseguito dal lato client nel momento di visualizzazione
+ >- **Documento statico**: contenuto predeterminato memorizzato sul server
+ >- **Documento dinamico**: creati dal web server alla ricezione della richiesta 
+ >- **Documento attivo**: all'interno del file c'è un programma che viene eseguito dal lato client nel momento di visualizzazione
  
  >[!note] HTTP 
  >Il protocollo è client/server. Il server deve essere in grado di rispondere a più client.
