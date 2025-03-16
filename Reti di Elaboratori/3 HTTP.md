@@ -78,15 +78,15 @@ Ci troviamo all'interno del livello applicativo.
 >[!example] Formato generale dei messaggi di risposta HTTP
 >![[Pasted image 20250316185416.png]]
 
-
 >[!note] Codici di stato nella risposta
->- 200 OK
->- 301 Moved Permanently: L'oggetto richiesto è stato trasferito
->- 400 Bad Request
->- 404 Not Found
+>- **200 OK**: La richiesta ha avuto successo
+>- **301 Moved Permanently**: L'oggetto richiesto è stato trasferito
+>- **400 Bad Request**: Il messaggio richiesto non è stato compreso dal server
+>- **404 Not Found**: Il documento richiesto non si trova su questo server
+>- **505 HTTP version not supported**: Il server non ha la versione di protocollo HTTP
 
 **Intestazioni nella risposta**
-altra tabella daiiiiiih
+![[Pasted image 20250316185937.png]]
 
 ## Cookie 
 Il protocollo HTTP è detto senza stato, se un client fa più richieste allo stesso server, il server tratta le richieste in maniera indipendente. Non c'è alcuna correlazione tra richieste consecutive dallo stesso cliente nello stesso server e quindi non mantiene informazioni sulle richieste fatte.
