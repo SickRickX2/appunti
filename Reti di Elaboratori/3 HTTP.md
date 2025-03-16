@@ -11,11 +11,12 @@ Ci troviamo all'interno del livello applicativo.
  - HTML: linguaggio standard per le pagine web
  - HTTP: protocollo per la comunicazione tra client e server
  >[!note] Architettura generale di un browser
- >vedi immagine
+ >![[Pasted image 20250316181152.png]]
  
- La risposta dalla parte del server potrebbe fare altre richieste per rispondere al client.
+ La risposta dalla parte del server potrebbe fare altre richieste per rispondere al **client**.
+ 
 >[!tip]
->Una pagina web è costituita da oggetti: può essre un file html, un'immagine jpeg...
+>Una pagina web è costituita da **oggetti**: può essere un file HTML, un'immagine JPEG...
 >Una pagina web è formata da un file base HTML che contiene oggetti referenziati (oggeti che si recuperano tramite URL )
 
 >[!note] URL Uniform Resource Locator
