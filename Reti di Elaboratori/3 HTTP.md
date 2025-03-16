@@ -72,9 +72,12 @@ Ci troviamo all'interno del livello applicativo.
  - *POST*: serve ad inviare dei dati
  - *GET*: serve per recuperare un documento dal sever specificato nell'URL (ma si possono anche inviare)
  - *HEAD*: vogliamo soltanto una porzione del documento
- - *PUT*: è utilizzato per memorizzare un documento sul server
+ - *PUT*: è utilizzato per memorizzare un documento sul server 
  **Intestazioni nella richiesta**
  ![[Pasted image 20250316184542.png]]
+>[!example] Formato generale dei messaggi di risposta HTTP
+>![[Pasted image 20250316185416.png]]
+
 
 >[!note] Codici di stato nella risposta
 >- 200 OK
