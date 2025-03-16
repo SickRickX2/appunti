@@ -51,8 +51,8 @@ Ci troviamo all'interno del livello applicativo.
  >
  >>[!tip]  Lato Server
  >>7) Accetta la connessione
- >>8) Riceve il nome della richiesta
->>9) cupera il file da disco
+ >>8) Riceve il nome del file richiesto
+>>9) Recupera il file dal disco
  >10)  Invia il file al client
  >11)  Rilascia la connessione
  
