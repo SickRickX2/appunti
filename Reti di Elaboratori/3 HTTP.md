@@ -60,16 +60,19 @@ Ci troviamo all'interno del livello applicativo.
 	 Un solo oggetto viene trasmesso su una connessione TCP, ciascuna coppia richiesta/risposta viene inviata su una connessione TCP separata. 
 
  **Connessione persistente** 
-	 Modalità di default, non c'è bisogno di aprire la connessione per ogni oggetto, quindi più oggetti possono essere trasmessi su una singola connession.
+	 Modalità di default, non c'è bisogno di aprire la connessione per ogni oggetto, quindi più oggetti possono essere trasmessi su una singola connessione TCP tra client e server.
 
->[!note] RTT
->tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritrardi di propagazione.
+>[!note] RTT Round Trip Time
+>Tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritardi di propagazione, di accodamento e di elaborazione del pacchetto.
+
+>[!example] Formato generale dei messaggi di richiesta HTTP
+>![[Pasted image 20250316183807.png]]
 
  **Metodi**
- - POST: serve ad inviare dei dati
- - GET: serve per recuperare un documento dal sever specificato nell'URL (ma si possono anche inviare)
- - HEAD: vogliamo soltanto una porzione del documento
- - PUT: è utilizzato per memorizzare un documento sul server
+ - *POST*: serve ad inviare dei dati
+ - *GET*: serve per recuperare un documento dal sever specificato nell'URL (ma si possono anche inviare)
+ - *HEAD*: vogliamo soltanto una porzione del documento
+ - *PUT*: è utilizzato per memorizzare un documento sul server
  **Intestazioni nella richiesta**
  vedi tabella
 
