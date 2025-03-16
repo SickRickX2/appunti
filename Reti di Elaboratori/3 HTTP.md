@@ -74,7 +74,7 @@ Ci troviamo all'interno del livello applicativo.
  - *HEAD*: vogliamo soltanto una porzione del documento
  - *PUT*: è utilizzato per memorizzare un documento sul server
  **Intestazioni nella richiesta**
- vedi tabella
+ ![[Pasted image 20250316184542.png]]
 
 >[!note] Codici di stato nella risposta
 >- 200 OK
