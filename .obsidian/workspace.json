@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3217ba0cf85e5a29",
+        "id": "a4db0618d86a2acd",
         "type": "tabs",
         "children": [
           {
-            "id": "3e425ff16b090314",
+            "id": "50ed999ed366e579",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/3 HTTP.md",
+                "file": "Algoritmi 2/4 Cicli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 HTTP"
+              "title": "4 Cicli"
             }
           }
         ]
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Ricerca"
             }
           },
           {
@@ -71,15 +71,14 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Segnalibri"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 9.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lezione 9"
+              "title": "Riferimenti a Lezione 10"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 6.md",
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lezione 6"
+              "title": "Collegamenti in uscita da Lezione 10"
             }
           },
           {
@@ -132,7 +131,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etichette"
             }
           },
           {
@@ -141,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati/Modulo 1/Lezione 6.md"
+                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Lezione 6"
+              "title": "Struttura di Lezione 10"
             }
           },
           {
@@ -158,13 +157,13 @@
             }
           },
           {
-            "id": "bfbf455b2efb333a",
+            "id": "c62857c19c66bf76",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin non più attivo"
             }
           }
         ],
@@ -172,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,58 +181,57 @@
       "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
-      "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e425ff16b090314",
+  "active": "50ed999ed366e579",
   "lastOpenFiles": [
-    "Sisitemi Operativi/Modulo 2/2 Tipi di filesystem.md",
-    "Reti di Elaboratori/3 HTTP.md",
-    "Sisitemi Operativi/Modulo 2/1 Filesystem.md",
-    "Sisitemi Operativi/Modulo 2/3 Comandi del filesystem.md",
-    "Algoritmi 2/4 Cicli.md",
-    "Sisitemi Operativi/Modulo 1/Lezione 13.md",
-    "Reti di Elaboratori/2 I protocolli.md",
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
-    "Relazione/Relazione del progetto BlackJack in Java.md",
-    "Basi di Dati/Modulo 2/Lezione 3.md",
-    "Basi di Dati/Modulo 2/Lezione 1.md",
-    "Basi di Dati/Modulo 2/Lezione 2.md",
     "Algoritmi 2/3 I sort topologici.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
-    "conflict-files-obsidian-git.md",
-    "Algoritmi 2/3.md",
+    "Reti di Elaboratori/3 HTTP.md",
+    "Reti di Elaboratori/2 I protocolli.md",
+    "Basi di Dati/Modulo 2/Lezione 3.md",
+    "Algoritmi 2/4 Cicli.md",
+    "Basi di Dati/Modulo 1/Lezione 1.md",
+    "Basi di Dati/Modulo 1/Lezione 2.md",
+    "Basi di Dati/Modulo 1/Lezione 4.md",
+    "Basi di Dati/Modulo 1/Lezione 5.md",
+    "Basi di Dati/Modulo 1/Lezione 6.md",
+    "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
+    "Basi di Dati/Modulo 1/Lezione 8.md",
+    "Basi di Dati/Modulo 1/Lezione 9.md",
+    "Basi di Dati/Modulo 1/Lezione 10.md",
+    "Reti degli Elaboratori (class).md",
+    "Senza nome.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
-    "Pasted image 20250307101204.png",
-    "Pasted image 20250306191209.png",
-    "Pasted image 20250306190656.png",
-    "Pasted image 20250306172343.png",
-    "Pasted image 20250306120940.png",
-    "Algoritmi 2",
-    "Pasted image 20250305153022.png",
-    "JAVA/1 Introduzione di Java.md",
+    "Sisitemi Operativi/Modulo 2/Lezione 1.md",
+    "Basi di Dati/Modulo 2/Lezione 1.md",
+    "Basi di Dati/Modulo 2/Lezione 2.md",
     "JAVA/19 Eccezioni.md",
-    "Pasted image 20250304153136.png",
-    "Pasted image 20250304150930.png",
+    "Sisitemi Operativi/Modulo 1/Lezione 13.md",
+    "JAVA/17 Collectors.md",
+    "Sisitemi Operativi/Modulo 2",
+    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
+    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
+    "Reti di Elaboratori",
+    "Relazione/imgs/Pasted image 20250228101739.png",
+    "Relazione/imgs/Pasted image 20250228100837.png",
+    "Relazione/imgs/Pasted image 20250228100339.png",
+    "Relazione/imgs/Pasted image 20250228094724.png",
+    "Relazione/imgs/Pasted image 20250228094130.png",
+    "Relazione/imgs/Pasted image 20250228093746.png",
+    "Relazione/imgs/Pasted image 20250228093618.png",
+    "Relazione/imgs/Pasted image 20250227231304.png",
+    "Relazione/imgs/Pasted image 20250227230836.png",
     "Relazione/imgs/Pasted image 20250227230557.png",
     "Basi di Dati/Modulo 2",
-    "Sisitemi Operativi/Modulo 2",
-    "Sisitemi Operativi/Senza nome.md",
-    "Reti degli Elaboratori (class).md",
-    "Sisitemi Operativi/Modulo 1/Lezione 2.md",
-    "Relazione/imgs/Pasted image 20250228101739.png",
-    "Senza nome.md",
-    "Relazione/imgs",
-    "JAVA/9 HashCode e Equals.md",
-    "JAVA/8 Lambda Expression.md",
+    "Algoritmi 2",
     "JAVA",
-    "Reti di Elaboratori",
-    "Relazione/Untitled.canvas",
+    "Relazione/imgs",
     "Relazione",
-    "Relazione",
+    "Basi di Dati/Modulo 1/imgs",
     "Sisitemi Operativi/Modulo 1/imgs",
     "Sisitemi Operativi/Modulo 1"
   ]
