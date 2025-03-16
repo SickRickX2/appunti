@@ -1,5 +1,6 @@
 Ci troviamo all'interno del livello applicativo.
-*WWW (World wide web)*: applicazione internet nata dalla necessità di scambio e condivisione di informazioni tra ricercatori universitari di varie nazioni.
+
+*WWW (World wide web)*: applicazione Internet nata dalla necessità di scambio e condivisione di informazioni tra ricercatori universitari varie nazioni.
 **Caratteristiche**:
 - Opera su richiesta (on demand)
 - Facile reperire informazioni
