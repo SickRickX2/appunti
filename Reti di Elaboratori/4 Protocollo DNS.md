@@ -16,4 +16,7 @@ Gli **indirizzi IP** per gli host sono formati da 32 bit e vengono usati per ind
 ![[Pasted image 20250316201344.png]]
 >[!note] Servizio DNS
 >- **Memorizzazione** -> *Database distribuito* implementato in una gerarchia di **server DNS**
->- **Accessibilità**: 
+>- **Accessibilità**-> *Protocollo a livello applicazione* che consente agli host di interrogare il database distribuito per risolvere i nomi  (tradurre indirizzi/nomi)
+>
+>Il DNS viene utilizzato dagli altri protocolli di livello applicazione (HTTP, SMTP, FTP) per tradurrre hostname in indirizzi IP, utilizza il trasporto UDP e indirizza la porta 53
+>
