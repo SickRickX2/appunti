@@ -17,7 +17,7 @@ Ci troviamo all'interno del livello applicativo.
  
 >[!tip]
 >Una pagina web è costituita da **oggetti**: può essere un file HTML, un'immagine JPEG...
->Una pagina web è formata da un file base HTML che contiene oggetti referenziati (oggeti che si recuperano tramite URL )
+>Una pagina web è formata da un file base *HTML (HyperText Markup Language)* che contiene oggetti referenziati (oggeti che si recuperano tramite *URL (Uniform Resource Locator)*
 
 >[!note] URL Uniform Resource Locator
 >Ci dà le informazioni come:
@@ -25,15 +25,15 @@ Ci troviamo all'interno del livello applicativo.
 >- locazione della pagina
 >- modalità di accesso
 >Infatti è composta da 3 parti:
->- protocollo
->- nome della macchina in cui è situata la pagina
->- Il percorso del file che indica la pagina il nome del file e la posizione nel filesystem
+>- **Protocollo**
+>- **Nome della macchina** in cui è situata la pagina
+>- Il **percorso del file** che indica la pagina il nome del file e la posizione nel filesystem
 >
 >Ci possono essere delle piccole deviazoini ad esempio quando la porta non è standard (vedremo più avanti)
 
 
  >[!note] Documenti Web
- >- Documento statico
+ >- **Documento statico**
  >- Documento dinamico
  >- Documento attivo: all'interno del file c'è un programma che viene eseguito dal lato client nel momento di visualizzazione
  
