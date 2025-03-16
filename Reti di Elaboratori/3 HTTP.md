@@ -89,7 +89,7 @@ Ci troviamo all'interno del livello applicativo.
 ![[Pasted image 20250316185937.png]]
 
 ## Cookie 
-Il protocollo HTTP è detto senza stato, se un client fa più richieste allo stesso server, il server tratta le richieste in maniera indipendente. Non c'è alcuna correlazione tra richieste consecutive dallo stesso cliente nello stesso server e quindi non mantiene informazioni sulle richieste fatte.
+Il protocollo HTTP è detto senza stato (*stateless*), se un client fa più richieste allo stesso server, il server tratta le richieste in maniera indipendente. Non c'è alcuna correlazione tra richieste consecutive dallo stesso client nello stesso server e quindi non mantiene informazioni sulle richieste fatte.
 
 Ci sono casi in cui si vorrebbero salvare gli stati, ad esempio per offrire un contenuto personalizzato in base al profilo dell'utente.
 
@@ -100,18 +100,17 @@ La soluzionee sono i *cookie*.
 >Si cerca di creare una sorta di "sessione", va oltre alla singola risposta ma collega risposte provenienti dallo stesso client. 
 >Ogni sessione ha:
 >1) un inizio ed una fine
->2) un tempo di vita
+>2) Un tempo di vita
 >3) Sia il client che server possono chiuder la sessione
 >4) è implicita nello scambio di informazioni di stato
 >
 >Ci sono 4 componenti:
 >- Riga di intestazione nel messaggio di risposta
->- riga intestazione nel messaggio di richiesta
->- file cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente
->- un database sul server
+>- Riga intestazione nel messaggio di richiesta
+>- File cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente
+>- Un database sul server
 >
->Il server mantiene tutte le informazioni riguardanti il client su un file e glia assegna un identificatore che viene fornito dal client.
->- Il cli
+>Il server mantiene tutte le informazioni riguardanti il client su un file e gli assegna un identificatore che viene fornito dal client.
 >**Durata di un cookie**: è a discrezione del server, viene attribuita un attributo chiamato Max-age
 >**Cosa possono contenere i cookie**:
 >- preferenze dell'utente
