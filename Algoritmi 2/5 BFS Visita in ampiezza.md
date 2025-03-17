@@ -56,3 +56,5 @@ Il codice di per sè funziona ma il problema risiede nella complessità
 >		
 >```
 
+Esiste poi un'altra soluzione alternativa sempre con complessità $O(n+m)$ che fa uso della struttura dati **deque**.
+
