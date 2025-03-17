@@ -13,4 +13,18 @@ Durante la visita si genera un albero detto *albero BFS*, si visitano nodi sempr
 
 Per effettuare questo tipo di visita manteniamo in una *coda* i nodi visitati i cui adiacenti non sono stati ancora esaminati. 
 Ad ogni passo preleviamo il primo nodo dalla coda, esaminiamo i suoi adiacenti e se scopriamo un nuovo nodo lo visitiamo e lo aggiungiamo alla coda.
->[!tip] Soluzione
+>[!tip] Soluzione sbagliata
+>```Python
+>def BFS(x, G):
+>	visitati = [0] * len(G)
+>	visitati[x] = 1
+>	coda = [x]
+>	while coda:
+>		u = coda.pop(0)
+>		for y in G[u]:
+>			if visitati[y] == 0:
+>				visitati[y] = 1 
+>				coda.append(y)
+>	return visitati
+>```
+
