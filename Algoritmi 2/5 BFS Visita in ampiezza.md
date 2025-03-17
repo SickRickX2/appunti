@@ -31,4 +31,10 @@ Ad ogni passo preleviamo il primo nodo dalla coda, esaminiamo i suoi adiacenti e
 Il codice di per sè funziona ma il problema risiede nella complessità
 >[!warning] Complessità
 >- Un nodo finisce in coda al più una volta. quindi il while verrà eseguito $O(n)$ volte.
->- Le liste di adiacnza dei nodi verranno scorse al più una volta quindi il costo totale dei 
+>- Le liste di adiacnza dei nodi verranno scorse al più una volta quindi il costo totale dei $for y in G[u]$ sarà $O(m)$
+>
+>Se le operazioni di inserimento e cancellazione dalla coda richiedessero tempo $\Theta(1)$ avremmo complessità $O(n+m)$
+>Il problema risiede proprio nell'implementazione della coda. Implementandola come una semplice lista il $pop(0)$ ha un costo di proporzionale al numero di elmenti in quel momento nella coda/lista e questi elementi possono essere anche $O(n)$.
+>
+>>[!danger] Quindi il costo di questa implementazione è $O(n^2)$
+
