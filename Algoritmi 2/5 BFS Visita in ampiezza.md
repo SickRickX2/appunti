@@ -28,3 +28,7 @@ Ad ogni passo preleviamo il primo nodo dalla coda, esaminiamo i suoi adiacenti e
 >	return visitati
 >```
 
+Il codice di per sè funziona ma il problema risiede nella complessità
+>[!warning] Complessità
+>- Un nodo finisce in coda al più una volta. quindi il while verrà eseguito $O(n)$ volte.
+>- Le liste di adiacnza dei nodi verranno scorse al più una volta quindi il costo totale dei 
