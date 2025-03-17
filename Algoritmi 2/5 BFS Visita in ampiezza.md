@@ -89,5 +89,7 @@ def BFSpadri(x, G):
 			if P[y] == -1
 				P[y] = u
 				coda.append(y)
-			
+	return P
 ```
+vettore delle distanze
+
