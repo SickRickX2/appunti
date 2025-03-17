@@ -1,5 +1,6 @@
 Ci troviamo all'interno del livello applicativo.
-*WWW (World wide web)*: applicazione internet nata dalla necessità di scambio e condivisione di informazioni tra ricercatori universitari di varie nazioni.
+
+*WWW (World wide web)*: applicazione Internet nata dalla necessità di scambio e condivisione di informazioni tra ricercatori universitari varie nazioni.
 **Caratteristiche**:
 - Opera su richiesta (on demand)
 - Facile reperire informazioni
@@ -10,12 +11,13 @@ Ci troviamo all'interno del livello applicativo.
  - HTML: linguaggio standard per le pagine web
  - HTTP: protocollo per la comunicazione tra client e server
  >[!note] Architettura generale di un browser
- >vedi immagine
+ >![[Pasted image 20250316181152.png]]
  
- La risposta dalla parte del server potrebbe fare altre richieste per rispondere al client.
+ La risposta dalla parte del server potrebbe fare altre richieste per rispondere al **client**.
+ 
 >[!tip]
->Una pagina web è costituita da oggetti: può essre un file html, un'immagine jpeg...
->Una pagina web è formata da un file base HTML che contiene oggetti referenziati (oggeti che si recuperano tramite URL )
+>Una pagina web è costituita da **oggetti**: può essere un file HTML, un'immagine JPEG...
+>Una pagina web è formata da un file base *HTML (HyperText Markup Language)* che contiene oggetti referenziati (oggeti che si recuperano tramite *URL (Uniform Resource Locator)*
 
 >[!note] URL Uniform Resource Locator
 >Ci dà le informazioni come:
@@ -23,17 +25,17 @@ Ci troviamo all'interno del livello applicativo.
 >- locazione della pagina
 >- modalità di accesso
 >Infatti è composta da 3 parti:
->- protocollo
->- nome della macchina in cui è situata la pagina
->- Il percorso del file che indica la pagina il nome del file e la posizione nel filesystem
+>- **Protocollo**
+>- **Nome della macchina** in cui è situata la pagina
+>- Il **percorso del file** che indica la pagina il nome del file e la posizione nel filesystem
 >
 >Ci possono essere delle piccole deviazoini ad esempio quando la porta non è standard (vedremo più avanti)
 
 
  >[!note] Documenti Web
- >- Documento statico
- >- Documento dinamico
- >- Documento attivo: all'interno del file c'è un programma che viene eseguito dal lato client nel momento di visualizzazione
+ >- **Documento statico**: contenuto predeterminato memorizzato sul server
+ >- **Documento dinamico**: creati dal web server alla ricezione della richiesta 
+ >- **Documento attivo**: all'interno del file c'è un programma che viene eseguito dal lato client nel momento di visualizzazione
  
  >[!note] HTTP 
  >Il protocollo è client/server. Il server deve essere in grado di rispondere a più client.
@@ -49,39 +51,45 @@ Ci troviamo all'interno del livello applicativo.
  >
  >>[!tip]  Lato Server
  >>7) Accetta la connessione
- >>8) Riceve il nome della richiesta
->>9) cupera il file da disco
+ >>8) Riceve il nome del file richiesto
+>>9) Recupera il file dal disco
  >10)  Invia il file al client
  >11)  Rilascia la connessione
- 
+  
  **Connessioni non persistenti**
-	 Un solo oggetto viene trasmesso su una connessione TCP
+	 Un solo oggetto viene trasmesso su una connessione TCP, ciascuna coppia richiesta/risposta viene inviata su una connessione TCP separata. 
 
  **Connessione persistente** 
-	 Modalità di default, non c'è bisogno di aprire la connessione per ogni oggetto.
+	 Modalità di default, non c'è bisogno di aprire la connessione per ogni oggetto, quindi più oggetti possono essere trasmessi su una singola connessione TCP tra client e server.
 
->[!note] RTT
->tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritrardi di propagazione.
+>[!note] RTT Round Trip Time
+>Tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client. Include i ritardi di propagazione, di accodamento e di elaborazione del pacchetto.
+
+>[!example] Formato generale dei messaggi di richiesta HTTP
+>![[Pasted image 20250316183807.png]]
 
  **Metodi**
- - POST: serve ad inviare dei dati
- - GET: serve per recuperare un documento dal sever specificato nell'URL (ma si possono anche inviare)
- - HEAD: vogliamo soltanto una porzione del documento
- - PUT: è utilizzato per memorizzare un documento sul server
+ - *POST*: serve ad inviare dei dati
+ - *GET*: serve per recuperare un documento dal sever specificato nell'URL (ma si possono anche inviare)
+ - *HEAD*: vogliamo soltanto una porzione del documento
+ - *PUT*: è utilizzato per memorizzare un documento sul server 
  **Intestazioni nella richiesta**
- vedi tabella
+ ![[Pasted image 20250316184542.png]]
+>[!example] Formato generale dei messaggi di risposta HTTP
+>![[Pasted image 20250316185416.png]]
 
 >[!note] Codici di stato nella risposta
->- 200 OK
->- 301 Moved Permanently: L'oggetto richiesto è stato trasferito
->- 400 Bad Request
->- 404 Not Found
+>- **200 OK**: La richiesta ha avuto successo
+>- **301 Moved Permanently**: L'oggetto richiesto è stato trasferito
+>- **400 Bad Request**: Il messaggio richiesto non è stato compreso dal server
+>- **404 Not Found**: Il documento richiesto non si trova su questo server
+>- **505 HTTP version not supported**: Il server non ha la versione di protocollo HTTP
 
 **Intestazioni nella risposta**
-altra tabella daiiiiiih
+![[Pasted image 20250316185937.png]]
 
 ## Cookie 
-Il protocollo HTTP è detto senza stato, se un client fa più richieste allo stesso server, il server tratta le richieste in maniera indipendente. Non c'è alcuna correlazione tra richieste consecutive dallo stesso cliente nello stesso server e quindi non mantiene informazioni sulle richieste fatte.
+Il protocollo HTTP è detto senza stato (*stateless*), se un client fa più richieste allo stesso server, il server tratta le richieste in maniera indipendente. Non c'è alcuna correlazione tra richieste consecutive dallo stesso client nello stesso server e quindi non mantiene informazioni sulle richieste fatte.
 
 Ci sono casi in cui si vorrebbero salvare gli stati, ad esempio per offrire un contenuto personalizzato in base al profilo dell'utente.
 
@@ -92,18 +100,17 @@ La soluzionee sono i *cookie*.
 >Si cerca di creare una sorta di "sessione", va oltre alla singola risposta ma collega risposte provenienti dallo stesso client. 
 >Ogni sessione ha:
 >1) un inizio ed una fine
->2) un tempo di vita
+>2) Un tempo di vita
 >3) Sia il client che server possono chiuder la sessione
 >4) è implicita nello scambio di informazioni di stato
 >
 >Ci sono 4 componenti:
 >- Riga di intestazione nel messaggio di risposta
->- riga intestazione nel messaggio di richiesta
->- file cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente
->- un database sul server
+>- Riga intestazione nel messaggio di richiesta
+>- File cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente
+>- Un database sul server
 >
->Il server mantiene tutte le informazioni riguardanti il client su un file e glia assegna un identificatore che viene fornito dal client.
->- Il cli
+>Il server mantiene tutte le informazioni riguardanti il client su un file e gli assegna un identificatore che viene fornito dal client.
 >**Durata di un cookie**: è a discrezione del server, viene attribuita un attributo chiamato Max-age
 >**Cosa possono contenere i cookie**:
 >- preferenze dell'utente
