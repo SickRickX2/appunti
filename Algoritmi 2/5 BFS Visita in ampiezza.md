@@ -72,3 +72,22 @@ def BFS(x, G):
 				coda.append(y)
 	return visitati
 ```
+## BFS Vettore dei padri 
+
+Modifichiamo la procedura in modo che restituisca in $O(n+m)$ l'albero di visita BFS rappresentato tramite il vettore dei padri.
+![[Pasted image 20250317105715.png]]
+```Python
+def BFSpadri(x, G):
+	P = [-1] * len(G)
+	P[x] = x
+	coda = [x]
+	i = 0
+	while len(coda) > 1:
+		u = coda[i]
+		i += 1
+		for y in G[u]:
+			if P[y] == -1
+				P[y] = u
+				coda.append(y)
+			
+```
