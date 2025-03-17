@@ -57,4 +57,10 @@ Il codice di per sè funziona ma il problema risiede nella complessità
 >```
 
 Esiste poi un'altra soluzione alternativa sempre con complessità $O(n+m)$ che fa uso della struttura dati **deque**.
-
+Dal modulo python "collections" posso importare la struttura dati deque (double ended queue) che consente di effettuare inserimenti e cancellazioni da entrambi i lati di una lista in tempo $O(1)$ in particolare posso estrarre e inserire elementi a sinistra $popleft(), appendleft()$
+```Python
+def BFS(x, G):
+	visitati = [0] * len(G)
+	visitati[x] = 1
+	from col
+```
