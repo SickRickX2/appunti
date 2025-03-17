@@ -38,3 +38,15 @@ Il codice di per sè funziona ma il problema risiede nella complessità
 >
 >>[!danger] Quindi il costo di questa implementazione è $O(n^2)$
 
+>[!note] Soluzione in $O(n)$
+>```Python
+>def BFS(x, G):
+>	visitati = [0] * len(G)
+>	visitati[x] = 1
+>	coda = [x]
+>	i = 0
+>	while len(coda) > i:
+>		u = coda[i]
+>		i += 1
+>		for y in G[]
+>	```
