@@ -1,5 +1,5 @@
 {
-  "commitMessage": "{{hostname}}, {{date}}",
+  "commitMessage": "aggiornamento : {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPushInterval": 0,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "{{hostname}}, {{date}}"
+  "autoCommitMessage": "aggiornamento: {{date}}"
 }
