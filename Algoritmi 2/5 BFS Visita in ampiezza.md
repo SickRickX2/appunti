@@ -66,5 +66,9 @@ def BFS(x, G):
 	coda = deque([X])
 	while coda:
 		u = coda.popleft()
-		for y in G[u]
+		for y in G[u]:
+			if visitati[y] == 0:
+				visitati[y] = 1
+				coda.append(y)
+	return visitati
 ```
