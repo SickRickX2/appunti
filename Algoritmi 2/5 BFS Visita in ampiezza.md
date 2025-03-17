@@ -48,5 +48,11 @@ Il codice di per sè funziona ma il problema risiede nella complessità
 >	while len(coda) > i:
 >		u = coda[i]
 >		i += 1
->		for y in G[]
->	```
+>		for y in G[u]:
+>			if visitati[y] == 0:
+>				visitati[y] = 1
+>				coda.append(y)
+>		return visitati
+>		
+>```
+
