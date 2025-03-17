@@ -62,5 +62,9 @@ Dal modulo python "collections" posso importare la struttura dati deque (double 
 def BFS(x, G):
 	visitati = [0] * len(G)
 	visitati[x] = 1
-	from col
+	from collections import deque
+	coda = deque([X])
+	while coda:
+		u = coda.popleft()
+		for y in G[u]
 ```
