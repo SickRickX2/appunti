@@ -17,4 +17,13 @@ Ottenuta l'autorizzazione del server il client può inviare uno o più file memo
 **Connessione di controllo**: si occupa delle informazioni di controllo del trasferimento e usa regole molto semplici, così che lo scambio di informazioni si riduce allo scambio di una riga di comando (o risposta) per ogni interazione.
 **Connessione dati**: si occupa del trasferimento del file
 
+>[!note] Connessione di controllo
+>(Porta 21) Viene usata per inviare informazioni di controllo. L'apertura della connessione di controllo viene richiesta dal client al comando, tutti i comandi eseguiti dall'utente sono trasferiti sulla connessione di controllo. 
+>Esempi di informazioni trasferite sulla connessione di controllo:
+>- Identificativo utente
+>- Password
+>- Comandi per cambiare directory
+>- Comandi per richiedere invio (put) e ricezione (get) di file
+>
+>Connessione di controllo: **fuori banda (out o**
 
