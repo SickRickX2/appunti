@@ -25,5 +25,9 @@ Ottenuta l'autorizzazione del server il client può inviare uno o più file memo
 >- Comandi per cambiare directory
 >- Comandi per richiedere invio (put) e ricezione (get) di file
 >
->Connessione di controllo: **fuori banda (out o**
+>Connessione di controllo: **fuori banda (out of band)** 
+>HTTP utilizza la stessa connessione per messaggi di richiesta e risposta e file, per cui si dice che invia le informazioni di controllo "in banda". Il server FTP mantiene lo "stato": directory corrente, autenticazione precedente
+
+![[Pasted image 20250319180239.png|400]]
+
 
