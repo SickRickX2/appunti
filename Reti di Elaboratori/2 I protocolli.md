@@ -10,9 +10,8 @@ Un protocollo definisce le regole che il mittente e destinatario devono rispetta
 >Sono i due protocolli principali di tutto lo stack, si tratta di una gerarchia di protocolli costituita da moduli interagenti tra loro.
 
 **Applicazione** è la sede delle applicazioni di rete:
-- HTTP (protocollo che regalo la comunicazione col web), SMTP, (mail) FTP(file), DNS (generale)
+- HTTP (protocollo che regalo la comunicazione col web) ([[3 HTTP]]), SMTP, (mail) FTP(file), DNS (generale) ([[4 Protocollo DNS]])
 - I pacchetti sono denominati *messaggi*
-
 **Trasporto** trasferimento dei messaggi a livello di applicazione tra il modulo client e server di un'applicazione
 - TCP (affidabile), UDP (non affidabile)
 - I pacchetti sono denominati *segmenti* (per tcp) e *datagramma utente per* (udp)

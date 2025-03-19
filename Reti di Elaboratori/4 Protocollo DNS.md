@@ -75,4 +75,7 @@ Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazio
 >Quando un host effettua una richiesta DNS, la query viene inviata al suo server DNS locale.
 >Quando un host effettua una richiesta DNS, la query viene inviata al suo server DNS locale. Il server DNS locale opera da proxy e inoltra la query in una gerarchia di server DNS
 
->[!note] DNS
+>[!tip] Caching
+>DNS sfrutta il caching per migliorare le prestazioni di ritardo e per ridurre il numero di messaggi DNS che "rimbalzano" in Internet. Una volta che il server DNS impara la mappatura, la mette nella **cache**.
+
+## Record e messaggi
