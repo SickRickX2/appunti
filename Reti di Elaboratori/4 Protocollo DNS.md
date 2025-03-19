@@ -45,4 +45,4 @@ Fornisce una funzionalità di base di internet per le applicazioni utente. Rispe
 >DNS viene utilizzato per distribuire il carico tra server replicati.
 >Il DNS contiene l'insieme di indirizzi IP. Quando un client effettua una richiesta DNS per un nome mappato in un insieme di indirizzi, il server risponde con l'insime di indirizzi ma variando l'ordinamento a ogni risposta.
 
-
+Il DNS non può essere centralizzat
