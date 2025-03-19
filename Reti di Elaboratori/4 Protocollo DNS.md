@@ -28,5 +28,9 @@ Gli **indirizzi IP** per gli host sono formati da 32 bit e vengono usati per ind
 >4) Il client DNS riceve una ripsopsta che include l'indirizzo IP corrispondente all'hostname
 >5) Ottenuto l'indirizzo IP dal DNS, il browser può dare inizio alla connessione TCP verso il server HTTP localizzato a quell'indirizzo IP
 
-**DNS è un'applicazione**
-DNS è un protocollo del livello applicazione, viene eseguito dagli end systems secondo il paradigma client server.  Utilizza un protocollo di trasporto end-to-end.
+**DNS è un'applicazione?**
+DNS è un protocollo del livello applicazione, viene eseguito dagli end systems secondo il paradigma client server.  Utilizza un protocollo di trasporto end-to-end per trasferire messaggi tra gli end system (UDP).
+
+Non è un'applicazione con cui gli utenti interagiscono direttamente (eccetto amministratori di rete).
+
+Fornisc
