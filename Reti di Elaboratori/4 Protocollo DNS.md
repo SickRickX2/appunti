@@ -23,4 +23,7 @@ Gli **indirizzi IP** per gli host sono formati da 32 bit e vengono usati per ind
 >[!example] Esempio di interazione con HTTP
 >Un browser (ossia client HTTP) di un host utente richiede la URL www.someschool.edu
 >1) L'host esegue il lato client dell'applicazione
->2) Il browser estrae il nome dell'host
+>2) Il browser estrae il nome dell'host www.someschool.edu dall'URL e lo passa al lato client dell'applicazione DNS
+>3) Il client DNS invia una query contenente l'hostname a un server DNS
+>4) Il client DNS riceve una ripsopsta che include l'indirizzo IP corrispondente all'hostname
+>5) Ottenuto l'indirizzo IP dal DNS, il browser può dare inizio 
