@@ -84,3 +84,4 @@ Il mapping è mantenuto nei database sotto forma di *resource root (RR)*. Ogni R
 >[!note] Record DNS
 >Database distribuito che memorizza i record di risorsa o resource record (RR).
 >Ogni messaggio di risposta DNS trasporta uno o più RR.
+
