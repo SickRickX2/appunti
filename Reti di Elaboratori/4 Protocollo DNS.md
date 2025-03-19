@@ -33,4 +33,4 @@ DNS è un protocollo del livello applicazione, viene eseguito dagli end systems 
 
 Non è un'applicazione con cui gli utenti interagiscono direttamente (eccetto amministratori di rete).
 
-Fornisc
+Fornisce una funzionalità di base di internet per le applicazioni utente. 
