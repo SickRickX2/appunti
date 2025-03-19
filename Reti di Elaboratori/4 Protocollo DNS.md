@@ -56,5 +56,6 @@ Ci sono 3 classi di server DNS organizzati in una gerarchia
 - **Authoritative**
 Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazioni.
 ![[Pasted image 20250319160535.png]]
-
+>[!note] DNS: Root
+>In Internet ci sono 13 server DNS radice. Ognuno di questi server è replicato pèe
 
