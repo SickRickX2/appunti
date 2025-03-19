@@ -67,5 +67,8 @@ Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazio
 >*Server TLD (top level domain)*: si occupano dei domini com, org, net, edu... e di tutti i domini locali di alto livello quali it, uk, fr, ca e jp. La compagnia Verisign Global Registry Services gestice i server TLD per il dominio **com**.
 >Il Registro.it che ha sede a Pisa all'instituto di Informaitca e Telematica (CNR) gestisce il dominio it.
 >
->*Server di competenza (authoritative server)*: ogni organizzazione dotata di host Internet pubblicamente accessibili (quali i server web e i server di posta) deve fornire i record DNS di pubblico dominio che mappano i nomi di tali host in indirizzi IP. Possono essere mantenuti dall'organizzazione (universo)
+>*Server di competenza (authoritative server)*: ogni organizzazione dotata di host Internet pubblicamente accessibili (quali i server web e i server di posta) deve fornire i record DNS di pubblico dominio che mappano i nomi di tali host in indirizzi IP. Possono essere mantenuti dall'organizzazione (università) o da un service provider.
+>In genere sono due server (primario e secondario).
 
+>[!note] DNS: locale
+>Non appartiene strettamente alla gerarchia dei server. Ciascun ISP (università, società, ISP residenziale) ha un server locale
