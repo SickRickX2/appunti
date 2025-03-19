@@ -71,4 +71,5 @@ Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazio
 >In genere sono due server (primario e secondario).
 
 >[!note] DNS: locale
->Non appartiene strettamente alla gerarchia dei server. Ciascun ISP (università, società, ISP residenziale) ha un server locale
+>Non appartiene strettamente alla gerarchia dei server. Ciascun ISP (università, società, ISP residenziale) ha un server DNS locale.
+>
