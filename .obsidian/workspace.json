@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,10 +189,10 @@
   },
   "active": "6ab2dc32f26bbfef",
   "lastOpenFiles": [
-    "Reti di Elaboratori/imgs/Pasted image 20250319175210.png",
-    "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
-    "Reti di Elaboratori/imgs/Pasted image 20250319180239.png",
     "Reti di Elaboratori/4 Protocollo DNS.md",
+    "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
+    "Reti di Elaboratori/imgs/Pasted image 20250319175210.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250319180239.png",
     "Reti di Elaboratori/3 HTTP.md",
     "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
