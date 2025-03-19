@@ -50,3 +50,4 @@ Il DNS non può essere centralizzato, ovvero memorizzare il database su un singo
 Il mapping è quindi distribuito su svariati server DNS.
 
 
+
