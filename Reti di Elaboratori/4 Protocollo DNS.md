@@ -79,4 +79,8 @@ Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazio
 >DNS sfrutta il caching per migliorare le prestazioni di ritardo e per ridurre il numero di messaggi DNS che "rimbalzano" in Internet. Una volta che il server DNS impara la mappatura, la mette nella **cache**.
 
 ## Record e messaggi
-Il mapping è mantenuto nei database sotto forma di *resource root (RR)*. Ogni RR mantiene un mapping
+Il mapping è mantenuto nei database sotto forma di *resource root (RR)*. Ogni RR mantiene un mapping. I record vengono spediti tra server e l'host e all'host richiedente all'interno dei **messaggi DNS**. Un messaggio può contenere più RR.
+
+>[!note] Record DNS
+>Database distribuito che memorizza i record di risorsa o resource record (RR).
+>Ogni messaggio di risposta DNS trasporta uno o più RR.
