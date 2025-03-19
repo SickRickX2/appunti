@@ -33,4 +33,10 @@ DNS è un protocollo del livello applicazione, viene eseguito dagli end systems 
 
 Non è un'applicazione con cui gli utenti interagiscono direttamente (eccetto amministratori di rete).
 
-Fornisce una funzionalità di base di internet per le applicazioni utente. 
+Fornisce una funzionalità di base di internet per le applicazioni utente. Rispecchia la filosofia di concentrare la complessità nelle parti periferiche della rete.
+## Servizi DNS
+>[!note] Aliasing
+>Permette di associare un nome più semplice da ricordare a un nome complesso.
+>**Host aliasing**: un host può avere uno o più sinonimi (alias). Il DNS può essere invocato da un'applicazione per l'hostname canonico così come l'IP.
+>
+>**Mail server aliasing**: spesso i mail server e il web server di una società hanno lo ste
