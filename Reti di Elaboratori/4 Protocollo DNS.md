@@ -57,5 +57,11 @@ Ci sono 3 classi di server DNS organizzati in una gerarchia
 Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazioni.
 ![[Pasted image 20250319160535.png]]
 >[!note] DNS: Root
->In Internet ci sono 13 server DNS radice. Ognuno di questi server è replicato pèe
+>In Internet ci sono 13 server DNS radice. Ognuno di questi server è replicato per motivi di sicurezza e affidibilità. I root server vengono contattati dai server DNS locali.
+>Server DNS radice: 
+>- contatta un server DNS TLD se non conosce la mappatura
+>- ottiene la mappatura
+>- restituisce la mappatura al server DNS locale
+
+
 
