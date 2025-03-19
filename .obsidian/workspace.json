@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cad90ad18ea24542",
+        "id": "483728358b169cdc",
         "type": "tabs",
         "children": [
           {
-            "id": "c4ea57383c7d4c2a",
+            "id": "6ab2dc32f26bbfef",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "markdown",
+              "state": {
+                "file": "Reti di Elaboratori/4 Protocollo DNS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4 Protocollo DNS"
             }
           }
         ]
@@ -183,25 +187,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4ea57383c7d4c2a",
+  "active": "6ab2dc32f26bbfef",
   "lastOpenFiles": [
-    "Reti degli Elaboratori (class).md",
-    "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/3 HTTP.md",
+    "Reti di Elaboratori/2 I protocolli.md",
+    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
+    "Reti di Elaboratori/imgs/Pasted image 20250304150930.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250304153136.png",
+    "Reti degli Elaboratori (class).md",
+    "Reti di Elaboratori/imgs",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
-    "Pasted image 20250319165434.png",
-    "Pasted image 20250319160535.png",
-    "Pasted image 20250317105715.png",
-    "Pasted image 20250317100734.png",
-    "Pasted image 20250317095608.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250319165434.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250319160535.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250317105715.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250317100734.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250317095608.png",
     "Algoritmi 2/5 BFS Visita in ampiezza.md",
-    "Pasted image 20250316201344.png",
-    "Pasted image 20250316185937.png",
-    "Pasted image 20250316185416.png",
-    "Pasted image 20250316184542.png",
-    "Pasted image 20250316183807.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250316201344.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250316185937.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250316185416.png",
     "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
     "Basi di Dati/Modulo 1/Lezione 9.md",
     "Basi di Dati/Modulo 1/Lezione 8.md",
@@ -220,7 +225,6 @@
     "Sisitemi Operativi/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
-    "JAVA/19 Eccezioni.md",
     "Sisitemi Operativi/Modulo 2",
     "Reti di Elaboratori",
     "Basi di Dati/Modulo 2",
@@ -229,7 +233,6 @@
     "Relazione/imgs",
     "Relazione",
     "Basi di Dati/Modulo 1/imgs",
-    "Sisitemi Operativi/Modulo 1/imgs",
-    "Sisitemi Operativi/Modulo 1"
+    "Sisitemi Operativi/Modulo 1/imgs"
   ]
 }
