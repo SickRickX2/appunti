@@ -72,4 +72,5 @@ Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazio
 
 >[!note] DNS: locale
 >Non appartiene strettamente alla gerarchia dei server. Ciascun ISP (università, società, ISP residenziale) ha un server DNS locale.
->
+>Quando un host effettua una richiesta DNS, la query viene inviata al suo server DNS locale.
+>Quando un host effettua una richiesta DNS, la query viene inviata al suo server DNS locale. Il server DNS locale opera da proxy
