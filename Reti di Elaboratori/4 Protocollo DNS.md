@@ -49,5 +49,11 @@ Il DNS non può essere centralizzato, ovvero memorizzare il database su un singo
 
 Il mapping è quindi distribuito su svariati server DNS.
 
+## Gerarchia server DNS
+Ci sono 3 classi di server DNS organizzati in una gerarchia
+- **Root**
+- **Top-level domain (TLD)**
+- **Authoritative**
+Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazioni.
 
 
