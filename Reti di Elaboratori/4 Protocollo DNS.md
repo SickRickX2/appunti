@@ -55,5 +55,6 @@ Ci sono 3 classi di server DNS organizzati in una gerarchia
 - **Top-level domain (TLD)**
 - **Authoritative**
 Ci sono poi i server DNS locali con cui interagiscono direttamente le applicazioni.
+![[Pasted image 20250319160535.png]]
 
 
