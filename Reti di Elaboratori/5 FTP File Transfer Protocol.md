@@ -28,9 +28,7 @@ Ottenuta l'autorizzazione del server il client può inviare uno o più file memo
 >Connessione di controllo: **fuori banda (out of band)** 
 >HTTP utilizza la stessa connessione per messaggi di richiesta e risposta e file, per cui si dice che invia le informazioni di controllo "in banda". Il server FTP mantiene lo "stato": directory corrente, autenticazione precedente
 
-![[Pasted image 20250319180239.png|400]]
-
 >[!note] Connessione dati
 >Quando il server riceve un comando per trasferire un file, apre una connessione dati TCP sulla porta 20 con il client. Dopo il trasferimento di un file, il server chiude la connessione.
->La co
+>La connessione dati viene aperta dal server e utilizzata per il vero e proprio invio del file. Si crea una nuova connessione per ogni file trasferito all'interno della sessione. ![[Pasted image 20250319180239.png|350]]
 
