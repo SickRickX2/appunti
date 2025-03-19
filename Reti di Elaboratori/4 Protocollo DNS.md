@@ -20,3 +20,7 @@ Gli **indirizzi IP** per gli host sono formati da 32 bit e vengono usati per ind
 >
 >Il DNS viene utilizzato dagli altri protocolli di livello applicazione (HTTP, SMTP, FTP) per tradurrre hostname in indirizzi IP, utilizza il trasporto UDP e indirizza la porta 53
 
+>[!example] Esempio di interazione con HTTP
+>Un browser (ossia client HTTP) di un host utente richiede la URL www.someschool.edu
+>1) L'host esegue il lato client dell'applicazione
+>2) Il browser estrae il nome dell'host
