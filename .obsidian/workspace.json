@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/5 FTP.md",
+                "file": "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 FTP"
+              "title": "5 FTP File Transfer Protocol"
             }
           }
         ]
@@ -190,7 +190,7 @@
   "active": "6ab2dc32f26bbfef",
   "lastOpenFiles": [
     "Reti di Elaboratori/4 Protocollo DNS.md",
-    "Reti di Elaboratori/5 FTP.md",
+    "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "Reti di Elaboratori/3 HTTP.md",
     "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
