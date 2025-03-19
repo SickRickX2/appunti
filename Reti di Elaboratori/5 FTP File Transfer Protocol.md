@@ -30,4 +30,7 @@ Ottenuta l'autorizzazione del server il client può inviare uno o più file memo
 
 ![[Pasted image 20250319180239.png|400]]
 
+>[!note] Connessione dati
+>Quando il server riceve un comando per trasferire un file, apre una connessione dati TCP sulla porta 20 con il client. Dopo il trasferimento di un file, il server chiude la connessione.
+>La co
 
