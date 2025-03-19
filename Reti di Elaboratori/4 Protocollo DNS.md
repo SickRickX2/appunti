@@ -39,4 +39,5 @@ Fornisce una funzionalità di base di internet per le applicazioni utente. Rispe
 >Permette di associare un nome più semplice da ricordare a un nome complesso.
 >**Host aliasing**: un host può avere uno o più sinonimi (alias). Il DNS può essere invocato da un'applicazione per l'hostname canonico così come l'IP.
 >
->**Mail server aliasing**: spesso i mail server e il web server di una società hanno lo ste
+>**Mail server aliasing**: spesso i mail server e il web server di una società hanno lo stesso alias, ma nomi canonici diversi.
+>
