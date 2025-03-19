@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/4 Protocollo DNS.md",
+                "file": "Reti di Elaboratori/5 FTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Protocollo DNS"
+              "title": "5 FTP"
             }
           }
         ]
@@ -189,6 +189,8 @@
   },
   "active": "6ab2dc32f26bbfef",
   "lastOpenFiles": [
+    "Reti di Elaboratori/4 Protocollo DNS.md",
+    "Reti di Elaboratori/5 FTP.md",
     "Reti di Elaboratori/3 HTTP.md",
     "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
@@ -196,7 +198,6 @@
     "Reti di Elaboratori/imgs/Pasted image 20250304153136.png",
     "Reti degli Elaboratori (class).md",
     "Reti di Elaboratori/imgs",
-    "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/imgs/Pasted image 20250319165434.png",
     "Reti di Elaboratori/imgs/Pasted image 20250319160535.png",
