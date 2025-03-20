@@ -107,3 +107,5 @@ Servizi del TCP:
 >[!note] Controllo della congestione
 >Avviene quando vengono spediti troppi pacchetti in rete, superiore alla possibilità di gestione della rete.
 
+
+
