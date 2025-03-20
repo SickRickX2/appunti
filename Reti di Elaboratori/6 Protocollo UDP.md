@@ -83,3 +83,13 @@ Servizi del TCP:
 >L'host ricevente usa i quattro parametri per inviare il segmento alla socket appropriata. Si possono usare più socket contemporaneamente.
 >>[!warning] Sulla stessa porta possono essere attive più socket
 
+>[!tip] Servizio connection oriented
+>Servizio end-to-end.
+>Il destinatario deve essere in grado di riordinare i dati del pacchetto. Per fare ciò c'è bisogno di stabilire una connessione.
+
+### Rappresentazione tramite FSM
+
+>[!note] Controllo di flusso
+>Deve esserci equilibrio tra velocità di produzione e velocità di consumo di dati.
+>Serve per non sovraccaricare il consumatore, processo destinatario.
+>- *Buffer* sono locazioni di memoria che possono contenere pacchetti e la comunicazione di informazioni di flusso pu
