@@ -70,3 +70,6 @@ I pacchetti devono essere di dimensioni sufficientemente piccole per essere inse
 >- il valore checksum viene impostato a 0
 >- tutte le parole del messaggio vengono
 
+>[!tip] DNS usa UDP
+Quando vuole effettuare una query la passa a UDP, perché è un protocollo molto semplice e veloce 
+
