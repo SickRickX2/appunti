@@ -92,4 +92,15 @@ Servizi del TCP:
 >[!note] Controllo di flusso
 >Deve esserci equilibrio tra velocità di produzione e velocità di consumo di dati.
 >Serve per non sovraccaricare il consumatore, processo destinatario.
->- *Buffer* sono locazioni di memoria che possono contenere pacchetti e la comunicazione di informazioni di flusso pu
+>- *Buffer* sono locazioni di memoria che possono contenere pacchetti e la comunicazione di informazioni di flusso può avvenire tramite segnali dal consumatore al produttore. 
+
+>[!note] Controllo dei problemi
+>- Rilevare e scartare pacchetti corrotti
+>- Tenere traccia dei pacchetti persi e gestirne il rinvio
+>- Riconoscere pacchetti duplicati e scartarli
+>- Bufferizzare i pacchetti fuori sequenza 
+>
+>Abbiamo bisogno di una numerazione dei pacchetti : *numero di sequenza*, poiché il numero di sequenza deve essere inserito nell'intestazione del pacchetto occore specificarne la dimensione massima.
+>Questo numero è utile al destinatario per capire la sequenza di arrivo, pacchetti persi e pacchetti duplicati.
+>Per far capire al mittente che si è perso un pacchetto abbiamo bisogno di un *numero di riscontro*
+
