@@ -36,4 +36,12 @@ Ovviamente poiché ci possono essere più processi e più messaggi da essi, avvi
 ## Servizi di trasporto
 - Affidabile -> TCP
 - Non affidabile -> UDP
-- 
+>[!note] TCP
+>Viene definito orientato alla connessione, tramite uno scambio di messaggi tra client e server si crea una "connessione".
+>Il trasporto è affidabile tra processi di invio e di ricezione. C'è un controllo di flusso per non sovraccaricare il destinatario, mentre il controllo della congestione si allarga a più nodi della rete (è una caratteristica della rete) è quindi un problema intermedio tra mittente e destinatario.
+>Questo servizio però non offre garanzie sulla temporizzazione, ampiezza di banda e sicurezza(per quest'ultima c'è bisogno di ulteriori protocolli).
+
+>[!note] UDP
+>Non è prevista una connessione, nessun setup tra client e server, questo redne il trasferimento dati tra processi inaffidabile, senza i controlli e le garanzie di UDP.
+
+
