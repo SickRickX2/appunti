@@ -17,5 +17,23 @@ Ovviamente poiché ci possono essere più processi e più messaggi da essi, avvi
 >Un socket appare come un punto di ingresso o di uscita, è una struttra dati utilizzata dal processo applicativo (socket client e socket server). Contiene **indirizzo IP e numero di porta**. I numeri di porta hanno 16 bit e i primi 1024 sono *well known*.
 >L'interazione tra client e server è bidirezionale, è necessaria quindi una coppia di socket (*locale e mittente*). 
 >Il client ha bisogno di un socket locale e uno remoto per comunicare.
+>**Socket locale**
 >- IP è noto
->- La porta viene assegnata in modo temporaneo
+>- La porta viene assegnata in modo temporaneo, non deve essere utilizzato da altri processi in quel momento (*porta effimera*)
+>socket remoto
+>- Il numero di porta è noto in base all'applicazione
+>- L'IP è fornito dal DNS
+>- Oppure entrambi definiti dal programmatore
+>
+> Anche lato server deve individuare i socket
+> - IP locale noto
+> - Porta nota assegnata dal progettista
+> socket remoto
+> - All'interno della richieste ci sono le informazioni riguardo l'IP e la porta
+>
+>>[!warning] Il socket address locale di un server non cambia mai, mentre quello remoto varia ad ogni interazione con client diversi
+
+## Servizi di trasporto
+- Affidabile -> TCP
+- Non affidabile -> UDP
+- 
