@@ -69,5 +69,10 @@ Ci sono tre componenti principali:
 >I messaggi devono essere nel formato ASCII
 >![[Pasted image 20250320110540.png]]
 
-
+### Scambio di messaggi al livello di protocollo
+Il client SMTP (che gira sull'host server di posta in invio) da stabilire una connessione sulla porta 25 verso il server SMTP (che gira sull'host server di posta in ricezione)
+Se il server è inattivo il client riprova più tardi
+Se il server è attivo viene stabilita la connessione
+Il server e il client effettuano una forma di handshaking (il client indica indirizzo email del mittente e del destinatario).
+Il client invia il messaggio
 
