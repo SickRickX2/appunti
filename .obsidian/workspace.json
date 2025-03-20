@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
+                "file": "Reti di Elaboratori/6 Protocollo UDP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 FTP File Transfer Protocol"
+              "title": "6 Protocollo UDP"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,10 +189,11 @@
   },
   "active": "6ab2dc32f26bbfef",
   "lastOpenFiles": [
+    "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
+    "Reti di Elaboratori/6 Protocollo UDP.md",
     "Pasted image 20250320110540.png",
     "Pasted image 20250320110534.png",
     "Senza nome.md",
-    "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "Pasted image 20250320105103.png",
     "Pasted image 20250320104455.png",
     "Reti degli Elaboratori (class).md",
@@ -210,7 +210,6 @@
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/imgs/Pasted image 20250319165434.png",
     "Reti di Elaboratori/imgs/Pasted image 20250319160535.png",
-    "Reti di Elaboratori/imgs/Pasted image 20250317105715.png",
     "Algoritmi 2/5 BFS Visita in ampiezza.md",
     "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
     "Basi di Dati/Modulo 1/Lezione 9.md",
