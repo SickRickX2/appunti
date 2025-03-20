@@ -44,14 +44,18 @@ Ovviamente poiché ci possono essere più processi e più messaggi da essi, avvi
 >[!note] UDP
 >Non è prevista una connessione, nessun setup tra client e server, questo redne il trasferimento dati tra processi inaffidabile, senza i controlli e le garanzie di UDP.
 
-## UDP User Datagram Protocol
+# UDP User Datagram Protocol
 Protocollo di trasporto inaffidabile e privo di connessione. 
 Fornisce servizi di:
 - comunicazione
 - multiplexing/demultiplexing
 - incapsulamento/decapsulamento
 L'unico controllo è quello di correttezza sul singolo pacchett (**checksum**).
+
 >[!tip] Servizio connectionless
 >Ogni pacchetto è indipendente dll'altro, l'ordine di arrivo può essere diverso da quello di spedizione. Non c'è coordinazione tra liello trasporto mittente e destinatario.
 
-Rappresentazione tramite FSM ( )
+#### Rappresentazione tramite FSM ( Finite State Machine)
+Il comportamento di un protcollo di trasporto può essere rappresentato da un automa a stati finiti. L'automa rimane in uno stato fin quando non avviene un evento che può modificare lo stato dell'automa e fargli compiere un'azione.
+
+I pacchetti devono essere di dimensioni sufficientemente piccole per essere inserite ciascuna in un singolo datagramma utente.
