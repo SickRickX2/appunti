@@ -64,5 +64,10 @@ Ci sono tre componenti principali:
 >- chiusura
 >Interazione comando/risposta:
 >- **comandi**: testo ASCII
->- **risposta**: coidce di stato ed espressione
->I messagi
+>- **risposta**: codice di stato ed espressione
+>
+>I messaggi devono essere nel formato ASCII
+>![[Pasted image 20250320110540.png]]
+
+
+
