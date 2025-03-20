@@ -73,3 +73,13 @@ I pacchetti devono essere di dimensioni sufficientemente piccole per essere inse
 >[!tip] DNS usa UDP
 Quando vuole effettuare una query la passa a UDP, perché è un protocollo molto semplice e veloce 
 
+# TCP
+Non abbiamo proprio pacchetti ma un flusso di byte continuo, l'ordine delle informazione vien preservato.
+Servizi del TCP:
+- Trasporto orientato della connession
+- le altre cose...
+>[!note] Demultiplexing orientato alla connessione
+>I socket sono identificati da 4 parametri
+>L'host ricevente usa i quattro parametri per inviare il segmento alla socket appropriata. Si possono usare più socket contemporaneamente.
+>>[!warning] Sulla stessa porta possono essere attive più socket
+
