@@ -59,3 +59,14 @@ L'unico controllo è quello di correttezza sul singolo pacchett (**checksum**).
 Il comportamento di un protcollo di trasporto può essere rappresentato da un automa a stati finiti. L'automa rimane in uno stato fin quando non avviene un evento che può modificare lo stato dell'automa e fargli compiere un'azione.
 
 I pacchetti devono essere di dimensioni sufficientemente piccole per essere inserite ciascuna in un singolo datagramma utente.
+
+>[!note] Struttra dei datagrammi UDP
+>inserire immagine
+
+>[!tip] Checksum
+>Controlla se ci sono state interferenze sovrapposte alla trasmissione del pacchetto. 
+>Per fare questo controllo:
+>- il messaggio viene diviso in parole da 16 bit
+>- il valore checksum viene impostato a 0
+>- tutte le parole del messaggio vengono
+
