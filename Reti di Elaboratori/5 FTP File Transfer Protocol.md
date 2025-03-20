@@ -37,4 +37,10 @@ Ottenuta l'autorizzazione del server il client può inviare uno o più file memo
 
 ![[Pasted image 20250320104455.png]]
 ## Posta elettronica
-**Sce**
+**Scenario classico**
+![[Pasted image 20250320105103.png]]
+Ci sono tre componenti principali:
+- *User agent*: usato per scrivere e inviare un messaggio o leggerlo
+- *Message Transfer Agent*: usato per trasferire il messaggio attraverso Internet
+- *Message Access Agent*: usato per leggere la mail in arrivo
+>[]
