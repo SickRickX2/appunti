@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "483728358b169cdc",
+        "id": "da08f7f61982cb22",
         "type": "tabs",
         "children": [
           {
-            "id": "6ab2dc32f26bbfef",
+            "id": "879fc8cb0bbcf7f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,10 +187,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ab2dc32f26bbfef",
+  "active": "879fc8cb0bbcf7f5",
   "lastOpenFiles": [
-    "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/6 Protocollo UDP.md",
+    "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "Pasted image 20250320110540.png",
     "Pasted image 20250320110534.png",
