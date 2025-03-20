@@ -52,3 +52,17 @@ Ci sono tre componenti principali:
 > Come comunicano gli MTA:
 > - **Server di posta**:
 > 	-  *Casella di posta (mailbox)* contiene i messaggi in arrivo per l'utente
+> 	- *Coda di messaggi* da trasmettere 
+> - **Protocollo SMTP (Simple Mail Transfer Protocol)**: tra server di posta per inviare messaggi di posta elettronica, tra agente utente del mittente e il suo server di posta.
+
+>[!tip] SMTP
+>Usa TCP per traferire in modo affidabile i messaggi di posta elettronica dal client al server, porta 25. 
+>**Trasferimento diretto** dal server trasmittente al server ricevente.
+>Tre fasi per il trasferimento:
+>- *Handshaking*
+>- trasferimento di messaggi
+>- chiusura
+>Interazione comando/risposta:
+>- **comandi**: testo ASCII
+>- **risposta**: coidce di stato ed espressione
+>I messagi
