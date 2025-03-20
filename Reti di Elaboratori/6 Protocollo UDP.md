@@ -102,5 +102,8 @@ Servizi del TCP:
 >
 >Abbiamo bisogno di una numerazione dei pacchetti : *numero di sequenza*, poiché il numero di sequenza deve essere inserito nell'intestazione del pacchetto occore specificarne la dimensione massima.
 >Questo numero è utile al destinatario per capire la sequenza di arrivo, pacchetti persi e pacchetti duplicati.
->Per far capire al mittente che si è perso un pacchetto abbiamo bisogno di un *numero di riscontro*
+>Per far capire al mittente che si è perso un pacchetto abbiamo bisogno di un *numero di riscontro*.
+
+>[!note] Controllo della congestione
+>Avviene quando vengono spediti troppi pacchetti in rete, superiore alla possibilità di gestione della rete.
 
