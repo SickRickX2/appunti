@@ -74,5 +74,7 @@ Il client SMTP (che gira sull'host server di posta in invio) da stabilire una co
 Se il server è inattivo il client riprova più tardi
 Se il server è attivo viene stabilita la connessione
 Il server e il client effettuano una forma di handshaking (il client indica indirizzo email del mittente e del destinatario).
-Il client invia il messaggio
+Il client invia il messaggio, il messaggio arriva al server desinatario grazie all'affidabilità di TCP.
+Se ci sono altri messaggi si usa la stessa connessione (**connessione persistente**), altrimenti il client invia richiesta di chiusura connessione.
+ 
 
