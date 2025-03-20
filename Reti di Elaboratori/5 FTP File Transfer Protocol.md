@@ -43,4 +43,12 @@ Ci sono tre componenti principali:
 - *User agent*: usato per scrivere e inviare un messaggio o leggerlo
 - *Message Transfer Agent*: usato per trasferire il messaggio attraverso Internet
 - *Message Access Agent*: usato per leggere la mail in arrivo
->[]
+>[!note] User Agent
+>Lo **User Agent** viene attivato dall' utente o da un timer: se c'è una nuova email informa l'utente, viene detto anche *email reader*. 
+>Usato per composizione, editing, lettura dei messaggi di posta elettronica.
+>I messaggi in uscita o in arrivo sono memorizzati sul server, il messaggio da inviare viene passato al Mail Transfer Agent
+
+>[!note] Message Transfer Agent
+> Come comunicano gli MTA:
+> - **Server di posta**:
+> 	-  *Casella di posta (mailbox)* contiene i messaggi in arrivo per l'utente
