@@ -1,0 +1,7 @@
+[[1 Visita in profondità (DFS) su grafo]]
+[[2 Colorazione di grafi]]
+[[3 I sort topologici]]
+[[4 Cicli]]
+[[5 BFS Visita in ampiezza]]
+[[6 todo]]
+[[7]]

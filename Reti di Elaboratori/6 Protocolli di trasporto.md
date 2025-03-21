@@ -156,7 +156,7 @@ Servizi del TCP:
 >Per far capire al mittente che si è perso un pacchetto abbiamo bisogno di un *numero di riscontro*.
 
 >[!note] Controllo della congestione
->Avviene quando vengono spediti troppi pacchetti in rete, superiore alla possibilità di gestione della rete.
+>Avviene quando vengono spediti troppi pacchetti in rete, un numero superiore alla possibilità di gestione della rete.
 
 
 
