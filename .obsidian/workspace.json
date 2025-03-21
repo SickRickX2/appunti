@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "333696cd89eed7ee",
+        "id": "a76479bf0495f684",
         "type": "tabs",
         "children": [
           {
-            "id": "5a5b4d0780616028",
+            "id": "df85e4cda304910a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "markdown",
+              "state": {
+                "file": "Reti di Elaboratori/6 Protocolli di trasporto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6 Protocolli di trasporto"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -183,18 +188,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5a5b4d0780616028",
+  "active": "df85e4cda304910a",
   "lastOpenFiles": [
+    "Pasted image 20250321102302.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250320104455.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250320110540.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250320110534.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250320105103.png",
     "Reti degli Elaboratori (class).md",
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
-    "Pasted image 20250321101158.png",
+    "Reti di Elaboratori/imgs/Pasted image 20250321101158.png",
     "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
-    "Pasted image 20250320110540.png",
-    "Pasted image 20250320110534.png",
     "Senza nome.md",
-    "Pasted image 20250320105103.png",
-    "Pasted image 20250320104455.png",
     "conflict-files-obsidian-git.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/imgs/Pasted image 20250319175210.png",

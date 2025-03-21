@@ -65,13 +65,14 @@ Ovviamente poiché ci possono essere più processi e più messaggi da essi, avvi
 ## Servizi di trasporto
 - Affidabile -> TCP
 - Non affidabile -> UDP
+
 >[!note] TCP
->Viene definito orientato alla connessione, tramite uno scambio di messaggi tra client e server si crea una "connessione".
+>Viene definito **orientato alla connessione**, tramite uno scambio di messaggi tra client e server si crea una "*connessione*".
 >Il trasporto è affidabile tra processi di invio e di ricezione. C'è un controllo di flusso per non sovraccaricare il destinatario, mentre il controllo della congestione si allarga a più nodi della rete (è una caratteristica della rete) è quindi un problema intermedio tra mittente e destinatario.
 >Questo servizio però non offre garanzie sulla temporizzazione, ampiezza di banda e sicurezza(per quest'ultima c'è bisogno di ulteriori protocolli).
 
 >[!note] UDP
->Non è prevista una connessione, nessun setup tra client e server, questo redne il trasferimento dati tra processi inaffidabile, senza i controlli e le garanzie di UDP.
+>Non è prevista una connessione, nessun setup tra client e server, questo rende il trasferimento dati tra processi inaffidabile, senza i controlli e le garanzie di TCP.
 
 # UDP User Datagram Protocol
 Protocollo di trasporto inaffidabile e privo di connessione. 
@@ -79,10 +80,12 @@ Fornisce servizi di:
 - comunicazione
 - multiplexing/demultiplexing
 - incapsulamento/decapsulamento
-L'unico controllo è quello di correttezza sul singolo pacchett (**checksum**).
+L'unico controllo è quello di correttezza sul singolo pacchetto (**checksum**).
+
+![[Pasted image 20250321102302.png|400]]
 
 >[!tip] Servizio connectionless
->Ogni pacchetto è indipendente dll'altro, l'ordine di arrivo può essere diverso da quello di spedizione. Non c'è coordinazione tra liello trasporto mittente e destinatario.
+>Ogni pacchetto è indipendente dll'altro, l'ordine di arrivo può essere diverso da quello di spedizione. Non c'è coordinazione tra livello trasporto mittente e destinatario.
 
 #### Rappresentazione tramite FSM ( Finite State Machine)
 Il comportamento di un protcollo di trasporto può essere rappresentato da un automa a stati finiti. L'automa rimane in uno stato fin quando non avviene un evento che può modificare lo stato dell'automa e fargli compiere un'azione.
