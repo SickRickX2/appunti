@@ -51,6 +51,13 @@ for c,u,v in E:
 		T[v].append(u)
 return T
 
-def connessi(u,)
+def connessi(u, v, T, visitati):
+	def DFSr(a, b, T, visitati):
+		visitati[a] = 1
+		for z in T[a]:
+			if z == b:
+				return True
+			if not visitati[z]:
+				if DF
 ```
 
