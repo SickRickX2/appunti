@@ -30,4 +30,6 @@
 >```
 
 *Correttezza*
-Dobbiamo dimostrare che
+Dobbiamo dimostrare che al termine dell'algoritmo T è un albero di copertura e che non c'è un altro albero che costa meno.
+
+- *Produce un albero di copertura*. La prova è per assurdo 
