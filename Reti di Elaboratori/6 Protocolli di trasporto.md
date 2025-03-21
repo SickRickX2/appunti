@@ -99,10 +99,19 @@ I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per 
 >[!tip] Checksum
 >Controlla se ci sono state interferenze sovrapposte alla trasmissione del pacchetto. 
 >Per fare questo controllo:
+>**Mittente**
 >- il messaggio viene diviso in parole da 16 bit
 >- il valore checksum viene inizialmente impostato a 0
 >- tutte le parole del messaggio incluso il checksum vengono sommate usando l'addizione complemento ad uno
->- viene fatto il complemento ad uno della somma e il risultato è il checksu
+>- viene fatto il complemento ad uno della somma e il risultato è il checksum
+>- il checksum viene inviato assieme ai dati
+>**Ricevente**
+>- il messaggio (che comprende il checksum)
+>- il messaggio viene diviso in parole da 16 bit
+>- tutte le parole vengono sommate usando l'addizione a complemento ad uno
+>- viene fatto il complemento ad uno della somma e il risultato diventa il nuovo checksum
+>- se il valroe 
+>
 
 >[!tip] DNS usa UDP
 Quando vuole effettuare una query la passa a UDP, perché è un protocollo molto semplice e veloce 
