@@ -54,7 +54,14 @@ Ovviamente poiché ci possono essere più processi e più messaggi da essi, avvi
 >
 >**Come funziona il demultiplexing**
 >*L'host riceve i datagrammi IP* 
->- ogni datagramma ha
+>- ogni datagramma ha un indirizzo IP di origine e di destinazione
+>- ogni datagramma trasporta 1 segmento a livello di trasporto
+>- ogni segmento ha un numero di porta di origine e un umero di destinazione
+>
+>*L'host usa gli indirizzi IP e i numeri di porta per inviare il segmento al processo appropriato*
+>![[Pasted image 20250321101158.png|350]]
+>
+>
 ## Servizi di trasporto
 - Affidabile -> TCP
 - Non affidabile -> UDP
