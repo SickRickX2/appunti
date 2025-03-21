@@ -69,5 +69,6 @@ L'ordinamento esterno al for costa $O(m \log m)$ = $O(m\log n^2)$ = $O(m \log n)
 Il for viene iterato m volte.
 - Bisogna controllare che l'arco (a,b) non crei ciclo in T con la procedura *connessi(a,b,T)* richiede il costo di una visita di un grafo aciclico quindi $O(n)$ 
 Il for richiede tempo $O(m \cdot n)$
-Quindi la complessità di
+Quindi la complessità di questa implementazione è $O(m\cdot n)$ 
+
 

@@ -25,14 +25,12 @@
             "id": "910850c5529e21f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Algoritmi 2/7 Minimo albero di copertura.md",
-                "mode": "source",
-                "source": false
+                "file": "Algoritmi 2/imgs/Pasted image 20250321102302.png"
               },
-              "icon": "lucide-file",
-              "title": "7 Minimo albero di copertura"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250321102302"
             }
           }
         ],
@@ -93,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -203,27 +200,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "910850c5529e21f9",
+  "active": "a0efb69d8bc00d10",
   "lastOpenFiles": [
-    "Pasted image 20250321115908.png",
-    "Pasted image 20250321112657.png",
-    "Pasted image 20250321112645.png",
-    "Pasted image 20250321112622.png",
-    "Algoritmi 2 (class).md",
     "Algoritmi 2/7 Minimo albero di copertura.md",
+    "Algoritmi 2/imgs",
+    "Algoritmi 2/imgs/Pasted image 20250321115908.png",
+    "Algoritmi 2/imgs/Pasted image 20250321112657.png",
+    "Algoritmi 2/imgs/Pasted image 20250321112645.png",
+    "Algoritmi 2/imgs/Pasted image 20250321112622.png",
+    "Algoritmi 2 (class).md",
     "Algoritmi 2/6 todo.md",
     "Algoritmi 2/5 BFS Visita in ampiezza.md",
     "Sisitemi Operativi/Modulo 2/1 Filesystem.md",
     "Sisitemi Operativi/Modulo 2/2 Tipi di filesystem.md",
     "Sisitemi Operativi/Modulo 2/3 Comandi del filesystem.md",
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
-    "Pasted image 20250321110057.png",
-    "Pasted image 20250321103919.png",
-    "Pasted image 20250321102506.png",
-    "Pasted image 20250321102302.png",
+    "Algoritmi 2/imgs/Pasted image 20250321110057.png",
+    "Algoritmi 2/imgs/Pasted image 20250321103919.png",
+    "Algoritmi 2/imgs/Pasted image 20250321102506.png",
+    "Algoritmi 2/imgs/Pasted image 20250321102302.png",
     "Reti di Elaboratori/imgs/Pasted image 20250320104455.png",
     "Reti di Elaboratori/imgs/Pasted image 20250320110540.png",
-    "Reti di Elaboratori/imgs/Pasted image 20250320110534.png",
     "Reti degli Elaboratori (class).md",
     "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
@@ -249,7 +246,6 @@
     "JAVA",
     "Relazione/imgs",
     "Relazione",
-    "Basi di Dati/Modulo 1/imgs",
-    "Sisitemi Operativi/Modulo 1/imgs"
+    "Basi di Dati/Modulo 1/imgs"
   ]
 }
