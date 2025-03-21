@@ -32,4 +32,4 @@
 *Correttezza*
 Dobbiamo dimostrare che al termine dell'algoritmo T è un albero di copertura e che non c'è un altro albero che costa meno.
 
-- *Produce un albero di copertura*. La prova è per assurdo 
+- *Produce un albero di copertura*. La prova è per assurdo. Supponiamo che al termine in T ci sia più di una componenete. Consideriamo A, poiché G è connesso nel grafo c'è un arco (x,y) da un nodo x di A ad un nodo y di un'altra componente B ma l'arco (x, y) ad un certo punto è stato estratto da E e se non crea ciclo in T ora che l'algoritmo non lo creava neanche al momento in cui è stato estratto e quindi sarebbe stato aggiunto a T e non scartato.
