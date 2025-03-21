@@ -46,6 +46,15 @@ Ovviamente poiché ci possono essere più processi e più messaggi da essi, avvi
 >
 >>[!warning] Il socket address locale di un server non cambia mai, mentre quello remoto varia ad ogni interazione con client diversi
 
+>[!note] Multiplexing e Demultiplexing
+>>[!example] Esempio dei condomini
+>>I portieri effettuano un'operazione di 
+>>- *Multiplexing* quando raccolgono le lettere dai condomini (mittenti) e le imbucano
+>>- *Demultiplexing* quando ricevono le lettere dal postino, leggono il nome riportato su ciascuna busta e consegnano ciascuna lettera al rispettivo destinatario
+>
+>**Come funziona il demultiplexing**
+>*L'host riceve i datagrammi IP* 
+>- ogni datagramma ha
 ## Servizi di trasporto
 - Affidabile -> TCP
 - Non affidabile -> UDP
