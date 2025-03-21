@@ -11,6 +11,7 @@ Protocolli di trasporto forniscono la *comunicazione logica* tra processi applic
 >- Host remoto 
 >- Processo locale
 >- Processo remoto
+>
 >In sostanza abbiamo bisogno di un indirizzo IP del client e del server, indirizzo di processo dell'host e del server
 
 >[!warning] Indirizzo IP vs porta
