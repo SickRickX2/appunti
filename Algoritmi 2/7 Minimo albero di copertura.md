@@ -49,6 +49,8 @@ for c,u,v in E:
 	if not connessi(u, v, T):
 		T[u].append(v)
 		T[v].append(u)
-return T 
+return T
+
+def connessi(u,)
 ```
 
