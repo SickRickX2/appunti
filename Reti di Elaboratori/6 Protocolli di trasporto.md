@@ -82,18 +82,18 @@ Fornisce servizi di:
 - incapsulamento/decapsulamento
 L'unico controllo è quello di correttezza sul singolo pacchetto (**checksum**).
 
-![[Pasted image 20250321102302.png|400]]
+![[Pasted image 20250321102302.png|500]]
 
 >[!tip] Servizio connectionless
->Ogni pacchetto è indipendente dll'altro, l'ordine di arrivo può essere diverso da quello di spedizione. Non c'è coordinazione tra livello trasporto mittente e destinatario.
+>Ogni pacchetto è *indipendente* dall'altro, l'ordine di arrivo può essere diverso da quello di spedizione. Non c'è coordinazione tra livello trasporto mittente e destinatario.
 
 #### Rappresentazione tramite FSM ( Finite State Machine)
-Il comportamento di un protcollo di trasporto può essere rappresentato da un automa a stati finiti. L'automa rimane in uno stato fin quando non avviene un evento che può modificare lo stato dell'automa e fargli compiere un'azione.
-
-I pacchetti devono essere di dimensioni sufficientemente piccole per essere inserite ciascuna in un singolo datagramma utente.
-
->[!note] Struttra dei datagrammi UDP
->inserire immagine
+Il comportamento di un protocollo di trasporto può essere rappresentato da un automa a stati finiti. L'automa rimane in uno stato fin quando non avviene un evento che può modificare lo stato dell'automa e fargli compiere un'azione.
+![[Pasted image 20250321102506.png]]
+>[!note] Datagrammi UDP
+>Non vi è alcun flusso di dati, il processo mittente non può inviare un flusso di dati e aspettarsi che UDP lo suddivida in datagrammi correlati.
+I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per essere inserite ciascuna in un singolo datagramma utente.
+>
 
 >[!tip] Checksum
 >Controlla se ci sono state interferenze sovrapposte alla trasmissione del pacchetto. 
