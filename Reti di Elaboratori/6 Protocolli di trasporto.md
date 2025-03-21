@@ -93,13 +93,16 @@ Il comportamento di un protocollo di trasporto può essere rappresentato da un a
 >[!note] Datagrammi UDP
 >Non vi è alcun flusso di dati, il processo mittente non può inviare un flusso di dati e aspettarsi che UDP lo suddivida in datagrammi correlati.
 I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per essere inserite ciascuna in un singolo datagramma utente.
+>>[!example] Struttura dei datagrammi UDP
+>>![[Pasted image 20250321103919.png]]
 
 >[!tip] Checksum
 >Controlla se ci sono state interferenze sovrapposte alla trasmissione del pacchetto. 
 >Per fare questo controllo:
 >- il messaggio viene diviso in parole da 16 bit
->- il valore checksum viene impostato a 0
->- tutte le parole del messaggio vengono
+>- il valore checksum viene inizialmente impostato a 0
+>- tutte le parole del messaggio incluso il checksum vengono sommate usando l'addizione complemento ad uno
+>- viene fatto il complemento ad uno della somma e il risultato è il checksu
 
 >[!tip] DNS usa UDP
 Quando vuole effettuare una query la passa a UDP, perché è un protocollo molto semplice e veloce 
