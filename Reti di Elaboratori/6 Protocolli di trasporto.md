@@ -124,6 +124,10 @@ Servizi del TCP:
 - Incapsulamento/decapsulamento
 - Multiplexing/Demultiplexing
 - Trasporto orientato alla connessione
+- Controllo di flusso
+- Controllo degli errori
+- Controllo della congestione
+
 >[!note] Demultiplexing orientato alla connessione
 >I socket sono identificati da 4 parametri
 >L'host ricevente usa i quattro parametri per inviare il segmento alla socket appropriata. Si possono usare più socket contemporaneamente.
@@ -131,9 +135,10 @@ Servizi del TCP:
 
 >[!tip] Servizio connection oriented
 >Servizio end-to-end.
->Il destinatario deve essere in grado di riordinare i dati del pacchetto. Per fare ciò c'è bisogno di stabilire una connessione.
+>Il destinatario deve essere in grado di riordinare i dati del pacchetto. Per fare ciò c'è bisogno di stabilire una connessione logica prima di scambiarsi i dati.
 
 ### Rappresentazione tramite FSM
+![[Pasted image 20250321110057.png]]
 
 >[!note] Controllo di flusso
 >Deve esserci equilibrio tra velocità di produzione e velocità di consumo di dati.
