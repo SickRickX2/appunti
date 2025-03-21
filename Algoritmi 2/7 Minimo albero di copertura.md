@@ -10,5 +10,9 @@
 >- La sequenza di *decisioni è irrevocabile*
 >- Le decisioni vengono prese in base ad un *criterio "locale"*
 
-
+>[!example] Esecuzione
+>Grafo di partenza:
+>![[Pasted image 20250321112622.png|350]]
+>![[Pasted image 20250321112645.png|400]]
+>![[Pasted image 20250321112657.png|400]]
 
