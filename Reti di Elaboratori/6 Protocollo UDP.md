@@ -22,11 +22,12 @@ Protocolli di trasporto forniscono la *comunicazione logica* tra processi applic
 Ovviamente poiché ci possono essere più processi e più messaggi da essi, avviene un processo di multiplexing/demultiplexing (i pacchetti però vengono gestiti uno alla volta).
 
 >[!danger] Nota bene
->*- Numero di porta* 
+>- *Numero di porta*: identifica il processo applicativo
+>- *Indirizzo IP destinatario*: identifica il server (host)
 
 >[!note] Socket API
 >Un'API che ci permette di gestire pacchetti di trasporto.
->Un socket appare come un punto di ingresso o di uscita, è una struttra dati utilizzata dal processo applicativo (socket client e socket server). Contiene **indirizzo IP e numero di porta**. I numeri di porta hanno 16 bit e i primi 1024 sono *well known*.
+>Un **socket** appare come un punto di ingresso o di uscita, è una **struttra dati** utilizzata dal processo applicativo (*socket client e socket server*). Contiene **indirizzo IP e numero di porta**. I numeri di porta hanno 16 bit e i primi 1024 sono *well known* e già assegnati.
 >L'interazione tra client e server è bidirezionale, è necessaria quindi una coppia di socket (*locale e mittente*). 
 >Il client ha bisogno di un socket locale e uno remoto per comunicare.
 >**Socket locale**
