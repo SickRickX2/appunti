@@ -114,16 +114,16 @@ I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per 
 >- se il valore del checksum è 0 allora il messaggio viene accettato altrimenti viene scartato
 
 
->
-
 >[!tip] DNS usa UDP
 Quando vuole effettuare una query la passa a UDP, perché è un protocollo molto semplice e veloce 
 
 # TCP
 Non abbiamo proprio pacchetti ma un flusso di byte continuo, l'ordine delle informazione vien preservato.
 Servizi del TCP:
-- Trasporto orientato della connession
-- le altre cose...
+- Trasporto orientato della connessione
+- Incapsulamento/decapsulamento
+- Multiplexing/Demultiplexing
+- Trasporto orientato alla connessione
 >[!note] Demultiplexing orientato alla connessione
 >I socket sono identificati da 4 parametri
 >L'host ricevente usa i quattro parametri per inviare il segmento alla socket appropriata. Si possono usare più socket contemporaneamente.
