@@ -19,7 +19,11 @@ Protocolli di trasporto forniscono la *comunicazione logica* tra processi applic
 >IP = indirizzo a livello di rete
 >IP + porta = *socket di rete*
 
-Ovviamente poiché ci possono essere più processi e più messaggi da essi, avviene un processo di multiplexing/demultiplexing (i pacchetti vengono gestiti uno alla volta).
+Ovviamente poiché ci possono essere più processi e più messaggi da essi, avviene un processo di multiplexing/demultiplexing (i pacchetti però vengono gestiti uno alla volta).
+
+>[!danger] Nota bene
+>*- Numero di porta* 
+
 >[!note] Socket API
 >Un'API che ci permette di gestire pacchetti di trasporto.
 >Un socket appare come un punto di ingresso o di uscita, è una struttra dati utilizzata dal processo applicativo (socket client e socket server). Contiene **indirizzo IP e numero di porta**. I numeri di porta hanno 16 bit e i primi 1024 sono *well known*.
