@@ -93,7 +93,6 @@ Il comportamento di un protocollo di trasporto può essere rappresentato da un a
 >[!note] Datagrammi UDP
 >Non vi è alcun flusso di dati, il processo mittente non può inviare un flusso di dati e aspettarsi che UDP lo suddivida in datagrammi correlati.
 I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per essere inserite ciascuna in un singolo datagramma utente.
->
 
 >[!tip] Checksum
 >Controlla se ci sono state interferenze sovrapposte alla trasmissione del pacchetto. 
