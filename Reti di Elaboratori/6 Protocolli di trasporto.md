@@ -105,12 +105,15 @@ I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per 
 >- tutte le parole del messaggio incluso il checksum vengono sommate usando l'addizione complemento ad uno
 >- viene fatto il complemento ad uno della somma e il risultato è il checksum
 >- il checksum viene inviato assieme ai dati
+>
 >**Ricevente**
 >- il messaggio (che comprende il checksum)
 >- il messaggio viene diviso in parole da 16 bit
 >- tutte le parole vengono sommate usando l'addizione a complemento ad uno
 >- viene fatto il complemento ad uno della somma e il risultato diventa il nuovo checksum
->- se il valroe 
+>- se il valore del checksum è 0 allora il messaggio viene accettato altrimenti viene scartato
+
+
 >
 
 >[!tip] DNS usa UDP
