@@ -58,6 +58,12 @@ def connessi(u, v, T, visitati):
 			if z == b:
 				return True
 			if not visitati[z]:
-				if DF
+				if DFSr(z, b, T, visitati):
+				return True
+		return False
+visitati = [0] * len(T)
+return DFSr(u, v, T, visitati)
 ```
+
+
 
