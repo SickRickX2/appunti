@@ -1,10 +1,17 @@
 Siamo al livello di trasporto, 
 Protocolli di trasporto forniscono la *comunicazione logica* tra processi applicativi di host differenti. Come se fossero connessi direttamente anche se non è così a livello fisico.
-**Livello di trasporto**: processi che parlano tra di loro che si basa sui servizi del livello di rete e fornisce servizi al livello applicazione.
+**Livello di trasporto**: *comunicazione tra processi*, processi che parlano tra di loro che si basa sui servizi del livello di rete e fornisce servizi al livello applicazione.
+**Livello di rete**: *comunicazione tra host*, si basa sui servizi del livello di collegamento
 
 >[!note] Indirizzamento
 >C'è bisogno di un indirizzamento perché sullo stesso host possono esserci più processi. 
->Abbiamo bisogno di un indirizzo IP del client e del server, indirizzo di processo dell'host e del server
+>La maggior parte dei sistemi operativi è multiutente e multiprocesso.
+>Per stabilire una comunicazione tra i due processi è necessario un metodo per individuare:
+>- Host locale
+>- Host remoto 
+>- Processo locale
+>- Processo remoto
+>In sostanza abbiamo bisogno di un indirizzo IP del client e del server, indirizzo di processo dell'host e del server
 
 >[!warning] Indirizzo IP vs porta
 >porta = indirizzo a livello di trasporto
