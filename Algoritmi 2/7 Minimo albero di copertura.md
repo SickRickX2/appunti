@@ -40,4 +40,7 @@ Dobbiamo dimostrare che al termine dell'algoritmo T è un albero di copertura e 
 >- Con un pre-processing ordino gli archi nella lista E cosicché scorrendo la lista ottengo di volta in volta l'arco di costo minimo in tempo O(1).
 >- Verifico che l'arco (x, y) non formi ciclo in T controllando se y è raggiungibile da x in T
 
->[]
+```Python
+def kruskal(G):
+	E = [(c, u, v) for u in G for v, c in G[u]]
+```
