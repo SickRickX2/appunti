@@ -4,4 +4,4 @@
 [[4 Cicli]]
 [[5 BFS Visita in ampiezza]]
 [[6 todo]]
-[[7]]
+[[7 Minimo albero di copertura]]
