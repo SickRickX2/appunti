@@ -16,3 +16,18 @@
 >![[Pasted image 20250321112645.png|400]]
 >![[Pasted image 20250321112657.png|400]]
 
+>[!tip] Pseudocodice
+>```
+>kruskal(G):
+>	T = set()
+>	inizializza E con gli archi di G
+>	while E ≠ []:
+>		estrai da E un arco(x, y) di peso minimo
+>		if l'inserimento di (x, y) in T non crea ciclo con gli archi in T:
+>			inserisci arco(x, y) in T
+>		return T
+>
+>```
+
+*Correttezza*
+Dobbiamo dimostrare che
