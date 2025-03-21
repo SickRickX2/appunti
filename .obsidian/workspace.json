@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "5 BFS Visita in ampiezza"
             }
-          },
-          {
-            "id": "910850c5529e21f9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Algoritmi 2/imgs/Pasted image 20250321102302.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250321102302"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -200,8 +188,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a0efb69d8bc00d10",
+  "active": "df85e4cda304910a",
   "lastOpenFiles": [
+    "Algoritmi 2/imgs/Pasted image 20250321102302.png",
     "Algoritmi 2/7 Minimo albero di copertura.md",
     "Algoritmi 2/imgs",
     "Algoritmi 2/imgs/Pasted image 20250321115908.png",
@@ -218,7 +207,6 @@
     "Algoritmi 2/imgs/Pasted image 20250321110057.png",
     "Algoritmi 2/imgs/Pasted image 20250321103919.png",
     "Algoritmi 2/imgs/Pasted image 20250321102506.png",
-    "Algoritmi 2/imgs/Pasted image 20250321102302.png",
     "Reti di Elaboratori/imgs/Pasted image 20250320104455.png",
     "Reti di Elaboratori/imgs/Pasted image 20250320110540.png",
     "Reti degli Elaboratori (class).md",
