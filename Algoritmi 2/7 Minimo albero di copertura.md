@@ -42,5 +42,12 @@ Dobbiamo dimostrare che al termine dell'algoritmo T è un albero di copertura e 
 
 ```Python
 def kruskal(G):
-	E = [(c, u, v) for u in G for v, c in G[u]]
+	E = [(c, u, v) for u in G for v, c in G[u] if u < v]
+E.sort()
+T = [[] for _ in G]
+for c,u,v in E:
+	if not connessi(u, v, T):
+		T[u].append(v)
+		T[v].append(u)
+ 
 ```
