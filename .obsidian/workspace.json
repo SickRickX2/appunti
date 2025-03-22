@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a76479bf0495f684",
+        "id": "ba2e1eb69af3980c",
         "type": "tabs",
         "children": [
           {
-            "id": "df85e4cda304910a",
+            "id": "dec58c49500d5df2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basi di Dati/Modulo 2/Lezione 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lezione 1"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -187,8 +183,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "df85e4cda304910a",
+  "active": "dec58c49500d5df2",
   "lastOpenFiles": [
+    "JAVA/9 HashCode e Equals.md",
+    "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 1.md",
@@ -224,9 +222,7 @@
     "conflict-files-obsidian-git.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/3 HTTP.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori/imgs",
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Sisitemi Operativi/Modulo 2",
     "Reti di Elaboratori",
     "Basi di Dati/Modulo 2",
