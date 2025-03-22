@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba2e1eb69af3980c",
+        "id": "b811640641b4ffc8",
         "type": "tabs",
         "children": [
           {
-            "id": "dec58c49500d5df2",
+            "id": "0d94e5ac8a9e2645",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -183,8 +183,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dec58c49500d5df2",
+  "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
+    "Algoritmi 2 (class).md",
+    "Reti degli Elaboratori (class).md",
     "JAVA/9 HashCode e Equals.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
@@ -205,7 +207,6 @@
     "Algoritmi 2/imgs/Pasted image 20250321112657.png",
     "Algoritmi 2/imgs/Pasted image 20250321112645.png",
     "Algoritmi 2/imgs/Pasted image 20250321112622.png",
-    "Algoritmi 2 (class).md",
     "Algoritmi 2/6 todo.md",
     "Sisitemi Operativi/Modulo 2/1 Filesystem.md",
     "Sisitemi Operativi/Modulo 2/2 Tipi di filesystem.md",
@@ -216,7 +217,6 @@
     "Algoritmi 2/imgs/Pasted image 20250321102506.png",
     "Reti di Elaboratori/imgs/Pasted image 20250320104455.png",
     "Reti di Elaboratori/imgs/Pasted image 20250320110540.png",
-    "Reti degli Elaboratori (class).md",
     "Reti di Elaboratori/2 I protocolli.md",
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "conflict-files-obsidian-git.md",
