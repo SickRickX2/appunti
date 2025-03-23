@@ -11,10 +11,14 @@
             "id": "0d94e5ac8a9e2645",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi 2/7 Minimo albero di copertura.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "7 Minimo albero di copertura"
             }
           }
         ]
