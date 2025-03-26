@@ -52,3 +52,4 @@
  >	7.3 istante
  >	7.4 numero di posti prenotati (un intero >0)
  >	7.4 Cliente che effettua la prenotazione
+
