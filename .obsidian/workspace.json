@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati/Modulo 2/Lezione 4.md",
+                "file": "Basi di Dati/Modulo 2/Lezione 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 4"
+              "title": "Lezione 3"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -189,8 +190,8 @@
   },
   "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
-    "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 4.md",
+    "Basi di Dati/Modulo 2/Lezione 3.md",
     "Algoritmi 2/7 Minimo albero di copertura.md",
     "Algoritmi 2 (class).md",
     "Reti degli Elaboratori (class).md",
