@@ -82,7 +82,7 @@ def BFSpadri(x, G):
 	P[x] = x
 	coda = [x]
 	i = 0
-	while len(coda) > 1:
+	while len(coda) > i:
 		u = coda[i]
 		i += 1
 		for y in G[u]:
