@@ -28,7 +28,15 @@ Sono meccanismi che non inviano pacchetti uno ad uno ma continuano ad inviarne p
 >>[!tip] Timer e rispedizione
 >>Abbiamo un timer associato al più vecchio pacchetto spedito non ancora riscontrato. Allo scadere del timer si va indietro fino all'inizio (*Go back N*).
 >
->**Relazione tra dimensione di finestra di invio e spazio dei numeri di s**
+>**Relazione tra dimensione di finestra di invio e spazio dei numeri di sequenza**
+>Possiamo avere una finestra di dimensione $2^m$?
+>No deve essere di dimensioni $2^m-1$ altrimenti si rischiano duplicati.
+
+
+
+
+
+
 
 
 
