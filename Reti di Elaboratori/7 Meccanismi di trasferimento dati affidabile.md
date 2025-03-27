@@ -14,13 +14,17 @@
 >>- Il pacchetto arriva correttamente ma il discorso viene perso o corrotto. Scade il timer e il mittente rispedisce pacchetto x. Si crea un duplicato.
 >
 >>[!example] FSM mittente
->>
+>
+>
 >>[!danger] Problema di efficienza
 >>Se il rate è alto ma il ritardo è consistente lo stop and wait è inefficiente. Funziona ma non permette di usare la rete al meglio
 
 # Meccanismi con pipeline
-
-
+Sono meccanismi che non inviano pacchetti uno ad uno ma continuano ad inviarne prima di ricevere tutti gli ack.
+>[!note] Go back n
+>Abbiamo una finestra di invio di più posizioni e una di ricezione da una sola posizione.
+>Devo tenere traccia dell'invio nella finestra mittente. Abbiamo quindi due puntatori, uno per gli ack dei pacchetti inviati e uno per il prossimo pacchetto da spedire.
+>Rispetto allo stop and wait l'ack indica ancora il numero di sequenza del prossimo pacchetto atteso ma è *cumulativo*, tutti i pacchetti fino al numero di sequenza indicato nell'ack sono stati ricevuti correttamente.
 
 
 
