@@ -15,7 +15,11 @@
 >
 >>[!example] FSM mittente
 >>
->>
+>>[!danger] Problema di efficienza
+>>Se il rate è alto ma il ritardo è consistente lo stop and wait è inefficiente. Funziona ma non permette di usare la rete al meglio
+
+# Meccanismi con pipeline
+
 
 
 
