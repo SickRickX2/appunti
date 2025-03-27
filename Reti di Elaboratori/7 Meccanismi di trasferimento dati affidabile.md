@@ -48,9 +48,9 @@ Sf= 0
 Sn = 4
 Rn = 2
 numero sequenza dei pacchetti in transito
-0,1
+2, 3
 numero ack in transito
-2
+1,2
 
 
 
