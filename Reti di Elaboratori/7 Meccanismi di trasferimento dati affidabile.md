@@ -38,7 +38,10 @@ Sono meccanismi che non inviano pacchetti uno ad uno ma continuano ad inviarne p
 >Non c'è più un *ack comulativo* ma specifici per ogni pacchetto.
 >Quando scade un timer si rinvia il pacchetto specifico
 >>[!example] FSM
->>
+
+### Protocolli bidirezionali: piggybacking
+Abbiamo pacchetti in una direzione e eack in quella opposta, in realtà viaggiano entrambi nelle due direzioni.
+
 
 
 
