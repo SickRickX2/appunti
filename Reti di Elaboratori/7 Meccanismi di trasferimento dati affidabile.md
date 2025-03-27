@@ -32,6 +32,14 @@ Sono meccanismi che non inviano pacchetti uno ad uno ma continuano ad inviarne p
 >Possiamo avere una finestra di dimensione $2^m$?
 >No deve essere di dimensioni $2^m-1$ altrimenti si rischiano duplicati.
 
+>[!note]  Ripetizione selettiva
+>Il mittente rimanda solo i pacchetti ai quali non ha ricevuto gli ack. 
+>Il timer del mittente per ogni pacchetto non riscontrato.
+>Non c'è più un *ack comulativo* ma specifici per ogni pacchetto.
+>Quando scade un timer si rinvia il pacchetto specifico
+>>[!example] FSM
+>>
+
 
 
 
