@@ -25,6 +25,9 @@ Sono meccanismi che non inviano pacchetti uno ad uno ma continuano ad inviarne p
 >Abbiamo una finestra di invio di più posizioni e una di ricezione da una sola posizione.
 >Devo tenere traccia dell'invio nella finestra mittente. Abbiamo quindi due puntatori, uno per gli ack dei pacchetti inviati e uno per il prossimo pacchetto da spedire.
 >Rispetto allo stop and wait l'ack indica ancora il numero di sequenza del prossimo pacchetto atteso ma è *cumulativo*, tutti i pacchetti fino al numero di sequenza indicato nell'ack sono stati ricevuti correttamente.
+>>[!tip] Timer e rispedizione
+>>Abbiamo un timer associato al più vecchio pacchetto spedito non ancora riscontrato. Allo scadere del timer si va indietro fino all'inizio (*Go back N*).
+>>
 
 
 
