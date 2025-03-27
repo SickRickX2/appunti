@@ -42,6 +42,15 @@ Sono meccanismi che non inviano pacchetti uno ad uno ma continuano ad inviarne p
 ### Protocolli bidirezionali: piggybacking
 Abbiamo pacchetti in una direzione e eack in quella opposta, in realtà viaggiano entrambi nelle due direzioni.
 
+esercizio
+m = 3
+Sf= 0
+Sn = 4
+Rn = 2
+numero sequenza dei pacchetti in transito
+0,1
+numero ack in transito
+2
 
 
 
