@@ -34,4 +34,12 @@ Il procedimento si suddivide in tre fasi:
 >Il client (o il server) può chiudere la connessione mediante uno scambio simile a quello di apertura.
 >In verità la connessione si può chiudere anche a "metà".
 
-## Controllo degli 
+## Controllo degli errori
+**Numeri di sequenza** e **ACK**, sono utilizzati per controllare l'errore in un pacchetto di dati.
+Solitamente il destinatario mantiene i dati che arrivano fuori ordine ma non li riscontra.
+**Checksum** per la correttezza di un segmento
+**RTO**: Ack cumulativi e un solo timer associato al più vecchio pacchetto non riscontrato
+**Ritrasmissione** del segmento all'inizio della coda di trasmissione
+
+>[!note] ACK cumulativi
+
