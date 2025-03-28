@@ -48,4 +48,9 @@ Meccanismi adotttati dal TCP
 - Numero di sequenza: del primo byte del segmento
 - ACK cumulativo e delayed
 - Timeout basato su RTT: unico timer di ritrasmissione.
+>[!note] Controllo di flusso
+>L'idea è di regolare la quantità di dati inviati al destinatario per non sovraccaricare il buffer di quest'ultimo.
+>Per sapere la capacità del destinatario, questa viene comunicata proprio dal destinatario (RWND RcvWindow) nei segmenti header TCP.
+
+
 
