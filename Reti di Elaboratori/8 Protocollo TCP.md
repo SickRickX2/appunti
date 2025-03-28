@@ -3,6 +3,26 @@ Permette di mandare più pacchetti grazie alla pipeline, affidabile, orientato a
 >[!note] Segmenti TCP
 >Il mittente manda dati in maniera continua al destinatario facendo uso del servizio di livello di rete.
 >Riceve i dati dal livello applicazione e viene inserita un'intestazione (che in questo caso è molto corposa).
+>
+>>[!warning] Numero di sequenza
+>>Il numero di sequenza è il numero del primo byte di dati contenuti nel segmento. Il numero di riscontro si riferisce al prossimo byte atteso.
 
-Il numero di sequenza è il numero d
+>[!tip] FLAGS
+>Assumono significato se impostati ad uno:
+>Ci sono tre flag che vengono utilizzati per stabilire la connessione.
+>- URG: urgent, bisogna vedere il valore del puntatore urgente
+>- ACK:
+>- PSH: push, bisogna passare i dati a livello applicazione non appena rischiesto
+>- RST:
+>- SYN:
+>- FIN:
 
+## Come stabilire una connessione
+Il procedimento si suddivide in tre fasi:
+- Apertura dellaconnessione
+- trasferimento dati
+- Chiusura della connessione
+
+>[!note] Apertura
+>3 way handshake
+>Se il client vuole aprire una connessione con il server deve mandare una richiesta con il flag syn impostato a 1 ed il resto impostato a 0. C'è inoltre un numero di
