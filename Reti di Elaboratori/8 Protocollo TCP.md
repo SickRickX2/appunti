@@ -25,4 +25,4 @@ Il procedimento si suddivide in tre fasi:
 
 >[!note] Apertura
 >3 way handshake
->Se il client vuole aprire una connessione con il server deve mandare una richiesta con il flag syn impostato a 1 ed il resto impostato a 0. C'è inoltre un numero di
+>Se il client vuole aprire una connessione con il server deve mandare una richiesta con il flag syn impostato a 1 ed il resto impostato a 0. C'è inoltre un numero di sequenza per comunicare il numero di sequenza iniziale (scelto in maniera casuale Random ISN). Quando il server riceve la richiesta , manda un ack per accettarla e imposta il flag syn impostato ad uno e manda anche lui un numero di sequenza. Infine il client conferma con un ack il syn del server.
