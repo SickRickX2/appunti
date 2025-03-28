@@ -40,7 +40,7 @@ Sono meccanismi che non inviano pacchetti uno ad uno ma continuano ad inviarne p
 >>[!example] FSM
 
 ### Protocolli bidirezionali: piggybacking
-Abbiamo pacchetti in una direzione e eack in quella opposta, in realtà viaggiano entrambi nelle due direzioni.
+Abbiamo pacchetti in una direzione e ack in quella opposta, in realtà viaggiano entrambi nelle due direzioni.
 
 esercizio
 m = 3

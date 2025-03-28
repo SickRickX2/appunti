@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
+                "file": "Reti di Elaboratori/8 Protocollo TCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Meccanismi di trasferimento dati affidabile"
+              "title": "8 Protocollo TCP"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
-    "Reti di Elaboratori/6 Protocolli di trasporto.md",
     "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
+    "Reti di Elaboratori/8 Protocollo TCP.md",
+    "Reti di Elaboratori/6 Protocolli di trasporto.md",
     "Algoritmi 2/7 Minimo albero di copertura.md",
     "Algoritmi 2/3 I sort topologici.md",
     "Algoritmi 2/5 BFS Visita in ampiezza.md",
@@ -226,7 +227,6 @@
     "Reti di Elaboratori/imgs/Pasted image 20250320104455.png",
     "Reti di Elaboratori/imgs/Pasted image 20250320110540.png",
     "Reti di Elaboratori/2 I protocolli.md",
-    "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "Reti di Elaboratori/imgs",
     "Sisitemi Operativi/Modulo 2",
     "Reti di Elaboratori",
