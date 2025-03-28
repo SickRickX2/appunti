@@ -43,3 +43,9 @@ Solitamente il destinatario mantiene i dati che arrivano fuori ordine ma non li 
 
 >[!note] ACK cumulativi
 
+Meccanismi adotttati dal TCP
+- Pipeline: invia più pacchetti senza dover aspettare l'ack
+- Numero di sequenza: del primo byte del segmento
+- ACK cumulativo e delayed
+- Timeout basato su RTT: unico timer di ritrasmissione.
+
