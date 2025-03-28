@@ -26,3 +26,12 @@ Il procedimento si suddivide in tre fasi:
 >[!note] Apertura
 >3 way handshake
 >Se il client vuole aprire una connessione con il server deve mandare una richiesta con il flag syn impostato a 1 ed il resto impostato a 0. C'è inoltre un numero di sequenza per comunicare il numero di sequenza iniziale (scelto in maniera casuale Random ISN). Quando il server riceve la richiesta , manda un ack per accettarla e imposta il flag syn impostato ad uno e manda anche lui un numero di sequenza. Infine il client conferma con un ack il syn del server.
+
+>[!note] Trasferimento dati
+>Se il flag urgent è impostato ad uno bisogna vedere il puntatore urgent, non ci dice dove iniziano ma ci dice dove finiscono. Questo serve al destinatario per passare subito questi dati al livello applicazione, ad esempio per interrompere un data transfer.
+
+>[!note] Chiusura della connessione
+>Il client (o il server) può chiudere la connessione mediante uno scambio simile a quello di apertura.
+>In verità la connessione si può chiudere anche a "metà".
+
+## Controllo degli 
