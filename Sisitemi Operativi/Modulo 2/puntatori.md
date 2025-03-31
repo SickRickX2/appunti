@@ -20,11 +20,11 @@ ptr = &vect[10]; // puntatore al primo elemento
 ptr = vect; //puntatore al vettore
 ```
 >[!note] Allocazione Dinamica
->Vettori e altre variabili sono allocate nello Stack a tempo di compilazione. 
->Per allocare memoria a runtime, questa viene allocata nell'heap
+>**Vettori e altre variabili** sono allocate nello *Stack* a tempo di compilazione. 
+>Per **allocare memoria a runtime**, questa viene allocata nell'*heap*
 >```C
->void *calloc(size_t nmeb,size_t size); //
->void *malloc(size_t size); //
+>void *calloc(size_t nmeb,size_t size); //passo la dimensione del tipo di dato da allocare e il quantitativo di dati di quel tipo
+>void *malloc(size_t size); // passo la dimensione in numero di byte
 >void free(void *ptr) //libera la memoria allocata
 >```
 
