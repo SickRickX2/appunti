@@ -15,5 +15,7 @@ Il puntatore punta sempre al primo byte del tipo di dato memorizzato.
 Nel caso di vettori, il puntatore al primo elemento dell'array e puntatore al vettore sono la stessa cosa.
 ```C
 int vect[10];
-int **
+int *ptr = NULL;
+ptr = &vect[10]; // puntatore al primo elemento
+ptr = vect; //puntatore al vettore
 ```
