@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 2/puntatori.md",
+                "file": "Sisitemi Operativi/Modulo 2/Puntatori.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "puntatori"
+              "title": "Puntatori"
             }
           }
         ],
@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,7 +205,7 @@
   "active": "d6135af6c6ddee0e",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
-    "Sisitemi Operativi/Modulo 2/puntatori.md",
+    "Sisitemi Operativi/Modulo 2/Puntatori.md",
     "Reti di Elaboratori/8 Protocollo TCP.md",
     "Senza nome.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
