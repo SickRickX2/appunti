@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 2/Puntatori.md",
+                "file": "Sisitemi Operativi/Modulo 2/Structures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Puntatori"
+              "title": "Structures"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -205,8 +204,9 @@
   },
   "active": "d6135af6c6ddee0e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Sisitemi Operativi/Modulo 2/Puntatori.md",
+    "Sisitemi Operativi/Modulo 2/Structures.md",
+    "conflict-files-obsidian-git.md",
     "Reti di Elaboratori/8 Protocollo TCP.md",
     "Senza nome.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
@@ -230,7 +230,6 @@
     "Basi di Dati/Modulo 1/Lezione 9.md",
     "Basi di Dati/Modulo 1/Lezione 8.md",
     "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
-    "Basi di Dati/Modulo 1/Lezione 6.md",
     "Algoritmi 2/imgs/Pasted image 20250321102302.png",
     "Algoritmi 2/imgs",
     "Algoritmi 2/imgs/Pasted image 20250321115908.png",
