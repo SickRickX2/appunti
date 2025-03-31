@@ -28,3 +28,8 @@ ptr = vect; //puntatore al vettore
 >void free(void *ptr) //libera la memoria allocata
 >```
 
+>[!danger] fare esercizio 5 e 6
+
+
+
+
