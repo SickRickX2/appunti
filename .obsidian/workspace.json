@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "8 Protocollo TCP"
             }
+          },
+          {
+            "id": "d6135af6c6ddee0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sisitemi Operativi/Modulo 2/puntatori.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "puntatori"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,10 +201,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0d94e5ac8a9e2645",
+  "active": "d6135af6c6ddee0e",
   "lastOpenFiles": [
-    "Senza nome.md",
+    "conflict-files-obsidian-git.md",
+    "Sisitemi Operativi/Modulo 2/puntatori.md",
     "Reti di Elaboratori/8 Protocollo TCP.md",
+    "Senza nome.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/3 HTTP.md",
     "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
@@ -219,8 +235,6 @@
     "Algoritmi 2/imgs/Pasted image 20250321112657.png",
     "Algoritmi 2/imgs/Pasted image 20250321112645.png",
     "Algoritmi 2/imgs/Pasted image 20250321112622.png",
-    "Algoritmi 2/6 todo.md",
-    "Sisitemi Operativi/Modulo 2/1 Filesystem.md",
     "Algoritmi 2/imgs/Pasted image 20250321110057.png",
     "Algoritmi 2/imgs/Pasted image 20250321103919.png",
     "Algoritmi 2/imgs/Pasted image 20250321102506.png",

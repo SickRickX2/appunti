@@ -1,0 +1,1 @@
+sono variabili che contengono l'indirizzo di memoria di una locazione di memoria
