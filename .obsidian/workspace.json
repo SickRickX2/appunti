@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/8 Protocollo TCP.md",
+                "file": "Algoritmi 2/Esercizi grafi/Senza nome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8 Protocollo TCP"
+              "title": "Senza nome"
             }
           }
         ]
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,10 +187,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a0efb69d8bc00d10",
+  "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
-    "Sisitemi Operativi/Modulo 2/Structures.md",
     "Reti di Elaboratori/8 Protocollo TCP.md",
+    "Algoritmi 2/Esercizi grafi/Senza nome.md",
+    "Algoritmi 2/Esercizi grafi",
+    "Sisitemi Operativi/Modulo 2/Structures.md",
     "Sisitemi Operativi/Modulo 2/Puntatori.md",
     "conflict-files-obsidian-git.md",
     "Senza nome.md",
@@ -213,7 +216,6 @@
     "Basi di Dati/Modulo 1/Lezione 10.md",
     "Basi di Dati/Modulo 1/Lezione 9.md",
     "Basi di Dati/Modulo 1/Lezione 8.md",
-    "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
     "Algoritmi 2/imgs/Pasted image 20250321102302.png",
     "Algoritmi 2/imgs",
     "Algoritmi 2/imgs/Pasted image 20250321115908.png",
@@ -232,7 +234,6 @@
     "Algoritmi 2",
     "JAVA",
     "Relazione/imgs",
-    "Relazione",
-    "Basi di Dati/Modulo 1/imgs"
+    "Relazione"
   ]
 }
