@@ -76,7 +76,10 @@ L'algoritmo di controllo della congestione si basa su tre componenti
 >[!note] Congestion avoidance
 >Aumento la finestra di 1 quando mi arriva l'ack di un intero blocco, avendo così un incremento lineare. Incremento la finestra finché non ho timeout o duplicati. Imposto sshtresh a cwnd/2 e imposto la finestra ad 1 ricominciando quindi da capo.
 
+## TCP Taho (o Tahoe)
 
+
+ 
 
 
 
