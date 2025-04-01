@@ -91,6 +91,15 @@ L'algoritmo di controllo della congestione si basa su tre componenti
 	- si raparte da sshtreshold + 3
 
 
+## Timeout
+Come impostare il timeout del TCP?
+
+Non può essere un valore assoluto ma deve dipendere dal round trip time. Bisogna stimare il RTT e la sua variazione nel tempo.
+
+Come stimare il RTT?
+*SampleRTT* posso misurarlo per ogni segmento spedito; tempo misurato dalla trasmissione del segmento fino alla ricezione di ack
+Il valore può oscillare, e acnhe
+
 
 
 
