@@ -84,6 +84,12 @@ L'algoritmo di controllo della congestione si basa su tre componenti
 >Si può quindi distinguere i due tipi di congestione e reagire in maniera più appropriata e meno drastica nel caso dei 3 ack duplicati. 
 >Qui entra in gioco il *Fast recovery*; incremento linearmente perché indica una congestione leggera.
 
+## TCP Reno
+- Timeout: congestione importante
+	- ripartire da 1
+- 3 ack duplicati: congestione lieve
+	- si raparte da sshtreshold + 3
+
 
 
 
