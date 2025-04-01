@@ -65,5 +65,18 @@ Meccanismi adotttati dal TCP
 - CWND: relativa alla congestione della rete
 - RWND: relativa alla congestione del mittente
 Dei sintomi di qualche probelma sono **ACK duplicati e timeout**. Se gli ACK arrivano in sequenza e con buona frequenza aumento il rate di trasmissione, se invece ho duplicati e timeout bisogna ridurre la finestra di trasmissione.
-L'algoritmo di controllo della congestione si basa su tre
+L'algoritmo di controllo della congestione si basa su tre componenti
+1) Slow start
+2) Congestion avoidance
+3) Fast recovery
+>[!note] Slow start
+>CWND inizializzato a 1 MSS, spedisco un segmento, quando arriva l'ack aumento la finestra a 2 quando arriva la ack aumento di 1 e così via. Abbiamo una partenza lenta ma una crescita esponenziale.
+>La finestra viene aumentata fino al raggiungimento di una soglia *sshtresh*, dopodiché applico un'altra tecnica
+
+>[!note] Congestion avoidance
+>Aumento la finestra di 1 quando mi arriva l'ack di un intero blocco, avendo così un incremento lineare. Incremento la finestra finché non ho timeout o duplicati. Imposto sshtresh a cwnd/2 e imposto la finestra ad 1 ricominciando quindi da capo.
+
+
+
+
 
