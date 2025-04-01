@@ -55,6 +55,15 @@ Meccanismi adotttati dal TCP
 >[!note] Controllo della congestione
 >Un problema a livello di rete, non tra mittente e destinatario. Lo abbiamo quando abbiamo troppe sorgenti che immettono dati ad una velocità elevata rispetto alla capacità di evasione della rete, conseguentemnete i buffer si riempiono e i pacchetti futuri vengono scartati. Bisogna quindi cercare di diminuire i pacchetti che vengono spediti fin quando non si risolve il problema della congestione e adattarsi di conseguenza.
 >Questo è uno dei problemi più studiati e ci sono approcci diversi per risolverlo.
+>>[!tip] Metodo end-to-end
+>>Nessun sopporto esplicito da parte dei nodi, gli estremi della rete si accorgono della congestione osservando le perdite e i ritardi
 >
+>>[!tip] Controllo assistito dalla rete
+>>i router intermedi forniscono un feedback ai sistemi terminali usando un singolo bit per indicare la congestione
 
+### End to end
+- CWND: relativa alla congestione della rete
+- RWND: relativa alla congestione del mittente
+Dei sintomi di qualche probelma sono **ACK duplicati e timeout**. Se gli ACK arrivano in sequenza e con buona frequenza aumento il rate di trasmissione, se invece ho duplicati e timeout bisogna ridurre la finestra di trasmissione.
+L'algoritmo di controllo della congestione si basa su tre
 
