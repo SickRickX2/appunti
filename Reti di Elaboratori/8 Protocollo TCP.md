@@ -79,6 +79,15 @@ L'algoritmo di controllo della congestione si basa su tre componenti
 ## TCP Taho (o Tahoe)
 
 
+>[!note] Affinamento
+>C'è una correlazione, 3 ACK duplicatiindicano la capacità della rete di consegnare qualche segmento, un timeout prima di 3 ACK duplicati è "più allarmante" perché non sono arrivati nemmeno i pacchetti seguenti.
+>Si può quindi distinguere i due tipi di congestione e reagire in maniera più appropriata e meno drastica nel caso dei 3 ack duplicati. 
+>Qui entra in gioco il *Fast recovery*; incremento linearmente perché indica una congestione leggera.
+
+
+
+
+
  
 
 
