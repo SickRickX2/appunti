@@ -98,7 +98,12 @@ Non può essere un valore assoluto ma deve dipendere dal round trip time. Bisogn
 
 Come stimare il RTT?
 *SampleRTT* posso misurarlo per ogni segmento spedito; tempo misurato dalla trasmissione del segmento fino alla ricezione di ack
-Il valore può oscillare, e acnhe
+Il valore può oscillare, e anche di tanto, bisogna quidni avere una sorta di **media**.
+**Media mobile esponenziale ponderata**
+$EstimatedRTT_t+1= (1-\alpha)*EstimatedRTT_t +\alpha*SampleRTT_t+1$
+
+
+
 
 
 
