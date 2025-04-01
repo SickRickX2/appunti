@@ -52,5 +52,9 @@ Meccanismi adotttati dal TCP
 >L'idea è di regolare la quantità di dati inviati al destinatario per non sovraccaricare il buffer di quest'ultimo.
 >Per sapere la capacità del destinatario, questa viene comunicata proprio dal destinatario (RWND RcvWindow) nei segmenti header TCP.
 
+>[!note] Controllo della congestione
+>Un problema a livello di rete, non tra mittente e destinatario. Lo abbiamo quando abbiamo troppe sorgenti che immettono dati ad una velocità elevata rispetto alla capacità di evasione della rete, conseguentemnete i buffer si riempiono e i pacchetti futuri vengono scartati. Bisogna quindi cercare di diminuire i pacchetti che vengono spediti fin quando non si risolve il problema della congestione e adattarsi di conseguenza.
+>Questo è uno dei problemi più studiati e ci sono approcci diversi per risolverlo.
+>
 
 

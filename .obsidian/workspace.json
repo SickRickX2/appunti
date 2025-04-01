@@ -35,8 +35,7 @@
               "title": "Structures"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,10 +202,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d6135af6c6ddee0e",
+  "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
-    "Sisitemi Operativi/Modulo 2/Puntatori.md",
     "Sisitemi Operativi/Modulo 2/Structures.md",
+    "Sisitemi Operativi/Modulo 2/Puntatori.md",
     "conflict-files-obsidian-git.md",
     "Reti di Elaboratori/8 Protocollo TCP.md",
     "Senza nome.md",
