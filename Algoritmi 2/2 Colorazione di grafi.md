@@ -78,7 +78,7 @@ def Componenti(G):
 		c += 1
 		DFSr(x, G, C, c)
 	return C
-	```
+```
 
 ![[Pasted image 20250307101204.png|200]]
 La complessità di questo algoritmo è $O(n + m)$.
