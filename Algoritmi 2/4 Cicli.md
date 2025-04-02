@@ -30,7 +30,7 @@ def ciclo(u ,G):
 	def DFSr(u, padre, G, visitati):
 		visitati[u] = 1
 		for v in G[u]:
-			if visitati[1] == 1:
+			if visitati[v] == 1:
 				if v != padre:
 					return True
 			else:
