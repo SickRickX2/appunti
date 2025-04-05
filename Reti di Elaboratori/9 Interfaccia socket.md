@@ -46,6 +46,10 @@ L'indirizzo locale in una direzione è l'indirizzo remoto nell'altra direzione.
 >[!note] Lato client
 >Il client ha bisogno di un socket address locale (client) e un remoto (server) per comunicare.
 >- *Socket address locale*: fornito dal sistema operativo su cui il client è operativo, il numero di porta è assegnato temporaneamente dal sistema operativo(numero di porta effimero o temporaneo non utilizzato da altri processi)
->- **
->
+>- *Socket address remoto*: numero di porta noto in base all'applicazione (http porta 80), IP fornito dal DNS (Domain Name System). Oppure porta e indirizzo noti al programmatore quando si vuole verificare il corretto funzionamento di un'applicazione.
+
+### Utilizzo dei servizi di livello trasporto
+Una coppia di processi fornisce servizi agli utenti di Internet, siano questi persone o applicazioni. La coppia di processi, tuttavia, deve utilizzare i servizi offerti dal livello trasporto per la comunicazione poiché non vi è una comunicazione fisica a livello applicazione.
+
+Nel livello trasporto della pila di protocolli TCP/IP sono previsti due protocolli principali
 
