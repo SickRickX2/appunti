@@ -51,5 +51,7 @@ L'indirizzo locale in una direzione è l'indirizzo remoto nell'altra direzione.
 ### Utilizzo dei servizi di livello trasporto
 Una coppia di processi fornisce servizi agli utenti di Internet, siano questi persone o applicazioni. La coppia di processi, tuttavia, deve utilizzare i servizi offerti dal livello trasporto per la comunicazione poiché non vi è una comunicazione fisica a livello applicazione.
 
-Nel livello trasporto della pila di protocolli TCP/IP sono previsti due protocolli principali
+Nel livello trasporto della pila di protocolli TCP/IP sono previsti due protocolli principali:
+- Protocollo UDP
+- Protocollo TCP
 
