@@ -26,5 +26,9 @@ Un insieme di istruzioni di questo tipo viene chiamato **API (Application Progra
  >[!danger] D: è sufficiente conoscere l'indirizzo IP dell'host su cui è in esecuzione il processo per idetnificare il processo stesso?
  
  >[!tip] Risposta: No, sullo stesso host possono essere in esecuzione molti processi.
- 
- 
+
+L'identificatore comprende sia l'indirizzo IP che i numeri di porta associati al processo in esecuzione su un host.
+Esempi di numeri di porta:
+- HTTP server: 80
+- Mail server: 25
+Per inviare un messaggio HTTP al server gaia.cs.umass.edu.
