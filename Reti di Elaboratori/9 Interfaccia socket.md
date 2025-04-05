@@ -17,5 +17,5 @@ Un insieme di istruzioni di questo tipo viene chiamato **API (Application Progra
 >- Astrazione
 >- Struttura dati creata e utilizzata dal programma applicativo
 >- Comunicare tra un processo client e un processo server significa comunicare tra due socket create nei due lati di comunicazione.
-
-
+>
+>![[Pasted image 20250405173800.png]]
