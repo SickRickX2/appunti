@@ -31,4 +31,4 @@ L'identificatore comprende sia l'indirizzo IP che i numeri di porta associati al
 Esempi di numeri di porta:
 - HTTP server: 80
 - Mail server: 25
-Per inviare un messaggio HTTP al server gaia.cs.umass.edu.
+
