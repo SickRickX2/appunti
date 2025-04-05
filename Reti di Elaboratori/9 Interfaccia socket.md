@@ -32,3 +32,6 @@ Esempi di numeri di porta:
 - HTTP server: 80
 - Mail server: 25
 
+*N.B* Il numero di porta è una delle informazione contenute negli header di livello di trasporto per capire a quale applicazione bisogna.
+![[Pasted image 20250405181006.png]]
+
