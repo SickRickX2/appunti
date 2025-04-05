@@ -34,4 +34,11 @@ Esempi di numeri di porta:
 
 *N.B* Il numero di porta è una delle informazione contenute negli header di livello di trasporto per capire a quale applicazione bisogna.
 ![[Pasted image 20250405181006.png]]
+## Individuare i socket address
+L'interazione tra client e server è bidirezionale, è necessaria quindi una coppia di indirizzi socket: *locale* (mittente) e *remoto*(destinatario).
+L'indirizzo locale in una direzione è l'indirizzo remoto nell'altra direzione.
+
+>[!note] Individuare i socket lato server
+>Il server ha bisogno di un socket address locale(server) e un remoto(client) per comunicare.
+>- Socket address locale: è fornito dal sistema operativo, 
 
