@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/9.md",
+                "file": "Reti di Elaboratori/9 Interfaccia socket.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9"
+              "title": "9 Interfaccia socket"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,7 +191,7 @@
   "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
     "Reti di Elaboratori/8 Protocollo TCP.md",
-    "Reti di Elaboratori/9.md",
+    "Reti di Elaboratori/9 Interfaccia socket.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Algoritmi 2/7 Minimo albero di copertura.md",
