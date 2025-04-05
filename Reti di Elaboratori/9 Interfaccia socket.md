@@ -21,4 +21,8 @@ Un insieme di istruzioni di questo tipo viene chiamato **API (Application Progra
 >![[Pasted image 20250405173800.png]]
 >![[Pasted image 20250405174312.png]]
 
-### 
+### Indirizzamento dei processi 
+ Affinché un processo su un host invii un messaggio a un processo su un altro host, il mittente deve identificare il processo desinatario. Un host ha indirizzo IP univoco a 32 bit.
+ >[!danger] D: è sufficiente conoscere l'indirizzo IP dell'host su cui è in esecuzione il processo per idetnificare il processo stesso?
+ 
+ >[!tip] Risposta: No, sullo stesso host possono essere in esecuzione 
