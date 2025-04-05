@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi 2/2 Colorazione di grafi.md",
-                "mode": "preview",
+                "file": "Reti di Elaboratori/9.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Colorazione di grafi"
+              "title": "9"
             }
           }
         ]
@@ -189,14 +189,15 @@
   },
   "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
+    "Reti di Elaboratori/8 Protocollo TCP.md",
+    "Reti di Elaboratori/9.md",
+    "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Algoritmi 2/7 Minimo albero di copertura.md",
     "Algoritmi 2/5 BFS Visita in ampiezza.md",
     "Algoritmi 2/4 Cicli.md",
     "Algoritmi 2/3 I sort topologici.md",
-    "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/Esercizi grafi/Senza nome.md",
-    "Reti di Elaboratori/8 Protocollo TCP.md",
     "Algoritmi 2/Esercizi grafi",
     "Sisitemi Operativi/Modulo 2/Structures.md",
     "Sisitemi Operativi/Modulo 2/Puntatori.md",
@@ -215,7 +216,6 @@
     "Basi di Dati/Modulo 2/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 1.md",
     "Basi di Dati/Modulo 1/Lezione 4.md",
-    "Basi di Dati/Modulo 1/Lezione 5.md",
     "Algoritmi 2/imgs/Pasted image 20250321102302.png",
     "Algoritmi 2/imgs",
     "Algoritmi 2/imgs/Pasted image 20250321115908.png",
