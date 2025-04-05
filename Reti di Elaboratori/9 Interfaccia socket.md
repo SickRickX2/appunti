@@ -43,3 +43,9 @@ L'indirizzo locale in una direzione è l'indirizzo remoto nell'altra direzione.
 >- *Socket address locale*: è fornito dal sistema operativo, conosce l'indirizzo IP del computer su cui il server è in esecuzione. Il numero di porta è noto al server perché assegnato dal progettista (numero well knwon o scelto)
 >- *Socket address remoto*: è il socket address locale del client che si connette, poiché numerosi client possono connettersi, il server non può a priori conoscere tutti i socket address, ma li trova all'interno del pacchetto di richiesta
 
+>[!note] Lato client
+>Il client ha bisogno di un socket address locale (client) e un remoto (server) per comunicare.
+>- *Socket address locale*: fornito dal sistema operativo su cui il client è operativo, il numero di porta è assegnato temporaneamente dal sistema operativo(numero di porta effimero o temporaneo non utilizzato da altri processi)
+>- **
+>
+
