@@ -40,5 +40,5 @@ L'indirizzo locale in una direzione è l'indirizzo remoto nell'altra direzione.
 
 >[!note] Individuare i socket lato server
 >Il server ha bisogno di un socket address locale(server) e un remoto(client) per comunicare.
->- Socket address locale: è fornito dal sistema operativo, 
+>- *Socket address locale*: è fornito dal sistema operativo, conosce l'indirizzo IP del computer su cui il server è in esecuzione. Il numero di porta è noto al server perché assegnato dal progettista (numero well knwon o scelto)
 
