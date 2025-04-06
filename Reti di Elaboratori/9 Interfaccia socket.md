@@ -81,4 +81,8 @@ Il *socket* è un'ingresso tra il processo di un'applicazione e il protocollo di
 Quando viene contattato dal client, il *server TCP crea un nuovo socket* per il processo server per comunicare con il client
 - consente al server di comunicare con più client
 - numeri di porta di origine usati per distinguere i client
-
+>[!warning] Terminologia
+>Un *flusso*(stream) è una sequenza di caratteri che influisce verso/da un processo.
+>Un *flusso d'ingresso*(input stream) è collegato a un'origine di input per il processo, ad esempio la tasteria o la socket
+>Un *flusso di uscita*(output stream) è collegato a un'uscita per il processo, ad esempio il monitor o la socket.
+>
