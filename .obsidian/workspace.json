@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,13 +189,14 @@
   },
   "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
+    "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
+    "Reti di Elaboratori/8 Protocollo TCP.md",
+    "Reti di Elaboratori/9 Interfaccia socket.md",
     "Pasted image 20250406172352.png",
     "Pasted image 20250405181006.png",
     "Pasted image 20250405174312.png",
     "Pasted image 20250405173800.png",
     "Pasted image 20250405173210.png",
-    "Reti di Elaboratori/8 Protocollo TCP.md",
-    "Reti di Elaboratori/9 Interfaccia socket.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Algoritmi 2/7 Minimo albero di copertura.md",
@@ -211,7 +211,6 @@
     "Senza nome.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/3 HTTP.md",
-    "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 4.md",
@@ -227,7 +226,6 @@
     "Algoritmi 2/imgs/Pasted image 20250321112657.png",
     "Algoritmi 2/imgs/Pasted image 20250321112645.png",
     "Algoritmi 2/imgs/Pasted image 20250321112622.png",
-    "Algoritmi 2/imgs/Pasted image 20250321110057.png",
     "Reti di Elaboratori/imgs",
     "Sisitemi Operativi/Modulo 2",
     "Reti di Elaboratori",
