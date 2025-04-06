@@ -92,3 +92,24 @@ Quando viene contattato dal client, il *server TCP crea un nuovo socket* per il 
 >3) Il server converte la riga in lettere maiuscole e la invia al client
 >4) Il client legge nella sua socket la riga modificata e la visualizza (flusso **inFromServer**)
 
+**Package java.net**
+Il package *java.net* fornisce interfacce e classi per l'implementazione di applicazioni di rete.
+- le classi Socket e ServerSocket per le connessioni TCP
+- la classe DatagramSocket per le connessioni UDP
+- la classe URL per le connessioni HTTP
+- la classe InetAddress per rappresentare gli indirizzi Internet
+- la classe URLConnection per rappresentare le connessioni a un URL
+
+>[!Example] Client Java (TCP)
+>```Java
+>import java.io.*
+>import java.net.*
+>class TCPClient{
+>	public static void main(String args[]) throws Exception{
+>		String sentence;
+>		String modifiedSentence;
+
+
+>	}
+>}
+>```
