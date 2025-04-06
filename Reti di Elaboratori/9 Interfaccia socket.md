@@ -122,5 +122,10 @@ Il package *java.net* fornisce interfacce e classi per l'implementazione di appl
 >}
 >```
 
-
+## Programmazione socket con UDP
+In UDP non c'è "connessione" tra client e server.
+- Non c'è handshaking.
+- Il mittente allega esplicitamente a ogni pacchetto l'indirizzo IP e la porta di destinazione
+- Il server deve estrarre l'indirizzo IP e la porta del mittente dal pacchetto ricevuto
+Il servizio di trasporto non è né sicuro né affidabile.
 
