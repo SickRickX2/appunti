@@ -57,5 +57,12 @@ Nel livello trasporto della pila di protocolli TCP/IP sono previsti due protocol
 In base alle nostre esigenze di sicurezza, affidabilità, velocità si sceglie a priori il protocollo da usare, in base al quale il servizio di trasposto cambia il tipo di socket da usare.
 
 ## Programmazione con socket
-L' obi
+L' obiettivo è imparare a costruire un'applicazione client/server che comunica utilizzando le socket.
+**Socket API**
+Introdotta in UNIX nel 1981, esplicitamente creata, usata, distribuita dalle appplicazioni. Paradigma client/server. 
+Offre due tipi di servizio di trasporto tramite una socket API:
+- datagramma inaffiidabile
+- affidabile, orientata ai byte
+>[!note] socket
+>Interfaccia di un *host locale*, creata dalle applicazioni, controllata dal SO.
 
