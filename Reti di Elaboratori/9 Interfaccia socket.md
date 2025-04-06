@@ -74,6 +74,11 @@ Il *socket* è un'ingresso tra il processo di un'applicazione e il protocollo di
 - Il processo server deve essere in corso di esecuzione (sempre attivo). 
 - Il server deve aver creato un socket che dà il benvenuto al contatto con il client.
 **Il client contatta il server**
-- Creando un socket TCP, specificando l'indirizzo IP, il num
+- Creando un socket TCP, specificando l'indirizzo IP, il numero di porta del processo server
+- Quando il *client crea il socket*: il client TCP stabilisce una connessione con il server TCP
+![[Pasted image 20250406172352.png|350]]
 
+Quando viene contattato dal client, il *server TCP crea un nuovo socket* per il processo server per comunicare con il client
+- consente al server di comunicare con più client
+- numeri di porta di origine usati per distinguere i client
 
