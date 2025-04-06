@@ -56,5 +56,6 @@ Nel livello trasporto della pila di protocolli TCP/IP sono previsti due protocol
 - Protocollo TCP
 In base alle nostre esigenze di sicurezza, affidabilità, velocità si sceglie a priori il protocollo da usare, in base al quale il servizio di trasposto cambia il tipo di socket da usare.
 
-
+## Programmazione con socket
+L' obi
 
