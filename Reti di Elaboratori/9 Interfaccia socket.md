@@ -115,7 +115,11 @@ Il package *java.net* fornisce interfacce e classi per l'implementazione di appl
 >		System.out.print("Inserisci una frase: ");
 >		sentence = inFromUser.readLine();
 >		outToServer.writeByte(sentence + '\n');
->		modifiedSentence = inFromServer.readL
+>		modifiedSentence = inFromServer.readLine();
+>		System.ot.println("FROM SERVER:" + modifiedSentence);
+>		clientSocket.close();
 >	}
 >}
+
+
 >```
