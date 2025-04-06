@@ -64,5 +64,16 @@ Offre due tipi di servizio di trasporto tramite una socket API:
 - datagramma inaffiidabile
 - affidabile, orientata ai byte
 >[!note] socket
->Interfaccia di un *host locale*, creata dalle applicazioni, controllata dal SO.
+>Interfaccia di un *host locale*, creata dalle applicazioni, controllata dal SO, in cui il processo di un'applicazione può inviare e ricevere messaggi al/dal processo di un'altra applicazione.
+
+### Programmazione socket con TCP
+Il *socket* è un'ingresso tra il processo di un'applicazione e il protocollo di trasporto end-to-end (UDP o TCP).
+*Servizio TCP*: trasferimento affidabile di **byte** da un processo all'altro.
+
+**Il client deve contattare il server**
+- Il processo server deve essere in corso di esecuzione (sempre attivo). 
+- Il server deve aver creato un socket che dà il benvenuto al contatto con il client.
+**Il client contatta il server**
+- Creando un socket TCP, specificando l'indirizzo IP, il num
+
 
