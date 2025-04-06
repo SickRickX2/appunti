@@ -85,4 +85,10 @@ Quando viene contattato dal client, il *server TCP crea un nuovo socket* per il 
 >Un *flusso*(stream) è una sequenza di caratteri che influisce verso/da un processo.
 >Un *flusso d'ingresso*(input stream) è collegato a un'origine di input per il processo, ad esempio la tasteria o la socket
 >Un *flusso di uscita*(output stream) è collegato a un'uscita per il processo, ad esempio il monitor o la socket.
->
+
+>[!example] Esempio di applicazione client-server
+>1) Il client legge una riga dall'input standard (flusso **inFromUser**) e la invia al server tramite la socket(flusso **outToServer**)
+>2) Il server legga la riga dalla socket
+>3) Il server converte la riga in lettere maiuscole e la invia al client
+>4) Il client legge nella sua socket la riga modificata e la visualizza (flusso **inFromServer**)
+
