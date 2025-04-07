@@ -46,10 +46,10 @@ Nel caso in cui abbiamo più terminali, il throughput viene suddiviso in base al
 
 ## Latenze
 Latenza ( ritardo o delay): quanto tempo serve affinché un pacchetto arrivi completamente a destinazione dal momento in cui il primo bit parte dalla sorgente. Ci sono diversi fattori che determinano la latenza di un pacchetto perché passa attraverso diversi link e router.
-1) Ritardo di elaborazione del nodo (processing delay): il paccehtto arriva e si controlla l'integrità, (in caso negativo viene scartato) poi viene determinato il canale d'uscita e infine c'è il tempo dalla ricezione del pacchetto alla consegna alla porta output
-2) Ritardo di accodamento (queuing delay): il pacchetto viene messo in coda sul buffer d'uscita o d'entrata, questo dipende dal livello di congestione del router(numero di pacchetti nelle code del router). Questo ritardo può variare da pacchetto a pacchetto.
-3) Ritardo di trasmissione: dipende dal canale ed è il tempo richiesto per inserire tutto il pacchetto sul collegamento (trasmissione) L/R ( quanti pacchetti devo spedire fratto il rate)
-4) Ritardo di propagazione:  quanto tempo impiega un pacchetto per propagarsi sul canale una volta immesso, ovvero il viaggio sul canale (s = velocità di propagazione per il simbolo bit che corrisponde alla velocità della luce, d = lunghezza del collegamento fisisco Ritardo di propagazione = d/s)
+1) *Ritardo di elaborazione del nodo* (processing delay): il pacchetto arriva e si controlla l'integrità, (in caso negativo viene scartato) poi viene determinato il canale d'uscita e infine c'è il tempo dalla ricezione del pacchetto alla consegna alla porta output
+2) *Ritardo di accodamento* (queuing delay): il pacchetto viene messo in coda sul buffer d'uscita o d'entrata, questo dipende dal livello di congestione del router(numero di pacchetti nelle code del router). Questo ritardo può variare da pacchetto a pacchetto.
+3) *Ritardo di trasmissione*: dipende dal canale ed è il tempo richiesto per inserire tutto il pacchetto sul collegamento (trasmissione) L/R ( quanti pacchetti devo spedire fratto il rate)
+4) *Ritardo di propagazione*:  quanto tempo impiega un pacchetto per propagarsi sul canale una volta immesso, ovvero il viaggio sul canale (s = velocità di propagazione per il simbolo bit che corrisponde alla velocità della luce, d = lunghezza del collegamento fisisco Ritardo di propagazione = d/s)
 Il ritardo di trasmissione è solo il tempo per uscire mentre la propagazione è il viaggio.
 
 Per calcoalre il ritardo di un pacchetto, vanno considerati tutti e 4 i ritardi.
