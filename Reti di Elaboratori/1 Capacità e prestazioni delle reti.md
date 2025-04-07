@@ -13,7 +13,7 @@ Sono ISP più piccoli e utilizzano la rete del livello 1, sono quindi i loro cli
 Un pacchetto passa attraverso molte reti utilizzando quindi diversi ISP. Uno dei problemi principali delle reti è trovare la strada dei pacchetti per arrivare a destinazione, viene chiamato **routing** (instradamento).
 
 La velocità della rete o di un collegamento significa quanto la rete trasmette e riceve velocemente i dati.
-Per quanto riguarda il commutamento per le prestazioni ci sono diversi parametri che si misurano in termini di:
+Per quanto riguarda la commutazione per le prestazioni ci sono diversi parametri che si misurano in termini di:
 - ampiezza di banda
 - bit rate
 - throughput
@@ -26,7 +26,7 @@ C'è anche una caratterizzazione di un collegamento, ovvero quanti bit si riesce
 
 Quindi con il termine ampiezza di banda si indicano due concetti leggermente diversi ma strettamente legati.
 
-1) **Caratterizzazione del canale o del sistema trasmissivo**: quantità che si misura in hertz e rappresenta la larghezza dell'intervallo di frequenze utilizzato dal sistema trasmissivo, ovvero l'intervallo di frequenze che un mezzo fisico conscente di trasmettere senza danneggiare il segnale in maniera irrecuperabile. Maggiore è l'ampiezza di banda, maggiore è l'informazione che può essere veicolata attraverso il mezzo trasmissivo
+1) **Caratterizzazione del canale o del sistema trasmissivo**: quantità che si misura in hertz e rappresenta la larghezza dell'intervallo di frequenze utilizzato dal sistema trasmissivo, ovvero l'intervallo di frequenze che un mezzo fisico consente di trasmettere senza danneggiare il segnale in maniera irrecuperabile. Maggiore è l'ampiezza di banda, maggiore è l'informazione che può essere veicolata attraverso il mezzo trasmissivo
 2) **Caratterizzazione di un collegamento**: quantità espressa in bit al secondo (bps), detta anche *bit transmission rate (velocità di trasmissione)*
 >[!note] Bit rate
 >Dipende dalla banda e dalla specifica tecnica di trasmissione, è proporzionale alla banda in hertz. Per **banda** di un tipo di rete si intende il **bit rate garantito nominalmente** dai suoi link, il rate fornisce un'indicazione della capacità della rete di trasferire dati.
