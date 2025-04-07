@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/9 Interfaccia socket.md",
+                "file": "Basi di Dati/Modulo 2/Officine 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 Interfaccia socket"
+              "title": "Officine 1"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -189,9 +190,11 @@
   },
   "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
+    "Basi di Dati/Modulo 2/Lezione 1.md",
+    "Basi di Dati/Modulo 2/Officine 1.md",
+    "Reti di Elaboratori/9 Interfaccia socket.md",
     "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
     "Reti di Elaboratori/8 Protocollo TCP.md",
-    "Reti di Elaboratori/9 Interfaccia socket.md",
     "Pasted image 20250406172352.png",
     "Pasted image 20250405181006.png",
     "Pasted image 20250405174312.png",
@@ -217,7 +220,6 @@
     "Algoritmi 2 (class).md",
     "Reti degli Elaboratori (class).md",
     "JAVA/9 HashCode e Equals.md",
-    "Basi di Dati/Modulo 2/Lezione 1.md",
     "Basi di Dati/Modulo 2/Lezione 2.md",
     "Basi di Dati/Modulo 1/Lezione 1.md",
     "Algoritmi 2/imgs/Pasted image 20250321102302.png",
