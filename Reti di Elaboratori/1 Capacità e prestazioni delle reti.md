@@ -1,4 +1,4 @@
-La rete di accesso è composta da tutti quei dispositivi che permettono di collegarci al primo **edge router** collegato al backbone. 
+La *rete di accesso* è composta da tutti quei dispositivi che permettono di collegarci al primo **edge router** collegato al backbone. 
 ## Struttura di Internet
 La struttura di Internet è fondamentalmente gerarchica e ogni livello si basa su quello precedente.
 >[!note] ISP di livello 1

@@ -94,7 +94,7 @@ L'internet più famosa è chiamata **Internet** ed è composta da migliaia di re
 >[!tip]  Rappresentazione concettuale di Internet
 >![[Pasted image 20250228101739.png]]
 ### L'accesso a internet
-L'Internet è una internetwork che concsente a qualsiasi utente di farne parte.
+L'Internet è una internetwork che consente a qualsiasi utente di farne parte.
 L'utente, tuttavia, deve essere fisicamente collegato a un ISP , solitamente mediante una WAN punto-punto.
 Il collegamento che connette l'utente al primo router di Internet è detto **rete di accesso**.
 L'accesso può avvenire tramite:
@@ -112,6 +112,7 @@ Si collega modificando la linea telefonica fra la sede del dispositivo che vuole
 Limiti:
 - lentezza
 - impossibilità di parlare e navigare contemporaneamente
+
 Il servizio **DSL** ha semplicemente un filtro per il collegamento tra ISP e abitazione, più veloce e permette di utilizzare voce e dati.
 
 ### Accesso tramite Ethernet
