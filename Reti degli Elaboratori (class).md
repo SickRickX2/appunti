@@ -5,3 +5,6 @@
 - [[4 Protocollo DNS]]
 - [[5 FTP File Transfer Protocol]]
 - [[6 Protocolli di trasporto]]
+- [[8 Protocollo TCP]]
+- [[9 Interfaccia socket]]
+
