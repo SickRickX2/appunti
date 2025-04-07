@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/3 HTTP.md",
+                "file": "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 HTTP"
+              "title": "7 Meccanismi di trasferimento dati affidabile"
             }
           }
         ]
@@ -189,11 +189,12 @@
   },
   "active": "0d94e5ac8a9e2645",
   "lastOpenFiles": [
+    "Reti di Elaboratori/8 Protocollo TCP.md",
+    "Reti di Elaboratori/3 HTTP.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
     "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
-    "Reti di Elaboratori/8 Protocollo TCP.md",
     "Reti di Elaboratori/9 Interfaccia socket.md",
     "Basi di Dati/Modulo 2/Officine 1.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
@@ -214,7 +215,6 @@
     "Sisitemi Operativi/Modulo 2/Puntatori.md",
     "conflict-files-obsidian-git.md",
     "Senza nome.md",
-    "Reti di Elaboratori/3 HTTP.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
     "Basi di Dati/Modulo 2/Lezione 4.md",
     "Algoritmi 2 (class).md",
