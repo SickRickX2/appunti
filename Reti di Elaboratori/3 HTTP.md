@@ -1,10 +1,12 @@
 Ci troviamo all'interno del livello applicativo.
 
 *WWW (World wide web)*: applicazione Internet nata dalla necessità di scambio e condivisione di informazioni tra ricercatori universitari varie nazioni.
+
 **Caratteristiche**:
 - Opera su richiesta (on demand)
 - Facile reperire informazioni
 - Diversi motori di ricerca
+
 **Componenti**:
  - Web client (es: browser): interfaccia con l'utente
  - Web server
@@ -53,8 +55,8 @@ Ci troviamo all'interno del livello applicativo.
  >>7) Accetta la connessione
  >>8) Riceve il nome del file richiesto
 >>9) Recupera il file dal disco
- >10)  Invia il file al client
- >11)  Rilascia la connessione
+ >>10)  Invia il file al client
+ >>11)  Rilascia la connessione %%
   
  **Connessioni non persistenti**
 	 Un solo oggetto viene trasmesso su una connessione TCP, ciascuna coppia richiesta/risposta viene inviata su una connessione TCP separata. 
