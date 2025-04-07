@@ -84,7 +84,7 @@ La banda può essere allocata in modi diversi:
 - **Divisione temporale (TDM)**: dò tutte le risorse ad intervalli piccolissimi in maniera ciclica ad ogni utente
 
 ## 2) Reti a commutazione di pacchetto (Store and Forward)
-Internet funziona in questo modo oggi, in questo caso non viene riservata alcun tipo di risorsa ma vengono suddivisi i dati in vlocchi di *pacchetti*.
+Internet funziona in questo modo oggi, in questo caso non viene riservata alcun tipo di risorsa ma vengono suddivisi i dati in blocchi di *pacchetti*.
 In questo caso la trasmissione non avviene in maniera continua ma c'è una **coda** all'interno del router per la spedizione dei pacchetti (indipendenti tra loro). Ogni router riceve il pacchetto, lo memorizza e lo inoltra al terminale di destinazione. 
 Ci sono **code di ingresso e code di uscita**.
 ![[Pasted image 20250228100837.png]]
