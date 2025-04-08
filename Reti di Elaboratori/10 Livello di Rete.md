@@ -32,3 +32,16 @@ Implementa i primi tre livelli, all'interno abbiamo:
 - *Switching Fabric*: livello di rete, è una struttura di commutazione che permette ad un datagramma in entrata a commutare ad una porta d'uscita
 - *Processore di Routing*: cerca la riga corretta nella table lookup per trovare l'interfaccia di uscita
 
+>[!tip] Ricerca nella tabella di inoltro
+>Il modo migliore è quello di seguire una struttura ad albero, si parte dalla radice e si va a sinistra o a destra se il bite è 0 o 1.
+
+>[!note] Commutazione tramite bus
+>C'è un bus condiviso in cui transitano i pacchetti dalle porte di ingresso, ma si può inviare solo un pacchetto alla volta
+
+>[!note] Commutazione attraverso rete d'interconnessione
+>In questo caso abbiamo una rete d'interconnessione composta da 2n bus, questo permette di inviare più pacchetti in contemporanea
+
+>[!note] Porte d'uscita
+
+>[!tip] Accodamento
+>Dipende dalla velocità di commutazione e dalla congestione sulle porte
