@@ -45,3 +45,12 @@ Implementa i primi tre livelli, all'interno abbiamo:
 
 >[!tip] Accodamento
 >Dipende dalla velocità di commutazione e dalla congestione sulle porte
+
+# Protocollli del livello di rete
+- IP:
+- IGMP:
+- ICMP:
+- ARP: mantiene l'associazione tra l'indirizzo ip e l'indirizzo mac
+- DHCP: assegna ad un host un indirizzo ip in maniera dinamica
+
+## Internet Protocol (IP)
