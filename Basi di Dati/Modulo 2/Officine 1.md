@@ -65,5 +65,8 @@
 	6.1 nome
 	6.2 il tipo
 	6.3 la marca
+	6.4 anno di uscita
+	6.5 non esistono modelli della stessa marca, stesso nome e stesso anno di uscita
 7 requisiti marche di veicoli
 	7.1 nome (una stringa univoca)
+
