@@ -56,3 +56,14 @@
 	4.4 se è terminata
 		4.4.1 istante di riconsegna
 			4.4.1.1 successivo all'istante di accettazione
+5 veicoli
+	5.1 modello
+	5.2 targa (stringa univoca)
+	5.3 anno di immatricolazione
+	5.4 il proprietario
+6 requisiti sui modelli di veicolo
+	6.1 nome
+	6.2 il tipo
+	6.3 la marca
+7 requisiti marche di veicoli
+	7.1 nome (una stringa univoca)
