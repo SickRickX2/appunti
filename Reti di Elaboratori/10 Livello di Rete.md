@@ -14,4 +14,12 @@ Un router è uno switch ma con funzionalità diverse.
 - **Router** se l'inoltro avviene in relazione al valore del campo nel livello di rete (livello 3)
 
 >[!note] Link Layer Switch
->Utilizzato per collegare i singoli computer all'inter
+>Utilizzato per collegare i singoli computer all'interno di una rete LAN
+
+### Switching
+>[!note] Approccio a circuito virtuale
+>I due sistemi terminali instaurano prima una connessione (servizio orientato alla connessione)
+>
+>Viene utilizzata un'etichetta di circuito all'interno della tabella per indicare l'interfaccia di uscita e la virtual circuit d'uscita.
+
+
