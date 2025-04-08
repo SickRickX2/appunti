@@ -26,5 +26,9 @@ Un router è uno switch ma con funzionalità diverse.
 >Internet è una rete ad anagramma.
 
 ## Router
-Implementa i primi tre livelli, all'interno 
+Implementa i primi tre livelli, all'interno abbiamo:
+- *porte di input*: livello fisico e collegamento
+- *porte di output*: livello fisico e collegamento
+- *Switching Fabric*: livello di rete, è una struttura di commutazione che permette ad un datagramma in entrata a commutare ad una porta d'uscita
+- *Processore di Routing*: cerca la riga corretta nella table lookup per trovare l'interfaccia di uscita
 
