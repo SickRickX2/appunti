@@ -48,4 +48,11 @@
 	3.4 indirizzo
 	3.5 numero di telefono
 	3.6 data di nascita
-	3.7 le officine che dirige 
+	3.7 le officine che dirige (almeno una)
+4 requisiti riparazioni
+	4.1 codice (stringa univoca)
+	4.2 veicolo
+	4.3 istante di accettazione
+	4.4 se è terminata
+		4.4.1 istante di riconsegna
+			4.4.1.1 successivo all'istante di accettazione
