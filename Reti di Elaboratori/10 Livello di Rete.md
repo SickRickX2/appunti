@@ -22,4 +22,9 @@ Un router è uno switch ma con funzionalità diverse.
 >
 >Viene utilizzata un'etichetta di circuito all'interno della tabella per indicare l'interfaccia di uscita e la virtual circuit d'uscita.
 
+>[!note] Reti a datagramma
+>Internet è una rete ad anagramma.
+
+## Router
+Implementa i primi tre livelli, all'interno 
 
