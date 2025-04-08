@@ -53,4 +53,5 @@ Implementa i primi tre livelli, all'interno abbiamo:
 - ARP: mantiene l'associazione tra l'indirizzo ip e l'indirizzo mac
 - DHCP: assegna ad un host un indirizzo ip in maniera dinamica
 
-## Internet Protocol (IP)
+## Internet Protocol (IPv4)
+Responsabile della suddivisione in pacchetti, dell'inoltro (forwarding), e della consegna dei datagrammi al livello di rete (host ot host), è un protocollo inaffidabile, senza connessione e basato su datagrammi.
