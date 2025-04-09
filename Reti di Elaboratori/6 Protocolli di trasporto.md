@@ -99,6 +99,7 @@ I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per 
 >[!tip] Checksum
 >Controlla se ci sono state interferenze sovrapposte alla trasmissione del pacchetto. 
 >Per fare questo controllo:
+>
 >**Mittente**
 >- il messaggio viene diviso in parole da 16 bit
 >- il valore checksum viene inizialmente impostato a 0
@@ -107,7 +108,7 @@ I pacchetti devono inviare richieste di dimensioni sufficientemente piccole per 
 >- il checksum viene inviato assieme ai dati
 >
 >**Ricevente**
->- il messaggio (che comprende il checksum)
+>- riceve il messaggio (che comprende il checksum)
 >- il messaggio viene diviso in parole da 16 bit
 >- tutte le parole vengono sommate usando l'addizione a complemento ad uno
 >- viene fatto il complemento ad uno della somma e il risultato diventa il nuovo checksum
