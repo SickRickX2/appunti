@@ -56,7 +56,7 @@ Per calcoalre il ritardo di un pacchetto, vanno considerati tutti e 4 i ritardi.
 
 Il ritardo di accodamento dipende da pacchetto a pacchetto, dal tasso di arrivo, dal rate e dalla lunghezza dei pacchetti.
 R = rate
-L = lunghezza
+L = lunghezza del pacchetto
 a = tasso medio di arrivo dei pacchetti
 intensità di traffico =  La / R
 
