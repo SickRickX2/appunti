@@ -54,7 +54,7 @@ Il ritardo di trasmissione è solo il tempo per uscire mentre la propagazione è
 
 Per calcoalre il ritardo di un pacchetto, vanno considerati tutti e 4 i ritardi.
 
-Il ritardo di accodamento dipende da pacchettoa pacchetto, dal tasso di arrivo, dal rate e dalla lunghezza dei pacchetti.
+Il ritardo di accodamento dipende da pacchetto a pacchetto, dal tasso di arrivo, dal rate e dalla lunghezza dei pacchetti.
 R = rate
 L = lunghezza
 a = tasso medio di arrivo dei pacchetti
