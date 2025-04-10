@@ -1,6 +1,6 @@
 - [[0 Definizione di rete, calssificazioni delle reti e Internet]]
 - [[1 Capacità e prestazioni delle reti]]
-- [[2 I protocolli]]
+- [[2 Stack Protocollare]]
 - [[3 HTTP]]
 - [[4 Protocollo DNS]]
 - [[5 FTP File Transfer Protocol]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/2 I protocolli.md",
+                "file": "Reti di Elaboratori/2 Stack Protocollare.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 I protocolli"
+              "title": "2 Stack Protocollare"
             }
           }
         ]
@@ -190,7 +190,7 @@
   "active": "e8ade487e3fe6ffd",
   "lastOpenFiles": [
     "Reti di Elaboratori/3 HTTP.md",
-    "Reti di Elaboratori/2 I protocolli.md",
+    "Reti di Elaboratori/2 Stack Protocollare.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
