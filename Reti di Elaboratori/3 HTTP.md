@@ -56,7 +56,7 @@ Ci troviamo all'interno del livello applicativo.
  >>8) Riceve il nome del file richiesto
 >>9) Recupera il file dal disco
  >>10)  Invia il file al client
- >>11)  Rilascia la connessione %%
+ >>11)  Rilascia la connessione 
   
  **Connessioni non persistenti**
 	 Un solo oggetto viene trasmesso su una connessione TCP, ciascuna coppia richiesta/risposta viene inviata su una connessione TCP separata. 
