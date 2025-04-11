@@ -1,0 +1,1 @@
+Fare packet sniffing vuol dire catturare e analizzare i pacchetti (frame) entranti e uscenti sulla propria macchina.
