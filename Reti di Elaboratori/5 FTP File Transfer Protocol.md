@@ -88,3 +88,4 @@ Se ci sono altri messaggi si usa la stessa connessione (**connessione persistent
 
 >[!IMAP] Internet Mail Access Protocol
 >Un server IMAP associa una cartella (INBOX) ogni messaggio arrivato al server. Fornisce comandi per gestire le cartelle e per ottenere le componenti dei messaggi
+
