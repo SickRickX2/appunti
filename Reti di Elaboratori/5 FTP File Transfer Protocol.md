@@ -78,3 +78,13 @@ Il client invia il messaggio, il messaggio arriva al server desinatario grazie a
 Se ci sono altri messaggi si usa la stessa connessione (**connessione persistente**), altrimenti il client invia richiesta di chiusura connessione.
  
 
+>[!note] POP3
+>Permette al client di aprire una connessione TCP verso il server sulla porta 110
+>- Autorizzazione: l'agente si identifica
+>- Transazione: l'agente utente recupera i messaggi
+>- Aggiornamento: dopo che il client ha finito e chiusa la connessione vengono cancellati i messagi marcati per la rimozione
+>
+>Utilizza la modalità "scarica e cancella" non possiamo rileggere le mail se si cambia client e non vengono salvati gli stati tra le sessioni
+
+>[!IMAP] Internet Mail Access Protocol
+>
