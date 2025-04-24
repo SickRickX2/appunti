@@ -10,6 +10,23 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >[!tip] Algoritmo Distance Vector
 >- *Distribuito*: ogni nodo riceve informazione dai vicini e opera su quelle
 >- *Asincrono* non richiede che tutti i nodi operino al passo con gli altri
+>
 >Si basa su:
 >1) Equazione di Bellman-Ford
 >2) Concetto di vettore di distanza
+>
+>**Equazione di Bellman-Ford**:
+>Definisce
+>$D_x(y):=$ il costo (o la distanza) del percorso a costo minimo dal nodo x al nodo y
+>
+>Allora:
+>$D_x(y) = min_v\{c(x,v)+D_v(y)\}$
+>dove $min_v$ riguarda tutti i vicini di x
+>
+>**Vettore distanza**
+>Un albero a costo minimo è una combinazione di percorsi a costo minimo dalla radice dell'albero verso tutte le destinazioni.
+>Il vettore di distanza è un array monodimensionale che rappresenta l'albero. Un vettore di distanza non fornisce il percorso da seguire per giunger alla destinazione ma solo i costi minimi per le destinazioni.
+>>[!warning] Come viene creato il vettore distanza
+
+
+
