@@ -26,7 +26,10 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >**Vettore distanza**
 >Un albero a costo minimo è una combinazione di percorsi a costo minimo dalla radice dell'albero verso tutte le destinazioni.
 >Il vettore di distanza è un array monodimensionale che rappresenta l'albero. Un vettore di distanza non fornisce il percorso da seguire per giunger alla destinazione ma solo i costi minimi per le destinazioni.
->>[!warning] Come viene creato il vettore distanza
+>>[!warning] Come viene creato il vettore distanza?
+>>Ogni nodo della rete quando viene inizializzato crea un vettore distanza iniziale con le ingormazioni che il nodo riesce ad ottenere dai propri vicini (quelli a cui è collegato direttamente). Per creare il vettore dei vicini invia messaggi di *hello* attraverso le sue interfacce (e lo stesso fanno i vicini) e scopre l'identità dei vicini e la sua distanza da ognuno di essi. Il vettore iniziale rappresenta il vettore a costo minimo verso i vicini. Dopo che ogni nodo ha creato il suo vettore ne invia una copia ai suoi vicini.
+
+ 
 
 
 
