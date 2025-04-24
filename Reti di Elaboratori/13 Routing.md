@@ -40,4 +40,6 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >
 
 
-
+>[!tip] Messaggi RIP
+>RIP si basa su una coppia di processi client-server e sul loro scambio di messaggi.
+>-*RIP request*: quando un nuovo router viene inserito nella rete invia una RIP Request per ricevere immediatamente informazioni di routing
