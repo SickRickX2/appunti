@@ -76,13 +76,15 @@ Bisogna contattare il proprio ISP e ottenere un blocco di indirizzi contigui e c
 Meccanismo che ci permette di usare degli *indirizzi priviati*.
 Una **sottorete** è una rete collegata solo ad un interfaccia di un host o di un router.
 
-Si è deciso di privatizzare alcuni blocchi di indirizzi per risolvere il problema della necessità di avere sempre più indirizzi IP.
+Con la proliferazione di sottoreti small office, home office (*SOHO*) si è deciso di privatizzare alcuni blocchi di indirizzi per risolvere il problema della necessità di avere sempre più indirizzi IP.
 
 Non sono disponibili nella rete ma sono disponibili solo alla connessione locale (LAN).
 
 >[!note] NAT Network Address Translation
->L'indirizzo privato viene convertito in un indirizzo pubblico (e viceversa da se il messaggio viene da fuori).
->Basta un solo indirizzo pubblico per gestire più indirizzi privati. Per identificare gli host privati sulla rete privata, si usa il numero di porta (solo come valore)
+>L'indirizzo privato viene convertito in un indirizzo pubblico (e viceversa se il messaggio viene da fuori).
+>Basta un solo indirizzo pubblico per gestire più indirizzi privati. Per identificare gli host privati sulla rete privata, si usa il numero di porta (solo come valore).
+>
+>Per fare questa traduzione
 
 >[!tip] Forwarding datagrammi IP
 >Inoltrare significa collocare il datagramma siul giusto percorso per arrivare a destinazione. Inviare il datagramma al prossimo hop. 
