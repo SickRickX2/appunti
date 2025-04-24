@@ -1,3 +1,4 @@
 Fare packet sniffing vuol dire catturare e analizzare i pacchetti (frame) entranti e uscenti su una macchina.
 Possiamo controllare i frame grazie ad un *analizzatore passivo* di pacchetti, egli cattura una copia dei **frame** senza modificarli e non immette traffico nella rete. Inoltre permette di  analizzare i pacchetti a qualsiasi livello dello stack protocollare estraendo gli *header* dei vari livelli.
-Permette di capire cosa succede all'interno di una rete e questo è utile ad esempio agli **amministratori di rete** ma non cos
+Permette di capire cosa succede all'interno di una rete e questo è utile ad esempio agli **amministratori di rete** ma *non costituisce un sistema di sicurezza* anche se alcuni sistemi di sicurezza si basano su sniffer di pacchetti.
+Per monitorare una determinata applicazione deve essere attivo contemporaneamente a quest'ultima.
