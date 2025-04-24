@@ -6,7 +6,7 @@
 >Sono valori che vanno da 1 a 255.
 
 >[!tip] Interfaccia
->L'interfaccia è il confine tra host e collegamento fisico. I rputer devono necessariamente essere connessi ad almeno due collegamenti. Un'host in geneere ha un'interfaccia e a ciascuna interfaccia è associato un indirizzo IP.
+>L'interfaccia è il confine tra host e collegamento fisico. I router devono necessariamente essere connessi ad almeno due collegamenti. Un'host in genere ha un'interfaccia e a ciascuna interfaccia è associato un indirizzo IP.
 
 ### Spazio degli indirizzi
 Numero totale indirizzi $2^{32}$ ovvero più di 4 miliardi.
@@ -42,10 +42,14 @@ Si utilizza quindi /+numero per sapere quanti bit vengono allocati per quel bloc
 **Maschera dell'indirizzo**: numero composto da 32 bit in cui i primi n bit a sinistra sono impostati a 1 e il resto (32-n) a 0. Mediante la maschera si ottiene l'*indirizzo di rete* che è usato nell'instradamento dei datagrammi verso la destinazione.
 
 ## Indirizzi IP speciali
-Indirizzi nella forma 127.xx.yy.zz sono riservati ai **loopback** (usato dai programmatori per simulare l'invio di un messaggio in rete ma in realtà è in locale)
+- 0.0.0.0 è utilizzato dagli host al momento del boot
+- Gli indirizzi IP che hanno lo 0 come numero di rete si riferiscono alla rete corrente
+- L'indirizzo composto da tutti 1 permette la trasmissione *broadcast* sulla rete locale (in genere una LAN)
+- Gli indirizzi con numero di rete opportuno e tutti 1 nel campo *host* permettono l'invio di pacchetti broadcast a LAN distanti
+- Indirizzi nella forma 127.xx.yy.zz sono riservati ai **loopback** (usato dai programmatori per simulare l'invio di un messaggio in rete ma in realtà è in locale)
 ## Distribuzione indirizzi all'interno di una rete LAN
 
-Bisogna contattare il proprio ISP e ottenere un blocco di indirizzi contigui e con un prefisso comune. Un ISP a sua volta contatta **ICANN**.
+Bisogna contattare il proprio ISP e ottenere un blocco di indirizzi contigui e con un prefisso comune. Un ISP a sua volta contatta **ICANN** (Internet Corporation for Assigned Names and Numbers).
 
 >[!danger] Come ottenere un indirizzo IP
 >Per assegnare un indirizzo IP ad un host si utilizza il protocollo DHCP, nel momento in cui ci si collega gestisce l'insieme di indirizzi IP disponibili sulla rete, assegnandoli a chi ne fa richiesta. Gli indirizzi vengono assegnati dinamicamente per un determinato lasso di tempo.
