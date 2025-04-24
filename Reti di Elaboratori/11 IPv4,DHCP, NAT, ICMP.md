@@ -6,14 +6,15 @@
 >Sono valori che vanno da 1 a 255.
 
 >[!tip] Interfaccia
->L'interfaccia è il confine tra host e collegamento fisico
+>L'interfaccia è il confine tra host e collegamento fisico. I rputer devono necessariamente essere connessi ad almeno due collegamenti. Un'host in geneere ha un'interfaccia e a ciascuna interfaccia è associato un indirizzo IP.
 
+### Spazio degli indirizzi
 Numero totale indirizzi $2^{32}$ ovvero più di 4 miliardi.
-
+![[Pasted image 20250424100918.png]]
 Abbiamo un prefisso che identifica la rete e un suffisso che individua l'host.
 Il **prefisso** può avere lunghezza:
-- fisso: indirizzamento con classi (multipli di 8)
-- variabile: indirizzamento senza classi
+- *fissa*: indirizzamento con classi (multipli di 8)
+- *variabile*: indirizzamento senza classi
 
 >[!tip] Pro e contro di prefisso fisso
 >- Problema dell'esaurimento degli indirizzi: un problema comune a tutti gli indirizzi iniziale tranne per il C che aveva un numero di reti maggiori ma non bastava lo spazio.
