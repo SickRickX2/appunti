@@ -39,7 +39,7 @@ Si utilizza quindi /+numero per sapere quanti bit vengono allocati per quel bloc
 >3) Per trovare l'ultimo indirizzo si impostano a 1 tutti i bit del suffisso
 
 ### Maschera e indirizzo di rete
-**Maschera dell'indirizzo**: numero composto da 32 bit in cui i primi n bit a sinistra sono impostati a 1 e il resto (32-n) a 0. Mediante la maschera si ottiene l'indirizzo di rete che è usato nell'instradamento dei datagrammi verso la destinazione.
+**Maschera dell'indirizzo**: numero composto da 32 bit in cui i primi n bit a sinistra sono impostati a 1 e il resto (32-n) a 0. Mediante la maschera si ottiene l'*indirizzo di rete* che è usato nell'instradamento dei datagrammi verso la destinazione.
 
 ## Indirizzi IP speciali
 Indirizzi nella forma 127.xx.yy.zz sono riservati ai **loopback** (usato dai programmatori per simulare l'invio di un messaggio in rete ma in realtà è in locale)
