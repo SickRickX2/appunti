@@ -84,7 +84,7 @@ Non sono disponibili nella rete ma sono disponibili solo alla connessione locale
 >L'indirizzo privato viene convertito in un indirizzo pubblico (e viceversa se il messaggio viene da fuori).
 >Basta un solo indirizzo pubblico per gestire più indirizzi privati. Per identificare gli host privati sulla rete privata, si usa il numero di porta (solo come valore).
 >
->Per fare questa traduzione
+>Per fare questa traduzione, il router abilitato al NAT nasconde i dettagli della rete domestica al mondo esterno. Non è necessario allocare un intervallo di indirizzi da un ISP: un unico indirizzo IP è sufficiente per tutte le macchine di una rete locale. Inoltre è possibile cambiare gli indirizzi delle macchine di una rete privata senza doverlo comunicare all'Internet globale.
 
 >[!tip] Forwarding datagrammi IP
 >Inoltrare significa collocare il datagramma siul giusto percorso per arrivare a destinazione. Inviare il datagramma al prossimo hop. 
