@@ -43,3 +43,12 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >[!tip] Messaggi RIP
 >RIP si basa su una coppia di processi client-server e sul loro scambio di messaggi.
 >-*RIP request*: quando un nuovo router viene inserito nella rete invia una RIP Request per ricevere immediatamente informazioni di routing
+>- *RIP Response*: in risposta ad una request o periiodicamente ogni 30 sec
+>
+>**Struttura dei messaggi**
+>
+
+### Timer RIP 
+- **Timer periodico**: ogni 25-35 secondi controlla l'invioi di messaggi di aggiornamento
+- **Timer di scadenza**: regola validità dei percorsi, se entro lo scadere del timer non si riceve aggiornamento, il percorso viene considerato scaduto e il suo costo impostato a 16
+- **Timer per garbage collection**: elimina percorsi dalla tabella, quando le informazioni non sono più valide il router continua ad annunciare il percorso con costo pari a 16 e allo scadere del timer rimuove il percorso.
