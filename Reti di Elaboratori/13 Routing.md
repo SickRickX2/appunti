@@ -29,7 +29,15 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >>[!warning] Come viene creato il vettore distanza?
 >>Ogni nodo della rete quando viene inizializzato crea un vettore distanza iniziale con le ingormazioni che il nodo riesce ad ottenere dai propri vicini (quelli a cui è collegato direttamente). Per creare il vettore dei vicini invia messaggi di *hello* attraverso le sue interfacce (e lo stesso fanno i vicini) e scopre l'identità dei vicini e la sua distanza da ognuno di essi. Il vettore iniziale rappresenta il vettore a costo minimo verso i vicini. Dopo che ogni nodo ha creato il suo vettore ne invia una copia ai suoi vicini.
 
+ >[!note] Split Horizon
+ >Invece di inviare la tabella attraverso ogni interfaccia, ciascun nodo invia solo una parte della sua tabella tramite le interfacce. Se ilnodo B ritiene che il percorso ottimale per raggiunger il nodo X passi attraverso A, allora NON deve fornire questa informazione ad A perché dovrebbe già saperlo.
  
+ >[!note] Poisoned reverse 
+ >Si pone ad $\inf$ il valore del costo del percorso che passa attraverso il vicino a cui si sta inviando il vettore.
+ 
+>[!note] RIP (Routing Information Protocol)
+>è un protocollo a vettore distanza, distanza misurata in hop (max= 15, infinito = 16)
+>
 
 
 
