@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
+                "file": "Reti di Elaboratori/13 Routing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 IPv4,DHCP, NAT, ICMP"
+              "title": "13 Routing"
             }
           }
         ]
@@ -190,9 +190,10 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
-    "Pasted image 20250424103859.png",
     "Reti di Elaboratori/12 Packet sniffing.md",
+    "Reti di Elaboratori/13 Routing.md",
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
+    "Pasted image 20250424103859.png",
     "Pasted image 20250424101935.png",
     "Pasted image 20250424100918.png",
     "Reti di Elaboratori/10 Livello di Rete.md",
@@ -227,7 +228,6 @@
     "Algoritmi 2/imgs/Pasted image 20250321102302.png",
     "Algoritmi 2/imgs",
     "Algoritmi 2/imgs/Pasted image 20250321115908.png",
-    "Algoritmi 2/imgs/Pasted image 20250321112657.png",
     "Reti di Elaboratori/imgs",
     "Sisitemi Operativi/Modulo 2",
     "Reti di Elaboratori",
