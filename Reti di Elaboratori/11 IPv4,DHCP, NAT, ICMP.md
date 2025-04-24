@@ -52,7 +52,7 @@ Si utilizza quindi /+numero per sapere quanti bit vengono allocati per quel bloc
 Bisogna contattare il proprio ISP e ottenere un blocco di indirizzi contigui e con un prefisso comune. Un ISP a sua volta contatta **ICANN** (Internet Corporation for Assigned Names and Numbers).
 
 >[!danger] Come ottenere un indirizzo IP
->Per assegnare un indirizzo IP ad un host si utilizza il protocollo DHCP, nel momento in cui ci si collega gestisce l'insieme di indirizzi IP disponibili sulla rete, assegnandoli a chi ne fa richiesta. Gli indirizzi vengono assegnati dinamicamente per un determinato lasso di tempo.
+>Per assegnare un indirizzo IP ad un host si utilizza il protocollo *DHCP*, nel momento in cui ci si collega gestisce l'insieme di indirizzi IP disponibili sulla rete, assegnandoli a chi ne fa richiesta. Gli indirizzi vengono assegnati dinamicamente per un determinato lasso di tempo.
 
 >[!note] DHCP Dynamic Host Configuration Protocol
 >Assegna in maniera automatica degli indirizzi (programma di tipo client server) ai singoli host o router. Questo protcollo si basa su 4 messaggi:
@@ -62,6 +62,15 @@ Bisogna contattare il proprio ISP e ottenere un blocco di indirizzi contigui e c
 >- DHCP ack
 >
 > Implementa una funziponalità di rete ma effettivamete è implementato a livello applicazione.
+
+>[!example] Funzionamento di DHCP
+>- L'host invia un messaggio broadcast "DHCP discover"
+>- Il server risponde con "DHCP offer"
+>- L'host richiede l'indirizzo IP "DHCP request"
+>- Il server DHCP invia l'indirizzo "DHCP ack"
+>
+>![[Pasted image 20250424103859.png]]
+
 
 ## Sottorete
 Meccanismo che ci permette di usare degli *indirizzi priviati*.
