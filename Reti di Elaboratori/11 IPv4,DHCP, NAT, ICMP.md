@@ -20,11 +20,17 @@ Il **prefisso** può avere lunghezza:
 >- Problema dell'esaurimento degli indirizzi: un problema comune a tutti gli indirizzi iniziale tranne per il C che aveva un numero di reti maggiori ma non bastava lo spazio.
 
 >[!note] Indirizzamento senza classi
->Nasce dalla necessità di maggiore flessibilità nell'assegnamento degli indirizzi. Vengono utilizzati blocchi di lunghezza variabile che non appartengono a nessuna classe, motivo per cui un indirizzo non è in grado di definire da solo la rete (o blocco) a cui appartiene. La lunghezza del prefisso è dunque variabile e viene distinta dal suffisso tramite un
+>Nasce dalla necessità di maggiore flessibilità nell'assegnamento degli indirizzi. Vengono utilizzati blocchi di lunghezza variabile che non appartengono a nessuna classe, motivo per cui un indirizzo non è in grado di definire da solo la rete (o blocco) a cui appartiene. La lunghezza del prefisso è dunque variabile e viene distinta dal suffisso tramite uno slash.
 
+## Notazione CIDR
+*CIDR*: *C*lassless *I*nter*D*omain *R*outing
 
+Questa notazione è una strategia di assegnazione degli indirizzi. 
 
-Per questo vengono utilizzati blocchi di lunghezza variabile, ma non si può sapere come vengono suddivisi i blocchi. Si utilizza quindi /+numero per sapere quanti bit vengono allocati per quel blocco(*Notazione CIDR, Classless InterDomain Routing*)
+**Struttura dell'indirizzo IP:** viene diviso in due parti e mantiene la forma decimale puntata a.b.c.d/n, dove n indica il numero di bit nella prima parte dell'indirizzo.
+![[Pasted image 20250424101935.png]]
+
+Si utilizza quindi /+numero per sapere quanti bit vengono allocati per quel blocco.
 
 >[!note] Estrazione delle informazioni
 >Se n è lunghezza del prefisso:
