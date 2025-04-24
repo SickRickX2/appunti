@@ -34,7 +34,7 @@ Si utilizza quindi /+numero per sapere quanti bit vengono allocati per quel bloc
 
 >[!note] Estrazione delle informazioni
 >Se n è lunghezza del prefisso:
->1) Il numero di indirizzi nel blocco è dato da N = 2^32-n
+>1) Il numero di indirizzi nel blocco è dato da N = $2^{32-n}$
 >2) Per trovare il primo indirizzo si impostano a 0 tutti i bit del prefisso
 >3) Per trovare l'ultimo indirizzo si impostano a 1 tutti i bit del suffisso
 
