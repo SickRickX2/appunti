@@ -1,9 +1,12 @@
 >[!note] IPv4
->Ogni interfaccia di un host ha un indirizzo IP univoco.
+>Ogni interfaccia di un host ha un indirizzo IP univoco a 32 bit.
 >>[!warning] Dipende dalla rete
 >>Non dipende dall'host, se mi connetto via wireless o via ethernet l'indirizzo IP cambia.
 >
 >Sono valori che vanno da 1 a 255.
+
+>[!tip] Interfaccia
+>L'interfaccia è il confine tra host e collegamento fisico
 
 Numero totale indirizzi $2^{32}$ ovvero più di 4 miliardi.
 
