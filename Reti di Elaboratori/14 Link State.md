@@ -10,3 +10,11 @@ Sul LSDB viene utilizzato l'algoritmo di Djikstra per creare una tabella di inol
 
 Per costruire la tabella di routing ogni nodo applica l'algoritmo mettendo come radice sé stesso.
 
+## Protocollo di Routing
+OSPF Open Shortest PAth First (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. I messaggi OSPF vengono incapsulati in datagrammi IP 
+ TIpologie:
+ - Hello: usato dal router per conoscere i vicini e farsi conoscere
+ - Database description: una risposta ad hello
+ - Link State Request: per chiedere specifiche informazioni sul collegamento
+ - Link state update: messaggio principale per la costruzione del database
+ - Link State ACK: risposta all'update
