@@ -45,7 +45,7 @@ per ciascun vicino $w$
 		invia il vettore distanza $D_x$ = \[$D_x(y)$ :$y$in $N$] a w
 ### Problema della modifica dei costi
 Con questo algoritmo si verifica il problema nel momento in cui c'è un guasto tra dei collegamenti.
-**Probel**
+**Problema del conteggio infinito**: *le buone notizie viaggiano in fretta, le cattive notizie si propagano lentamente*
 
 
  >[!note] Split Horizon
