@@ -101,9 +101,13 @@ Con questo algoritmo si verifica il problema nel momento in cui c'è un guasto t
 >- *RIP Response*: in risposta ad una request o periiodicamente ogni 30 sec
 >
 >**Struttura dei messaggi**
+>Ogni messaggio contiene un elenco comprendente fino a 25 sottoreti di destinazione all'interno del sistema utonomo nonché la distanza del mittente rispetto a ciascuna di tali sottoreti
+>
+> ![[Pasted image 20250430172737.png]]
 >
 
 ### Timer RIP 
-- **Timer periodico**: ogni 25-35 secondi controlla l'invioi di messaggi di aggiornamento
+- **Timer periodico**: ogni 25-35 secondi controlla l'invio di messaggi di aggiornamento
 - **Timer di scadenza**: regola validità dei percorsi, se entro lo scadere del timer non si riceve aggiornamento, il percorso viene considerato scaduto e il suo costo impostato a 16
 - **Timer per garbage collection**: elimina percorsi dalla tabella, quando le informazioni non sono più valide il router continua ad annunciare il percorso con costo pari a 16 e allo scadere del timer rimuove il percorso.
+
