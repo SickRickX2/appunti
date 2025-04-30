@@ -6,6 +6,8 @@ Il link-state database è dato dai costi sui link esistenti ed è unico per tutt
 
 Per costruire il database si utilizza il **flooding**
 - ogni nodo deve conoscere i vicini con i relativi costi (viene fatto tramite *messaggi di hello*); viene creata la *link state packet*, la lista dei vicini con i relativi costi dei collegamenti (viene inviato ai propri vicini e dovrà raggiungere tutti i nodi della rete).
+- Ogni nodo invia messaggi di hello per conoscere i propri vicini e il loro costo creando così il LS packet
+- **Flooding del LSP**: si invia su ogni interfaccia ad esclusione di quella da cui si è ricevuto il pacchetto
 
 Sul **LSDB** viene utilizzato l'*algoritmo di Djikstra* per creare una tabella di inoltro per ogni nodo.
 
