@@ -91,13 +91,13 @@ Con questo algoritmo si verifica il problema nel momento in cui c'è un guasto t
  >Si pone ad $\inf$ il valore del costo del percorso che passa attraverso il vicino a cui si sta inviando il vettore.
  
 >[!note] RIP (Routing Information Protocol)
->è un protocollo a vettore distanza, distanza misurata in hop (max= 15, infinito = 16)
+>è un protocollo a vettore distanza, distanza misurata in hop (max= 15, infinito = 16). Ogni nodo non invia solo il vettore delle distanze ma manda l'intero contenuto della tabella di routing.
 >
 
 
 >[!tip] Messaggi RIP
 >RIP si basa su una coppia di processi client-server e sul loro scambio di messaggi.
->-*RIP request*: quando un nuovo router viene inserito nella rete invia una RIP Request per ricevere immediatamente informazioni di routing
+>- *RIP request*: quando un nuovo router viene inserito nella rete invia una RIP Request per ricevere immediatamente informazioni di routing
 >- *RIP Response*: in risposta ad una request o periiodicamente ogni 30 sec
 >
 >**Struttura dei messaggi**
