@@ -38,10 +38,12 @@ Inizializzazione:
 
 
 ## Protocollo di Routing
-*OSPF Open Shortest Path First* (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. I messaggi OSPF vengono incapsulati in datagrammi IP 
- TIpologie:
- - Hello: usato dal router per conoscere i vicini e farsi conoscere
- - Database description: una risposta ad hello
- - Link State Request: per chiedere specifiche informazioni sul collegamento
- - Link state update: messaggio principale per la costruzione del database
- - Link State ACK: risposta all'update
+*OSPF Open Shortest Path First* (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. 
+Viene detto "open" perché le specifiche del protocollo sono pubblicamente disponibili
+I messaggi OSPF vengono incapsulati in datagrammi IP.
+ Tipologie:
+ - *Hello*: usato dal router per conoscere i vicini e farsi conoscere
+ - *Database description*: una risposta ad hello
+ - *Link State Request*: per chiedere specifiche informazioni sul collegamento
+ - *Link state update*: messaggio principale per la costruzione del database
+ - *Link State ACK*: risposta all'update per fornire affidabilità
