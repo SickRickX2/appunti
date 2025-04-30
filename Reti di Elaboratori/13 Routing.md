@@ -123,4 +123,8 @@ Di conseguenza:
 >[!tip] 3 Meccanismi di RIP
 >- *Split horizon with poisoned reverse*
 >- *Triggered Updates*: riduce il problema della convergenza lenta, non aspetta il timeout per informare i vicini quando una rotta cambia
->- *Hold Down*: fornisce robustezza, quando si riceve una informazione di una rotta non più valida 
+>- *Hold Down*: fornisce robustezza, quando si riceve una informazione di una rotta non più valida si avvia un timer e tutti gli adverisement riguardanti quella rotta che arrivano entro il timeout vengono tralasciati
+
+##### Implementazione di RIP
+Viene implementato come applicazione sopra UDP porta 520. Un processo chiamato routed esegue RIP, ossia mantiene le informazioni di instradamento e scambia messaggi con i processi routed nei router vicini. 
+Poiché RIP viene implementato come un processo a livello di applicazione, può inviare e ricevere messaggi su una socket standard e utilizzare un protocollo di trasporto standard.
