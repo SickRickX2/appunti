@@ -13,6 +13,10 @@ Sul **LSDB** viene utilizzato l'*algoritmo di Djikstra* per creare una tabella d
 
 Per costruire la tabella di routing ogni nodo applica l'algoritmo mettendo come radice sé stesso.
 
+## Algoritmo di instradamento a stato del collegamento
+**Algoritmo di Dijkstra**
+La topologi 
+
 ## Protocollo di Routing
 OSPF Open Shortest PAth First (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. I messaggi OSPF vengono incapsulati in datagrammi IP 
  TIpologie:
