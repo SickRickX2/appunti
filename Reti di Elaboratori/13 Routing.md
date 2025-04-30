@@ -111,3 +111,11 @@ Con questo algoritmo si verifica il problema nel momento in cui c'è un guasto t
 - **Timer di scadenza**: regola validità dei percorsi, se entro lo scadere del timer non si riceve aggiornamento, il percorso viene considerato scaduto e il suo costo impostato a 16
 - **Timer per garbage collection**: elimina percorsi dalla tabella, quando le informazioni non sono più valide il router continua ad annunciare il percorso con costo pari a 16 e allo scadere del timer rimuove il percorso.
 
+### RIP: guasto sul collegamento e recupero
+Se un router non riceve notizie dal suo vicino per 180 secondi il nodo adiacente/il collegamneto viene considerato spento o guasto.
+Di conseguenza:
+1) RIP modifica la tabella d'instradamento locale
+2) Propaga l'informazione mandando annunci ai router vicini 
+3) I vicini inviano nuovi messaggi (se la loro tabella d'instradamento è cambiata)
+4) L'informazione che il collegamento è fallito si propaga su tutta la rete
+5) L'utiilzzo dell'*inversione avvelenata* evita i loop (distanza infinita = 16 hop)
