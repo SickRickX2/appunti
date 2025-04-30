@@ -36,6 +36,15 @@ Ogni volta che un nodo riceve una copia dal vicino confronta le informazioni del
 $D_x(y) \leftarrow min_v\{c(x,v)+D_v(y)\}$
 
 Ogni volta che un nodo aggiorna il proprio vettore distanza invia la copia aggiornata ai vicini.
+**Algoritmo**
+
+per tutte le destinazioni y in N:
+	if $y$ è un vicino:
+		$D_x(y) = c(x,y)$
+	else: $D_x(y) = \infty$ 
+per ciascun vicino $w$
+	invia il vettore distanza $D_x$ = [$D_x(y):$]
+
 
  >[!note] Split Horizon
  >Invece di inviare la tabella attraverso ogni interfaccia, ciascun nodo invia solo una parte della sua tabella tramite le interfacce. Se ilnodo B ritiene che il percorso ottimale per raggiunger il nodo X passi attraverso A, allora NON deve fornire questa informazione ad A perché dovrebbe già saperlo.
