@@ -32,7 +32,10 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >>Ogni nodo della rete quando viene inizializzato crea un vettore distanza iniziale con le informazioni che il nodo riesce ad ottenere dai propri vicini (quelli a cui è collegato direttamente). Per creare il vettore dei vicini invia messaggi di *hello* attraverso le sue interfacce (e lo stesso fanno i vicini) e scopre l'identità dei vicini e la sua distanza da ognuno di essi. Il vettore iniziale rappresenta il vettore a costo minimo verso i vicini. Dopo che ogni nodo ha creato il suo vettore ne invia una copia ai suoi vicini.
 
 Ogni volta che un nodo riceve una copia dal vicino confronta le informazioni del proprio vettore con quello in arrivo e sceglie il minimo. 
+
 $D_x(y) \leftarrow min_v\{c(x,v)+D_v(y)\}$
+
+Ogni volta che un nodo aggiorna il proprio vettore distanza invia la copia aggiornata ai vicini.
 
  >[!note] Split Horizon
  >Invece di inviare la tabella attraverso ogni interfaccia, ciascun nodo invia solo una parte della sua tabella tramite le interfacce. Se ilnodo B ritiene che il percorso ottimale per raggiunger il nodo X passi attraverso A, allora NON deve fornire questa informazione ad A perché dovrebbe già saperlo.
