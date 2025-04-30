@@ -119,3 +119,8 @@ Di conseguenza:
 3) I vicini inviano nuovi messaggi (se la loro tabella d'instradamento è cambiata)
 4) L'informazione che il collegamento è fallito si propaga su tutta la rete
 5) L'utiilzzo dell'*inversione avvelenata* evita i loop (distanza infinita = 16 hop)
+
+>[!tip] 3 Meccanismi di RIP
+>- *Split horizon with poisoned reverse*
+>- *Triggered Updates*: riduce il problema della convergenza lenta, non aspetta il timeout per informare i vicini quando una rotta cambia
+>- *Hold Down*: fornisce robustezza, quando si riceve una informazione di una rotta non più valida 
