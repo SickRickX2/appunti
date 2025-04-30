@@ -25,7 +25,17 @@ Per costruire il suo albero a costo minimo utilizzando il LSDB ogni nodo deve es
 - c(x,y) = costo del collegamento dal nodo x al nodo y
 - D(v)= costo del cammino minimo dal nodo origine alla destinazione v per quanto riguarda l'iterazione corrente
 - p(v)= immediato predecessore di v lungo il cammino
-- N' = sottoinsieme di nodi per cui
+- N' = sottoinsieme di nodi per cui il cammino a costo minimo dall'origine
+
+**Implementazione di Dijkstra**
+Inizializzazione:
+	N' = $\{r\}$ (r è il nodo che esegue l'algortimo ovvero la radice dell'albero)
+		per tutti i nodi n:
+			se n è adiacente a r:
+				allora D(n) = c(r,n)
+			altrimenti D(n) = $\infty$
+
+
 
 ## Protocollo di Routing
 OSPF Open Shortest PAth First (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. I messaggi OSPF vengono incapsulati in datagrammi IP 
