@@ -85,7 +85,7 @@ Con questo algoritmo si verifica il problema nel momento in cui c'è un guasto t
 
 
  >[!note] Split Horizon
- >Invece di inviare la tabella attraverso ogni interfaccia, ciascun nodo invia solo una parte della sua tabella tramite le interfacce. Se ilnodo B ritiene che il percorso ottimale per raggiunger il nodo X passi attraverso A, allora NON deve fornire questa informazione ad A perché dovrebbe già saperlo.
+ >Invece di inviare la tabella attraverso ogni interfaccia, ciascun nodo invia solo una parte della sua tabella tramite le interfacce. Se il nodo B ritiene che il percorso ottimale per raggiunger il nodo X passi attraverso A, allora NON deve fornire questa informazione ad A perché dovrebbe già saperlo visto che è arrivata da lì.
  
  >[!note] Poisoned reverse 
  >Si pone ad $\inf$ il valore del costo del percorso che passa attraverso il vicino a cui si sta inviando il vettore.
