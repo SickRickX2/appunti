@@ -38,7 +38,7 @@ Inizializzazione:
 
 
 ## Protocollo di Routing
-OSPF Open Shortest PAth First (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. I messaggi OSPF vengono incapsulati in datagrammi IP 
+*OSPF Open Shortest Path First* (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. I messaggi OSPF vengono incapsulati in datagrammi IP 
  TIpologie:
  - Hello: usato dal router per conoscere i vicini e farsi conoscere
  - Database description: una risposta ad hello
