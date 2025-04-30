@@ -16,7 +16,7 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >2) Concetto di vettore di distanza
 >
 >**Equazione di Bellman-Ford**:
->Definisce
+>Definisce 
 >$D_x(y):=$ il costo (o la distanza) del percorso a costo minimo dal nodo x al nodo y
 >
 >Allora:
@@ -25,9 +25,11 @@ Il routing costruisce e determina il percorso migliore da seguire che poi verrà
 >
 >**Vettore distanza**
 >Un albero a costo minimo è una combinazione di percorsi a costo minimo dalla radice dell'albero verso tutte le destinazioni.
->Il vettore di distanza è un array monodimensionale che rappresenta l'albero. Un vettore di distanza non fornisce il percorso da seguire per giunger alla destinazione ma solo i costi minimi per le destinazioni.
+>Il vettore di distanza è un array monodimensionale che rappresenta l'albero. Un vettore di distanza non fornisce il percorso da seguire per giungere alla destinazione ma solo i costi minimi per le destinazioni.
+>![[Pasted image 20250430124008.png]]
+>
 >>[!warning] Come viene creato il vettore distanza?
->>Ogni nodo della rete quando viene inizializzato crea un vettore distanza iniziale con le ingormazioni che il nodo riesce ad ottenere dai propri vicini (quelli a cui è collegato direttamente). Per creare il vettore dei vicini invia messaggi di *hello* attraverso le sue interfacce (e lo stesso fanno i vicini) e scopre l'identità dei vicini e la sua distanza da ognuno di essi. Il vettore iniziale rappresenta il vettore a costo minimo verso i vicini. Dopo che ogni nodo ha creato il suo vettore ne invia una copia ai suoi vicini.
+>>Ogni nodo della rete quando viene inizializzato crea un vettore distanza iniziale con le informazioni che il nodo riesce ad ottenere dai propri vicini (quelli a cui è collegato direttamente). Per creare il vettore dei vicini invia messaggi di *hello* attraverso le sue interfacce (e lo stesso fanno i vicini) e scopre l'identità dei vicini e la sua distanza da ognuno di essi. Il vettore iniziale rappresenta il vettore a costo minimo verso i vicini. Dopo che ogni nodo ha creato il suo vettore ne invia una copia ai suoi vicini.
 
  >[!note] Split Horizon
  >Invece di inviare la tabella attraverso ogni interfaccia, ciascun nodo invia solo una parte della sua tabella tramite le interfacce. Se ilnodo B ritiene che il percorso ottimale per raggiunger il nodo X passi attraverso A, allora NON deve fornire questa informazione ad A perché dovrebbe già saperlo.
