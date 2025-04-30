@@ -37,13 +37,15 @@ $D_x(y) \leftarrow min_v\{c(x,v)+D_v(y)\}$
 
 Ogni volta che un nodo aggiorna il proprio vettore distanza invia la copia aggiornata ai vicini.
 **Algoritmo**
-
 per tutte le destinazioni y in N:
 	if $y$ è un vicino:
 		$D_x(y) = c(x,y)$
 	else: $D_x(y) = \infty$ 
 per ciascun vicino $w$
-	invia il vettore distanza $D_x$ = [$D_x(y):$]
+		invia il vettore distanza $D_x$ = \[$D_x(y)$ :$y$in $N$] a w
+### Problema della modifica dei costi
+Con questo algoritmo si verifica il problema nel momento in cui c'è un guasto tra dei collegamenti.
+**Probel**
 
 
  >[!note] Split Horizon
