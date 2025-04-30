@@ -15,7 +15,17 @@ Per costruire la tabella di routing ogni nodo applica l'algoritmo mettendo come 
 
 ## Algoritmo di instradamento a stato del collegamento
 **Algoritmo di Dijkstra**
-La topologi 
+La topologia di rete e tutti i costi dei collegamenti sono noti a tutti i nodi (*LSBD*)
+Calcola il cammino a costo minimo da un nodo origine a tutti gli altri nodi della rete creando una tabella d'inoltro in modo iterativo.
+
+Per costruire il suo albero a costo minimo utilizzando il LSDB ogni nodo deve eseguire l'algoritmo di Dijkstra. Ogni nodo sceglie se stesso come radice dell'albero.
+**Algoritmo di routing a stato del collegamento (LS)**
+*Notazione*
+- N = insieme dei nodi della rete
+- c(x,y) = costo del collegamento dal nodo x al nodo y
+- D(v)= costo del cammino minimo dal nodo origine alla destinazione v per quanto riguarda l'iterazione corrente
+- p(v)= immediato predecessore di v lungo il cammino
+- N' = sottoinsieme di nodi per cui
 
 ## Protocollo di Routing
 OSPF Open Shortest PAth First (implementato da IP, quindi a livello di rete e non applicazione) utilizza il flooding inizialmente e in seguito l'algoritmo di Dijkstra. I messaggi OSPF vengono incapsulati in datagrammi IP 
