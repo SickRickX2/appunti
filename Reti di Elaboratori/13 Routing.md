@@ -47,6 +47,42 @@ per ciascun vicino $w$
 Con questo algoritmo si verifica il problema nel momento in cui c'è un guasto tra dei collegamenti.
 **Problema del conteggio infinito**: *le buone notizie viaggiano in fretta, le cattive notizie si propagano lentamente*
 
+ **a. Prima del guasto:**
+
+- A raggiunge X con costo 1.
+    
+- B pensa di raggiungere X tramite A con costo 2.
+    
+
+**b. Guasto del collegamento tra A e X:**
+
+- A perde il collegamento diretto con X.
+    
+- A non sa più raggiungere X, ma **B non lo sa ancora**.
+    
+
+ **c. A si aggiorna da B:**
+
+- A riceve da B la "vecchia" informazione che X si raggiunge con costo 2.
+    
+- A aggiorna il suo vettore e crede che X sia raggiungibile tramite B con costo 3.
+    
+
+ **d. B si aggiorna da A:**
+
+- B riceve da A che X si può raggiungere con costo 3.
+    
+- B aggiorna il suo vettore e ora pensa di poter raggiungere X con costo 4.
+    
+
+ I pacchetti "rimbalzano" tra A e B, aumentando ogni volta il costo.
+
+ **e. Alla fine:**
+
+- Dopo **molti aggiornamenti**, entrambi capiscono che X **non è raggiungibile**.
+    
+- Il costo diventa "infinito" (o un valore massimo stabilito, tipo 16 nei protocolli RIP).
+
 
  >[!note] Split Horizon
  >Invece di inviare la tabella attraverso ogni interfaccia, ciascun nodo invia solo una parte della sua tabella tramite le interfacce. Se ilnodo B ritiene che il percorso ottimale per raggiunger il nodo X passi attraverso A, allora NON deve fornire questa informazione ad A perché dovrebbe già saperlo.
