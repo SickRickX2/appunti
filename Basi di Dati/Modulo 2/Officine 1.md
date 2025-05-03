@@ -14,4 +14,12 @@
 	3.2 data di nascita
 4) Riparazioni
 	4.1 codice
-	4.2 veic
+	4.2 veicolo (modello, targa, anno immatricolazione, proprietario)
+	4.3 data e ora di accettazione
+	4.4 data e ora di riconsegna (se la riparazione è terminata)
+5) Proprietari
+	5.1 nome
+	5.2 codice fiscale
+	5.3 indirizzo
+	5.4 telefono
+	
