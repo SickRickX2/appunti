@@ -16,5 +16,11 @@ Il livello di collegamento è implentato in tutte le interfacce di rete (in tutt
 
 >[!note] Adattatori
 
+Abbiamo due sottolivelli:
+ - **Data Link Control (DLC)**: si occupa di tutte le funzioni *comuni* a tecnologie di trasmissione diverse (indipendenti dalla tecnologia).
+ - **Media Access Control (MAC)**: si occupa solo degli aspetti specifici dei canali broadcast, cerca di ridurre il numero di collisioni ma non le elimina completamente
 
-
+### Errori su singoli bit o a burst
+Gli errori sono dovuti a interferenze di segnale che possono cambiare la forma del segnale.
+Molto difficile avere un errore su singolo bit ma più probabile averlo a burst ovvero con più bit consecutivi.
+D
