@@ -59,10 +59,15 @@ Nessuna stazione ha il controllo sulle altre.
 >**ALOHA puro**
 >Ogni stazione può inviare un frame tutte le volte che ha dati da inviare. Il ricevente invia un ack e in base a questo il mittente agisce. 
 >Se due stazioni ritrasmettono contemporaneamente si crea una collisione, quindi si attende un tempo random (*back off*) prima di effettuare nuovamente la trasmissione. La casualità aiuta ad evitare altre collisioni.
- >>[!tip] Studio dell'efficienza
+ >>[!warning] Studio dell'efficienza
  >
 >**Slotted ALOHA**
 >Divide il tempo in intervalli discreti (in slot) e i nodi devono essere sincronizzati affinché ognuno trasmetta un segnale solo all'interno del proprio slot.
+
+>[!note] Accesso multiplo a rilevazione della portante (CSMA)
+>Ci si pone in ascolto prima di trasmettere, se si rileva che il canale è libero si trasmette, altrimenti se è occupato si aspetta un intervallo di tempo.
+
+
 
 
 
