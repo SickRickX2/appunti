@@ -39,5 +39,17 @@ D = dati che devono essere protetti da errori ai queli vengono aggiunti bit EDC
 
 Ci sono tre categorie di protocolli di questo tipo:
 1) *Protocolli a suddivisione di canale*
+	1) ALOHA
+	2) CSMA/CD
+	3) CSMA/CA
 2) *Protocolli ad accesso casuale*
-3) **
+	1) Reservation
+	2) Polling
+	3) Token passing
+3) *Protocolli a rotazione*
+	1) FDMA
+	2) TDMA
+	3) CDMA
+
+
+
