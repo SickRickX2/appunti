@@ -23,4 +23,16 @@ Abbiamo due sottolivelli:
 ### Errori su singoli bit o a burst
 Gli errori sono dovuti a interferenze di segnale che possono cambiare la forma del segnale.
 Molto difficile avere un errore su singolo bit ma più probabile averlo a burst ovvero con più bit consecutivi.
-D
+Dipende dal *rumore* (durata dell'interferenza).
+
+### Tecniche di rilevazione degli errori
+EDC = Error detection and correction 
+D = dati che devono essere protetti da errori ai queli vengono aggiunti bit EDC
+
+>[!note] Controllo di parità
+>Si va a vedere il numero di bit suddivisi ad 1 e si aggiunge uno 0 o 1 per avere un numero pari di bit impostati ad 1.
+>Ci sono casi in cui non è efficente quindi conviene usare una *parità bidimensionale* (sia su righe che colonne)
+
+## Protocolli di accesso multiplo
+- **collegamento punto-punto**: viene usato il protocollo PPP (point to point protocol) del DLC.
+- **collegamento broadcast**: dobbiamo gestire le collisioni, utilizziamo quindi il protocollo MAC per la gestione del canale condiviso.
