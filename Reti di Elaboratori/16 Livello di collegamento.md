@@ -51,5 +51,12 @@ Ci sono tre categorie di protocolli di questo tipo:
 	2) TDMA
 	3) CDMA
 
+## Protocolli ad accesso casuale
+Nessuna stazione ha il controllo sulle altre.
 
+>[!note] ALOHA
+>Primo metodo casuale che è stato proposto in letteratura.
+>**ALOHA puro**
+>Ogni stazione può inviare un frame tutte le volte che ha dati da inviare. Il ricevente invia un ack e in base a questo il mittente agisce. 
+>Se due stazioni ritrasmettono contemporaneamente si crea una collisione, quindi si attende un tempo random (*back off*) prima di effettuare nuovamente la trasmission
 
