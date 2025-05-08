@@ -35,4 +35,9 @@ D = dati che devono essere protetti da errori ai queli vengono aggiunti bit EDC
 
 ## Protocolli di accesso multiplo
 - **collegamento punto-punto**: viene usato il protocollo PPP (point to point protocol) del DLC.
-- **collegamento broadcast**: dobbiamo gestire le collisioni, utilizziamo quindi il protocollo MAC per la gestione del canale condiviso.
+- **collegamento broadcast**: dobbiamo gestire le collisioni, utilizziamo quindi il protocollo MAC per la gestione del canale condiviso. 
+
+Ci sono tre categorie di protocolli di questo tipo:
+1) *Protocolli a suddivisione di canale*
+2) *Protocolli ad accesso casuale*
+3) **
