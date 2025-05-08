@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Officine 1"
             }
+          },
+          {
+            "id": "45695aea36d4dfe5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0038c10f9048def8",
+  "active": "45695aea36d4dfe5",
   "lastOpenFiles": [
     "Basi di Dati/Modulo 2/Officine 1.md",
     "Basi di Dati/Modulo 2/Officine 1.md",
