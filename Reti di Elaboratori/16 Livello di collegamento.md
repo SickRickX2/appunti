@@ -94,7 +94,28 @@ Se un nodo trova un canale occupato
 >Se è occupato procede con la procedura di back-off. Se c'è collisione va in back-off
 
 >[!warning] Efficienza del CSMA/CD
->Quando un solo nodo trasmette lo fa al massimo rate possibile, ovviamente diminuisce all'aumentare del numero di nodi che trasmettono. Ma il troughput rimane comunque maggiore del
+>Quando un solo nodo trasmette lo fa al massimo rate possibile, ovviamente diminuisce all'aumentare del numero di nodi che trasmettono. Ma il troughput rimane comunque maggiore degli ALOHA.
+>Per il 1 persistente il troughput massimo è del 50%.
+
+## Protocolli MAC a rotazione
+- Protcolli MAC a suddivisione del canale
+Condividono il canale equamente ed efficientemente con carichi elevati, inefficienti con carichi non elevati
+- Protocolli MAc ad accesso casuale:
+Efficienti anche con carichi non elevati, con carichi elevati eccessive collisioni
+- Protocolli a rotazione
+
+**Protocollo polling**
+Un nodo principale sonda "a turno" gli altri. In particolare:
+- elimina le collisioni
+- elimina gli slot vuoti
+- ritardo di polling
+- se il nodo principale si guasta l'intero canale rimane inattivo
+**Protocollo token-passing**
+Un messaggio di controllo che circola nei nodi e quando un nodo ha il messaggio può trasmettere ed accedere al canale, dopodiché lo passa al nodo successivo.
+- decentralizzato
+- efficiente
+- il guasto di un nodo può mettere fuori uso l'intero canale
+poipo
 
 
 
