@@ -71,7 +71,20 @@ Nessuna stazione ha il controllo sulle altre.
 >- Annulla la trasmissione non appena si accorge che c'è un'altra tasmissione in corso.
 >Mentre si inviano dati si ascolta il canale per capire se c'è una collisione. Questo è facile nelle LAN cablate ma difficile elle LAN wireless (non viene implementata).
 
-**Dimensione minima del frame**: Una stazione un a volta inviato un frame non tiene una copia del frame né
+**Dimensione minima del frame**: Una stazione un a volta inviato un frame non tiene una copia del frame né controlla il mezzo trasmissivo per rilevare collisioni, quindi deve controllare nel mentre della trasmissione, ovvero prima di inviare l'ultimo bit del frame.
+**Metodi di persistenza**
+Se un nodo trova un canale libero:
+- Trasmette subito
+	- Non- persistente
+	- 1-Persistente
+- Trasmette con probabilità p
+	- p-persistente
+Se un nodo trova un canale occupato
+- Desiste
+- Persiste rimanendo in ascolto finché non viene liberato
+
+>[!note] Non persistente
+>Se il canale è libero tra
 
 
 
