@@ -13,3 +13,6 @@ A livello fisico non c'è indirizzamento come negli altri livelli dello stack pr
 Fu implementato dalla IEEE computer society nel 1985 per definire le funzioi del livello fisico e dei protocolli LAN.
 >[!note] Protocollo IEEE 802
 >I vari standard differiscono a livello fisico e nel sottolivello MAC.
+
+La specifica del protocollo Ethernet si è sempre adattata anche con il miglioramento delle tecnologie.
+
