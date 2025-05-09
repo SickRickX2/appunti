@@ -84,8 +84,17 @@ Se un nodo trova un canale occupato
 - Persiste rimanendo in ascolto finché non viene liberato
 
 >[!note] Non persistente
->Se il canale è libero tra
+>Se il canale è libero trasmette subito altrimenti attende un tempo random e poi riascolta il canale; se c'è collisione va in **back-off**.
 
+>[!note] 1-persistente
+>Se il canale è libero trasmette subito
+
+>[!note] P-persistente
+>Se il canale è libero trasmette con probabilità p o non si trasmette con probabilità 1-p
+>Se è occupato procede con la procedura di back-off. Se c'è collisione va in back-off
+
+>[!warning] Efficienza del CSMA/CD
+>Quando un solo nodo trasmette lo fa al massimo rate possibile, ovviamente diminuisce all'aumentare del numero di nodi che trasmettono. Ma il troughput rimane comunque maggiore del
 
 
 
