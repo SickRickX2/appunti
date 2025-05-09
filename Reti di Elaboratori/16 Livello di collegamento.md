@@ -115,7 +115,7 @@ Un messaggio di controllo che circola nei nodi e quando un nodo ha il messaggio 
 - decentralizzato
 - efficiente
 - il guasto di un nodo può mettere fuori uso l'intero canale
-poipo
+
 
 
 

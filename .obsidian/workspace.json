@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/16 Livello di collegamento.md",
+                "file": "Reti di Elaboratori/17 Protocolli piselli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16 Livello di collegamento"
+              "title": "17 Protocolli piselli"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
-    "Basi di Dati/Modulo 2/Officine 1.md",
     "Reti di Elaboratori/16 Livello di collegamento.md",
+    "Reti di Elaboratori/17 Protocolli piselli.md",
+    "Basi di Dati/Modulo 2/Officine 1.md",
     "Reti di Elaboratori/14 Link State.md",
     "Pasted image 20250430180439.png",
     "Reti di Elaboratori/13 Routing.md",
