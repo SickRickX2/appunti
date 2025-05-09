@@ -71,7 +71,7 @@ Nessuna stazione ha il controllo sulle altre.
 >- Annulla la trasmissione non appena si accorge che c'è un'altra tasmissione in corso.
 >Mentre si inviano dati si ascolta il canale per capire se c'è una collisione. Questo è facile nelle LAN cablate ma difficile elle LAN wireless (non viene implementata).
 
-
+**Dimensione minima del frame**: Una stazione un a volta inviato un frame non tiene una copia del frame né
 
 
 
