@@ -8,3 +8,8 @@ Serve per determinare l'indirizzo MAC di un nodo partendo dall'IP. Ogni nodo ha 
 
 # Indirizzamento
 A livello fisico non c'è indirizzamento come negli altri livelli dello stack protocollare.
+
+## Protocollo ETHERNET
+Fu implementato dalla IEEE computer society nel 1985 per definire le funzioi del livello fisico e dei protocolli LAN.
+>[!note] Protocollo IEEE 802
+>I vari standard differiscono a livello fisico e nel sottolivello MAC.
