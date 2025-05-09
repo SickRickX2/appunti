@@ -70,7 +70,8 @@ Nessuna stazione ha il controllo sulle altre.
 >- Rileva la collisione in poco tempo
 >- Annulla la trasmissione non appena si accorge che c'è un'altra tasmissione in corso.
 >Mentre si inviano dati si ascolta il canale per capire se c'è una collisione. Questo è facile nelle LAN cablate ma difficile elle LAN wireless (non viene implementata).
->
+
+
 
 
 
