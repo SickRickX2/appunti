@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/17 Indirizzamento, ARP, Ethernet, Switch.md",
+                "file": "Reti di Elaboratori/18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17 Indirizzamento, ARP, Ethernet, Switch"
+              "title": "18"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,10 +189,11 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
+    "Reti di Elaboratori/17 Indirizzamento, ARP, Ethernet, Switch.md",
+    "Reti di Elaboratori/18.md",
     "Pasted image 20250513121526.png",
     "Pasted image 20250513121442.png",
     "Reti di Elaboratori/16 Livello di collegamento.md",
-    "Reti di Elaboratori/17 Indirizzamento, ARP, Ethernet, Switch.md",
     "Basi di Dati/Modulo 2/Officine 1.md",
     "Reti di Elaboratori/14 Link State.md",
     "Pasted image 20250430180439.png",
@@ -225,7 +225,6 @@
     "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
     "Reti di Elaboratori/imgs/Pasted image 20250405173210.png",
     "Reti di Elaboratori/imgs/Pasted image 20250406172352.png",
-    "Reti di Elaboratori/imgs/Pasted image 20250405181006.png",
     "Algoritmi 2/Esercizi grafi",
     "Algoritmi 2/imgs",
     "Reti di Elaboratori/imgs",
