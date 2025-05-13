@@ -40,4 +40,5 @@ La specifica del protocollo Ethernet si è sempre adattata anche con il migliora
 	- flag che definisce l'inizio del frame (ultima possibilità di sincronizzazione)
 	- gli ultimi due bit "11" indicano che inizia l'header MAC
 - *Indirizzi sorgente e destinazione*: 6 byte
-- 
+	- quando una NIC riceve un pacchetto contenente il proprio indirizzo di destinazione o l'indirizzo broadcast, trasferisce il contenuto del campo dati del pacchetto al livello di rete
+	- i pacchetti con altri indirizzi MAC vengono ignorati
