@@ -42,3 +42,11 @@ La specifica del protocollo Ethernet si è sempre adattata anche con il migliora
 - *Indirizzi sorgente e destinazione*: 6 byte
 	- quando una NIC riceve un pacchetto contenente il proprio indirizzo di destinazione o l'indirizzo broadcast, trasferisce il contenuto del campo dati del pacchetto al livello di rete
 	- i pacchetti con altri indirizzi MAC vengono ignorati
+- *Tipo*: 2 byte per **multiplexing/demultiplexing** 
+- *Dati*:contiene datagramma di rete. Se il datagramma è inferiore alla dimensione minima il campo viene **stuffed** con degli zeri fino a raggiungere quel valore
+- *CRC*: consente alla NIC ricevente di rilevare la presenza di un errore nei bit sui campi indirizzo, tipo e dati
+
+Questo quindi è un protocollo:
+*senza connessione*, non è prevista nessuna forma di handshake preventiva con il destinatario prima di inviare un pacchetto.
+*non affidabile (come IP e UDP)*: la NIC ricevente non invia un riscontro
+
