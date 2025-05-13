@@ -10,10 +10,12 @@ Serve per determinare l'indirizzo MAC di un nodo partendo dall'IP.
 Ogni nodo ha una tabella ARP al proprio interno che mantiene l'associazione tra indirizzi *IP e MAC* man mano che li scopre (queste informazioni hanno un time to live temporaneo per non avere troppe informazioni da memorizzare).
 
 # Indirizzamento
-A livello fisico non c'è indirizzamento come negli altri livelli dello stack protocollare.
+
+A livello fisico non c'è indirizzamento come negli altri livelli dello stack protocollare, questo livello si occupa di trasferire i singoli bit in broadcast nel mezzo trasmissivo e ricevuti da tutti i nodi che sono collegati.
 
 ## Protocollo ETHERNET
 Fu implementato dalla IEEE computer society nel 1985 per definire le funzioi del livello fisico e dei protocolli LAN.
+
 >[!note] Protocollo IEEE 802
 >I vari standard differiscono a livello fisico e nel sottolivello MAC.
 
