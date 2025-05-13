@@ -19,5 +19,19 @@ Fu implementato dalla IEEE computer society nel 1985 per definire le funzioi del
 >[!note] Protocollo IEEE 802
 >I vari standard differiscono a livello fisico e nel sottolivello MAC.
 
-La specifica del protocollo Ethernet si è sempre adattata anche con il miglioramento delle tecnologie.
+La specifica del protocollo Ethernet si è sempre adattata anche con il miglioramento delle tecnologie. Infatti i vari standard differiscono a livello fisico e nel sottolivello MAC, ma sono compatibili a livello data link.
 
+>[!note] Ethernet
+>Detiene una posizione dominante nel mercato delle LAN cablate.
+>- è stata la prima LAN ad alta velocità con vasta diffusione
+>- più semplice e meno costosa di token ring, FDDI, ATM
+>- sempre al passo dei tempi con il tasso trasmissivo
+
+### Ethernet STANDARD
+![[Pasted image 20250513121442.png]]
+
+**Formato dei frame**
+![[Pasted image 20250513121526.png]]
+- *Preambolo* 7 byte
+	- y
+- 
