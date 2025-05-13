@@ -27,11 +27,17 @@ La specifica del protocollo Ethernet si è sempre adattata anche con il migliora
 >- più semplice e meno costosa di token ring, FDDI, ATM
 >- sempre al passo dei tempi con il tasso trasmissivo
 
-### Ethernet STANDARD
+### Ethernet STANDARD (10 Mbps)
 ![[Pasted image 20250513121442.png]]
 
 **Formato dei frame**
 ![[Pasted image 20250513121526.png]]
 - *Preambolo* 7 byte
-	- y
+	- 7 byte hanno i bit 10101010
+	- serve per **attivare** le "**NIC**" dei riceventi e sincronizzare i loro orologi con quello del trasmittente
+	- fa parte dell'header del livello fisico
+- *SFD (Start Frame Delimeter)*: 1 byte (10101011)
+	- flag che definisce l'inizio del frame (ultima possibilità di sincronizzazione)
+	- gli ultimi due bit "11" indicano che inizia l'header MAC
+- *Indirizzi sorgente e destinazione*: 6 byte
 - 
