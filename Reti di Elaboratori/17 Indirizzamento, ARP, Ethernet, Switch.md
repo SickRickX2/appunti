@@ -50,3 +50,6 @@ Questo quindi è un protocollo:
 *senza connessione*, non è prevista nessuna forma di handshake preventiva con il destinatario prima di inviare un pacchetto.
 *non affidabile (come IP e UDP)*: la NIC ricevente non invia un riscontro
 
+**Indirizzi**
+Tutte le stazioni che fanno parte di una ethernet sono dotate di una **Network Interface Card**(NIC) o scheda di rete.
+La NIC fornisce un indirizzo di rete di livello di collegamento. Gli indirizzi vengono trasmessi da sinistra verso destra, byte per byte, ma per ciascun byte il bit meno significativo viene inviato per prino e quello più significativo per ultimo.
