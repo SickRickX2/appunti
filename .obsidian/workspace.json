@@ -1,41 +1,52 @@
 {
   "main": {
-    "id": "c37d52b9fdf71fc4",
+    "id": "6586ed23875b2637",
     "type": "split",
     "children": [
       {
-        "id": "fc561569feddec77",
+        "id": "d4c25ec74bc07666",
         "type": "tabs",
         "children": [
           {
-            "id": "0038c10f9048def8",
+            "id": "021974687cc0323a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
+            }
+          },
+          {
+            "id": "565aa0a48a870929",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/18.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18"
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c25ec9530ba78802",
+    "id": "c8a1f364b44fc669",
     "type": "split",
     "children": [
       {
-        "id": "c91260bef455840a",
+        "id": "e13c9470622affdd",
         "type": "tabs",
         "children": [
           {
-            "id": "a0efb69d8bc00d10",
+            "id": "9452386dd30b39c7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +59,7 @@
             }
           },
           {
-            "id": "c222069ed38911b3",
+            "id": "8d3109e93a5de620",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +76,7 @@
             }
           },
           {
-            "id": "8f0a8ea3ea7438c3",
+            "id": "4af7f89d59299467",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +89,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "c70ed05d89edd114",
+    "id": "034abad831422655",
     "type": "split",
     "children": [
       {
-        "id": "36f0cd315dea91fc",
+        "id": "75d0ebac7c5bfaa1",
         "type": "tabs",
         "children": [
           {
-            "id": "e2114546c336ba5d",
+            "id": "a4656c6a8b88e093",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,66 +115,61 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Lezione 10"
+              "title": "Riferimenti a conflict-files-obsidian-git"
             }
           },
           {
-            "id": "c52838df1ad6b13d",
+            "id": "f99ae870b16144c2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da Lezione 10"
+              "title": "Collegamenti in uscita da conflict-files-obsidian-git"
             }
           },
           {
-            "id": "a343025928c89acb",
+            "id": "ae092fdade536908",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Etichette"
             }
           },
           {
-            "id": "4265d0731ae51c50",
+            "id": "0483f56f0e255d30",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1/Lezione 10.md"
+                "file": "conflict-files-obsidian-git.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di Lezione 10"
+              "title": "Struttura di conflict-files-obsidian-git"
             }
           },
           {
-            "id": "dfc3298d3ae1fa3c",
+            "id": "89177c2317aedb40",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-            }
-          },
-          {
-            "id": "c62857c19c66bf76",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin non più attivo"
             }
           }
         ],
@@ -184,53 +190,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0038c10f9048def8",
+  "active": "565aa0a48a870929",
   "lastOpenFiles": [
-    "Reti di Elaboratori/17 Indirizzamento, ARP, Ethernet, Switch.md",
-    "Reti di Elaboratori/18.md",
-    "Pasted image 20250513121526.png",
-    "Pasted image 20250513121442.png",
-    "Reti di Elaboratori/16 Livello di collegamento.md",
-    "Basi di Dati/Modulo 2/Officine 1.md",
-    "Reti di Elaboratori/14 Link State.md",
-    "Pasted image 20250430180439.png",
-    "Reti di Elaboratori/13 Routing.md",
-    "Pasted image 20250430172737.png",
-    "Pasted image 20250430124008.png",
-    "Reti di Elaboratori/12 Packet sniffing.md",
-    "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
-    "Pasted image 20250424103859.png",
-    "Pasted image 20250424101935.png",
-    "Pasted image 20250424100918.png",
-    "Reti di Elaboratori/10 Livello di Rete.md",
-    "Reti di Elaboratori/4 Protocollo DNS.md",
-    "Reti di Elaboratori/6 Protocolli di trasporto.md",
-    "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
-    "Reti di Elaboratori/3 HTTP.md",
-    "Reti di Elaboratori/2 Stack Protocollare.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
-    "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
-    "Basi di Dati/Modulo 2/Lezione 1.md",
-    "Reti di Elaboratori/9 Interfaccia socket.md",
-    "Reti di Elaboratori/8 Protocollo TCP.md",
-    "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
-    "Basi di Dati/Modulo 2/Lezione 4.md",
-    "Basi di Dati/Modulo 2/Lezione 3.md",
-    "Relazione/Relazione del progetto BlackJack in Java.md",
-    "Algoritmi 2/3 I sort topologici.md",
-    "Algoritmi 2/2 Colorazione di grafi.md",
-    "Algoritmi 2/1 Visita in profondità (DFS) su grafo.md",
-    "Reti di Elaboratori/imgs/Pasted image 20250405173210.png",
-    "Reti di Elaboratori/imgs/Pasted image 20250406172352.png",
-    "Algoritmi 2/Esercizi grafi",
-    "Algoritmi 2/imgs",
-    "Reti di Elaboratori/imgs",
-    "Sisitemi Operativi/Modulo 2",
-    "Reti di Elaboratori",
-    "Basi di Dati/Modulo 2",
-    "Algoritmi 2",
-    "JAVA",
-    "Relazione/imgs",
-    "Relazione"
+    "conflict-files-obsidian-git.md",
+    "Reti di Elaboratori/18 prova.md"
   ]
 }
