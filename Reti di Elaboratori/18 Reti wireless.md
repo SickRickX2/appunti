@@ -42,3 +42,12 @@ Le caratteristiche dei link wireless causano errori. *Signal to Noise Ratio (SNR
 - *Alto*: il segnale è più forte del rumore, quindi può essere convertito in dati reali
 - *Basso*: il segnale è stato danneggiato dal rumore e i dati non possono essere recuperati
 
+#### No collision detection
+Nel wireless non possiamo usare il protocollo CSMA/CD; per rilevare una collisione un host deve poter trasmettere e ricevere contemporaneamente. Poiché la potenza del segnale ricevuto è molto inferiore a quella del segnale tramsessio, sarebbe troppo costoso usare un adattatore di rete in grado di rilevare le collisioni.
+#### Hidden terminal problem
+Un host potrebbe non accorgersi che un altro host sta trasmettendo e quindi non sarebbe in grado di rilevare la collisione (ascoltando il canale).
+
+## IEEE 802.11
+IEEE ha definito le specifiche per le LAN wireless, chiamate 802.11, che coprono i livelli fisico e di collegamento.
+**Architettura: BSS**: *basic service set* è costiuita da uno o più host wireless e da un accesso point
+**Architettura: ESS** *extended service set* è costituito da due o più BSS con infrastruttura. I BSS sono collegati tramite un sistema di distribuzione che è una rete cablata o wireless. Quando i BSS sono collegati, le stazini in visibilità comunicano direttamente mentre le altre comunicano tramite l'AP
