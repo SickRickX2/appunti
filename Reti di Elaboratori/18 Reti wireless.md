@@ -64,4 +64,15 @@ L'architettura IEEE 802.11 prevede che una stazione wireless si associ a un AP p
 - Può essere prevista un'autenticazione per eseguire l'associazione
 
 >[!tip] Protocollo MAC 802.11
->Più stazioni possono voler comunicare nello stesso momento
+>Più stazioni possono voler comunicare nello stesso momento.
+>Abbiamo quindi due tecniche di accesso al mezzo:
+>1) *Distributed Coordination Function (DCF)*: in cui i nodi si contendono l'accesso al canale
+>2) *Point coordination function (PCF)*: in cui non c'è contesa e l'AP coordina l'accesso dei nodi al canale
+
+### CSMA/CA
+Evitare le collisioni: due o più nodi trasmettono contemporaneamente
+Carrier sense: ascoltare il canale prima di trasmettere
+No collision detection per 3 motivi:
+1) Impossibilità di trasmettere e ricevere contemporaneamente 
+2) Hidden terminal problem
+3) Raggio di trasmissione limitato (difficile seni)
