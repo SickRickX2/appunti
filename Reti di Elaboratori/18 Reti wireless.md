@@ -81,4 +81,11 @@ No collision detection per 3 motivi:
 >Con gli ack ci sarebbe bisogno di un doppio carrier sense (dati e ack) e ci sarebbe comunque ci sarebbe la possibilità di collisione anche su ack.
 
 >[!note] IFS (spazio interframe)
+>Rilevata la portante, se il canale risulta libero, si posticipa la trasmissione per evitare che stazioni che hanno già iniziato a trasmettere collidano con la stazione che vuole trasmettere.
+>- SIFS: Short IFS realizza alta priorità
+>- DIFS: distributed IFS realizza bassa priorità
+>
+>![[Pasted image 20250519112034.png|200]]
+
+
 
