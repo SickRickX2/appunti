@@ -96,8 +96,14 @@ No collision detection per 3 motivi:
 >- *Aspetta* che il canale torni *completamente libero*
 >- Quando il canle torna libero, *riavvia da zero* il conteggio del DIFS completo
 
-
-
+>[!tip] Finestra di contesa
+>Dopo aver atteso un tempo IFS, se il canle è ancora inattivo, la stazione attende un ulteriore tempo di contesa.
+>**Finestra di contesa**(Contention window): lasso di tempo (backoff) per cui deve sentire il canale libero prima di trasmettere
+>	- Sceglie R random in \[0,CW]
+>	- While R>0:
+>		- ascolta il canale per uno slot
+>		- Se il canle è libero per la durata dello slot -> R:=R-1
+>		- altrimenti attende (interrompe il timer e aspetta che il canale si liberi e riavvia il timer)
 
 
 
