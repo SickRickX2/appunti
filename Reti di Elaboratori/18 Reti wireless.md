@@ -113,7 +113,10 @@ No collision detection per 3 motivi:
 **Fase 2: Finestra di contesa (Backoff)**
 - Il nodo *sceglie un numero casuale* in un intervallo \[0, CW-1], dove *CW* è la *Contention Window*
 - Ogni unità di tempo della finestra si chiama *Slot Time*
-- Il nodo *inizia a contare all'indietro* (backoff counter)
+- Il nodo *inizia a contare all'indietro* (backoff counter), *solo se il canale rimane libero*
+#### CSMA/CA: RTS/CTS
+Il problema dell'hidden terminal non viene risolto con IFS e finestra di contesa, è necessario un meccanismo di prenotazione del canale: *Request-to-send(RTS)*,*Clear-to-send(CTS)*
+
 
 
 
