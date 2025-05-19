@@ -53,4 +53,8 @@ IEEE ha definito le specifiche per le LAN wireless, chiamate 802.11, che coprono
 **Architettura: ESS** *extended service set* è costituito da due o più BSS con infrastruttura. I BSS sono collegati tramite un sistema di distribuzione che è una rete cablata o wireless. Quando i BSS sono collegati, le stazini in visibilità comunicano direttamente mentre le altre comunicano tramite l'AP.
 
 ## Canali e Associazione
-Lo spettro 2.4 GHz - 2.485 GHz è diviso in 11 canali parzialmente sovrapposti. L'amministratore dell'AP sceglie una frequenza, sono possibili interferenze. Il numero
+Lo spettro 2.4 GHz - 2.485 GHz è diviso in 11 canali parzialmente sovrapposti. L'amministratore dell'AP sceglie una frequenza, sono possibili interferenze. Il numero massimo di frequenza utilizzabili da diversi AP per evitare interferenze è 3(usando i canali *1,6,11*). I canali non interferiscono se separati da 4 co più canali.
+L'architettura IEEE 802.11 prevede che una stazione wireless si associ a un AP per accedere a Internet.
+
+**Associazione di una stazione a un AP:** è necessario conoscere gli AP disponibili in un BSS ed è necessario un protocollo di associazione:
+- AP invia segnali periodici (*beacon*) che includono l'identificatore dell'AP (*Service Set Identifier- SSID*) e il suo in
