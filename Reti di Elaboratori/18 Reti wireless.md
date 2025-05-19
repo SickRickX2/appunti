@@ -123,7 +123,8 @@ Il problema dell'hidden terminal non viene risolto con IFS e finestra di contesa
 >- Imposta quindi un ACK timeout
 >- Se il timer *scade senza aver ricevuto l'ACK* il nodo *suppone che la trasmissione sia fallita* e tenta una ritrasmissione
 
-
+## Network Allocation Vector (NAV)
+Quando una stazione invia un frame RTS include la durata di tempo i cui occuperà il canale per trasmettere il frame e ricevere l'ack. Questo tempo viene incluso anche e
 
 
 
