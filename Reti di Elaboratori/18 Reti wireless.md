@@ -105,6 +105,16 @@ No collision detection per 3 motivi:
 >		- Se il canle è libero per la durata dello slot -> R:=R-1
 >		- altrimenti attende (interrompe il timer e aspetta che il canale si liberi e riavvia il timer)
 
+#### DIFS + Finestra di Contesa
+**Fase 1: Attesa dell'IFS**
+- Il nodo rileva il canale *libero*
+- Attendde un tempo fisso: *DIFS*
+- Se il canale *rimane libero* per tutto il DIFS -> passa alla *finestra di contesa*
+**Fase 2: Finestra di contesa (Backoff)**
+- Il nodo *sceglie un numero casuale* in un intervallo \[0, CW-1], dove *CW* è la *Contention Window*
+- Ogni unità di tempo della finestra si chiama *Slot Time*
+- Il nodo *inizia a contare all'indietro* (backoff counter)
+
 
 
 
