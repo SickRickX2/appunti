@@ -62,3 +62,6 @@ L'architettura IEEE 802.11 prevede che una stazione wireless si associ a un AP p
 - Alla fine della scansione la stazione sceglie l'AP da cui ha ricevuto il beacon con la maggiore potenza di segnale e gli invia un frame con la richiesta di associazione
 - L'AP accetta la richiesta con un frame di risposta associazione che permetterà all'host entrante di inviare una richiesta DHCP per ottenere un indirizzo IP
 - Può essere prevista un'autenticazione per eseguire l'associazione
+
+>[!tip] Protocollo MAC 802.11
+>Più stazioni possono voler comunicare nello stesso momento
