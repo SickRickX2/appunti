@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/18 ciao.md",
+                "file": "Reti di Elaboratori/18 Reti wireless.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18 ciao"
+              "title": "18 Reti wireless"
             }
           }
         ]
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,24 +189,27 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
-    "Reti di Elaboratori/18 prova.md",
-    "Reti di Elaboratori/18 ciao.md",
-    "conflict-files-obsidian-git.md",
     "Reti di Elaboratori/17 Indirizzamento, ARP, Ethernet, Switch.md",
+    "Reti di Elaboratori/18 Reti wireless.md",
+    "Reti di Elaboratori/18 ciao.md",
+    "Pasted image 20250518193913.png",
+    "Pasted image 20250518193655.png",
+    "Pasted image 20250518192742.png",
+    "Pasted image 20250518192132.png",
+    "Pasted image 20250518191956.png",
+    "Pasted image 20250518191830.png",
+    "Pasted image 20250518184131.png",
+    "Pasted image 20250518182641.png",
+    "Pasted image 20250518173347.png",
+    "Reti di Elaboratori/18 prova.md",
+    "conflict-files-obsidian-git.md",
     "Pasted image 20250513121526.png",
-    "Pasted image 20250513121442.png",
     "Reti di Elaboratori/16 Livello di collegamento.md",
     "Basi di Dati/Modulo 2/Officine 1.md",
     "Reti di Elaboratori/14 Link State.md",
-    "Pasted image 20250430180439.png",
     "Reti di Elaboratori/13 Routing.md",
-    "Pasted image 20250430172737.png",
-    "Pasted image 20250430124008.png",
     "Reti di Elaboratori/12 Packet sniffing.md",
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
-    "Pasted image 20250424103859.png",
-    "Pasted image 20250424101935.png",
-    "Pasted image 20250424100918.png",
     "Reti di Elaboratori/10 Livello di Rete.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
@@ -221,9 +225,6 @@
     "Basi di Dati/Modulo 2/Lezione 4.md",
     "Basi di Dati/Modulo 2/Lezione 3.md",
     "Relazione/Relazione del progetto BlackJack in Java.md",
-    "Algoritmi 2/3 I sort topologici.md",
-    "Reti di Elaboratori/imgs/Pasted image 20250405173210.png",
-    "Reti di Elaboratori/imgs/Pasted image 20250406172352.png",
     "Algoritmi 2/Esercizi grafi",
     "Algoritmi 2/imgs",
     "Reti di Elaboratori/imgs",
