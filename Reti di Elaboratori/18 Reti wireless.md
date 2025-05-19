@@ -70,9 +70,15 @@ L'architettura IEEE 802.11 prevede che una stazione wireless si associ a un AP p
 >2) *Point coordination function (PCF)*: in cui non c'è contesa e l'AP coordina l'accesso dei nodi al canale
 
 ### CSMA/CA
+*CSMA/Collision Avoidance*
 Evitare le collisioni: due o più nodi trasmettono contemporaneamente
 Carrier sense: ascoltare il canale prima di trasmettere
 No collision detection per 3 motivi:
 1) Impossibilità di trasmettere e ricevere contemporaneamente 
 2) Hidden terminal problem
-3) Raggio di trasmissione limitato (difficile seni)
+3) Raggio di trasmissione limitato (difficile sentire tutte le trasmissioni)
+>[!danger] ACK
+>Con gli ack ci sarebbe bisogno di un doppio carrier sense (dati e ack) e ci sarebbe comunque ci sarebbe la possibilità di collisione anche su ack.
+
+>[!note] IFS (spazio interframe)
+
