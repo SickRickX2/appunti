@@ -117,6 +117,13 @@ No collision detection per 3 motivi:
 #### CSMA/CA: RTS/CTS
 Il problema dell'hidden terminal non viene risolto con IFS e finestra di contesa, è necessario un meccanismo di prenotazione del canale: *Request-to-send(RTS)*,*Clear-to-send(CTS)*
 
+>[!note] ACK
+>È necessario utilizzare riscontri positivi e timer per capire se la trasmissione è andata a buon fine.
+>- Il mittente *non può aspettare l'ACK all'infinito*
+>- Imposta quindi un ACK timeout
+>- Se il timer *scade senza aver ricevuto l'ACK* il nodo *suppone che la trasmissione sia fallita* e tenta una ritrasmissione
+
+
 
 
 
