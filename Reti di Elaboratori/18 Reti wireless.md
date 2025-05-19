@@ -60,4 +60,5 @@ L'architettura IEEE 802.11 prevede che una stazione wireless si associ a un AP p
 - AP invia segnali periodici (*beacon*) che includono l'identificatore dell'AP (*Service Set Identifier- SSID*) e il suo indirizzo MAC
 - La stazione wireless che vuole entrare in un BSS scandisce gli 11 canali trasmissivi alla ricerca di frame beacon (*passive scanning*)
 - Alla fine della scansione la stazione sceglie l'AP da cui ha ricevuto il beacon con la maggiore potenza di segnale e gli invia un frame con la richiesta di associazione
-- L'AP accetta la richiesta con un frame di risposta associazione che permetterà all'host entrante di inviare una richiesta DHCP
+- L'AP accetta la richiesta con un frame di risposta associazione che permetterà all'host entrante di inviare una richiesta DHCP per ottenere un indirizzo IP
+- Può essere prevista un'autenticazione per eseguire l'associazione
