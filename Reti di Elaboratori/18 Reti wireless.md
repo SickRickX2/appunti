@@ -50,4 +50,7 @@ Un host potrebbe non accorgersi che un altro host sta trasmettendo e quindi non 
 ## IEEE 802.11
 IEEE ha definito le specifiche per le LAN wireless, chiamate 802.11, che coprono i livelli fisico e di collegamento.
 **Architettura: BSS**: *basic service set* è costiuita da uno o più host wireless e da un accesso point
-**Architettura: ESS** *extended service set* è costituito da due o più BSS con infrastruttura. I BSS sono collegati tramite un sistema di distribuzione che è una rete cablata o wireless. Quando i BSS sono collegati, le stazini in visibilità comunicano direttamente mentre le altre comunicano tramite l'AP
+**Architettura: ESS** *extended service set* è costituito da due o più BSS con infrastruttura. I BSS sono collegati tramite un sistema di distribuzione che è una rete cablata o wireless. Quando i BSS sono collegati, le stazini in visibilità comunicano direttamente mentre le altre comunicano tramite l'AP.
+
+## Canali e Associazione
+Lo spettro 2.4 GHz - 2.485 GHz è diviso in 11 canali parzialmente sovrapposti. L'amministratore dell'AP sceglie una frequenza, sono possibili interferenze. Il numero
