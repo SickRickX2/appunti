@@ -83,9 +83,24 @@ No collision detection per 3 motivi:
 >[!note] IFS (spazio interframe)
 >Rilevata la portante, se il canale risulta libero, si posticipa la trasmissione per evitare che stazioni che hanno già iniziato a trasmettere collidano con la stazione che vuole trasmettere.
 >- SIFS: Short IFS realizza alta priorità
->- DIFS: distributed IFS realizza bassa priorità
+>- DIFS: Distributed IFS realizza bassa priorità
 >
 >![[Pasted image 20250519112034.png|200]]
+>**Mittente:** ascolta il canale
+>	Se libero per DIFS tempo allora trasmette
+>**Ricevente**: 
+>	Se frame ricevuto correttamente invia ACK dopo SIFS tempo
+>
+>Se durante l'intervallo DIFS il canale diventa occupato:
+>- l nodo *interrompe il conteggio* del DIFS.
+>- *Aspetta* che il canale torni *completamente libero*
+>- Quando il canle torna libero, *riavvia da zero* il conteggio del DIFS completo
+
+
+
+
+
+
 
 
 
