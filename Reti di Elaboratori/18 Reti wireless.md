@@ -124,7 +124,7 @@ Il problema dell'hidden terminal non viene risolto con IFS e finestra di contesa
 >- Se il timer *scade senza aver ricevuto l'ACK* il nodo *suppone che la trasmissione sia fallita* e tenta una ritrasmissione
 
 ## Network Allocation Vector (NAV)
-Quando una stazione invia un frame RTS include la durata di tempo i cui occuperà il canale per trasmettere il frame e ricevere l'ack. Questo tempo viene incluso anche e
+Quando una stazione invia un frame RTS include la durata di tempo in  cui occuperà il canale per trasmettere il frame e ricevere l'ack. Questo tempo viene incluso anche nel CTS. Le stazioni che sono influenzate da tale trasmissione avviano un timer chiamato NAV che indica quanto tempo devono attendere prima di eseguire il sensing del canale. Ogni stazione prima di ascoltare verifica il NAV.
 
 
 
