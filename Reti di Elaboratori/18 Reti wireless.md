@@ -57,4 +57,7 @@ Lo spettro 2.4 GHz - 2.485 GHz è diviso in 11 canali parzialmente sovrapposti. 
 L'architettura IEEE 802.11 prevede che una stazione wireless si associ a un AP per accedere a Internet.
 
 **Associazione di una stazione a un AP:** è necessario conoscere gli AP disponibili in un BSS ed è necessario un protocollo di associazione:
-- AP invia segnali periodici (*beacon*) che includono l'identificatore dell'AP (*Service Set Identifier- SSID*) e il suo in
+- AP invia segnali periodici (*beacon*) che includono l'identificatore dell'AP (*Service Set Identifier- SSID*) e il suo indirizzo MAC
+- La stazione wireless che vuole entrare in un BSS scandisce gli 11 canali trasmissivi alla ricerca di frame beacon (*passive scanning*)
+- Alla fine della scansione la stazione sceglie l'AP da cui ha ricevuto il beacon con la maggiore potenza di segnale e gli invia un frame con la richiesta di associazione
+- L'AP accetta la richiesta con un frame di risposta associazione che permetterà all'host entrante di inviare una richiesta DHCP
