@@ -131,14 +131,17 @@ Quando una stazione invia un frame RTS include la durata di tempo in  cui occupe
 >Se il mittente non riceve CTS allora assume che c'è stata collisione e riprova dopo un tempo di backoff.
 
 >[!note] Formato del frame
+>![[Pasted image 20250520114017.png]]
 >*Frame control (FC):* tipo di frame e alcune informazioni di controllo
 >*D:* durata della trasmissione, usata per impostare il NAV (Impostata sia per DATA che per RTS, CTS frame)
 >*Indirizzi*: indirizzi MAC (descritti in seguito)
->*SC:* informazioni sui frammenti (#frammento e #sequenza). Il numero di sequenza 
+>*SC:* informazioni sui frammenti ( #frammento e #sequenza). Il numero di sequenza serve per distinguere frame ritrasmessi come nel livello trasporto (ACK possono andare perduti)
+>*Frame Body:* playload
+>*FCS:* codice CRC a 32 bit
+> 
 
-
-
-
+#### Mobilità 
+All'interno della stessa sottorete IP. 
 
 
 
