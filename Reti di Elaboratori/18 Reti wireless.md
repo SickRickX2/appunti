@@ -126,6 +126,11 @@ Il problema dell'hidden terminal non viene risolto con IFS e finestra di contesa
 ## Network Allocation Vector (NAV)
 Quando una stazione invia un frame RTS include la durata di tempo in  cui occuperà il canale per trasmettere il frame e ricevere l'ack. Questo tempo viene incluso anche nel CTS. Le stazioni che sono influenzate da tale trasmissione avviano un timer chiamato NAV che indica quanto tempo devono attendere prima di eseguire il sensing del canale. Ogni stazione prima di ascoltare verifica il NAV.
 
+>[!warning] Collisioni durante l'handshaking
+>Cosa succede se avviene una collisione durante la trasmissione di RTS o CTS?
+>Se il mittente non riceve CTS allora assume che c'è stata collisione e riprova dopo un tempo di backoff.
+>
+
 
 
 
