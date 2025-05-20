@@ -141,7 +141,18 @@ Quando una stazione invia un frame RTS include la durata di tempo in  cui occupe
 > 
 
 #### Mobilità 
-All'interno della stessa sottorete IP. 
+All'interno della stessa sottorete IP, semplice all'interno della stessa rete; l'indirizzo IP rimane lo stesso.
+>[!warning] Come avviene il cambio di AP mantenendo attive tutte le connessioni TCP?
+
+![[Pasted image 20250520114448.png|375]]
+- H1 sente che il segnale da AP1 si affievolisce e avvia una scansione per un segnale più forte 
+- H1 rileva AP2, si disassocia da AP1 e si associa a AP2, mantenendo lo stesso IP e sessioni TCP
+Come si comporta lo switch?
+- Autoimpara ma non può supportare utenti con elevata mobilità
+- AP2 invia un frame broadcast allo switch con indirizzo mittente H1 e lo switch capisce che H1 è ora nel BSS2
+- Un protocollo inter-AP è in via di sviluppo
+
+
 
 
 
