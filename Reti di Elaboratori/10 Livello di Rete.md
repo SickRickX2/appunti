@@ -33,7 +33,7 @@ Implementa i primi tre livelli, all'interno abbiamo:
 - *Processore di Routing*: cerca la riga corretta nella table lookup per trovare l'interfaccia di uscita
 
 >[!tip] Ricerca nella tabella di inoltro
->Il modo migliore è quello di seguire una struttura ad albero, si parte dalla radice e si va a sinistra o a destra se il bite è 0 o 1.
+>Il modo migliore è quello di seguire una struttura ad albero, si parte dalla radice e si va a sinistra o a destra se il bit è 0 o 1.
 
 >[!note] Commutazione tramite bus
 >C'è un bus condiviso in cui transitano i pacchetti dalle porte di ingresso, ma si può inviare solo un pacchetto alla volta
