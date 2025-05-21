@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/10 Livello di Rete.md",
+                "file": "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Livello di Rete"
+              "title": "11 IPv4,DHCP, NAT, ICMP"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -189,8 +190,8 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
-    "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/10 Livello di Rete.md",
+    "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/19.md",
     "Reti di Elaboratori/18 Reti wireless.md",
     "Pasted image 20250520114448.png",
