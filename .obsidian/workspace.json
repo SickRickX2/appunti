@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
+                "file": "Reti di Elaboratori/10 Livello di Rete.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 IPv4,DHCP, NAT, ICMP"
+              "title": "10 Livello di Rete"
             }
           }
         ]
@@ -189,6 +189,7 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
+    "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/10 Livello di Rete.md",
     "Reti di Elaboratori/19.md",
     "Reti di Elaboratori/18 Reti wireless.md",
@@ -212,7 +213,6 @@
     "Reti di Elaboratori/14 Link State.md",
     "Reti di Elaboratori/13 Routing.md",
     "Reti di Elaboratori/12 Packet sniffing.md",
-    "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/4 Protocollo DNS.md",
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
