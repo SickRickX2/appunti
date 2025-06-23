@@ -4,4 +4,15 @@ Gestisce le risorse hardware di un sistema computerizzato (processori, RAM, IO) 
 3) **IO** memoria secondaria non volatile (dischi), comunicazione (scheda di rete), tastiera ecc...
 4) **Registri**
 	1) *visibili dall'utente* usati dai linguaggi non interpretati
-	2) *di controllo e di stato* usati dal processore per controllare il suo utilizzo, e dal sistema operativo per controll
+	2) *di controllo e di stato* usati dal processore per controllare il suo utilizzo, e dal sistema operativo per controllare l'esecuzione dei programmi
+	3) *Interni*: usati dal processore, responsabili della comunicazione con memoria e IO
+##### Registri visibili all'utente
+Sono gli unici che posssono essere usati direttamente quando si prpogramma in un linguaggio macchina. Possono contenere dati o indirizzi (puntatori)
+#### Registri interni
+I principali registri interni sono:
+- *registro di indirizzo di memoria (MAR)* contiene l'indirizzo della prossima operazione di lettura/scrittura
+- *registro di memoria temporanea(Memory Buffer Register)* contiene i dati da scrivere in memoria, o lo spazio dove scrivere i dati letti dalla memoria
+- *IO address register*
+- *IO buffer register* registro di memoria temporanea per IO
+#### Registri di controllo e stato
+- *Program counter* contiene l'indirizzo dell'
