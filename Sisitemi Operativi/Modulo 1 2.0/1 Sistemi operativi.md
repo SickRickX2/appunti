@@ -15,4 +15,15 @@ I principali registri interni sono:
 - *IO address register*
 - *IO buffer register* registro di memoria temporanea per IO
 #### Registri di controllo e stato
-- *Program counter* contiene l'indirizzo dell'
+- *Program counter* contiene l'indirizzo dell'istruzione da prelevare dalla memoria
+- *Instruction Register* contiene la più recente istruzione prelevata
+- *Program Status Word* contiene le informazioni di stato
+- *Flag* singoli bit settati dal processore come risultato di operazioni
+#### Esecuzione di istruzioni
+Due passi:
+- fase di *fetch* delle istruzioni: il processore legge il program counter e preleva dalla memoria principale le istruzioni
+- fase di *execute* il processore esegue le istruzioni prelevate
+
+## Interruzioni
+le interruzioni interrompono la normale esecuzione sequnziale del processo --> come conseguenza viene eseguito software di sistema, parte del sistema operativo.
+Le cause sono molteplici, e danno 
