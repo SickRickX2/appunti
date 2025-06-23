@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
-                "mode": "preview",
+                "file": "Sisitemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 IPv4,DHCP, NAT, ICMP"
+              "title": "1 Sistemi operativi"
             }
           }
         ]
@@ -189,8 +189,12 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
-    "Reti di Elaboratori/10 Livello di Rete.md",
+    "Sisitemi Operativi/Modulo 1 2.0.md",
+    "Sisitemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
+    "Sisitemi Operativi/Modulo 1 2.0",
+    "Sisitemi Operativi/Modulo 1/Lezione 1.md",
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
+    "Reti di Elaboratori/10 Livello di Rete.md",
     "Reti di Elaboratori/19.md",
     "Reti di Elaboratori/18 Reti wireless.md",
     "Pasted image 20250520114448.png",
@@ -222,9 +226,6 @@
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
     "Basi di Dati/Modulo 2/Lezione 1.md",
     "Reti di Elaboratori/9 Interfaccia socket.md",
-    "Reti di Elaboratori/8 Protocollo TCP.md",
-    "Reti di Elaboratori/7 Meccanismi di trasferimento dati affidabile.md",
-    "Basi di Dati/Modulo 2/Lezione 4.md",
     "Algoritmi 2/Esercizi grafi",
     "Algoritmi 2/imgs",
     "Reti di Elaboratori/imgs",
@@ -233,7 +234,6 @@
     "Basi di Dati/Modulo 2",
     "Algoritmi 2",
     "JAVA",
-    "Relazione/imgs",
-    "Relazione"
+    "Relazione/imgs"
   ]
 }
