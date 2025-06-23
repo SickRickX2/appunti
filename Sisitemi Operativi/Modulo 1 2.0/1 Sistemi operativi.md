@@ -51,4 +51,6 @@ Per le interruzioni asincrone, una volta che l'handler è terminato, si riprende
 Ci sono diversi tipi di errori invece per le sincrone:
 - **fault** errore *corregibile*, viene rieseguita la stessa istruzione
 - **abort** errore *non corregibile*, si esegue software collegato all'errore
-- **trap, system call** di continua dall'istruzione succe
+- **trap, system call** di continua dall'istruzione successiva
+Quando avviene un interruzione o un eccezione il programma entra in sospensione e vieneeseguita la *interrupt-handler routine*, durante la quale HW e SO collaborano per salvare le informazioni e settare il Program Counter.
+
