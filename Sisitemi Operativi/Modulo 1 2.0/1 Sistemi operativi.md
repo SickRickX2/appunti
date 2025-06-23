@@ -26,4 +26,29 @@ Due passi:
 
 ## Interruzioni
 le interruzioni interrompono la normale esecuzione sequnziale del processo --> come conseguenza viene eseguito software di sistema, parte del sistema operativo.
-Le cause sono molteplici, e danno 
+Le cause sono molteplici, e danno luogo a diverse classi di interruzioni:
+
+>[!note] Interruzioni sincrone
+>Interrompono immediatamente il programma 
+>- interruzioni da IO
+>- interruzioni da fallimento HW
+>- interruzioni da comunicazione tra CPU
+>- interruzione da timer
+
+>[!note] Interruzioni asincrone
+>Vengono sollevate successivamente
+>- interruzioni di programma causate da:
+>	- overflow
+>	- divisione per 0
+>	- debugging
+>	- errori di riferimenti a memoria
+>	- istruzioni errate
+>	- syscall
+>Vengono chiamate anche **eccezioni/exception**
+
+Per le interruzioni asincrone, una volta che l'handler è terminato, si riprende dall'istruzione successiva a quella interrotta.
+
+Ci sono diversi tipi di errori invece per le sincrone:
+- **fault** errore *corregibile*, viene rieseguita la stessa istruzione
+- **abort** errore *non corregibile*, si esegue software collegato all'errore
+- **trap, system call** di continua dall'istruzione succe
