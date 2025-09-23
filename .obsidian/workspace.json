@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sisitemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
+                "file": "WASA/Lezione 0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Sistemi operativi"
+              "title": "Lezione 0"
             }
           }
         ]
@@ -189,8 +189,11 @@
   },
   "active": "0038c10f9048def8",
   "lastOpenFiles": [
-    "Sisitemi Operativi/Modulo 1 2.0.md",
+    "Algoritmi 2 (class).md",
+    "WASA/Lezione 0.md",
     "Sisitemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
+    "WASA",
+    "Sisitemi Operativi/Modulo 1 2.0.md",
     "Sisitemi Operativi/Modulo 1 2.0",
     "Sisitemi Operativi/Modulo 1/Lezione 1.md",
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
@@ -224,8 +227,6 @@
     "Reti di Elaboratori/2 Stack Protocollare.md",
     "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Reti di Elaboratori/1 Capacità e prestazioni delle reti.md",
-    "Basi di Dati/Modulo 2/Lezione 1.md",
-    "Reti di Elaboratori/9 Interfaccia socket.md",
     "Algoritmi 2/Esercizi grafi",
     "Algoritmi 2/imgs",
     "Reti di Elaboratori/imgs",
@@ -233,7 +234,6 @@
     "Reti di Elaboratori",
     "Basi di Dati/Modulo 2",
     "Algoritmi 2",
-    "JAVA",
-    "Relazione/imgs"
+    "JAVA"
   ]
 }
