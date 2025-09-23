@@ -1,1 +1,1 @@
-GO per il backend e javascript per il frontend
+GO per il backend e javascript per il frontend 
