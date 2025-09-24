@@ -5,3 +5,5 @@ Attraverso la parola possiamo definire il mondo e costruire una episteme che ci 
 La memoria collettiva è la rete sociale stessa, possiamo pensare alla nostra memoria come ad un puntatore alla memoria della rete sociale. La memoria va riferita a ciascuna comunità linguistica, si può attingere alla memoria di altre comunità (esempio: book = libro). **Denotazione** è il rapporto tra il significante e il significato. 
 
 Nel dialogo si spezza il nesso tra significato e significante.
+
+Concetto, ci garantisce 
