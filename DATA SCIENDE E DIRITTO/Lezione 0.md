@@ -19,3 +19,8 @@ Per commettere un reato ci sono 3 elementi fondamentali:
 >- norma
 >
 >L'uomo non fa parte del reato ma solo la sua condotta. Il giudizio si sposta solo quando c'è reiterazione della condotta che nullifica il soggetto.
+
+Avremo 3 proposizioni principali per il soggetto:
+- cosa è: ontologia
+- cosa fa:transizione
+- diventa:
