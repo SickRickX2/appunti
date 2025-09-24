@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc561569feddec77",
+        "id": "503f939e14ff3ca9",
         "type": "tabs",
         "children": [
           {
-            "id": "0038c10f9048def8",
+            "id": "ef68b677d7d2a89d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,10 +188,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0038c10f9048def8",
+  "active": "ef68b677d7d2a89d",
   "lastOpenFiles": [
-    "WASA/Lezione 0.md",
     "DATA SCIENDE E DIRITTO/Lezione 0.md",
+    "WASA/Lezione 0.md",
     "DATA SCIENDE E DIRITTO",
     "Algoritmi 2 (class).md",
     "Sisitemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",

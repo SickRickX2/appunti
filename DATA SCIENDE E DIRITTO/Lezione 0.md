@@ -6,4 +6,6 @@ La memoria collettiva è la rete sociale stessa, possiamo pensare alla nostra me
 
 Nel dialogo si spezza il nesso tra significato e significante.
 
-Concetto, ci garantisce 
+Concetto, ci garantisce il significato delle parole nelle nostre menti.
+Empiristi vs idealisti: prima intelletto o prima sensi?
+Mente e cervello sono la stessa cosa? Il cervello è la struttura fisica e invece la mente
