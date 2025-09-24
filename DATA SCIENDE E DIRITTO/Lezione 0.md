@@ -9,3 +9,4 @@ Nel dialogo si spezza il nesso tra significato e significante.
 Concetto, ci garantisce il significato delle parole nelle nostre menti.
 Empiristi vs idealisti: prima intelletto o prima sensi?
 Mente e cervello sono la stessa cosa? Il cervello è la struttura fisica e accompagna le strutture sensoriali per vivere la vita. Invece la mente è la funzione elaboratrice dei dati sensoriali aquisiti dal cervello.
+ 
