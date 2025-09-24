@@ -17,3 +17,5 @@ Per commettere un reato ci sono 3 elementi fondamentali:
 >- soggetto
 >- reato
 >- norma
+>
+>L'uomo non fa parte del reato ma solo la sua condotta. Il giudizio si sposta solo quando c'è reiterazione della condotta che nullifica il soggetto.
