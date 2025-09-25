@@ -30,4 +30,10 @@ Dobbiamo esplicitamente specificare i file da includere nel commit.
 >Punta sempre all'ultimo commit e inizia dall'ultimo commit orfano (di solito primo commit del repo). Il primo commit quindi crea il primo branch, permette di lavorare in parallelo a più versioni
 
 >[!tip] Head
->Posizione corrente nella storia
+>Posizione corrente nella storia -> working copy.
+>Può putare ad un commit specifico, ad un branch o ad un tag.
+>*Checkout* è la primitiva corrispondente (aggiorna la working copy)
+>>[!warning] Se non si punta ad un branch, detached head -> no commit
+
+### Operazioni
+
