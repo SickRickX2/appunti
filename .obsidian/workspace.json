@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WASA/Lezione 1.md",
+                "file": "IUM/Lezione 0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 1"
+              "title": "Lezione 0"
             }
           }
         ]
@@ -189,18 +189,18 @@
   },
   "active": "ef68b677d7d2a89d",
   "lastOpenFiles": [
-    "WASA/Lezione 0.md",
     "WASA/Lezione 1.md",
+    "WASA/Lezione 0.md",
     "Algoritmi 2 (class).md",
     "IUM/Lezione 0.md",
     "DATA SCIENDE E DIRITTO/Lezione 0.md",
     "IUM",
     "DATA SCIENDE E DIRITTO",
-    "Sisitemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
+    "Sistemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
     "WASA",
     "Sisitemi Operativi/Modulo 1 2.0.md",
-    "Sisitemi Operativi/Modulo 1 2.0",
-    "Sisitemi Operativi/Modulo 1/Lezione 1.md",
+    "Sistemi Operativi/Modulo 1 2.0",
+    "Sistemi Operativi/Modulo 1/Lezione 1.md",
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/10 Livello di Rete.md",
     "Reti di Elaboratori/19.md",
@@ -232,7 +232,7 @@
     "Algoritmi 2/Esercizi grafi",
     "Algoritmi 2/imgs",
     "Reti di Elaboratori/imgs",
-    "Sisitemi Operativi/Modulo 2",
+    "Sistemi Operativi/Modulo 2",
     "Reti di Elaboratori",
     "Basi di Dati/Modulo 2"
   ]
