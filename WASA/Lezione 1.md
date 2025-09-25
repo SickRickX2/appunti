@@ -40,5 +40,7 @@ Dobbiamo esplicitamente specificare i file da includere nel commit.
 >Ci sono tre strategie:
 >- **fast forward**: il merge è valido se un branch è continuazione diretta dell'altro
 >- **merge commit**:crea un nuovo commit con due genitori 
->- **rebase**:revisionismo storico, 
+>- **rebase**:revisionismo storico, modifica la storia in modo che sia lineare, applicando il fast forward. Ricrea ogni commit non in comune tra A e B dopo l'ultimo in A, i commit originali nel branch, ora spostato, rimangono appesi (dangling).
+
+
 
