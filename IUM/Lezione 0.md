@@ -8,5 +8,8 @@ Useremo *Agile UCD*. Esonero ultimo giorno di lezione.
 - revisione a metà progetto
 - revisione a 3/4 di progetto
 Le esercitiazioni intermedie danno il bonus (massimo 2). 32 domande di scritto.
-La simulazione sarà con 37 domande invece. I voti non scadono (max 1 anno)
+La simulazione sarà con 37 domande invece. I voti non scadono (max 1 anno circa).
+
+# Interfacce
+Un'interfaccia è il posto (nel nostro caso schermate) in cui l'utente interagisce con l'applicazione.
 
