@@ -11,5 +11,7 @@ Le esercitiazioni intermedie danno il bonus (massimo 2). 32 domande di scritto.
 La simulazione sarà con 37 domande invece. I voti non scadono (max 1 anno circa).
 
 # Interfacce
-Un'interfaccia è il posto (nel nostro caso schermate) in cui l'utente interagisce con l'applicazione.
+Un'interfaccia è il posto (nel nostro caso schermate) in cui l'utente interagisce con l'applicazione (il contatto è bidirezionale; cioè l'applicazione comunica all'utente).
+
+
 
