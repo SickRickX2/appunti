@@ -17,4 +17,10 @@ Motivi per cui utilizziamo git:
 - *fork*:un nuovo repository che è una copia di uno esistente
 - *pull/merge request*:una richiesta di unire il codice da un fork o branch al repository/branch padre
 - *SHA1* algoritmo usato per l'hashing di git
-- 
+- campi obbligatori di un commit:
+	- data+autore,data+committer
+	- commento **obbligatorio** spiegare il commit, cosa è cambiato ecc...
+	- 0,1 o più genitori
+	- tree:hash di tutti i (~) file nel commit
+### Staging
+il commit pu
