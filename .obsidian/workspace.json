@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Lezione 0.md",
+                "file": "WASA/Lezione 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 0"
+              "title": "Lezione 1"
             }
           }
         ]
@@ -189,10 +189,11 @@
   },
   "active": "ef68b677d7d2a89d",
   "lastOpenFiles": [
-    "DATA SCIENDE E DIRITTO/Lezione 0.md",
-    "IUM/Lezione 0.md",
-    "IUM",
     "WASA/Lezione 0.md",
+    "WASA/Lezione 1.md",
+    "IUM/Lezione 0.md",
+    "DATA SCIENDE E DIRITTO/Lezione 0.md",
+    "IUM",
     "DATA SCIENDE E DIRITTO",
     "Algoritmi 2 (class).md",
     "Sisitemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
@@ -228,7 +229,6 @@
     "Reti di Elaboratori/6 Protocolli di trasporto.md",
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "Reti di Elaboratori/3 HTTP.md",
-    "Reti di Elaboratori/2 Stack Protocollare.md",
     "Algoritmi 2/Esercizi grafi",
     "Algoritmi 2/imgs",
     "Reti di Elaboratori/imgs",
