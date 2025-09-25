@@ -39,6 +39,6 @@ Dobbiamo esplicitamente specificare i file da includere nel commit.
 >[!note] Merge
 >Ci sono tre strategie:
 >- **fast forward**: il merge è valido se un branch è continuazione diretta dell'altro
->- **merge commit**:
->- **rebase**:
+>- **merge commit**:crea un nuovo commit con due genitori 
+>- **rebase**:revisionismo storico, 
 
