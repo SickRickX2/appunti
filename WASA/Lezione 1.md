@@ -23,4 +23,5 @@ Motivi per cui utilizziamo git:
 	- 0,1 o più genitori
 	- tree:hash di tutti i (~) file nel commit
 ### Staging
-il commit pu
+Il commit può contenere un sottinsieme delle modifiche, è necessario aggiungere alla staging area i cambiamenti. 
+Dobbiamo esplicitamente specificare i file da includere nel commit.
