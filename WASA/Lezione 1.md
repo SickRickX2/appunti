@@ -28,3 +28,6 @@ Dobbiamo esplicitamente specificare i file da includere nel commit.
 
 >[!note] Branch
 >Punta sempre all'ultimo commit e inizia dall'ultimo commit orfano (di solito primo commit del repo). Il primo commit quindi crea il primo branch, permette di lavorare in parallelo a più versioni
+
+>[!tip] Head
+>Posizione corrente nella storia
