@@ -36,5 +36,9 @@ Dobbiamo esplicitamente specificare i file da includere nel commit.
 >>[!warning] Se non si punta ad un branch, detached head -> no commit
 
 ### Operazioni
-
+>[!note] Merge
+>Ci sono tre strategie:
+>- **fast forward**: il merge è valido se un branch è continuazione diretta dell'altro
+>- **merge commit**:
+>- **rebase**:
 
