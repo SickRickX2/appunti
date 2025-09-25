@@ -16,4 +16,5 @@ Motivi per cui utilizziamo git:
 - *tag*:un etichetta personalizzata allegata ad un commit
 - *fork*:un nuovo repository che è una copia di uno esistente
 - *pull/merge request*:una richiesta di unire il codice da un fork o branch al repository/branch padre
+- *SHA1* algoritmo usato per l'hashing di git
 - 
