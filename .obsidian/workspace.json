@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA SCIENDE E DIRITTO/Lezione 0.md",
+                "file": "IUM/Lezione 0.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,6 +190,8 @@
   "active": "ef68b677d7d2a89d",
   "lastOpenFiles": [
     "DATA SCIENDE E DIRITTO/Lezione 0.md",
+    "IUM/Lezione 0.md",
+    "IUM",
     "WASA/Lezione 0.md",
     "DATA SCIENDE E DIRITTO",
     "Algoritmi 2 (class).md",
@@ -228,13 +229,11 @@
     "Reti di Elaboratori/5 FTP File Transfer Protocol.md",
     "Reti di Elaboratori/3 HTTP.md",
     "Reti di Elaboratori/2 Stack Protocollare.md",
-    "Reti di Elaboratori/0 Definizione di rete, calssificazioni delle reti e Internet.md",
     "Algoritmi 2/Esercizi grafi",
     "Algoritmi 2/imgs",
     "Reti di Elaboratori/imgs",
     "Sisitemi Operativi/Modulo 2",
     "Reti di Elaboratori",
-    "Basi di Dati/Modulo 2",
-    "Algoritmi 2"
+    "Basi di Dati/Modulo 2"
   ]
 }
