@@ -10,4 +10,10 @@ Motivi per cui utilizziamo git:
 **TERMINI CHIAVI**
 - *repository*: set di commit, branch e tag; assumiamo 1 progetto = 1 repo
 - *working copy/directory*: una cartella del file system del progetto con i file tracciati dal sistema di revisionamento
+- *commit*: il codice in un punto del tempo
+- *branch*:una linea di sviluppo, è un insieme ordinato di commit
+- *merge*:l'azione di fondere due o più branch
+- *tag*:un etichetta personalizzata allegata ad un commit
+- *fork*:un nuovo repository che è una copia di uno esistente
+- *pull/merge request*:una richiesta di unire il codice da un fork o branch al repository/branch padre
 - 
