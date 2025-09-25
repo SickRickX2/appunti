@@ -42,5 +42,9 @@ Dobbiamo esplicitamente specificare i file da includere nel commit.
 >- **merge commit**:crea un nuovo commit con due genitori 
 >- **rebase**:revisionismo storico, modifica la storia in modo che sia lineare, applicando il fast forward. Ricrea ogni commit non in comune tra A e B dopo l'ultimo in A, i commit originali nel branch, ora spostato, rimangono appesi (dangling).
 
-
+- init
+- status
+- add
+- commit
+- log
 
