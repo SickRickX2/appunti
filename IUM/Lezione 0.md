@@ -13,5 +13,9 @@ La simulazione sarà con 37 domande invece. I voti non scadono (max 1 anno circa
 # Interfacce
 Un'interfaccia è il posto (nel nostro caso schermate) in cui l'utente interagisce con l'applicazione (il contatto è bidirezionale; cioè l'applicazione comunica all'utente).
 
+L'interfaccia utente è lo spazio in cui avviene l'interazione tra l'uomo e la macchina, la macchina dà un feedback all'utente.
 
+L'interfaccia permette di operare l'hardware e il software del computer.
+
+*oss:* **effective** è ***efficace*** non effettivo o effettivamente
 
