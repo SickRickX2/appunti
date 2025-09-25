@@ -7,4 +7,7 @@ Motivi per cui utilizziamo git:
 - Bisogna avere informazioni dell'autore
 - Evitare duplicazione del contenuto
 
-
+**TERMINI CHIAVI**
+- *repository*: set di commit, branch e tag; assumiamo 1 progetto = 1 repo
+- *working copy/directory*: una cartella del file system del progetto con i file tracciati dal sistema di revisionamento
+- 
