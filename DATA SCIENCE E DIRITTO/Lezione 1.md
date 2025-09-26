@@ -24,5 +24,9 @@ Se il risultato sia necessitato (quello e nient'altro che quello) o se sia un at
 
 Noi produciamo dei segni linguistici, dei codici, che sono dei significanti.
 Come avviene che si colleghi l'emozione illocutiva, dare un espressione a qualcosa che bussa dentro di noi attraverso una scarica neuronale?
-(configurazione) Quando parliamo di un argomento il cervello crea una configurazione per creare delle connessioni all'
+(configurazione) Quando parliamo di un argomento il cervello crea una configurazione per creare delle connessioni all'oggetto tramite emozioni illocutive. I neuroni intercettano il sentimento di parola che incontra l'oggetto di cui vogliamo parlare affinché la parola venga fuori. es: cioccolata, la parola è il significante, mentre la cioccolata è il singificato ma qual è il rapporto tra la cioccolata e il concetto di cioccolata? Abbiamo 3 cose:
+- concetto
+- significante
+- significato
+La cioccolata in questione è un'istanza del concetto e la parola significante si riferisce sia al modello cioccolata che all'istanza de
 
