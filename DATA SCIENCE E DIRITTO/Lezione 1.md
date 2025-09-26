@@ -45,6 +45,10 @@ Le parole veicolano un significato riferito ad un oggetto della nostra conoscenz
 Il contributo dell'inconsio che sta alla base del disordine è importante nella crescita evolutiva.
 Atomi -> temno, intagliabile. Partendo da Democrito fino ad Epicuro si parlava di atomi mentre Leucitito parlava di un ulteriore piccolo, criticava inoltre l'aggregazioni degli atomi per formare la materia, motivo per cui Democrito introduce il caso come costitutivo della materia, senza il quale non ci sarebbe la realtà. 
 
+Abbiamo parlato delle proposizioni di cosa fa e cosa è il soggetto ma cosa diventa il soggetto?
+
+>[!note] Cosa diventa il soggetto
+>Il diventare è diacronico (avviene in due tempi diversi). C'è una correlazione tra il fare i il diventare?
 
 
 
