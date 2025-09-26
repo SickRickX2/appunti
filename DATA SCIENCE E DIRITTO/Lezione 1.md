@@ -16,6 +16,13 @@ Un uso improprio di una parola è un attentato alla comunicazione sociale!!!
 Le **leggi** si basano su parole che devono essere correttamente usate, devono fungere da *codici* di inviduazione delle condotte.
 
 Ciò che è scritto è un *enunciato* non una norma, diventa norma solo quando viene dato un significato all'enunciato.
-interperetazione-attività
-//risultato
-se il risultato sia necessitato (quello e ni)
+
+- interperetazione-attività
+- interpretazione-risultato
+
+Se il risultato sia necessitato (quello e nient'altro che quello) o se sia un attribuzione del significato (non è universale ma può essere diverso in base all'interpretazione).
+
+Noi produciamo dei segni linguistici, dei codici, che sono dei significanti.
+Come avviene che si colleghi l'emozione illocutiva, dare un espressione a qualcosa che bussa dentro di noi attraverso una scarica neuronale?
+(configurazione) Quando parliamo di un argomento il cervello crea una configurazione per creare delle connessioni all'
+
