@@ -48,9 +48,11 @@ Atomi -> temno, intagliabile. Partendo da Democrito fino ad Epicuro si parlava d
 Abbiamo parlato delle proposizioni di cosa fa e cosa è il soggetto ma cosa diventa il soggetto?
 
 >[!note] Cosa diventa il soggetto
->Il diventare è diacronico (avviene in due tempi diversi). C'è una correlazione tra il fare i il diventare?
+>Il diventare è diacronico (avviene in due tempi diversi). C'è una correlazione tra il fare i il diventare? Le azioni plasmano ciò che siamo sia nell'animo che nel corpo.
 
-
+esercizi:
+- Una frase euqivoca che si chiarisce con quella successiva; esempio giuseppe ha preso il toro dalle corna
+- 
 
 
 
