@@ -23,4 +23,4 @@ Per commettere un reato ci sono 3 elementi fondamentali:
 Avremo 3 proposizioni principali per il soggetto:
 - cosa è: ontologia
 - cosa fa:transizione
-- diventa:
+- cosa diventa:
