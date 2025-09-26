@@ -4,6 +4,7 @@ Senza parole possiamo avere solo emozioni o intenzioni illocutive, non pensieri 
 
 ## Il soggetto
 La nostra analisi del diritto si basa su 3 proposizioni:
+
 >[!note] Proposizioni
 >- cosa è il soggetto: ontologia
 >- cosa fa il soggetto:transizione, è la proiezione del soggetto al di fuori di sè e al di fuori dei suoi parametri anteposti
@@ -28,7 +29,12 @@ Come avviene che si colleghi l'emozione illocutiva, dare un espressione a qualco
 - concetto
 - significante
 - significato
+
 La cioccolata in questione è un'istanza del concetto e la parola significante si riferisce sia al modello cioccolata che all'istanza della cioccolata reale.
+
+Nella parola è impegnata tutta la nostra vita, senza la quale non possiamo concludere nulla, ci permettere di connettere la mente col mondo esterno.
+
+Si tratta di un encoding umano, la parola per noi è un codice. Ad esempio chatgpt spezzetta le parole in token per elaborar
 
 
 
