@@ -34,7 +34,8 @@ La cioccolata in questione è un'istanza del concetto e la parola significante s
 
 Nella parola è impegnata tutta la nostra vita, senza la quale non possiamo concludere nulla, ci permettere di connettere la mente col mondo esterno.
 
-Si tratta di un encoding umano, la parola per noi è un codice. Ad esempio chatgpt spezzetta le parole in token per elaborar
+Si tratta di un encoding umano, la parola per noi è un codice. Ad esempio chatgpt spezzetta le parole in token per elaborare un vettore multidimensionale, dove ogni dimensione rappresenta un suo possibile significato. Di questo se ne occupa la semantica (studio dei segnali), vedremo come assegnare ai token dei pesi alle parole in maniera tale che la somma dei token sia tale ad un discorso sensato, tramite una matrice con i significati in base alle dimensioni di ogni token.
+C'è una affinità tra la locazione linguistica umana e quella di un computer.
 
 
 
