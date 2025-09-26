@@ -33,5 +33,9 @@ Ha 2 caratteristiche:
 >$x,a\in\Sigma$
 
 >[!note] Configurazione
->Altro co
+>Altro concetto è la *configurazione* è coppia in $Q\times\Sigma^{*}$ 
+>Dato $x \in \Sigma$ la configurazione *iniziale* è $(q_{0},x)$
+
+**Passo di computazione**: ports da una configurazione ad un'altra
+
 
