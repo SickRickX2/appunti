@@ -21,4 +21,17 @@ Ha 2 caratteristiche:
 >[!note] Funzione di Transizione Estesa
 >Per definire precisamente il linguaggio introduco la *funzione di transizione estesa*
 >$\delta:Q \times \Sigma^{*}\implies Q$
->[!warning] oss
+>>[!warning] oss $\epsilon$ = stringa vuota
+>
+>$$
+>\begin{cases}
+>\delta^{*}(q,\epsilon) = \delta(q,\epsilon)\\
+>\delta^{*}(q,ax)=\delta^{*}(\delta(q,a),x)
+>\end{cases}
+>
+>$$
+>$x,a\in\Sigma$
+
+>[!note] Configurazione
+>Altro co
+
