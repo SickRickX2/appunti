@@ -2,6 +2,7 @@
 Ha 2 caratteristiche:
 - memoria limitata
 - processa i dati in maniera semplice (bit a bit in maniera sequenziale)
+
 >[!example] Example: dispositivo apertura porta automatica
 >Guardare libro
 
@@ -14,7 +15,10 @@ Ha 2 caratteristiche:
 >- $Q$ = insieme di dati
 >- $\delta$ = funzione che prende stato e carattere e porta in un altro stato tramite transizione
 
-
-
 >[!example] Example: **DFA** precedente
->Ha come linguaggio delle stringhe w : w contiene almeno un 1 e numero pari di 0 che segue
+>Ha come linguaggio delle stringhe w : w contiene almeno un 1 e numero pari di 0 che segue almeno un 1.
+
+>[!note] Funzione di Transizione Estesa
+>Per definire precisamente il linguaggio introduco la *funzione di transizione estesa*
+>$\delta:Q \times \Sigma^{*}\implies Q$
+>[!warning] oss
