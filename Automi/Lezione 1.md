@@ -36,6 +36,14 @@ Ha 2 caratteristiche:
 >Altro concetto è la *configurazione* è coppia in $Q\times\Sigma^{*}$ 
 >Dato $x \in \Sigma$ la configurazione *iniziale* è $(q_{0},x)$
 
-**Passo di computazione**: ports da una configurazione ad un'altra
+**Passo di computazione**: porta da una configurazione ad un'altra
+### Relazione Binaria
+$$
+(p,ax) \vdash_{M} (q,x) \iff \delta(p,a)=q 
+$$
+dove $p,q\in Q,a\in\Sigma,x \in \Sigma^{*}$.
+
+La posso *estendere* 
+
 
 
