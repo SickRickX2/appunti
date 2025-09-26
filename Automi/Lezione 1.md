@@ -44,9 +44,15 @@ $$
 dove $p,q\in Q,a\in\Sigma,x \in \Sigma^{*}$.
 
 La posso *estendere* ($\vdash_{M^{*}}$) considerando la *Chiusura Riflessiva e Transitiva*.
-$(q,x)\vdash_{M}(q,x)$
-
-$(q,x)\vdash_{M}(q,x)$
-
+$$
+\begin{align}
+&(q,x)\vdash_{M}(q,x)\\
+&(q,x)\vdash_{M}(p,by) \text{ e } (p,by)\vdash_{M}(r,y)\\ \\
+&q,p,r\in Q \\
+&a,b \in \Sigma, y\in \Sigma^{*} \\
+\end{align}
+$$
+>[!note] Linguaggio Accettato
+>Diciamo che $$
 
 
