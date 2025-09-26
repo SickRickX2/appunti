@@ -1,7 +1,6 @@
 La scorsa lezione abbiamo iniziato a parlare del linguaggio per arrivare al linguaggio umano vs linguaggio di un ai.
 
 Senza parole possiamo avere solo emozioni o intenzioni illocutive, non pensieri veri e propri. 
-
 ## Il soggetto
 La nostra analisi del diritto si basa su 3 proposizioni:
 
