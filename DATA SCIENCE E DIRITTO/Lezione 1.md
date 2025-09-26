@@ -53,6 +53,7 @@ Abbiamo parlato delle proposizioni di cosa fa e cosa è il soggetto ma cosa dive
 esercizi:
 - Una frase equivoca che si chiarisce con quella successiva; esempio giuseppe ha preso il toro dalle corna. 
 - Esempio di frase sconnessa dal punto di vista logico.
+Dare un nome alle cose è **denotare** vuol dire che significa qualcosa mentre **connotare** è quello che fa il senso è una qualificazione emotiva, particolareggiata.
 
 
 
