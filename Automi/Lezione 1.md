@@ -10,4 +10,11 @@ Ha 2 caratteristiche:
 
 >[!note] Stati
 >Gli stati si chiamano q. Uno *Stato di accettazione* se termina su uno di questi stati allora l'automa **decide**. Un automa è una tupla composta da:
->$\Sigma$
+>- $$
+>$$
+>\Sigma = \text{alfabeto input},
+>\text{Q}=\text{insieme di dati},
+>\delta \text{funzione che prende stato e carattere e porta in un altro stato tramite transizione}
+>$$
+
+
