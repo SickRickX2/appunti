@@ -43,7 +43,7 @@ C'è una affinità tra la locazione linguistica umana e quella di un computer.
 ### Concetto-codice-oggetto
 Le parole veicolano un significato riferito ad un oggetto della nostra conoscenza. Ha doppio collegamento con l'oggetto e con il concetto.
 Il contributo dell'inconsio che sta alla base del disordine è importante nella crescita evolutiva.
-Atomi -> temno, intagliabile. Partendo da Democrito fino ad Epicuro si parlava di atomi mentre l
+Atomi -> temno, intagliabile. Partendo da Democrito fino ad Epicuro si parlava di atomi mentre Leucitito parlava di un ulteriore piccolo, criticava inoltre l'aggregazioni degli atomi per formare la materia, motivo per cui Democrito introduce il caso come costitutivo della materia, senza il quale non ci sarebbe la realtà. 
 
 
 
