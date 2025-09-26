@@ -10,11 +10,11 @@ Ha 2 caratteristiche:
 
 >[!note] Stati
 >Gli stati si chiamano q. Uno *Stato di accettazione* se termina su uno di questi stati allora l'automa **decide**. Un automa è una tupla composta da:
->- $$
->$$
->\Sigma = \text{alfabeto input},
->\text{Q}=\text{insieme di dati},
->\delta \text{funzione che prende stato e carattere e porta in un altro stato tramite transizione}
->$$
+>- $\Sigma$ = alfabeto input
+>- $Q$ = insieme di dati
+>- $\delta$ = funzione che prende stato e carattere e porta in un altro stato tramite transizione
 
 
+
+>[!example] Example: **DFA** precedente
+>Ha come linguaggio delle stringhe w : w contiene almeno un 1 e numero pari di 0 che segue
