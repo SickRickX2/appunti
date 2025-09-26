@@ -28,5 +28,9 @@ Come avviene che si colleghi l'emozione illocutiva, dare un espressione a qualco
 - concetto
 - significante
 - significato
-La cioccolata in questione è un'istanza del concetto e la parola significante si riferisce sia al modello cioccolata che all'istanza de
+La cioccolata in questione è un'istanza del concetto e la parola significante si riferisce sia al modello cioccolata che all'istanza della cioccolata reale.
+
+
+
+
 
