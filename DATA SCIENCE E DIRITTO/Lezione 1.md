@@ -38,7 +38,10 @@ Si tratta di un encoding umano, la parola per noi è un codice. Ad esempio chatg
 C'è una affinità tra la locazione linguistica umana e quella di un computer.
 
 >[!note] Codice linguistico
->Deve essere unico e univico  per ogni denotazione e ricco, dove i casi di polisemia si risolvono con il con il contesto.
+>Deve essere unico e univico  per ogni denotazione e ricco, dove i casi di polisemia si risolvono con il con il contesto. La parola funziona come una password per avere l'accesso alla comunicazione sociale.
+
+### Concetto-codice-oggetto
+Le parole veicolano un significato riferito ad un oggetto della nostra conoscenza. Ha doppio collegamento con l'oggetto e con il concetto.
 
 
 
