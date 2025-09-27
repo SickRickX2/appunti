@@ -29,10 +29,12 @@ $x \in L \iff DFA \text{ accetta} \ x$
 **base:** $|x| = 0$ Se $x=\epsilon$, $\delta^{*}(q_{0},\epsilon)=\delta(q_{0},\epsilon)$
 **passo induttivo:** Sia $n> 0$ supponiamo che $|w| \leq n$
 $$\delta^{*}(q_{0},w)=\begin{cases}
-&q_{1} \text{ se }w \text{i} \\
-&
+&q_{1} \text{ se } \ w \text{ inizia con 1} \\ \\
+&q_{2} \text{ se } \ w \text{ inizia con 0} \\ \\  
+&q_{0} \text{ se } w=\epsilon
 \end{cases}
 $$
+Prendo $x$ t.c. $|x|=n+1$ e lo penso $x=au$ con $a \in \{ 0,1 \}$ e $u \in \{ 0,1 \}^{n}$.
 
 
 
