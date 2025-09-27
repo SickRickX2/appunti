@@ -12,6 +12,14 @@ Vogliamo capire come progettare DFA per un dato linguaggio.
 
 >[!example] Example:
 >$L=\{ x \in \{ 0,1 \}^{*} \ t.c. \ x = 1y, y \in \{ 0,1 \}^{*}  \}$
+>![[Pasted image 20250927163943.png|350x250]]
+>>[!warning] oss
+>>Se $\delta$ non definita e non disegno lo stato pozzo (che in questo caso è $q_{2}$ va bene)
+
+#### Prova di correttezza
+- $DFA$ accetta $x \iff x \in L$
+- 
+
 
 
 
