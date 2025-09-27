@@ -41,8 +41,9 @@ $(q_{0},a)=q_{1} \text{ se } a=1$
 Poiché abbiamo dimostrato prima che se ci arriva rimane sempre in $q_{1}$ e in $q_{2}$ e allora il DFA $\iff a=1$
 
 ### Operazioni sui linguaggi
-Fissiamo $\Sigma=$
-
+Fissiamo $\Sigma=\{ 0,1 \}$. per $n \in \mathbb{N}$. $[n]=\{ 1,2,\dots n \}$
+Siccome i linsguaggi sono insieme di stringhe allora posso considerare su di essi per le operazioni:
+- *Unione*: $L_{1}\cup L_{2}=\{x \in \Sigma^{*}:x \in L_{1} \vee x \in L_{2} \}$
 
 
 
