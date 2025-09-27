@@ -53,9 +53,10 @@ $$
 \end{align}
 $$
 >[!note] Linguaggio Accettato
->Diciamo che $\xi nS^{*}$ è accettato da $M=(Q,\Sigma,\delta,q_{0},F)$ se $\delta^{*}(q_{0},x)\in F$
+>Diciamo che $x  \in \Sigma^{*}$ è accettato da $M=(Q,\Sigma,\delta,q_{0},F)$ se $\delta^{*}(q_{0},x)\in F$
 >oppure
 >$(q_{0},x)\vdash_{M^{*}}(q,\epsilon)\in F$
+>In altre parole $L(M)={x \in }$
 
 
 
