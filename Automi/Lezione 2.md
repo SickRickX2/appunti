@@ -27,6 +27,12 @@ Vogliamo capire come progettare DFA per un dato linguaggio.
 *Dimostriamo per induzione* 
 $x \in L \iff DFA \text{ accetta} \ x$
 **base:** $|x| = 0$ Se $x=\epsilon$, $\delta^{*}(q_{0},\epsilon)=\delta(q_{0},\epsilon)$
+**passo induttivo:** Sia $n> 0$ supponiamo che $|w| \leq n$
+$$\delta^{*}(q_{0},w)=\begin{cases}
+&q_{1} \text{ se }w \text{i} \\
+&
+\end{cases}
+$$
 
 
 
