@@ -1,3 +1,19 @@
 # Liguaggi regolari
 $REG = \{ L \subseteq \Sigma^{*} :\exists \text{ DFA M tale che } L(M)=L\}$
-Questo rappresenta l'insieme dei linguaggi rico
+Questo rappresenta l'insieme dei linguaggi riconosciuti dal DFA M.
+
+>[!warning] oss: 
+>Non tutti i linguaggi sono regolari
+
+Vogliamo capire come progettare DFA per un dato linguaggio.
+
+>[!warning] oss:
+> Ce ne può essere più di uno per un determinato linguaggio
+
+>[!example] Example:
+>$L=\{ x \in \{ 0,1 \}^{*} \ t.c. \ x = 1y, y \in \{ 0,1 \}^{*}  \}$
+
+
+
+
+
