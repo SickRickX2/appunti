@@ -58,6 +58,18 @@ $$
 >$(q_{0},x)\vdash_{M^{*}}(q,\epsilon)\in F$
 >In altre parole $L(M)=\{ x \in \Sigma^{*}:\delta^{*}(q_{0},x)\in F\}$
 >![[Pasted image 20250927162124.png]]
+>$$
+>\begin{align} \\
+>&(q_{1},011) \\
+>&\vdash_{M}(q_{1},11) \\
+>&\vdash_{M}(q_{2},\epsilon)\\
+>&\implies \delta^{*}(q_{1},011)=(q_{2},\epsilon)
+\end{align}
+>$$
+
+
+
+
 
 
 
