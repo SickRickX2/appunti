@@ -91,8 +91,8 @@ Se $L_{1},L_{2} \in REG$ posso dire che $L_{1}\cup L_{2},L_{1}\cap L_{2},\neg L_
 >**Intuizione**: $L_{1},L_{2} \in REG$ ovvero $\exists M_{1},M_{2}\text{ DFA t.c. }$
 >$L(M_{1})=L_{1}$ e $L(M_{2})=L_{2}$
 >Devo definire M t.c $L(M)=L_{1}\cup L_{2}$
->*Problema:* Dato x candidato non posso prima porvare a vedere se $M_{1}(x)$ accetta? No!! M deve eseguire $M_{1}$ e $M_{2}$ in parallel
->
+>*Problema:* Dato x candidato non posso prima provare a vedere se $M_{1}(x)$ accetta? No!! M deve eseguire $M_{1}$ e $M_{2}$ in parallelo e accettare se e solo se uno dei due accetta
+
 
  
 
