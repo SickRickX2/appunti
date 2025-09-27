@@ -21,8 +21,13 @@ Vogliamo capire come progettare DFA per un dato linguaggio.
 >[!warning] oss
 >$$\begin{align}
 >&\delta^{*}(q_{1},u)=q_{1} \ \forall u \in \{ 0,1 \}^{*}  \\
->&\delta^{*}(q_{2},u)=q_{2}\forall  
+>&\delta^{*}(q_{2},u)=q_{2}\forall u \in \{ 0,1 \}^{*}  
 >\end{align}$$
+
+*Dimostriamo per induzione* 
+$x \in L \iff DFA \text{ accetta} \ x$
+**base:** $|x| = 0$ Se $x=\epsilon$, $\delta^{*}(q_{0},)$
+
 
 
 
