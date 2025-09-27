@@ -57,12 +57,16 @@ Posso concantenare i inguaggi:
 $L_{1} \circ L_{2}=\{ xy:x \in L_{1} \ e \ y\in L_{2} \}$
 >[!example] Example:
 >$$
->\Sigma = \{ a,b \}
->L_{1}=\{ a,ab,ba \}
->
+>\begin{align}
+>&\Sigma = \{ a,b \} \\
+>&L_{1}=\{ a,ab,ba \} \\
+>&L_{2}=\{ ab,b \} \\ \\
+>\end{align}
 >$$
+>$L_{1} \circ L_{2}= \{ aab,ab,abab,abb,baab,bab \}$
 
-
+- *Potenza*: la potenza è un caso speciale di concatenazione.
+Per le stringhe $x$
 
 
  
