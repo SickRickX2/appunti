@@ -36,7 +36,12 @@ $$\delta^{*}(q_{0},w)=\begin{cases}
 $$
 Prendo $x$ t.c. $|x|=n+1$ e lo penso $x=au$ con $a \in \{ 0,1 \}$ e $u \in \{ 0,1 \}^{n}$.
 $\delta^{*}(q_{0},a)=\delta(q_{0},au)=\delta^{*}(\delta(q_{0},a),u)$ 
-(q_{0},a)=
+$(q_{0},a)=q_{2} \text{ se } a=0$ 
+$(q_{0},a)=q_{1} \text{ se } a=1$ 
+Poiché abbiamo dimostrato prima che se ci arriva rimane sempre in $q_{1}$ e in $q_{2}$ e allora il DFA $\iff a=1$
+
+### Operazioni sui linguaggi
+Fissiamo $\Sigma=$
 
 
 
