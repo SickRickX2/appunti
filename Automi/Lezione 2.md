@@ -66,8 +66,22 @@ $L_{1} \circ L_{2}=\{ xy:x \in L_{1} \ e \ y\in L_{2} \}$
 >$L_{1} \circ L_{2}= \{ aab,ab,abab,abb,baab,bab \}$
 
 - *Potenza*: la potenza è un caso speciale di concatenazione.
-Per le stringhe $x$
-
+Per le stringhe $x^{n}=x\dots x \ n\text{ volte } x \in \Sigma^{*}$
+$$
+\begin{cases}
+&x^{0} = \epsilon \\
+&x^{n+1}=x^{n} \cdot x
+\end{cases}
+$$
+Lo stesso vale per i linguaggi
+$$
+\begin{cases}
+&L^{0} = \epsilon \\
+&L^{n+1}=L^{n} \circ L
+\end{cases}
+$$
+Quindi la $*$ :
+$L^{*}= UU$
 
  
 
