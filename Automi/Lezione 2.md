@@ -84,7 +84,15 @@ Quindi la $*$ :
 $L^{*}=  L^{n}= \bigcup_{n\geq_{0}} \epsilon \cup L^{1}\cup L^{2}\cup L^{n}$
 #### Chiusura dei linguaggi regolari
 Vogliamo studiare la proprietà della chiusura dei linguaggi regolari
-
+Ovvero:
+Se $L_{1},L_{2} \in REG$ posso dire che $L_{1}\cup L_{2},L_{1}\cap L_{2},\neg L_{1},L^{*}$ sono regolari?
+>[!note] Teorema 1
+>REG è chiusa per *unione*.
+>**Intuizione**: $L_{1},L_{2} \in REG$ ovvero $\exists M_{1},M_{2}\text{ DFA t.c. }$
+>$L(M_{1})=L_{1}$ e $L(M_{2})=L_{2}$
+>Devo definire M t.c $L(M)=L_{1}\cup L_{2}$
+>*Problema:* Dato x candidato non posso prima porvare a vedere se $M_{1}(x)$ accetta? No!! M deve eseguire $M_{1}$ e $M_{2}$ in parallel
+>
 
  
 
