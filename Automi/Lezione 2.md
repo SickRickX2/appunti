@@ -45,7 +45,8 @@ Fissiamo $\Sigma=\{ 0,1 \}$. per $n \in \mathbb{N}$. $[n]=\{ 1,2,\dots n \}$
 Siccome i linsguaggi sono insieme di stringhe allora posso considerare su di essi per le operazioni:
 - *Unione*: $L_{1}\cup L_{2}=\{x \in \Sigma^{*}:x \in L_{1} \vee x \in L_{2} \}$
 - *Interazione*:  $L_{1}\cap L_{2}=\{x \in \Sigma^{*}:x \in L_{1} \vee x \in L_{2} \}$
-- *Complimento*: $\neg L_{1}=\{ x \in \Sigma^{*}:x n\ \}$
+- *Complimento*: $\neg L_{1}=\{ x \in \Sigma^{*}:x \not\in L \}$
+- ***Concatenazione***: Se abbiamo $x=a_{1},\dots,a_{n}$
 
 
 
