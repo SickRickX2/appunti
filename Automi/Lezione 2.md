@@ -46,7 +46,21 @@ Siccome i linsguaggi sono insieme di stringhe allora posso considerare su di ess
 - *Unione*: $L_{1}\cup L_{2}=\{x \in \Sigma^{*}:x \in L_{1} \vee x \in L_{2} \}$
 - *Interazione*:  $L_{1}\cap L_{2}=\{x \in \Sigma^{*}:x \in L_{1} \vee x \in L_{2} \}$
 - *Complimento*: $\neg L_{1}=\{ x \in \Sigma^{*}:x \not\in L \}$
-- ***Concatenazione***: Se abbiamo $x=a_{1},\dots,a_{n}$ e $y=b_{1}\dots b_{n}$
+- ***Concatenazione***: Se abbiamo $x=a_{1},\dots,a_{n}$ e $y=b_{1}\dots b_{n}$ con $n,m>0$ $$
+\begin{cases}
+&x\epsilon = x \\
+&x(ya)=(xy)a \\ x,y \in \Sigma^{*} \\
+a\in\Sigma
+\end{cases}
+$$
+Posso concantenare i inguaggi:
+$L_{1} \circ L_{2}=\{ xy:x \in L_{1} \ e \ y\in L_{2} \}$
+>[!example] Example:
+>$$
+>\Sigma = \{ a,b \}
+>L_{1}=\{ a,ab,ba \}
+>
+>$$
 
 
 
