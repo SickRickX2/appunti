@@ -81,7 +81,10 @@ $$
 \end{cases}
 $$
 Quindi la $*$ :
-$L^{*}=  L^{n}= \bigcup \epsilon$
+$L^{*}=  L^{n}= \bigcup_{n\geq_{0}} \epsilon \cup L^{1}\cup L^{2}\cup L^{n}$
+#### Chiusura dei linguaggi regolari
+Vogliamo studiare la proprietà della chiusura dei linguaggi regolari
+
 
  
 
