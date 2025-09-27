@@ -57,6 +57,7 @@ $$
 >oppure
 >$(q_{0},x)\vdash_{M^{*}}(q,\epsilon)\in F$
 >In altre parole $L(M)=\{ x \in \Sigma^{*}:\delta^{*}(q_{0},x)\in F\}$
+>![[Pasted image 20250927162124.png]]
 
 
 
