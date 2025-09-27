@@ -26,7 +26,7 @@ Vogliamo capire come progettare DFA per un dato linguaggio.
 
 *Dimostriamo per induzione* 
 $x \in L \iff DFA \text{ accetta} \ x$
-**base:** $|x| = 0$ Se $x=\epsilon$, $\delta^{*}(q_{0},)$
+**base:** $|x| = 0$ Se $x=\epsilon$, $\delta^{*}(q_{0},\epsilon)=\delta(q_{0},\epsilon)$
 
 
 
