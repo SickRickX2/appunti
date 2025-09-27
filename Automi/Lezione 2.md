@@ -81,7 +81,7 @@ $$
 \end{cases}
 $$
 Quindi la $*$ :
-$L^{*}= UU$
+$L^{*}=  L^{n}= \bigcup \epsilon$
 
  
 
