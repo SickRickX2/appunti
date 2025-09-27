@@ -35,6 +35,8 @@ $$\delta^{*}(q_{0},w)=\begin{cases}
 \end{cases}
 $$
 Prendo $x$ t.c. $|x|=n+1$ e lo penso $x=au$ con $a \in \{ 0,1 \}$ e $u \in \{ 0,1 \}^{n}$.
+$\delta^{*}(q_{0},a)=\delta(q_{0},au)=\delta^{*}(\delta(q_{0},a),u)$ 
+(q_{0},a)=
 
 
 
