@@ -18,7 +18,11 @@ Vogliamo capire come progettare DFA per un dato linguaggio.
 
 #### Prova di correttezza
 - $DFA$ accetta $x \iff x \in L$
-- 
+>[!warning] oss
+>$$\begin{align}
+>&\delta^{*}(q_{1},u)=q_{1} \ \forall u \in \{ 0,1 \}^{*}  \\
+>&\delta^{*}(q_{2},u)=q_{2}\forall  
+>\end{align}$$
 
 
 
