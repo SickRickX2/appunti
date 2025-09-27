@@ -46,7 +46,7 @@ Siccome i linsguaggi sono insieme di stringhe allora posso considerare su di ess
 - *Unione*: $L_{1}\cup L_{2}=\{x \in \Sigma^{*}:x \in L_{1} \vee x \in L_{2} \}$
 - *Interazione*:  $L_{1}\cap L_{2}=\{x \in \Sigma^{*}:x \in L_{1} \vee x \in L_{2} \}$
 - *Complimento*: $\neg L_{1}=\{ x \in \Sigma^{*}:x \not\in L \}$
-- ***Concatenazione***: Se abbiamo $x=a_{1},\dots,a_{n}$
+- ***Concatenazione***: Se abbiamo $x=a_{1},\dots,a_{n}$ e $y=b_{1}\dots b_{n}$
 
 
 
