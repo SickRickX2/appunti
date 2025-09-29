@@ -6,4 +6,12 @@ Inizio anni 80 comincia un' implementazione del desktop per come lo conosciamo.
 *Come progettare e sviluppare un buon sistema interattivo?*
 - uno svilupppo iterativo
 - centrato sull'umano
-- bisogno dell'utente (non quello che l'u)
+- bisogno dell'utente (non quello che l'utente vuole)
+- usabilità
+- uso di prototipi
+- valutazione dell'utente
+- programmazione (in questo corso non è presente)
+- euristica
+
+**HCI**: interazione uomo macchina (interazione uomo computer)
+
