@@ -1,0 +1,3 @@
+- NIST: National Institute of Standards and Technology. Standard americano su cui si baserà la nostra definizione di cybersecurity. 
+- Prevenzione dei danni, protezione e restoration di sistemi elettronici e informatici. Tutto ciò che riguarda dati, comunicazioni e sistemi elettronici in senso lato.
+- *Computer security*
