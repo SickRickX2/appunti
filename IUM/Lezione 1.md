@@ -45,6 +45,8 @@ Una parte dello studio è dedicata agli errori, come recuperare situazioni a cau
 >- iterazione e creare prototipi:
 >- implementazione e deployment:
 
+>[!warning] oss: Non c'è una risposta giusta su come si fa un needfinding
+
 
 
 
