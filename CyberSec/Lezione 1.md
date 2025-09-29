@@ -6,3 +6,9 @@
 >- Confidenzialità: preservare l'accesso delle informazioni tramite determinate restizioni per preservare la privacy personale.
 >- Integrità: regolare la modifica impropria di infromazioni o la cancellazione, operazioni che non seguono la nonrepudation e l'autenticità.
 >- Availability:
+
+>[!warning] Levels of Impact
+>- Low: la perdita può avere danni limitati.
+>- Moderate: la perdita può avere danni seri.
+>- High: la perdità può avere danni catastrofici.
+
