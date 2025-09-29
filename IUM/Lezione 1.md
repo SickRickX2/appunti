@@ -1,0 +1,1 @@
+Durante l'interazione sia l'umano che la macchina interpretano quello che ricevono, ma mentre l'uomo ragiona, la macchina effettua una computazione e non dovrebbe fraintedere in quanto deterministica.
