@@ -48,11 +48,12 @@ Siccome i linsguaggi sono insieme di stringhe allora posso considerare su di ess
 - *Complimento*: $\neg L_{1}=\{ x \in \Sigma^{*}:x \not\in L \}$
 - ***Concatenazione***: Se abbiamo $x=a_{1},\dots,a_{n}$ e $y=b_{1}\dots b_{n}$ con $n,m>0$ $$
 \begin{cases}
-&x\epsilon = x \\
-&x(ya)=(xy)a \\ x,y \in \Sigma^{*} \\
-a\in\Sigma
+x\epsilon = x \\
+x(ya)=(xy)a \\
 \end{cases}
 $$
+$x,y \in \Sigma^{*} a \in\Sigma$
+
 Posso concantenare i inguaggi:
 $L_{1} \circ L_{2}=\{ xy:x \in L_{1} \ e \ y\in L_{2} \}$
 >[!example] Example:
