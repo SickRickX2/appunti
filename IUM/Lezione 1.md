@@ -13,5 +13,16 @@ Inizio anni 80 comincia un' implementazione del desktop per come lo conosciamo.
 - programmazione (in questo corso non è presente)
 - euristica
 
-**HCI**: interazione uomo macchina (interazione uomo computer)
+**HCI**: interazione uomo macchina (interazione uomo computer), concerne il design e l'implementazione per l'uso umano studiando i fenomeni più comuni, basandosi sull'interpretazione degli altri.
+
+Il sistema deve permettere di svolgere tutti i task con un focus sull'usabilità:
+- utile
+- usabile
+- usato
+
+>[!note] Usabile
+>Devo poter svolgere le task in modo efficace, efficiente e con soddisfazione.
+>- efficace: 
+>- efficiente
+
 
