@@ -42,7 +42,10 @@ Una parte dello studio è dedicata agli errori, come recuperare situazioni a cau
 >mettere foto slide
 >- *needfinding*: osservazione dell'utente, interviste,...
 >- *analisi*: formalizzare e strutturare i bisogni, creare scenari di interfacce, comparare la situazione che ci si aspettava con quella nuova
->- 
+>- iterazione e creare prototipi:
+>- implementazione e deployment:
+
+
 
 
 
