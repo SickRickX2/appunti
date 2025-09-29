@@ -3,4 +3,7 @@ Si è passati da un uso del computer senza interfaccia per gli addetti ai lavori
 Inizio anni 80 comincia un' implementazione del desktop per come lo conosciamo.
 #### Obiettivi
 - Capire come il design deve venire incontro all'utente, capire e studiare gli utenti di un sistema per capire i loro bisogni.
-- 
+*Come progettare e sviluppare un buon sistema interattivo?*
+- uno svilupppo iterativo
+- centrato sull'umano
+- bisogno dell'utente (non quello che l'u)
