@@ -33,7 +33,14 @@ Una parte dello studio è dedicata agli errori, come recuperare situazioni a cau
 >[!example] Example: il cestino nell'ambiente desktop, o ctrl+z in un applicazione
 
 >[!note] UCD: User-Centered Design
->La progettazione viene fatta coinvolgendo gli utenti (non troppo, va coinvolto all'incirca il 20% del tempo totale di sviluppo)
+>La progettazione viene fatta coinvolgendo gli utenti (non troppo, va coinvolto all'incirca il 20% del tempo totale di sviluppo). Viene coinvolto in determinati momenti, vedremo come farlo.
+
+>[!note] Agile
+>Tecnica di design e sviluppo di sistemi, non è una tecnica monolitica ma si sviluppa per cicli molto brevi che coinvolgono tutte le fasi di progettazione, sviluppo e testing. Questi cicli si ripetono molte volte, questi cicli vengono chiamati *sprint*.
+
+>[!note] Human Centered Design
+>mettere foto slide
+
 
 
 
