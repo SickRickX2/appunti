@@ -22,7 +22,11 @@ Il sistema deve permettere di svolgere tutti i task con un focus sull'usabilità
 
 >[!note] Usabile
 >Devo poter svolgere le task in modo efficace, efficiente e con soddisfazione.
->- efficace: 
->- efficiente
+>- *efficace*: raggiungere l'obiettivo
+>- *efficiente*: buon rapporto costo risultato
+>- *soddisfazione*: raggiungere l'obiettivo senza fatica e senza frustrazione
+
+*Specifici* **utenti** devono avere *specifici* **obiettivi** in un **contesto** *specifico*.
+
 
 
