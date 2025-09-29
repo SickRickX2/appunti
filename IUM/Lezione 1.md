@@ -32,6 +32,9 @@ Una parte dello studio è dedicata agli errori, come recuperare situazioni a cau
 
 >[!example] Example: il cestino nell'ambiente desktop, o ctrl+z in un applicazione
 
+>[!note] UCD: User-Centered Design
+>La progettazione viene fatta coinvolgendo gli utenti (non troppo, va coinvolto all'incirca il 20% del tempo totale di sviluppo)
+
 
 
 
