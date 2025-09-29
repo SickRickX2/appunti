@@ -28,5 +28,13 @@ Il sistema deve permettere di svolgere tutti i task con un focus sull'usabilità
 
 *Specifici* **utenti** devono avere *specifici* **obiettivi** in un **contesto** *specifico*.
 
+Una parte dello studio è dedicata agli errori, come recuperare situazioni a causa di errore da parte dell'utente. 
+
+>[!example] Example: il cestino nell'ambiente desktop, o ctrl+z in un applicazione
+
+
+
+
+
 
 
