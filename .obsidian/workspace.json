@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Lezione 1.md",
+                "file": "WASA/Lezione 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 1"
+              "title": "Lezione 2"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237,
-    "collapsed": true
+    "width": 237
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,10 @@
   },
   "active": "ef68b677d7d2a89d",
   "lastOpenFiles": [
-    "Senza nome.base",
+    "WASA/Lezione 1.md",
+    "WASA/Lezione 2.md",
     "IUM/Lezione 1.md",
+    "Senza nome.base",
     "IUM/Lezione 0.md",
     "Automi/Lezione 2.md",
     "CyberSec/Lezione 1.md",
@@ -206,7 +207,6 @@
     "Sistemi Operativi/Modulo 1/Lezione 6.md",
     "Sistemi Operativi/Modulo 1/Lezione 7.md",
     "WASA/Lezione 0.md",
-    "WASA/Lezione 1.md",
     "DATA SCIENCE E DIRITTO/Lezione 1.md",
     "Automi",
     "DATA SCIENCE E DIRITTO/Lezione 0.md",
