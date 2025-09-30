@@ -17,5 +17,16 @@ Possiamo forzare la creazione di un indice su un determinato oggetto.
 
 - *checkout*: sposta la cwd alla branch specifica
 - *cherrypick*: è una sorta di rebase ma non sull'ultima versione, quindi non aggiunge ma sovrascrive
-- 
+
+>[!note]
+>- **Main** sono codice stabile, testato e rilasciato. Merge in: solo da realese
+>- **Develop**: cronologia completa delle funzionalità di sviluppo. Merge da: features
+>- **Feature**: Lavoro isolato su una nuova funzionalità. Ramifica da develop e unisce in develop
+>- **Release**: preparazione e rifinitura finale per il prossimo rilascio
+>- **Hotfix**: piccoli cicli di sviluppo che servono per la correzione retroattiva e propagano verso main e verso develop
+
+## Remote
+Riferimenti ai branch in repository remoti. **Origin** è il nome remoto predefinito.
+Il tracking viene eseguito con branch locali con relazione diretta a un remoto
+
 
