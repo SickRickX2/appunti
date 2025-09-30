@@ -16,5 +16,6 @@ Usiamo una struttra ad albero per comodità. All'interno ci sono blob (nodi) o a
 Possiamo forzare la creazione di un indice su un determinato oggetto.
 
 - *checkout*: sposta la cwd alla branch specifica
-
+- *cherrypick*: è una sorta di rebase ma non sull'ultima versione, quindi non aggiunge ma sovrascrive
+- 
 
