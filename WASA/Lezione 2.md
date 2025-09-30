@@ -30,7 +30,10 @@ Riferimenti ai branch in repository remoti. **Origin** è il nome remoto predefi
 Il tracking viene eseguito tramite branch locali con relazione diretta a un remoto.
 Git pull e git push fanno implicitamente tracking.
 *Se avviene una divergenza storica?*
-Se una linea di sviluppo diverge e abbiamo biso
+Se una linea di sviluppo diverge e abbiamo bisogno di riconciliare, utilizziamo un merge.
+git pull -> è l'unione di git fetch seguito da git merge
+Scarica il contenuto da remoto e lo unisce immediatamente nel branch locale corrente
+git push -> carica le modifiche verso il remote
 
 
 
