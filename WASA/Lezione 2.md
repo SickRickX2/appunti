@@ -9,5 +9,4 @@ Ma facciamo un passo indietro.
 
 Git è essenzialmente un file system content addrressable, su questo si costruisce un meccanismo di facciata del versionamento.
 
-- 
 
