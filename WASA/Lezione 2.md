@@ -9,4 +9,6 @@ Ma facciamo un passo indietro.
 
 Git è essenzialmente un file system content addrressable, su questo si costruisce un meccanismo di facciata del versionamento.
 
+Ogni operazione di git commit, nasconde ad un livello più basso una serie di operazioni per creare un oggetto da inserire con un puntatore in una semi-struttura dati.
+
 
