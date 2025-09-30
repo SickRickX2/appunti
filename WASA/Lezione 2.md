@@ -11,4 +11,8 @@ Git è essenzialmente un file system content addrressable, su questo si costruis
 
 Ogni operazione di git commit, nasconde ad un livello più basso una serie di operazioni per creare un oggetto da inserire con un puntatore in una semi-struttura dati.
 
+Usiamo una struttra ad albero per comodità. All'interno ci sono blob (nodi) o altri tree (praticamente altre cartelle). Questo albero viene manipolato tramite i nostri commit e le operazioni effettuate tramite git.
+
+Possiamo forzare la creazione di un indice su un determinato oggetto.
+
 
