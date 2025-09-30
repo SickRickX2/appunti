@@ -27,6 +27,10 @@ Possiamo forzare la creazione di un indice su un determinato oggetto.
 
 ## Remote
 Riferimenti ai branch in repository remoti. **Origin** è il nome remoto predefinito.
-Il tracking viene eseguito con branch locali con relazione diretta a un remoto
+Il tracking viene eseguito tramite branch locali con relazione diretta a un remoto.
+Git pull e git push fanno implicitamente tracking.
+*Se avviene una divergenza storica?*
+Se una linea di sviluppo diverge e abbiamo biso
+
 
 
