@@ -24,5 +24,5 @@ Vengono combinati con altre informazioni:
 >[!note] Memoria
 >La memoria è registrata come traccia impressa dall'esperienza di vita e si configura di eventi specifici (*memoria episodica*) e di conoscenze generali (memoria semantica).
 
-In generale per gli elementi che abbiamo citato prima che integrano i segnali grezzi ,
+In generale le informazioni degli elementi che abbiamo citato prima, che integrano i segnali grezzi, non sono contenute all'interno del singolo neurone ma si trovano all'interno dell'intera distribuzione del *firing rate* (sequenza di scarica) in molte cellule contemporaneamente
 
