@@ -1,0 +1,3 @@
+Possibili connessioni:
+- temporale
+- causalità 
