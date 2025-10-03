@@ -22,5 +22,7 @@ Vengono combinati con altre informazioni:
 - **ricompensa e punizioni previste**: conseguenze in base alle proprie azioni
 
 >[!note] Memoria
->
+>La memoria è registrata come traccia impressa dall'esperienza di vita e si configura di eventi specifici (*memoria episodica*) e di conoscenze generali (memoria semantica).
+
+In generale per gli elementi che abbiamo citato prima che integrano i segnali grezzi ,
 
