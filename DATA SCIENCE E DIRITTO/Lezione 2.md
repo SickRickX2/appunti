@@ -16,5 +16,11 @@ L'attivazione dei neuroni avviene secondo *configurazioni* che variano in base a
 >- dinamiche sinaptiche
 
 
-Vengono combinati con altre informazion
+Vengono combinati con altre informazioni:
+- **memoria**: esperienze passate
+- **norme sociali**: cosa è appropriato/accettabile all'interno della comunità
+- **ricompensa e punizioni previste**: conseguenze in base alle proprie azioni
+
+>[!note] Memoria
+>
 
