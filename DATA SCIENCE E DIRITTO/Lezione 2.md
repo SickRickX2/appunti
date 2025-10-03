@@ -27,7 +27,13 @@ Vengono combinati con altre informazioni:
 In generale le informazioni degli elementi che abbiamo citato prima, che integrano i segnali grezzi, non sono contenute all'interno del singolo neurone ma si trovano all'interno dell'intera distribuzione del *firing rate* (sequenza di scarica) in molte cellule contemporaneamente.
 
 ### I pesi delle connessioni 
-I pesi delle connessioni vanno intesi come *efficacia sinaptica*, cioè la probabilità che un impulso elettrico in un neurone A faccia attivare il neurone B. Questa efficacia si evolve con l'apprendimento. Il peso sinaptico di questi input determina quanto ogni fonte influisce sul risultato finale. 
->[!warning] oss La decisione
->La decisione che emerge dall'OFC è il frtutto
+I pesi delle connessioni vanno intesi come *efficacia sinaptica*, cioè la probabilità che un impulso elettrico in un neurone A faccia attivare il neurone B. Questa efficacia si evolve con l'apprendimento. Il peso sinaptico di questi input determina quanto ogni fonte influisce sul risultato finale.
+
+>[!warning] oss: La decisione
+>La decisione che emerge dall'OFC è il frutto di una somma ponderata di contributi diversi, dove i pesi corrispondono alle sinapsi più o meno rinforzate dall'esperienza.
+
+>[!note] Pesi nella I.A.
+>Ci sono analogie e differenze con l'i.a. q
+
+
 
