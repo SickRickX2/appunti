@@ -24,5 +24,10 @@ Vengono combinati con altre informazioni:
 >[!note] Memoria
 >La memoria è registrata come traccia impressa dall'esperienza di vita e si configura di eventi specifici (*memoria episodica*) e di conoscenze generali (memoria semantica).
 
-In generale le informazioni degli elementi che abbiamo citato prima, che integrano i segnali grezzi, non sono contenute all'interno del singolo neurone ma si trovano all'interno dell'intera distribuzione del *firing rate* (sequenza di scarica) in molte cellule contemporaneamente
+In generale le informazioni degli elementi che abbiamo citato prima, che integrano i segnali grezzi, non sono contenute all'interno del singolo neurone ma si trovano all'interno dell'intera distribuzione del *firing rate* (sequenza di scarica) in molte cellule contemporaneamente.
+
+### I pesi delle connessioni 
+I pesi delle connessioni vanno intesi come *efficacia sinaptica*, cioè la probabilità che un impulso elettrico in un neurone A faccia attivare il neurone B. Questa efficacia si evolve con l'apprendimento. Il peso sinaptico di questi input determina quanto ogni fonte influisce sul risultato finale. 
+>[!warning] oss La decisione
+>La decisione che emerge dall'OFC è il frtutto
 
