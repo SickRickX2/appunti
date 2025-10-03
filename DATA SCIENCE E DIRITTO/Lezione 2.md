@@ -33,7 +33,9 @@ I pesi delle connessioni vanno intesi come *efficacia sinaptica*, cioè la proba
 >La decisione che emerge dall'OFC è il frutto di una somma ponderata di contributi diversi, dove i pesi corrispondono alle sinapsi più o meno rinforzate dall'esperienza.
 
 >[!note] Pesi nella I.A.
->Ci sono analogie e differenze con l'i.a. q
+>Ci sono analogie e differenze con l'i.a. 
+>Questi pesi sono differenti da quelli che regolano l'attività di un trasformer in quanto i neuroni sono connessi tra unità attive mentre nei trasformer rappresentazioni numeriche.
+> Un'altra distinzione va fatta riguardo ai pesi; mentre nell'uomo questi variano con l'esperienza, i pesi nell'i.a. rimangono invariati fin quando finché i progettisti non decidono di modificarlo.
 
 
 
