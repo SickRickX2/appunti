@@ -17,4 +17,8 @@ Al cui interno abbiamo tre tipologie di lessico:
 
 ###
 La società si organizza secondo un principio di legge, la legge è un fattore di termoregolazione dei fattori sociali.
-Una protezione per i membri della comunità, un fattore di sviluppo della societ
+Una protezione per i membri della comunità, un fattore di sviluppo della società.
+- termoregolazione
+- protezione
+- sviluppo
+Quindi è un fattore omeostatico.
