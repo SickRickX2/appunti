@@ -29,4 +29,14 @@
 >- troppe generiche
 >- che chiedono all'utente di sostituirsi al designer
 >- basate su scenari ipotetici
->- che chiedono quanto spesso
+>- che chiedono quanto spesso ogni quanto fai qualcosa
+>- che prevedono come risposta sì/no
+>- che cominciano con "ti piacerebbe" o "useresti"
+>
+>**meglio**
+>- quelle che prevedono risposte aperte
+>- andare sul concreto, essere specifici
+>- focalizzarsi su situazioni note all'intervistato
+>- chiedere quando (ma non lontano nel tempo)
+
+
