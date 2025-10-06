@@ -6,9 +6,10 @@ Una markov chain $M=(S,p)$ è descritta come un insieme di **stati** $S$ e la *p
 >$\forall s \in S$   $\sum_{s'\in S}\ \ p(s'|s)=1$
 
 Una *Markov Chain* (o Markov process) è caratterizzato dalla **assenza di memoria**, vale a dire che le previsioni possono essere fatte solo considerando lo stato presente e non sono influenzate da quelli passati.
+
 ![[Pasted image 20251006101335.png]]
 >[!example] Example: 
 >Si la markov chain con $S=\{\text{rainy,sunny}\}$
 >![[Pasted image 20251006101509.png|200x100]]
 
-Se una Markov chain
+Se una Markov chain $M$ 
