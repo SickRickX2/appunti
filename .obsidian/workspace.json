@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingegneria del Software/index.md",
+                "file": "Ingegneria del Software/lezione 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "lezione 1"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "ef68b677d7d2a89d",
   "lastOpenFiles": [
-    "DATA SCIENCE E DIRITTO/Lezione 2.md",
     "Ingegneria del Software/index.md",
+    "Ingegneria del Software/lezione 1.md",
+    "DATA SCIENCE E DIRITTO/Lezione 2.md",
     "Ingegneria del Software",
     "DATA SCIENCE E DIRITTO/Lezione 3.md",
     "DATA SCIENCE E DIRITTO/Lezione 1.md",
@@ -225,7 +226,6 @@
     "Sistemi Operativi/Modulo 1/Lezione 1.md",
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/10 Livello di Rete.md",
-    "Reti di Elaboratori/19.md",
     "Pasted image 20250520114448.png",
     "Pasted image 20250520114442.png",
     "Pasted image 20250520114017.png",
