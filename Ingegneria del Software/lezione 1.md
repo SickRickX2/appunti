@@ -19,5 +19,7 @@ lo **spazio degli stati** è numerabile, allora è chiamato un *DTMC (Discrete-T
 Il Markov process è caratterizzato da una**matrice di transizione** la quale descrive la probabilità di certe transizioni, come nell'esempio precedente. Vedremo più avanti che implementare queste matrici in $\text{C++}$ è molto semplice con la libreria ```<random>``` 
 ### Markov decision process
 Un *Markov Decision Process (MDP)*, anche se ne condivide il nome, è **diverso** da una Markov Chain, perché interagisce con **l'ambiente esterno**. Un MDP $M$ è una tupla $I,O,S,p,g$ definita nel seguente modo:
-- $I$ è un insieme di *input*
-- $O$ è un insieme di out
+- $I$ è un insieme di *valori di input*
+- $O$ è un insieme di *valori di output*
+- S è un insieme di *stati*
+- $p:$
