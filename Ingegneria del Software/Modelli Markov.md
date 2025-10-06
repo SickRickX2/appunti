@@ -43,8 +43,8 @@ $\forall s \in S \ \forall i \in I  \ \sum_{s' \in S} p(s'|s,i) = 1$
 >$$
 >![[Pasted image 20251006121421.png]]
 
+Basta una sola matrice di transizione poiché $|I|=1$ (c'è solo un valore di input). Se I avessi avuto molteplici valori di input, allora avremmo avuto tante matrici di transizione, **una per ogni valore di input**.
+![[Pasted image 20251006122420.png|300]]
 
 
-
-
-
+to do (Network di MDP)
