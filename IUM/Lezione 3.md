@@ -62,4 +62,9 @@ Chiede all'intervistato di fermarsi e prendere nota in tempo reale, in particola
 ### Camera studies
 Fornire agli utenti una videocamera e riprendere la propria attività, per vederla dal pov dell'utente.
 
-##
+# Human Centered Design Process
+ mettere immagine
+ >[!note] Riassunto
+ >Creare design needs/goals
+ >- come una rappresentazione intermedia prima del design di un interfaccia utente
+ 
