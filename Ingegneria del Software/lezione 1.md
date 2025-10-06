@@ -22,4 +22,4 @@ Un *Markov Decision Process (MDP)*, anche se ne condivide il nome, è **diverso*
 - $I$ è un insieme di *valori di input*
 - $O$ è un insieme di *valori di output*
 - S è un insieme di *stati*
-- $p:$
+- $p:S \times S \times I \to $
