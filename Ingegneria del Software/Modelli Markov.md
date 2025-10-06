@@ -41,6 +41,8 @@ $\forall s \in S \ \forall i \in I  \ \sum_{s' \in S} p(s'|s,i) = 1$
 >&(4000,4) \ s=2
 \end{cases}
 >$$
+>![[Pasted image 20251006121421.png]]
+
 
 
 

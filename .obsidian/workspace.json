@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237
+    "width": 237,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,6 +191,7 @@
   },
   "active": "05e6daced2c4caf7",
   "lastOpenFiles": [
+    "Pasted image 20251006121421.png",
     "Equazione 1.md",
     "Ingegneria del Software/Modelli Markov.md",
     "equazione 1.md",
@@ -227,7 +229,6 @@
     "WASA",
     "Sisitemi Operativi/Modulo 1 2.0.md",
     "Sistemi Operativi/Modulo 1 2.0",
-    "Sistemi Operativi/Modulo 1/Lezione 1.md",
     "Pasted image 20250520114448.png",
     "Pasted image 20250520114442.png",
     "Pasted image 20250520114017.png",
