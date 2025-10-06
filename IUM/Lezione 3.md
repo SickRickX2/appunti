@@ -55,4 +55,10 @@ Sfruttare le conoscenze di esperti del settore, possono discutere anche di probl
 ##
 ### Questionari 
 Meno flessibili delle interviste, ci sono molti tool per realizzarli
+### Diario
+Si consegna all'utente un qualcosa da scrivere con intervalli regolari. 
+### Pager Studies
+Chiede all'intervistato di fermarsi e prendere nota in tempo reale, in particolare posto e momento della giornata. Asincrono rispetto all'attività dell'utente, note libere o form da riempire.
+### Camera studies
+Fornire agli utenti una videocamera e riprendere la propria attività, per vederla dal pov dell'utente.
 
