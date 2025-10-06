@@ -33,5 +33,16 @@ $\forall s \in S \ \forall i \in I  \ \sum_{s' \in S} p(s'|s,i) = 1$
 >[!example] Example: esempio di MDP
 >Il processo di sviluppo di una compagnia può essere modellato come un MDP
 >$MDP = (I,O,S,p,g)$ definito come
->- $I =\{ \epsilon \}$
->- 
+>- $I =\{ \epsilon \}^{1}, O  \ Cost \times Duration,S = \{ 0,1,2,3,4 \},s_{0}=0$
+>$$
+> g = \begin{cases}
+>&(0,0) \ s \in \{ 0,4 \} \\
+>&(20000,2) \ s \in \{ 1,3 \} \\
+>&(4000,4) \ s=2
+\end{cases}
+>$$
+
+
+
+
+
