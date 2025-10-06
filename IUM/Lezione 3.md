@@ -62,3 +62,4 @@ Chiede all'intervistato di fermarsi e prendere nota in tempo reale, in particola
 ### Camera studies
 Fornire agli utenti una videocamera e riprendere la propria attività, per vederla dal pov dell'utente.
 
+##
