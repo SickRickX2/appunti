@@ -8,8 +8,9 @@ Una markov chain $M=(S,p)$ è descritta come un insieme di **stati** $S$ e la *p
 Una *Markov Chain* (o Markov process) è caratterizzato dalla **assenza di memoria**, vale a dire che le previsioni possono essere fatte solo considerando lo stato presente e non sono influenzate da quelli passati.
 
 ![[Pasted image 20251006101335.png]]
+
 >[!example] Example: 
 >Si la markov chain con $S=\{\text{rainy,sunny}\}$
 >![[Pasted image 20251006101509.png|200x100]]
 
-Se una Markov chain $M$ 
+Se una Markov chain $M$ *transiziona* a passi di **tempo discreti**(cioè i time steps $t_{0},t_{1},t_{2}$
