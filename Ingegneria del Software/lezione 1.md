@@ -17,3 +17,7 @@ Se una Markov chain $M$ *transiziona* a passi di **tempo discreti**(cioè i time
 lo **spazio degli stati** è numerabile, allora è chiamato un *DTMC (Discrete-Time Markov Chain)*. Ci sono anche altre classificazioni per spazi degli stati continui e tempi continui.
 
 Il Markov process è caratterizzato da una**matrice di transizione** la quale descrive la probabilità di certe transizioni, come nell'esempio precedente. Vedremo più avanti che implementare queste matrici in $\text{C++}$ è molto semplice con la libreria ```<random>``` 
+### Markov decision process
+Un *Markov Decision Process (MDP)*, anche se ne condivide il nome, è **diverso** da una Markov Chain, perché interagisce con **l'ambiente esterno**. Un MDP $M$ è una tupla $I,O,S,p,g$ definita nel seguente modo:
+- $I$ è un insieme di *input*
+- $O$ è un insieme di out
