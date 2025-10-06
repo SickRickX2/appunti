@@ -49,4 +49,10 @@ Sono utenti che hanno dei need nuovi, prima di tutti gli altri, sono particolarm
 ### Extreme users
 Usano il sitema in modo estremo, lo sottopongono a molto stress, trovano problemi difficilmente da individuare. Hanno needs amplificati e work around più evidenti, i loro needs sono i needs anche degli altri, ma più visibili.
 
+## Esperti
+Sfruttare le conoscenze di esperti del settore, possono discutere anche di problemi più difficili o più astratti
+
+##
+### Questionari 
+Meno flessibili delle interviste, ci sono molti tool per realizzarli
 
