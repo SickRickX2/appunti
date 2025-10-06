@@ -3,7 +3,7 @@
 Una markov chain $M=(S,p)$ è descritta come un insieme di **stati** $S$ e la *probabilità di transizione* $p: S \times S \to [0,1]$ è tale che $p(s'|s)$ è la probabilità di transizione dallo stato $s'$ allo stato $s$ .
 >[!note] Probabilità di Transizione
 >La probabilità di transizione è definita come:
->*[[Equazione 1]]*
+>Equazione 1
 >$\forall s \in S$   $\sum_{s'\in S}\ \ p(s'|s)=1$
 
 Una *Markov Chain* (o Markov process) è caratterizzato dalla **assenza di memoria**, vale a dire che le previsioni possono essere fatte solo considerando lo stato presente e non sono influenzate da quelli passati.
@@ -27,4 +27,4 @@ Un *Markov Decision Process (MDP)*, anche se ne condivide il nome, è **diverso*
 - $g: S \to O$ è la *funzione di output*
 - $s_{0} \in S$ è lo *stato iniziale*
 
-Lo stesso vincolo nell'[[Equazione 1]]
+Lo stesso vincolo nell'Equazione 1 vale anche per i MDP, con una differenza importante: **per o**
