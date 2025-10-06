@@ -28,5 +28,8 @@ Un *Markov Decision Process (MDP)*, anche se ne condivide il nome, è **diverso*
 - $s_{0} \in S$ è lo *stato iniziale*
 
 Lo stesso vincolo nell'Equazione 1 vale anche per i MDP, con una differenza importante: **per ogni valore di input**, la somma delle probabilità di transizione **per quel valore** di input deve essere 1.
-$\forall s \in S \ \forall i \in I  \\
+$\forall s \in S \ \forall i \in I  \ \sum_{s' \in S} p(s'|s,i) = 1$
 
+>[!example] Example: esempio di MDP
+>Il processo di sviluppo di una compagnia può essere modellato come un MDP
+>$MDP = (I,O$
