@@ -16,4 +16,4 @@ Una *Markov Chain* (o Markov process) è caratterizzato dalla **assenza di memor
 Se una Markov chain $M$ *transiziona* a passi di **tempo discreti**(cioè i time steps $t_{0},t_{1},t_{2}$... sono numerabili) e  
 lo **spazio degli stati** è numerabile, allora è chiamato un *DTMC (Discrete-Time Markov Chain)*. Ci sono anche altre classificazioni per spazi degli stati continui e tempi continui.
 
-Il Markov process è caratterizzato da una**matrice di transizione** la quale descrive la probabilità di certe transizioni, come nell'esempio precedente. Vedremo più avanti che implemen
+Il Markov process è caratterizzato da una**matrice di transizione** la quale descrive la probabilità di certe transizioni, come nell'esempio precedente. Vedremo più avanti che implementare queste matrici in $\text{C++}$ è molto semplice con la libreria ```<random>``` 
