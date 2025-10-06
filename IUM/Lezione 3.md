@@ -46,4 +46,6 @@
 - ad esperti
 ### Lead users
 Sono utenti che hanno dei need nuovi, prima di tutti gli altri, sono particolarmenti competenti e sodisficati. Questi utenti trovano da soli soluzioni ai loro need, e ne beneficiano significativamente. Ci indicano need che molti utenti avranno nel prossimo futuro.
+### Extreme users
+Usano il sitema in modo estremo, lo sottopongono a mo
 
