@@ -55,3 +55,14 @@ Modes of operation:
 - alternative techinques developed to increase the security of symmetric block encryption for large squences
 - overcomes the weakness of ECB
 ## Block vs Stream Ciphers
+**Block Cipeher**
+- Processes the input one block of elements per time
+- Produces an output block for each input block
+- Can reuse keys
+- More common
+**Stream Cipher**
+- Processes the input elements continuously
+- Produces output one element at a time
+- Primary advantage is that they are almost always faster and use far less code
+- Encrypts plaintext one byte at a time
+- Pseudorandom stream is one that is unpredictable without knowledge of the input key
