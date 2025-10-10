@@ -15,3 +15,11 @@ Two requirements for secure use:
 >It consists in trying all possible keys on some ciphertext until an intelligible translation into plaintext is obtained.
 >- on average half of all possible keys must be tried to achieve success
 
+#### Most known symmetric encryption algorithms
+- **AES**: *Advanced Encryption Standard* (also known as Rijndael). It's the most popular and widely used symmetric encryption algorithm in the modern IT industry
+- **DES**: *Data Encryption Standard* (now considered insecure)
+- **RC4**: (also known as ARC4 or ARCFOUR, now considered insecure)
+
+>[!note] DES
+>Before AES it was the most widely used ecnryption scheme
+>- Strent
