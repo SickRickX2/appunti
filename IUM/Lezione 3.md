@@ -84,6 +84,7 @@ L'obiettivo è quello di determinare:
 #### Cosa sono i tasks?
 << Un *task* è un *obiettivo* insieme ad un insieme ordinato di **azioni**>> - Benyon
 - **Goal**: Stato del dominio dell'applicazione che un sistema di lavoro (utente+tecnologia) desidera raggiungere
-- **Task**: un insieme strutturato di attività *richieste, usate o ritenute necessarie* da parte di un agente (umano, macchina) per ottenere un obiettivo usando una determinata tecnologia. La task può essere suddivisa in sezion
-- **Action**:
+- **Task**: un insieme strutturato di attività *richieste, usate o ritenute necessarie* da parte di un agente (umano, macchina) per ottenere un obiettivo usando una determinata tecnologia. La task può essere suddivisa in sezioni più piccole e dettagliate chiamate *azioni*.
+- **Action**: possiamo definirle come delle *tasks semplici*, atomiche.
+
  
