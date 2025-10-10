@@ -31,5 +31,13 @@ Two requirements for secure use:
 >[!tip] Triple DES (3DES)
 >Repeats basic DES algorithm three times using either two or three unique keys.
 >First standardized for use in financial applications.
->**Attractions**
+>**Attractions:** 
+>- 168-bit key length overcomes the vulnerability to brute-force attack of DES 
+>- Underlying encryption algorithm is the same as in DES
+>
+>**Drawbacks:**
+>- Algorithm is sluggish in software 
+>- Uses a 64-bit block size
+
+
 
