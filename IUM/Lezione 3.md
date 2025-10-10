@@ -73,5 +73,14 @@ Fornire agli utenti una videocamera e riprendere la propria attività, per veder
 
 >[!warning] oss 
 >Possiamo fare una semplificazione e dire che 
->- **needs* *
+>- **needs** = **goals**
+
+### Analisi dei tasks
+L'analisi dei tasks è lo studio che si occupa di capire come le persone svolgono le proprie attività.
+L'obiettivo è quello di determinare:
+- cosa **fanno** (*steps*)
+- quali sono i mezzi che **usano** (*artifacts*)
+- quanto bene sono **riusciti** (*goals*)
+#### Cosa sono i tasks?
+<< Un *task* è un 
  
