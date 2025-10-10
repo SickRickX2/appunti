@@ -5,3 +5,8 @@ Sono una descrizione grafica di come appare esternamente il sistema che uno vuol
 >- svolgimento di un task
 >- raggiungimento del goal da parte degli utenti
 
+**Come preparare uno storyboard**
+Gli storyboard devono comunicare:
+- *il setting*: ambiente, persone coinvolte, task da svolgere
+Lo sotryboard ha una *sequenzialità*.
+Non c'è **
