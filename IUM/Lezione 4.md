@@ -9,4 +9,4 @@ Sono una descrizione grafica di come appare esternamente il sistema che uno vuol
 Gli storyboard devono comunicare:
 - *il setting*: ambiente, persone coinvolte, task da svolgere
 Lo sotryboard ha una *sequenzialità*.
-Non c'è **
+Non c'è *ui*, ma deve comunicare il ruolo che ha l'applicazione nello svolgimento del task.
