@@ -66,3 +66,11 @@ Modes of operation:
 - Primary advantage is that they are almost always faster and use far less code
 - Encrypts plaintext one byte at a time
 - Pseudorandom stream is one that is unpredictable without knowledge of the input key
+
+## Message authentication
+
+>[!note] Message Authentication
+>- Protects against active attacks
+>- Verifies received message is authentic 
+>- Can use conventional encryption
+
