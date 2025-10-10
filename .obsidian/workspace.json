@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Lezione 4.md",
+                "file": "CyberSec/Lezione 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 4"
+              "title": "Lezione 2"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237,
-    "collapsed": true
+    "width": 237
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,10 @@
   },
   "active": "05e6daced2c4caf7",
   "lastOpenFiles": [
-    "IUM/Lezione 3.md",
+    "CyberSec/Lezione 1.md",
+    "CyberSec/Lezione 2.md",
     "IUM/Lezione 4.md",
+    "IUM/Lezione 3.md",
     "Ingegneria del Software/Modelli Markov.md",
     "IUM/Lezione 1.md",
     "Pasted image 20251006122420.png",
@@ -213,7 +214,6 @@
     "WASA/Lezione 1.md",
     "Senza nome.base",
     "IUM/Lezione 0.md",
-    "CyberSec/Lezione 1.md",
     "IUM/forno.md",
     "CyberSec",
     "Automi/Lezione 1.md",
@@ -228,7 +228,6 @@
     "Algoritmi 2 (class).md",
     "IUM",
     "DATA SCIENCE E DIRITTO",
-    "Sistemi Operativi/Modulo 1 2.0/1 Sistemi operativi.md",
     "WASA",
     "Sistemi Operativi/Modulo 1 2.0",
     "Pasted image 20250520114448.png",
