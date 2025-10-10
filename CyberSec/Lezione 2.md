@@ -39,5 +39,10 @@ Two requirements for secure use:
 >- Algorithm is sluggish in software 
 >- Uses a 64-bit block size
 
-
+>[!note] Advanced Encryption Standard (AES)
+>Needed a replacement for 3DES because was not reasonable for a long term use. 
+>It has:
+>- Better security strength than 3DES
+>- Significantly improved efficiency
+>- Symmetric block cipher
 
