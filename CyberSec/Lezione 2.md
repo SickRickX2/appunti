@@ -52,4 +52,6 @@ Tipically symmetric encryption is applied to a unit of data larger than a single
 - each blocm of plaintext is encrypted using the same key
 - cryptanalysts may be able to exploit regularities in the plaintext
 Modes of operation:
-- alternative techinques developed to increase the security of 
+- alternative techinques developed to increase the security of symmetric block encryption for large squences
+- overcomes the weakness of ECB
+## Block vs Stream Ciphers
