@@ -22,4 +22,14 @@ Two requirements for secure use:
 
 >[!note] DES
 >Before AES it was the most widely used ecnryption scheme
->- Strent
+>- Strength concerns:
+>	- Concerns about the algorithm itself
+>		- DES is the most studied encryption algorithm in existence
+>	- Concerns about the use of a 56-bit key
+>		- The speed of commercial off-the-shelf processors makes this key length woefully inadequate
+
+>[!tip] Triple DES (3DES)
+>Repeats basic DES algorithm three times using either two or three unique keys.
+>First standardized for use in financial applications.
+>**Attractions**
+
