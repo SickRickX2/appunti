@@ -46,3 +46,10 @@ Two requirements for secure use:
 >- Significantly improved efficiency
 >- Symmetric block cipher
 
+### Practical Security Issues
+Tipically symmetric encryption is applied to a unit of data larger than a single 64 bit or 128bit block.
+*Electronic codebook (ECB)* mode is the simplest approach to multiple block encryption:
+- each blocm of plaintext is encrypted using the same key
+- cryptanalysts may be able to exploit regularities in the plaintext
+Modes of operation:
+- alternative techinques developed to increase the security of 
