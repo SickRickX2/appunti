@@ -7,4 +7,11 @@ Two requirements for secure use:
 >[!note] Cryptanalytic Attacks
 >- Rely on:
 >	- nature of algorithm
->	- 
+>	- some knowledge of the general charateristichs of the plaintext
+>	- some sample plaintext-cyphertext pairs
+>Exploits the charateristics of the algorithm to attempt to deduce a specific plaintext or the key being used for that data. If it's succesfull all future and past messages encrypted with that key are compromised.
+
+>[!tip] Brute-force Attacks
+>It consists in trying all possible keys on some ciphertext until an intelligible translation into plaintext is obtained.
+>- on average half of all possible keys must be tried to achieve success
+
