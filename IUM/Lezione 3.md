@@ -64,7 +64,14 @@ Fornire agli utenti una videocamera e riprendere la propria attività, per veder
 
 # Human Centered Design Process
  mettere immagine
+ 
  >[!note] Riassunto
  >Creare design needs/goals
  >- come una rappresentazione intermedia prima del design di un interfaccia utente
+ >- bisogna esplicitare l'analisi dei need degli utenti
+ >- bisogna immaginare l'interazione tra l'attivitò che uno svolge e l'interfaccia che noi offriamo
+
+>[!warning] oss 
+>Possiamo fare una semplificazione e dire che 
+>- **needs* *
  
