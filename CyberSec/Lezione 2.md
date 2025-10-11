@@ -105,3 +105,11 @@ The result of applying a hash function is called **hash value** or message diges
 4) One-way or pre-image resistant
 5) Computationally infeasible to find y != x such that H(y)= H(x)
 6) Collision resistant or strong collision resistance
+
+### Security of Hash Functions
+There are two approaches to attacking a secure hash function:
+- exploit logical waknesses in the algorithm
+- strength of hash function depends solely on the length of the hash code produced by the algorithm
+SHA most widely used hash algorithm.
+Additional secure hash function applications:
+- hash o
