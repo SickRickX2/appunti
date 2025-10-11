@@ -128,7 +128,8 @@ In broad terms, we can classify the use of public-key cryptosystems into three c
 - *symmetric key distribution*
 - *encryption of secret keys*
 ### Asymmetric Encryption Algorithms
-- *RSA*: Most widely accepted and implemented approach to public-key encryption. Block cipher in which the plaintext and ciphertext are integers between 0 and $n-1$ for some $n$ 
+- *RSA*: Most widely accepted and implemented approach to public-key encryption. Block cipher in which the plaintext and ciphertext are integers between 0 and $n-1$ for some $n$.
 - *Diffie-Hellman key exchange algorithm*: Enables two parties to securely reach agreement about a hsared secret for subsequent symmetric encryption of messages. Limited to the exchange of the keys. 
-- *DIgital Signature Standard (DSS)*: Provides only a digital signature function with SHA-1. Cannot be used for encryption
-- *Elliptic curve cryptography* : security like RSA, but with much smaller keys
+- *DIgital Signature Standard (DSS)*: Provides only a digital signature function with SHA-1. Cannot be used for encryption or key exchange.
+- *Elliptic curve cryptography* : security like RSA, but with much smaller keys.
+A digital signature is a data-dependent bit pattern, generated.
