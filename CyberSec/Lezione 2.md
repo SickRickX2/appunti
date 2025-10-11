@@ -114,3 +114,11 @@ SHA most widely used hash algorithm.
 Additional secure hash function applications:
 - hash of password is stored by an operating system
 - store H(F) for each file on a system and secure the hash values
+### Public-Key Encryption Structure
+Publicly proposed by Diffie and Hellman in 1976.
+Based on mathematical functions.
+- Asymmetric:
+	- Uses two separate keys:
+		- **public key** made public for others to use
+		- **private key**
+Some form of protocol is needed for distribution.
