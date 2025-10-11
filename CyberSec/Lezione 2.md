@@ -122,3 +122,9 @@ Based on mathematical functions.
 		- **public key** made public for others to use
 		- **private key**
 Some form of protocol is needed for distribution.
+
+In broad terms, we can classify the use of public-key cryptosystems into three categories:
+- *digital signature*
+- *symmetric key distribution*
+- *encryption of secret keys*
+### Asymmetric Encryption Algorithms
