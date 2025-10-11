@@ -82,3 +82,7 @@ Some examples for message authentication without confidentiality:
 - An exchange in which one side has a heavy load and cannot afford the time to decrypt all incoming messages
 - Authentication of a computer program in plaintext
 Authentication and encryption combine for meeting security requirements
+
+>[!note] Message Authentication Code (MAC)
+>A number of algorithms could be used to generate the code. However, authentication algorithm need to not be reversible.
+>
