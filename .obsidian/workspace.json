@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237
+    "width": 286,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,6 +191,7 @@
   },
   "active": "05e6daced2c4caf7",
   "lastOpenFiles": [
+    "Pasted image 20251011135038.png",
     "CyberSec/Lezione 1.md",
     "CyberSec/Lezione 2.md",
     "IUM/Lezione 4.md",
@@ -225,7 +227,6 @@
     "Sistemi Operativi/Modulo 1/Lezione 7.md",
     "WASA/Lezione 0.md",
     "Automi",
-    "Algoritmi 2 (class).md",
     "IUM",
     "DATA SCIENCE E DIRITTO",
     "WASA",
