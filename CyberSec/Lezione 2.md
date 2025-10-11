@@ -81,3 +81,4 @@ Some examples for message authentication without confidentiality:
 - Applications in which the same message is broadcast to a number of destinations
 - An exchange in which one side has a heavy load and cannot afford the time to decrypt all incoming messages
 - Authentication of a computer program in plaintext
+Authentication and encryption combine for meeting security requirements
