@@ -112,4 +112,5 @@ There are two approaches to attacking a secure hash function:
 - strength of hash function depends solely on the length of the hash code produced by the algorithm
 SHA most widely used hash algorithm.
 Additional secure hash function applications:
-- hash o
+- hash of password is stored by an operating system
+- store H(F) for each file on a system and secure the hash values
