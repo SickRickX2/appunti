@@ -158,4 +158,10 @@ Uses include the generation of
 - $\to$ Each number is statistically indipendent of pther numbers in the sequence
 - $\to$ Opponent should not be able to predict future elements of the sequence on the basis of earlier elements
 >[!tip] Random vs Pseudorandom
->Cryptographic apllications typically make us of algorithmic techniques for random number generation. Algorithms are **determiin**
+>Cryptographic apllications typically make us of algorithmic techniques for random number generation. Algorithms are **deterministic** and therefore produce sequences of numbers that are **not statistically** random.
+>- Pseudorandom numbers are:
+>	- Sequences produced that satisfy statistical randomness tests
+>	- Likely to be predictable
+>*True random number generator (TRNG)*:
+>- Uses a nondeterministic source to produce randomness
+>- Most operate by measuring unpredictable natural processes
