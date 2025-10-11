@@ -164,4 +164,6 @@ Uses include the generation of
 >	- Likely to be predictable
 >*True random number generator (TRNG)*:
 >- Uses a nondeterministic source to produce randomness
->- Most operate by measuring unpredictable natural processes
+>- Most operate by measuring unpredictable natural processes ex: radiation, gas discharge ecc...
+>- Increasingly provided on modern processors
+
