@@ -96,5 +96,12 @@ The result of applying a hash function is called **hash value** or message diges
 >- it provides a digital signature as well as message authentication
 >- it does not require the distribution of keys to communicating parties
 >
->![[Pasted image 20251011135038.png|400]]
+>![[Pasted image 20251011135038.png|500]]
 
+### Properties for a hash function aimed at authentication
+1) Can be applied to a block of data of any size
+2) Produces a fixed-length output
+3) H(x) is relatively easy to compute for any given x
+4) One-way or pre-image resistant
+5) Computationally infeasible to find y != x such that H(y)= H(x)
+6) Collision resistant or strong collision resistance
