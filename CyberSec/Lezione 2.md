@@ -74,3 +74,4 @@ Modes of operation:
 >- Verifies received message is authentic 
 >- Can use conventional encryption
 
+Message encryption by itself does not provide a secure form of authentication. We can combine authentication and confidentiality in a single algorithm.
