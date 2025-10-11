@@ -149,3 +149,13 @@ Uses include the generation of
 - Handshaking to prevent replay attacaks
 - Session key
 ### Random numbers requirements
+- Randomness
+- $\to$ Unifrom distribution
+	- Frequency of occurrence of each of the numbers should be approximately the same
+- $\to$ Indipendnce
+	- No one value in the sequence can be inferred from others
+- Unpredictability
+- $\to$ Each number is statistically indipendent of pther numbers in the sequence
+- $\to$ Opponent should not be able to predict future elements of the sequence on the basis of earlier elements
+>[!tip] Random vs Pseudorandom
+>Cryptographic apllications typically make us of algorithmic techniques for random number generation. Algorithms are **determiin**
