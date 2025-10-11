@@ -85,4 +85,10 @@ Authentication and encryption combine for meeting security requirements
 
 >[!note] Message Authentication Code (MAC)
 >A number of algorithms could be used to generate the code. However, authentication algorithm need to not be reversible.
->
+
+### Cryptographic hash function
+The purpose of an hash function is to produce a "fingerprint" of a file, message, or other block of data. It generates a set of l bits from a set of L(>=k) bits (in general $\to$ non necessarily non-injective)
+The result of applying a hash function is called **hash value** or message digest, or checksum.
+
+>[!note] MAC with one way hash functions
+>Unlike the MAC, a hash function does not take secret key as input. However, it is possible to get MAC
