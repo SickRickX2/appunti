@@ -91,4 +91,4 @@ The purpose of an hash function is to produce a "fingerprint" of a file, message
 The result of applying a hash function is called **hash value** or message digest, or checksum.
 
 >[!note] MAC with one way hash functions
->Unlike the MAC, a hash function does not take secret key as input. However, it is possible to get MAC
+>Unlike the MAC, a hash function does not take secret key as input. However, it is possible to get MACs using hash functions
