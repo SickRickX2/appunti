@@ -128,3 +128,7 @@ In broad terms, we can classify the use of public-key cryptosystems into three c
 - *symmetric key distribution*
 - *encryption of secret keys*
 ### Asymmetric Encryption Algorithms
+- *RSA*: Most widely accepted and implemented approach to public-key encryption. Block cipher in which the plaintext and ciphertext are integers between 0 and n-1 for some $n$ 
+- *Diffie-Hellman key exchange algorithm*:
+- *DIgital Signature Standard (DSS)*:
+- *Elliptic curve cryptography* : security like RSA, but with much smaller keys
