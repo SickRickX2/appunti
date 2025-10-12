@@ -35,4 +35,9 @@ L'API definisce in dettaglio il "contratto" di interazione tra il **CONSUMER** (
 
 **Benefici**
 L'adozione di un'API porta vantaggi fondamentali nell'architettura software:
-- *Interfaccia Esplicita:* D
+- *Interfaccia Esplicita:* definisce chiaramente le aspettative e le modalità di interazione
+- *Contratto Infrangibile:* Stabilisce un insieme di regole che entrambe le partidevono rispettare
+- *Information Hiding (Nascondimento delle Informazioni):* La logica interna del Provider (come i dati vengono processati o archiviati ) rimane nascosta al Consumer. Il client deve solo conoscere l'interfaccia.
+
+### API Locali e Remote
+Esistono
