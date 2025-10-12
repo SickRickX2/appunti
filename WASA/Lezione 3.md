@@ -12,4 +12,7 @@ Utilizzato anche per archiviare dati (estensione.json). Formato di testo (basato
 >[!note] Array
 >Elenco ordinato di valori separati da virgole, racchiuso tra parentesi quadre
 
+## YAML
+*YAML-YAML Ain't Markup Language* 
+Linguaggio di serializzazione dei dati pensato per gli umani, per file di configurazione, per archiviare dati o per scambiare dati.
 
