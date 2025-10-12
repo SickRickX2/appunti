@@ -15,4 +15,10 @@ Utilizzato anche per archiviare dati (estensione.json). Formato di testo (basato
 ## YAML
 *YAML-YAML Ain't Markup Language* 
 Linguaggio di serializzazione dei dati pensato per gli umani, per file di configurazione, per archiviare dati o per scambiare dati.
-
+Usa un formato di testo basato sull'indentazione python.
+### YAML superset di JSON
+I file JSON sono YAML validi.
+{} accettati per le mappe (oggetti)
+[] accettati per le liste (array)
+\# per i commenti
+I documenti possono opzionalmente iniziare con --- e finire con ...
