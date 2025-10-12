@@ -40,4 +40,6 @@ L'adozione di un'API porta vantaggi fondamentali nell'architettura software:
 - *Information Hiding (Nascondimento delle Informazioni):* La logica interna del Provider (come i dati vengono processati o archiviati ) rimane nascosta al Consumer. Il client deve solo conoscere l'interfaccia.
 
 ### API Locali e Remote
-Esistono
+Esistono diverse categorie di API in base alla loro posizione e funzione: 
+**API Locali**
+- API per i linguaggi gi progrm
