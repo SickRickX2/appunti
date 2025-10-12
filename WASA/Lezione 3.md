@@ -42,4 +42,11 @@ L'adozione di un'API porta vantaggi fondamentali nell'architettura software:
 ### API Locali e Remote
 Esistono diverse categorie di API in base alla loro posizione e funzione: 
 **API Locali**
-- API per i linguaggi gi progrm
+- API per i linguaggi di programmazione
+- API del sistema operativo 
+- API delle librerie softwarre 
+- API hardware
+**API Remote (Web API):**
+- Interfacce di programmazione basate su protocolli di rete (tipicamente HTTP), come le API RESTful
+La distinzione si basa sull'accessibilità
+*API Private*: Destinate all'uso interno di un'azie
