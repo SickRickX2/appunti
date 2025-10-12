@@ -167,3 +167,4 @@ Uses include the generation of
 >- Most operate by measuring unpredictable natural processes ex: radiation, gas discharge ecc...
 >- Increasingly provided on modern processors
 
+ 
