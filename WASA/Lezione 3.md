@@ -23,3 +23,6 @@ I file JSON sono YAML validi.
 \# per i commenti
 I documenti possono opzionalmente iniziare con --- e finire con ...
 Un file può contenere più documenti.
+
+# API
+Un'**API (Application Programming Interface)** è la *definizione delle interazioni consentite* tra due parti di un software. L'API funge da contratto, specificando come un pezzo di codcie o un servizio puà interagire con un altro.
