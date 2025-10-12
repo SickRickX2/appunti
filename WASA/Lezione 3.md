@@ -50,4 +50,6 @@ Esistono diverse categorie di API in base alla loro posizione e funzione:
 - Interfacce di programmazione basate su protocolli di rete (tipicamente HTTP), come le API RESTful
 La distinzione si basa sull'accessibilità
 *API Private*: Destinate all'uso interno di un'azienda o un sistema chiuso. L'accesso è limitato ai componenti interni.
-*API Pubbliche*: Disponibili per l'uso da parte del pubblico. L'accesso può essere limitato solo ad alcuni utenti tramite **API**
+*API Pubbliche*: Disponibili per l'uso da parte del pubblico. L'accesso può essere limitato solo ad alcuni utenti tramite **API Tokens**.
+
+>[!tip] Interf
