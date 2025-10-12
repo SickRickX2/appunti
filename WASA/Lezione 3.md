@@ -22,3 +22,4 @@ I file JSON sono YAML validi.
 [] accettati per le liste (array)
 \# per i commenti
 I documenti possono opzionalmente iniziare con --- e finire con ...
+Un file può contenere più documenti.
