@@ -62,4 +62,7 @@ La distinzione si basa sull'accessibilità
 Per stabilire il contratto, l'API deve essere definita esplicitamente.
 La definizione può avvenire attraverso *documentazione* (testo, esempi, manuali). Oppure attraverso un *linguaggio di descrizione* standardizzato. Un linguaggio di descrizione formalizza il contratto, consentendo la generazione automatica di documentazione, codice client e validazione.
 
-****
+*OAS (OpenAPI Specification)* è linguaggio di descrizione leader del settore per le API moderne basate su HTTP.
+- è un formato di descrizione **vendor-neutral** per le API remote basate su HTTP
+- rappresenta lo standard industriale per la descrizione delle API moderne
+- ampiamente adottato
