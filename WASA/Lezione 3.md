@@ -60,4 +60,6 @@ La distinzione si basa sull'accessibilità
 
 ### Documentazione e definizione
 Per stabilire il contratto, l'API deve essere definita esplicitamente.
-La definizione può avvenire attraverso *documentazione* (testo, esempi, manuali). Oppure attraverso un 
+La definizione può avvenire attraverso *documentazione* (testo, esempi, manuali). Oppure attraverso un *linguaggio di descrizione* standardizzato. Un linguaggio di descrizione formalizza il contratto, consentendo la generazione automatica di documentazione, codice client e validazione.
+
+****
