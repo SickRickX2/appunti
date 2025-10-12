@@ -54,4 +54,10 @@ La distinzione si basa sull'accessibilità
 
 >[!tip] Interfaccia e Stabilità
 >**Stabilità dell'interfaccia** i cambiamenti potrebbero rompere la compatibilità con i clienti esistenti.
->
+>**Marcatori di Stato**:
+>	- *beta*: Indica che le parti potrebbero cambiare perché non sono ancora stabili
+>	- *deprecated:* Indica che le parti verranno rimosse o non saranno più supportate in futuro
+
+### Documentazione e definizione
+Per stabilire il contratto, l'API deve essere definita esplicitamente.
+La definizione può avvenire attraverso *documentazione* (testo, esempi, manuali). Oppure attraverso un 
