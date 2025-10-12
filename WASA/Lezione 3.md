@@ -66,3 +66,4 @@ La definizione può avvenire attraverso *documentazione* (testo, esempi, manuali
 - è un formato di descrizione **vendor-neutral** per le API remote basate su HTTP
 - rappresenta lo standard industriale per la descrizione delle API moderne
 - ampiamente adottato
+I file sono tipicamenti scritti in formato YAML.
