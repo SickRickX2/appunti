@@ -27,4 +27,12 @@ Un file può contenere più documenti.
 # API
 Un'**API (Application Programming Interface)** è la *definizione delle interazioni consentite* tra due parti di un software. L'API funge da contratto, specificando come un pezzo di codcie o un servizio puà interagire con un altro.
 ### Elementi di un Contratto
-L'API definisce in dettaglio il "contratto" di interazione tra il **CONSUMER** (il client) e il **PROVIDER**(il servizio)
+L'API definisce in dettaglio il "contratto" di interazione tra il **CONSUMER** (il client) e il **PROVIDER**(il servizio) Essa specifica:
+- Le richieste possibili
+- I parametri delle richieste
+- I valori di ritorno
+- Qualsiasi formato di dato richiesto 
+
+**Benefici**
+L'adozione di un'API porta vantaggi fondamentali nell'architettura software:
+- *Interfaccia Esplicita:* D
