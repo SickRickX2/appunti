@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lezione 3"
             }
+          },
+          {
+            "id": "4b2a93c80484e2fb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "05e6daced2c4caf7",
+  "active": "4b2a93c80484e2fb",
   "lastOpenFiles": [
     "WASA/Lezione 2.md",
     "WASA/Lezione 3.md",
