@@ -19,3 +19,5 @@ In generale cerchiamo di non mettere le operazione nei locatori, identifichiamo 
 
 
 
+- *client-server* applica separazione delle responsabilità, maggiore scalabilità
+- *stateless* ogni richiesta deve contenere tutte le informazioni necessarie per essere compresa, non può sfruttare alcun contesto memorizzato sul server. Lo stato della sessione deve essere mantenuto interamente sul client.
