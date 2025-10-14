@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Lezione 5.md",
+                "file": "WASA/Lezione 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 5"
+              "title": "Lezione 4"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,9 @@
   },
   "active": "05e6daced2c4caf7",
   "lastOpenFiles": [
-    "WASA/Lezione 3.md",
     "IUM/Lezione 5.md",
+    "WASA/Lezione 4.md",
+    "WASA/Lezione 3.md",
     "WASA/Lezione 2.md",
     "Algoritmi 2 (class).md",
     "CyberSec/Lezione 2.md",
@@ -229,7 +229,6 @@
     "Pasted image 20250927162124.png",
     "Sistemi Operativi/Modulo 1/Lezione 4.md",
     "Sistemi Operativi/Modulo 1/Lezione 5.md",
-    "Sistemi Operativi/Modulo 1/Lezione 6.md",
     "Automi",
     "IUM",
     "DATA SCIENCE E DIRITTO",
