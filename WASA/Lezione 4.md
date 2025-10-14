@@ -7,3 +7,5 @@ Noi lavoriamo particolarmente sulla rappresentazione di queste risorse.
 Li identifichiamo con gli **identificatori**, *locator (URL)*. Sono stringhe che ci aiutano ad identificare le risorse.
 Dobbiamo pensare le risorse come sostantivi e i metodi per manipolarli come i verbi. 
 
+In generale cerchiamo di non mettere le operazione nei locatori, identifichiamo solo le risorse n
+
