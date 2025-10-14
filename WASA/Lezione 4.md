@@ -21,3 +21,4 @@ In generale cerchiamo di non mettere le operazione nei locatori, identifichiamo 
 
 - *client-server* applica separazione delle responsabilità, maggiore scalabilità
 - *stateless* ogni richiesta deve contenere tutte le informazioni necessarie per essere compresa, non può sfruttare alcun contesto memorizzato sul server. Lo stato della sessione deve essere mantenuto interamente sul client.
+- *caheable* permettere al client di riutilizzare una rappresentazione della risorsa che è considerata cacheable, il periodo di tempo che una eisorsa può essere messa in cache è specificato nella risposta.
