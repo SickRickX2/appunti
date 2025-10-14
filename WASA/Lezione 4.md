@@ -29,3 +29,22 @@ In generale cerchiamo di non mettere le operazione nei locatori, identifichiamo 
 	- hypermedia come motore 
 	API REST basate su HTTP usano metodi standard e gli URL per identificare risorse.
 
+ ```YAML
+ openapi: 3.0.4
+info: 
+  title: Hi-lo The Game
+  description: |-
+    This is a game in which clients can:
+    - bet on a number between 1 and 100
+    - receive a response from the oracle:
+      - hi if the number is too high compared to the game specific secret number
+      - lo if it s too low
+      -correct if it is the secret number
+  version: 0.0.1
+paths:
+  /games:
+    description: this is a test
+  /game/{id}:
+    description: this is a test
+ 
+ ```
