@@ -28,4 +28,4 @@ In generale cerchiamo di non mettere le operazione nei locatori, identifichiamo 
 	- messaggi autodescrittivi
 	- hypermedia come motore 
 	API REST basate su HTTP usano metodi standard e gli URL per identificare risorse.
-**
+
