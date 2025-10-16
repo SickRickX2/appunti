@@ -48,3 +48,4 @@ paths:
     description: this is a test
  
  ```
+In sostanza, per fare la nostra api usiamo swagger editor che ci dice più o meno in che modo impostare le operazioni es: post,get,ecc... e i loro parametri oltre che ad impostare i paths. 
