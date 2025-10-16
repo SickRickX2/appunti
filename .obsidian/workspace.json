@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,9 @@
   },
   "active": "cd238f76673c20f4",
   "lastOpenFiles": [
-    "IUM/Lezione 6.md",
+    "WASA/YAML approfondito.md",
     "WASA/Lezione 5.md",
+    "IUM/Lezione 6.md",
     "IUM/Lezione 7.md",
     "Pasted image 20251016102631.png",
     "IUM/Lezione 5.md",
@@ -229,7 +229,6 @@
     "WASA/Lezione 1.md",
     "Senza nome.base",
     "IUM/Lezione 0.md",
-    "IUM/forno.md",
     "CyberSec",
     "Automi",
     "IUM",
