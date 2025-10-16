@@ -54,3 +54,4 @@ Si può imparare:
 
 Sono conosciuti anche come *mockups*, sono composti da una singola schermata o da un insieme di schermate interconnesse. Un design ancora impreciso e acerbo, solitamente rappresenta informazioni statiche tramite pagine predefinite.
 
+
