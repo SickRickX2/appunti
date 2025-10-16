@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Lezione 6.md",
+                "file": "IUM/Lezione 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 6"
+              "title": "Lezione 7"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,9 +190,10 @@
   },
   "active": "cd238f76673c20f4",
   "lastOpenFiles": [
+    "IUM/Lezione 6.md",
+    "IUM/Lezione 7.md",
     "Pasted image 20251016102631.png",
     "IUM/Lezione 5.md",
-    "IUM/Lezione 6.md",
     "imgs/Pasted image 20250519112034.png",
     "imgs",
     "imgs/Pasted image 20250520114017.png",
@@ -217,7 +217,6 @@
     "equazione 1.md",
     "Ingegneria del Software/index.md",
     "imgs/Pasted image 20251006101509.png",
-    "imgs/Pasted image 20251006101335.png",
     "DATA SCIENCE E DIRITTO/Lezione 2.md",
     "Ingegneria del Software",
     "DATA SCIENCE E DIRITTO/Lezione 3.md",
