@@ -12,4 +12,18 @@ Ci sono come abbiamo detto prima diversi strumenti e tecniche in base allo stato
 ### Tecniche
 - Sketches
 - Maps
-- Low Fidelty (paper) prot
+- Low Fidelty (paper) prototypes
+- Video Prototypes
+- Medium Fidelty Prototypes
+- High Fidelty Prototypes
+## Low Fidelty Prototypes
+>[!note] Paper Prototypes
+>Un *mock-up* dell'interfaccia utente di solito su fogli di carta multipli di diverse dimensioni.
+>*Caratteristiche chiave*:
+>- mockup di carta interattivo
+>- interazione naturale: puntare con un dito = click del mouse, writing = typing
+>- una persona simula il comportamento del computer
+>- bassa fedeltà riguardo l'aspetto e il "feel"
+
+I prototipi di carta sono molto veloci da fare (rispetto agli altri),non c'è bisogno di scriver codice e quindi sono anche molto facili da cambiare. Inoltre vista l'assenza di codice anche un non programmatore può aiutare nella realizzazione.
+![[Pasted image 20251016102631.png|400]]
