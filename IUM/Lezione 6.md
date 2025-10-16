@@ -27,3 +27,14 @@ Ci sono come abbiamo detto prima diversi strumenti e tecniche in base allo stato
 
 I prototipi di carta sono molto veloci da fare (rispetto agli altri),non c'è bisogno di scriver codice e quindi sono anche molto facili da cambiare. Inoltre vista l'assenza di codice anche un non programmatore può aiutare nella realizzazione.
 ![[Pasted image 20251016102631.png|400]]
+
+Per testare un prototipo cartaceo c'è bisogno da parte del team di design di ricoprire questi ruoli:
+- **Computer actor**: ovvero simulare le operazioni che il computer dovrebbe fare
+- **Facilitator**: presentare le interfacce e i task all'utente, incoraggiare l'utente a raccontare ad alta voce il suo processo decisionale (*think aloud*). Soprattutto deve assicurarsi che l'utente non vada *off track*.
+- **Osservatore**: prende nota del test in silenzio
+
+Ci sono cose che si possono e meno imparare dal test su carta ad esempio:
+Si può imparare:
+- **modello concettuale**: l'utente lo capisce?
+- **funzionalità**: fa quello che deve fare o manca qualche feature?
+- **navigation e task flow**: 
