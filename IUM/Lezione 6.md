@@ -37,4 +37,20 @@ Ci sono cose che si possono e meno imparare dal test su carta ad esempio:
 Si può imparare:
 - **modello concettuale**: l'utente lo capisce?
 - **funzionalità**: fa quello che deve fare o manca qualche feature?
-- **navigation e task flow**: 
+- **navigation e task flow**: gli utenti riescono ad orientarsi da soli?
+- **terminologia**: l'utente capisce la terminologia utilizzata?
+- **contenuti a schermo**: cosa c'è bisogno di aggiungere a schermo?
+
+## Medium Fidelity Prototypes
+- Wireframes, PowerPoints, Sketching tools
+
+>[!note] Computer Prototypes
+>Una simulazione con software interattivo
+>- interfaccia
+>- accetta alcuni input dell'utente
+>- risponde cambiando pagina
+>
+>Medium or High fidelity in look and feel.
+
+Sono conosciuti anche come *mockups*, sono composti da una singola schermata o da un insieme di schermate interconnesse. Un design ancora impreciso e acerbo, solitamente rappresenta informazioni statiche tramite pagine predefinite.
+
