@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Lezione 6.md",
+                "file": "WASA/Lezione 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 6"
+              "title": "Lezione 5"
             }
           }
         ]
@@ -191,8 +191,9 @@
   },
   "active": "cd238f76673c20f4",
   "lastOpenFiles": [
-    "IUM/Lezione 7.md",
     "IUM/Lezione 6.md",
+    "WASA/Lezione 5.md",
+    "IUM/Lezione 7.md",
     "Pasted image 20251016102631.png",
     "IUM/Lezione 5.md",
     "imgs/Pasted image 20250519112034.png",
@@ -230,7 +231,6 @@
     "IUM/Lezione 0.md",
     "IUM/forno.md",
     "CyberSec",
-    "Automi/Lezione 1.md",
     "Automi",
     "IUM",
     "DATA SCIENCE E DIRITTO",
