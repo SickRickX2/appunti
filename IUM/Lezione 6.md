@@ -60,3 +60,4 @@ Sono conosciuti anche come *mockups*, sono composti da una singola schermata o d
 Sono realizzati via software con il computer. Il cambio delle schermate viene automatizzato e non viene più effettuato dall'umano.
 
 
+
