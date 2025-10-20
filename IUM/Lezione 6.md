@@ -57,6 +57,6 @@ Si può imparare:
 Sono conosciuti anche come *mockups*, sono composti da una singola schermata o da un insieme di schermate interconnesse. Un design ancora impreciso e acerbo, solitamente rappresenta informazioni statiche tramite pagine predefinite.
 
 ## High Fidelity Prototypes
-Sono realizzati via software con il computer.
+Sono realizzati via software con il computer. Il cambio delle schermate viene automatizzato e non viene più effettuato dall'umano.
 
 
