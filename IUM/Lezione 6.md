@@ -17,6 +17,8 @@ Ci sono come abbiamo detto prima diversi strumenti e tecniche in base allo stato
 - Medium Fidelty Prototypes
 - High Fidelty Prototypes
 ## Low Fidelity Prototypes
+Sono molto approssimativi a livello estetico ma non a livello di profondità dell'interazione.
+
 >[!note] Paper Prototypes
 >Un *mock-up* dell'interfaccia utente di solito su fogli di carta multipli di diverse dimensioni.
 >*Caratteristiche chiave*:
