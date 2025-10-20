@@ -16,7 +16,7 @@ Ci sono come abbiamo detto prima diversi strumenti e tecniche in base allo stato
 - Video Prototypes
 - Medium Fidelty Prototypes
 - High Fidelty Prototypes
-## Low Fidelty Prototypes
+## Low Fidelity Prototypes
 >[!note] Paper Prototypes
 >Un *mock-up* dell'interfaccia utente di solito su fogli di carta multipli di diverse dimensioni.
 >*Caratteristiche chiave*:
@@ -53,5 +53,8 @@ Si può imparare:
 >Medium or High fidelity in look and feel.
 
 Sono conosciuti anche come *mockups*, sono composti da una singola schermata o da un insieme di schermate interconnesse. Un design ancora impreciso e acerbo, solitamente rappresenta informazioni statiche tramite pagine predefinite.
+
+## High Fidelity Prototypes
+Sono realizzati via software con il computer.
 
 
