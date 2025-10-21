@@ -3,7 +3,11 @@
 
 >[!note] URI
 >Principio: URI rappresentano Risorse, non Azioni
->
+
+>[!tip] PUT vs PATCH
+>Quando si tratta di modificare una risorsa viene usato patch invece di put (che sostituisce l'intera risorsa)
+
+
 ## API Best Practices
 
 ## Pokémon Team Builder
