@@ -1,3 +1,7 @@
+>[!note] Campi opzionali
+>In OpenAPI si dice cosa 
+
+
 ## API Best Practices
 
 
