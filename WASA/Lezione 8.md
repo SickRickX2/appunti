@@ -9,5 +9,12 @@
 
 
 ## API Best Practices
+**Design FIrst e Connexion**
+Facciamo una connessione tra API e Backend.
+Definiamo prima il contratto API in un file YAML e poi implementiamo il backend Pyhton per rispettare tale contratto.
+Usiamo il *Connexion(Python)* come il framework che funge da ponte. 
+- legge il file YAML
+- gestisce il routing automatico
+- esegue la validazione automatica del corpo JSON della richiesta contro lo sc
 
 ## Pokémon Team Builder
