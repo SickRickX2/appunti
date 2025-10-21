@@ -15,6 +15,6 @@ Definiamo prima il contratto API in un file YAML e poi implementiamo il backend 
 Usiamo il *Connexion(Python)* come il framework che funge da ponte. 
 - legge il file YAML
 - gestisce il routing automatico
-- esegue la validazione automatica del corpo JSON della richiesta contro lo sc
+- esegue la validazione automatica del corpo JSON della richiesta contro lo schema definito nello YAML
 
 ## Pokémon Team Builder
