@@ -5,3 +5,5 @@ Con l'IA cambia il fatto che non soltanto la conoscenza rappresenta il mondo, pe
 
 L'output non è mai grezzo ma adattato a certe esigenze matematiche.
 Abbiamo i due strati sottostanti e i neuroni. Le parole vengono scomposte in token e ogni token viene trasformato in token embedding, ogni volta che diventa embedding ha circa 760 dimensioni. I token sono tutti diversi ma con la stessa dimensione.
+
+Ciascuna parola ha un peso, questo si chiama *embedding astratto*. I token vengono conformati ciascuno al loro peso
