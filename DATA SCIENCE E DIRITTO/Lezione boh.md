@@ -20,6 +20,8 @@ Proiezioni lineari, sono dei vettori:
 - value
 
 >[!note] BIAS
->A volte un token conti poco, quindi rischia di non essere processato. Quindi si aggiunge un peso artificiale per essere considerato. Ma il numero totale degli embedding devono rimanere uguali, quindi se aggiungo da una parte tolgo da un'altra. 
+>A volte un token conta poco, quindi rischia di non essere processato. Quindi si aggiunge un peso artificiale per essere considerato. Ma il numero totale degli embedding devono rimanere uguali, quindi se aggiungo da una parte tolgo da un'altra. 
+
+Può succedere che un embedding ecceda dalle sue dimensioni quindi bisogna applicare un processo di *normalizzazione*. Trasformando da multidimensionale ad una monodimensionale in modo da poter fare delle operazioni lineari su numeri grazie a questa compressione
 
 
