@@ -12,4 +12,9 @@ Categorie di funzioni che una dimensione può codificare:
 - *funzioni sintattiche*
 - *funzioni semantiche*
 - *funzioni contestuali e pragmatiche*
-Dentro ogni dimensione c'è un neurone, recupera i valori che formano ciascuna dimensione. Abbiamo tante dimensioni quanti neuroni.
+Dentro ogni dimensione c'è un neurone, recupera i valori che formano ciascuna dimensione. Abbiamo tante dimensioni quanti neuroni. Per questo vengono chiamati anche **embedding di attivazione**.
+
+Proiezioni lineari, sono dei vettori:
+- key
+- query
+- value
