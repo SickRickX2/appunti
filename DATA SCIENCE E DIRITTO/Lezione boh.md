@@ -12,3 +12,4 @@ Categorie di funzioni che una dimensione può codificare:
 - *funzioni sintattiche*
 - *funzioni semantiche*
 - *funzioni contestuali e pragmatiche*
+Dentro ogni dimensione c'è un neurone, recupera i valori che formano ciascuna dimensione. Abbiamo tante dimensioni quanti neuroni.
