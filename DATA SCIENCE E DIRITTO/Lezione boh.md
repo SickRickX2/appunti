@@ -7,3 +7,8 @@ L'output non è mai grezzo ma adattato a certe esigenze matematiche.
 Abbiamo i due strati sottostanti e i neuroni. Le parole vengono scomposte in token e ogni token viene trasformato in token embedding, ogni volta che diventa embedding ha circa 760 dimensioni. I token sono tutti diversi ma con la stessa dimensione.
 
 Ciascuna parola ha un peso, questo si chiama *embedding astratto*. I token vengono conformati ciascuno al loro peso
+
+Categorie di funzioni che una dimensione può codificare:
+- *funzioni sintattiche*
+- *funzioni semantiche*
+- *funzioni contestuali e pragmatiche*
