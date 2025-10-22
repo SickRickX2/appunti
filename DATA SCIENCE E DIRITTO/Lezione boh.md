@@ -18,3 +18,8 @@ Proiezioni lineari, sono dei vettori:
 - key
 - query
 - value
+
+>[!note] BIAS
+>A volte un token conti poco, quindi rischia di non essere processato. Quindi si aggiunge un peso artificiale per essere considerato. Ma il numero totale degli embedding devono rimanere uguali, quindi se aggiungo da una parte tolgo da un'altra. 
+
+
