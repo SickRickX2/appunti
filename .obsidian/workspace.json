@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Lezione 7.md",
+                "file": "IUM/Paper prototype.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 7"
+              "title": "Paper prototype"
             }
           }
         ]
@@ -191,6 +191,10 @@
   },
   "active": "cd238f76673c20f4",
   "lastOpenFiles": [
+    "IUM/Senza nome.canvas",
+    "IUM/Paper prototype.md",
+    "IUM/Lezione 8.md",
+    "IUM/Lezione 7.md",
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/10 Livello di Rete.md",
     "DATA SCIENCE E DIRITTO/Lezione boh.md",
@@ -201,7 +205,6 @@
     "Algoritmi 2/5 BFS Visita in ampiezza.md",
     "WASA/Lezione 8.md",
     "WASA/Lezione 5.md",
-    "IUM/Lezione 7.md",
     "IUM/Lezione 6.md",
     "WASA/YAML approfondito.md",
     "Pasted image 20251016102631.png",
@@ -224,9 +227,6 @@
     "IUM/Lezione 1.md",
     "imgs/Pasted image 20251006122420.png",
     "imgs/Pasted image 20251006121421.png",
-    "Equazione 1.md",
-    "equazione 1.md",
-    "Ingegneria del Software/index.md",
     "imgs/Pasted image 20251006101509.png",
     "Ingegneria del Software",
     "Senza nome.base",

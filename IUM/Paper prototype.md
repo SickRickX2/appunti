@@ -1,0 +1,2 @@
+- schermata di login
+- schermata home -> impostazioni, 
