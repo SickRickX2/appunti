@@ -23,3 +23,9 @@ ricerca e preontazione aule studio
 - schermata di ricerca -> 
 	- filtrare per: vicinanza, posti liberi selezionati da cercare, orario
 - schermata di risposta = luogo, vicinanza, numero posti liberi per orario, attrezzature presenti in aula
+- cliccare sull'aula per passare a schermata di prenotazione:
+	- numero di posti da prenotare:
+	- orario:
+	- conclusione della domanda
+
+- schermata "vuoi visualizzare il percorso migliore per arrivare all'aula?" -> sì, no
