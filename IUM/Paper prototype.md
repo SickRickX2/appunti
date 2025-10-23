@@ -27,5 +27,3 @@ ricerca e preontazione aule studio
 	- numero di posti da prenotare:
 	- orario:
 	- conclusione della domanda
-
-- schermata "vuoi visualizzare il percorso migliore per arrivare all'aula?" -> sì, no
