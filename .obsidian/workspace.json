@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WASA/Lezione 9.md",
+                "file": "IUM/Paper prototype.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 9"
+              "title": "Paper prototype"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,8 @@
   },
   "active": "cd238f76673c20f4",
   "lastOpenFiles": [
-    "IUM/Paper prototype.md",
     "WASA/Lezione 9.md",
+    "IUM/Paper prototype.md",
     "IUM/Senza nome.canvas",
     "IUM/Lezione 8.md",
     "IUM/Lezione 7.md",
