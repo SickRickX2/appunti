@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA SCIENCE E DIRITTO/Lezione boh.md",
+                "file": "IUM/Lezione 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione boh"
+              "title": "Lezione 7"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,11 +190,14 @@
   },
   "active": "cd238f76673c20f4",
   "lastOpenFiles": [
+    "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
+    "Reti di Elaboratori/10 Livello di Rete.md",
+    "DATA SCIENCE E DIRITTO/Lezione boh.md",
+    "DATA SCIENCE E DIRITTO/Lezione 3.md",
     "Algoritmi 2 (class).md",
     "Algoritmi 2/2 Colorazione di grafi.md",
     "Algoritmi 2/7 Minimo albero di copertura.md",
     "Algoritmi 2/5 BFS Visita in ampiezza.md",
-    "DATA SCIENCE E DIRITTO/Lezione boh.md",
     "WASA/Lezione 8.md",
     "WASA/Lezione 5.md",
     "IUM/Lezione 7.md",
@@ -225,10 +227,7 @@
     "equazione 1.md",
     "Ingegneria del Software/index.md",
     "imgs/Pasted image 20251006101509.png",
-    "DATA SCIENCE E DIRITTO/Lezione 2.md",
     "Ingegneria del Software",
-    "DATA SCIENCE E DIRITTO/Lezione 3.md",
-    "DATA SCIENCE E DIRITTO/Lezione 1.md",
     "Senza nome.base",
     "CyberSec",
     "Automi",
