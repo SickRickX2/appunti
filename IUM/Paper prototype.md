@@ -1,2 +1,10 @@
 - schermata di login
-- schermata home -> impostazioni, schermata di 
+- schermata home -> impostazioni, schermata di selezione di tipo di luogo che si vuole cercare
+- schermata di selezione: filtrare per 
+	- vicinanza
+	- "marca"
+	- recensioni migliori (?)
+-> schermata di risposta: 
+-  elenco di luoghi 
+- mappa con posizione + luoghi che si stavano cercando
+-> cliccare sul luogo per vedere percorso migliore
