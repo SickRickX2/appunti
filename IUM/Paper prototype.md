@@ -18,4 +18,8 @@
 ricerca e preontazione aule studio
 
 - schermata di login
-- schermata 
+- schermata di home
+-> impostazioni, profilo, schermata di ricerca
+- schermata di ricerca -> 
+	- filtrare per: vicinanza, posti liberi selezionati da cercare, orario
+- schermata di risposta = luogo, vicinanza, numero posti liberi per orario, attrezzature presenti in aula
