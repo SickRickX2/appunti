@@ -8,3 +8,14 @@
 -  elenco di luoghi 
 - mappa con posizione + luoghi che si stavano cercando
 -> cliccare sul luogo per vedere percorso migliore
+
+
+
+---------------------------
+
+
+
+ricerca e preontazione aule studio
+
+- schermata di login
+- schermata 
