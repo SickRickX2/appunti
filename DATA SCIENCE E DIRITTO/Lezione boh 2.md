@@ -22,4 +22,4 @@ Key e value sono più a stretto contatto. Key e value sono le proiezioini che da
 >[!note] Key
 >Configura i neuroni del vettore in modo da evidenziare i numeri che rappresentano le loro caratteristiche principali
 
-query se sollecitato da un token mostra il valore key se poi è soddisfacente prendono le informazioni all'interno di query.
+query se sollecitato da un token mostra il valore key se poi è soddisfacente prendono le informazioni all'interno di query. L'interazione di queste tre componenti crea un token temporaneo come risposta.
