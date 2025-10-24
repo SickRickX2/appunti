@@ -29,4 +29,7 @@ Ciò che avviene nella rete neurale dopo l'elaborazione nello strato di sopra è
 Il token rimane fisso -> si crea token provvisorio -> scende nel sottostrato neurale -> moduli/funzioni *gelo* lavora sul token provvisorio per sistemarlo e che il numero dei neuroni sia sempre quello compattando o cambiando le dimensioni (bias).
 
 
-Prevedere e 
+Prevedere e volere -> se corrisponde ad una normale legale allora quello è dolo 
+
+La norma prevede in astratto *fatto tipico*
+Ciò che la persona fa invece è *fatto storico*
