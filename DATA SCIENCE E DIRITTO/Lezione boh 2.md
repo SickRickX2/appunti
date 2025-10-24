@@ -1,0 +1,1 @@
+Si è invertito il rapporto tra uomo e macchina, il rapporto tra soggetto conoscente e oggetto conosciuto.
