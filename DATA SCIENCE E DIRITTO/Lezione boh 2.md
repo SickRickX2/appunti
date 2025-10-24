@@ -21,3 +21,5 @@ Dentro al primo stato ci sono 3 matrici con lo scopo di configurare i neuroni de
 Key e value sono più a stretto contatto. Key e value sono le proiezioini che danno mentre query quella che chiede.
 >[!note] Key
 >Configura i neuroni del vettore in modo da evidenziare i numeri che rappresentano le loro caratteristiche principali
+
+query se sollecitato da un token mostra il valore key se poi è soddisfacente prendono le informazioni all'interno di query.
