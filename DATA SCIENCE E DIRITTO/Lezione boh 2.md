@@ -13,3 +13,11 @@ All'interno degli strati troviamo i neuroni che sono le dimensioni di ciascun ve
 
 Un neurone si specializza rispetto agli altri, visto che hanno dei significati a sè che vengono riferiti in tutti gli altri token. Tutto questo in fase di progettazione
 ad esempio il peso della parola francesco in relazione alla parola figma.
+
+Dentro al primo stato ci sono 3 matrici con lo scopo di configurare i neuroni dei token in modo particolare. Sono 3 proiezioni lineari del token, ognuna con una dimensione a sè:
+- key 
+- query
+- value
+Key e value sono più a stretto contatto. Key e value sono le proiezioini che danno mentre query quella che chiede.
+>[!note] Key
+>Configura i neuroni del vettore in modo da evidenziare i numeri che rappresentano le loro caratteristiche principali
