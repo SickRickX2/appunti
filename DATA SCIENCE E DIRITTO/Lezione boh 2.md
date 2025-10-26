@@ -34,4 +34,4 @@ Prevedere e volere -> se corrisponde ad una normale legale allora quello è dolo
 La norma prevede in astratto *fatto tipico* -> insieme di elementi per commettere un reato. In sostanza è una condotta astratta dove la causa di questa condotta è il soggetto, presuppone sia conseguenza di un azione di un soggetto. I reati sono fatti tipici commessi dall' **UOMO**
 Ciò che la persona fa invece è *fatto storico*
 
-**metodi** modi di procedere predeterminati
+**Metodi** modi di procedere predeterminati.
