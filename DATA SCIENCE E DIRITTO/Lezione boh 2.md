@@ -35,3 +35,4 @@ La norma prevede in astratto *fatto tipico* -> insieme di elementi per commetter
 Ciò che la persona fa invece è *fatto storico*
 
 **Metodi** modi di procedere predeterminati.
+
