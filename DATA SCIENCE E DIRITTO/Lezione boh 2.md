@@ -36,3 +36,4 @@ Ciò che la persona fa invece è *fatto storico*
 
 **Metodi** modi di procedere predeterminati.
 
+
