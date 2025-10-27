@@ -80,4 +80,7 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 - *via message*:
 	-  one of the simplest authentication approaches
 **Disadvantage**:
+- requires mobile coverage to receive SMS
+- when mobile phone is lost or stolen,
+
 
