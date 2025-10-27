@@ -49,6 +49,10 @@ Typically include three types of memory:
 	- hold application data and programs
 - Random access memory (RAM)
 	- holds temporary data generated when applications are executed
+
 >[!note] Electronic Identity Cards (eIDs)
 >A national electronic identity (eID) card can serve the same purposes as other national ID cards. Human-readable data printed on its surface.
->Can provide stronger proof od ifen
+>Can provide stronger proof of identity and be used in a wider variety of applications.
+
+### Password Authenticated Connection Establishment (PACE)
+Ensures that contacless RF chip in the eID card cannot be read without explicit access control. For online applications, either 
