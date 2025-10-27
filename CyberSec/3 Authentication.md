@@ -81,6 +81,7 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 	-  one of the simplest authentication approaches
 **Disadvantage**:
 - requires mobile coverage to receive SMS
-- when mobile phone is lost or stolen,
-
+- when mobile phone is lost or stolen, user will lose access or an attacker might gain access
+- attackers migh use a SIM swap attack or change the authenticated phone number
+- attacker might also intercept  messages using either a fake 
 
