@@ -70,13 +70,12 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 - Systems using time based OTP need to allow for clock drift between token and verifying system
 - Systems using nonce need to allow for failed authentication attempts
 
-
-
 >[!note] Pro and Cons
 >*Any other person can see the code* -> solution: use of communications link
 >Single-factor vs multifactor:
 >- Single: provides authentication with just one factor
 >- Multi: provides authentication service after a local authentication step
 
-
+### Authentication Using a Mobile Phone: SMS
+- *via message*:
 
