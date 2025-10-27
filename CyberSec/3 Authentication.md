@@ -61,6 +61,11 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 - Has a secret key to generate an OTP
 - User enters the OTP and the system validates the value entered
 - Uses a block cipher/hash function to combine secret key and time or nonce value to create OTP
-- Has a tamper-resistant
+- Has a tamper-resistant module for secure storage of the secret key
 
+### Time-based one time password (TOTP)
+- Uses HMAC with hash function 
+- Used in many hardare tokens and by many mobile authenticator apps
+- Password is computed from the current Unix format time value
+- Systems using time based OTP need to allow for clock drift between token and verifying system
 
