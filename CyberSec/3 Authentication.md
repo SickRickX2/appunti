@@ -94,4 +94,6 @@ Based on pattern recognition, technically complex and expensive when compared to
 
 **Biometric Identification**
 
-High cost not always hio
+High cost not always high accuracy.
+
+### Remote user authentication
