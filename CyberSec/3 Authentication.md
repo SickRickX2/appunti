@@ -60,6 +60,7 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 ### Hardware Authentication Tokens: One-time password (OTP) device
 - Has a secret key to generate an OTP
 - User enters the OTP and the system validates the value entered
-- Uses a block cipher/hash function to combine secret key and time or nonce value to creat
+- Uses a block cipher/hash function to combine secret key and time or nonce value to create OTP
+- Has a tamper-resistant
 
 
