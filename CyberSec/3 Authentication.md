@@ -28,3 +28,21 @@ User interface:
 - Electronic interface
 A smart card or other token requires an electronic interface to communicate with a compatible reader/writer.
 - contact and contactless interfaces
+Authentication protocol:
+- classified into three categories:
+	- static
+	- dynamic password generator
+	- challenge-response
+### Smart Cards
+Most important category of smart token 
+- has the appearance of a credit card
+- has an electronic interface
+- may use any of the smart token protocols
+Contain an entire microprocessor with 
+- processor 
+- memory
+- I/O ports
+Typically include three types of memory:
+- Read-only memory (ROM)
+	- stores data that does not change during the card's life
+- Electrically 
