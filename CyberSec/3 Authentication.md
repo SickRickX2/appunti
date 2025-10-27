@@ -15,4 +15,5 @@ Plastic card with a magnetic stripe containing personalized information about th
 - The first track of a magnetic stripe card contains the cardholder's full name in addition to an account number, format information, and other data.
 - The second track may contain the account number, expiration date, information about the issuing bank, data specifying the exact format of the track, and other discretionary data
 >[!tip] Security
->One vulnerability of the magnetic stripe medium is that it is easy 
+>One vulnerability of the magnetic stripe medium is that it is easy to read and reproduce.
+>Magnetic stripe readers can be purchased at relatively low cost, allowing attackers to read information off cards. When couples with a magnetic stripe 
