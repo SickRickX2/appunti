@@ -54,5 +54,8 @@ Typically include three types of memory:
 >A national electronic identity (eID) card can serve the same purposes as other national ID cards. Human-readable data printed on its surface.
 >Can provide stronger proof of identity and be used in a wider variety of applications.
 
-### Password Authenticated Connection Establishment (PACE)
-Ensures that contacless RF chip in the eID card cannot be read without explicit access control. For online applications, either 
+#### Password Authenticated Connection Establishment (PACE)
+Ensures that contacless RF chip in the eID card cannot be read without explicit access control. For online applications,  access is established by the user entering the six-digit PIN. For offline applications, either the MRZ printed on the back of the card or the six-digit card access number (CAN) printed on the front is used.
+
+
+
