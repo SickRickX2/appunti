@@ -86,4 +86,12 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 - attacker might also intercept  messages using either a fake mobile tower, or by attacking SS7 signaling protocol
 
 ## Biometrics
-Biometric refers to any measure used to uniquely  identify a person based on biological or physiological 
+Biometric refers to any measure used to uniquely  identify a person based on biological or physiological traits.
+Biometric systems:
+- incorporate sensor or scanner to read in biometric information
+- then compare this information to stored templates of accepted users before granting access
+Based on pattern recognition, technically complex and expensive when compared to passwords and tokens.
+
+**Biometric Identification**
+
+High cost not always hio
