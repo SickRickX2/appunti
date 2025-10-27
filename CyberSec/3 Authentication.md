@@ -50,3 +50,5 @@ Typically include three types of memory:
 - Random access memory (RAM)
 	- holds temporary data generated when applications are executed
 >[!note] Electronic Identity Cards (eIDs)
+>A national electronic identity (eID) card can serve the same purposes as other national ID cards. Human-readable data printed on its surface.
+>Can provide stronger proof od ifen
