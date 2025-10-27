@@ -85,3 +85,5 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 - attackers migh use a SIM swap attack or change the authenticated phone number
 - attacker might also intercept  messages using either a fake mobile tower, or by attacking SS7 signaling protocol
 
+## Biometrics
+Biometric refers to any measure used to uniquely  identify a person based on biological or physiological 
