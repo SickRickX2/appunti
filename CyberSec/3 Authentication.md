@@ -45,4 +45,8 @@ Contain an entire microprocessor with
 Typically include three types of memory:
 - Read-only memory (ROM)
 	- stores data that does not change during the card's life
-- Electrically 
+- Electrically erasable programmable ROM (EEPROM)
+	- hold application data and programs
+- Random access memory (RAM)
+	- holds temporary data generated when applications are executed
+>[!note] Electronic Identity Cards (eIDs)
