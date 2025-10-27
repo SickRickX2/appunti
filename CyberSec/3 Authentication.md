@@ -78,4 +78,6 @@ Ensures that contacless RF chip in the eID card cannot be read without explicit 
 
 ### Authentication Using a Mobile Phone: SMS
 - *via message*:
+	-  one of the simplest authentication approaches
+**Disadvantage**:
 
