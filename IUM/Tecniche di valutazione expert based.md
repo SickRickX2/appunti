@@ -58,7 +58,7 @@ I messaggi di errore dovrebbero essere espressi in un linguaggio semplice (nessu
 
 ### 10 Aiuto e documentazione
 Anche se è meglio che il sito e i suoi percorsi possano essere utilizzati senza "istruzioni", potrebe essere necessario fornire assistenza per alcuni passaggi (es. la registrazione a uno shop online).
-**redendere be**
+**Redendere ben visibile e molto completa la sezione Assistenza oppure creare un'area FAQ completa e ben visibile.**
 
 
 

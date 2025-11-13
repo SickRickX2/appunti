@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Tecniche di valutazione expert based.md",
+                "file": "IUM/Lezione 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tecniche di valutazione expert based"
+              "title": "Lezione 5"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,14 @@
   },
   "active": "4ab6d2dab6ae484e",
   "lastOpenFiles": [
-    "DATA SCIENCE E DIRITTO/Lezione megaboh.md",
+    "IUM/IUM Classes.md",
+    "IUM/Lezione 5.md",
+    "IUM/Storyboards.md",
+    "IUM/Tecniche principali di needfinding.md",
+    "IUM/Interazione uomo macchina.md",
+    "IUM/Introduzione.md",
     "IUM/Tecniche di valutazione expert based.md",
+    "DATA SCIENCE E DIRITTO/Lezione megaboh.md",
     "CyberSec/3 Authentication.md",
     "CyberSec/Lezione 2.md",
     "Senza nome.base",
@@ -215,12 +220,6 @@
     "Reti di Elaboratori/11 IPv4,DHCP, NAT, ICMP.md",
     "Reti di Elaboratori/10 Livello di Rete.md",
     "Algoritmi 2/2 Colorazione di grafi.md",
-    "Algoritmi 2/7 Minimo albero di copertura.md",
-    "Algoritmi 2/5 BFS Visita in ampiezza.md",
-    "WASA/Lezione 8.md",
-    "WASA/Lezione 5.md",
-    "IUM/Lezione 6.md",
-    "WASA/YAML approfondito.md",
     "imgs/Pasted image 20250519112034.png",
     "imgs",
     "imgs/Pasted image 20250520114017.png",

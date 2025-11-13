@@ -1,4 +1,3 @@
-# Tecniche principali di needfinding
 ## Interviste 
 - Informali, economiche
 - Permettono di approfondire
@@ -51,8 +50,6 @@ Usano il sitema in modo estremo, lo sottopongono a molto stress, trovano problem
 
 ## Esperti
 Sfruttare le conoscenze di esperti del settore, possono discutere anche di problemi più difficili o più astratti
-
-##
 ### Questionari 
 Meno flessibili delle interviste, ci sono molti tool per realizzarli
 ### Diario
