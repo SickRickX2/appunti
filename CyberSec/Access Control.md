@@ -17,3 +17,11 @@ Takes a subject oriented approach to access control. It defines, for each subjec
 
 #### Extended access control matrix
 Considers the ability of one subject to transfer rights, create another subject and to have ‘owner’ access right to that subject.
+
+METTERE FOTO SLIDES
+
+### Mandatory Access Control
+Each subject and each object is assigned a security class. In the simplest formulation, security classes form a strict hierarchy and are referred to as **security levels**.
+- A subject is said to have *security clearence* of a given level
+- An object is said to have a *security classification* of a given level
+The security classes control the manner by which a subject ,ay acces
