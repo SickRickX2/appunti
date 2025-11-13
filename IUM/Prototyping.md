@@ -1,4 +1,4 @@
-# Prototyping
+
 Ci sono diversi tipi di prototyping, ognuno ha un certo livello di "fedeltà" rispetto al prodotto finale che l'utente avrà tra le mani. 
 Il processo di prototyping si scompone in varie fasi, avremo bisogno di un prototipo più affidabile in base alla fase di progettazione in cui ci troviamo.
 
