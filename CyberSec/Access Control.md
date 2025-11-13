@@ -33,4 +33,11 @@ The model defined **4** access modes:
 - **append** ->the subject is allowed only write access to the object
 - **write** -> the subject is allowed both read and write access to the object
 - **execute** -> the subject is allowed neither read nor write access to the object but may invoke the object for execution
+Confidentiality is achieved if a subject at a high level *may not convey information* to a subject at a lower level
+	unless that flow accurately reflects the will of an authorized user as revealed by an **authorized declassification**
+
+>[!note] Multilevel security confidentiality
+>- **No read up**: A subject can only read an object or less or equal security level
+>- **No write down**: a subject can only write into an objec of greater or equal security level
+>- 
 
