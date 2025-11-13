@@ -45,7 +45,16 @@ Ancor meglio dei buoni messaggi di errore è una progettazione attenta che imped
 ### 6 Riconoscimento piuttosto che richiamo
 Bisogna ridurre al minimo lo sforzo di memoria dell'utente rendendo visibili oggetti, azioni e opzioni. L'utente non deve ricordare informazioni da una parte all'altra del sito. Le istruzioni per l'uso del sistema dovrebbero essere visibili o facilmente recuperabili ogni volta che è opportuno.
 ### 7 Flessibilità ed efficienza d'uso 
+Gli acceleratori - non visti dall'utente principiante - possono spesso accelerare l'interazione per l'utente esperto in modo tale che il sistema possa soddisfare sia gli utenti inesperti che quelli esperti. Consenti agli utenti di personalizzare azioni frequenti.
+**Pensare a più percorsi che arrivano alla stessa destinazione**
 
+### 8 Design estetico e minimalista
+I testi non dovrebbero contenere informazioni irrilevanti o comunque poco necessarie. Ogni ulteriore unità di informazioni interferisce con i messaggi davvero necessari e diminuisce la loro visibilità.
+**Design minimale.**
+
+### 9 Aiuta gli utenti a riconoscere, diagnostiare e recuperare gli errori
+I messaggi di errore dovrebbero essere espressi in un linguaggio semplice (nessun codice), indicare con precisione il problema e suggerire in modo costruttivo una soluzione
+**I messaggi di errore devono aiutare gli utenti a notarli, riconoscerli e capirli.**
 
 
 
