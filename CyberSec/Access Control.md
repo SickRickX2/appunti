@@ -24,4 +24,13 @@ METTERE FOTO SLIDES
 Each subject and each object is assigned a security class. In the simplest formulation, security classes form a strict hierarchy and are referred to as **security levels**.
 - A subject is said to have *security clearence* of a given level
 - An object is said to have a *security classification* of a given level
-The security classes control the manner by which a subject ,ay acces
+
+The security classes control the manner by which a subject ,ay access an object
+
+### Multilevel security (MLS)
+The model defined **4** access modes:
+- **read** -> the subject is allowed only to read access the object
+- **append** ->the subject is allowed only write access to the object
+- **write** -> the subject is allowed both read and write access to the object
+- **execute** -> the subject is allowed neither read nor write access to the object but may invoke the object for execution
+
