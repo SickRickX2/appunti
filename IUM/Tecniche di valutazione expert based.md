@@ -28,14 +28,16 @@ Ci baseremo sulle 10 euristiche di Nielsen e Molich per scoprire problemi usando
 
 ### 1  Visibilità dello stato di sistema
 Il sistema dovrebbe sempre tenere gli utenti informati su ciò che sta accadendo attraverso feedback in tempi appropriati.
+**Dobbiamo dire agli utenti a che punto sono, dove si trovano, cosa stanno facendo e **cosa devono fare per procedere**
 ### 2 Corrispondenza tra sistema e mondo reale
-Il sistema dovrebbe parlare la lingua degli utenti, con parole, frasi e concetti familiari all'utente, piuttosto che termini orientati al sistema. L'indicazione è quella di seguire le convenzioni del mondo reale, facendo apparire le informazioni in un ordine naturale e logico
+Il sistema dovrebbe parlare la lingua degli utenti, con parole, frasi e concetti familiari all'utente, piuttosto che termini orientati al sistema. L'indicazione è quella di seguire le convenzioni del mondo reale, facendo apparire le informazioni in un ordine naturale e logico.
+**Fare in modo che ci sia corrispondenza tra quelle che sono le regole del mondo reale e il nostro ambiente web**
 ### 3 Controllo dell'utente e libertà 
-Gli utenti spesso commettono errori per sbagliio e avranno bisogno di un'uscita di emergenza contrassegnata in modo chiaro per tornare sulla retta via
+Gli utenti spesso commettono errori per sbagliio e avranno bisogno di un'uscita di emergenza contrassegnata in modo chiaro per tornare sulla retta via.
+**Segnalare le cose, dare indicazioni chiare**
 ### 4 Coerenza e standard
 Gli utenti non dovrebbero chiedersi se parole, situazioni o azioni diverde significano la stessa cosa. Siate coerenti.
-**convenzioni di sistema che sono trasversali all’intera interfaccia**
-
+**Convenzioni di sistema che sono trasversali all’intera interfaccia**
 ### 5 Prevenzioni degli errori
 Ancor meglio dei buoni messaggi di errore è una progettazione attenta che impedisce il verificarsi di un problema. Eliminare le condizione soggette a errori o verificarle  e presentare agli utenti un'opzione di conferma prima di impegnarsi nell'azione.
 **Fare in modo che gli utenti non possano commettere errori**
