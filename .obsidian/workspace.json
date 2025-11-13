@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSec/Authentication.md",
+                "file": "CyberSec/Access Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Authentication"
+              "title": "Access Control"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
-    "Classes/CyberSec (Class).md",
     "CyberSec/Authentication.md",
+    "CyberSec/Access Control.md",
+    "Classes/CyberSec (Class).md",
     "CyberSec/Introduction.md",
     "CyberSec/Encryption.md",
     "DATA SCIENCE E DIRITTO/Lezione megaboh.md",
@@ -217,7 +218,6 @@
     "IUM/The man behind the curtain.md",
     "IUM/Lezione 8.md",
     "IUM/Prototyping.md",
-    "IUM/Storyboards.md",
     "imgs/Pasted image 20251016102631.png",
     "imgs/Pasted image 20251024115830.png",
     "IUM/Senza nome.canvas",

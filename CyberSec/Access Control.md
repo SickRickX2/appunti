@@ -1,0 +1,1 @@
+*Goal*: Protect confidentiality and integrity of information. Control what a subject can do to prevent damage to the system. Regulate the operations that can be executed by a subject on data and resources
