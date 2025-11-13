@@ -26,6 +26,10 @@ Valuta quanto facile e ben supportato è per l'utente imparare a fare un task. L
 
 Ci baseremo sulle 10 euristiche di Nielsen e Molich per scoprire problemi usando sistemi interattivi.
 
+### 1  Visibilità dello stato di sistema
+Il sistema dovrebbe sempre tenere gli utenti informati su ciò che sta accadendo attraverso feedback in tempi appropriati.
+### 2 Corrispondenza tra sistema e mondo reale
+Il sistema dovrebbe parlare la lingua degli utenti, con parole, frasi e concetti familiari all'utente, piuttosto che termini orientati al sistema.
 
 
 
