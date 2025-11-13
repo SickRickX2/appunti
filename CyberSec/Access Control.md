@@ -79,4 +79,8 @@ Types:
 >Setting a maximum number with respect to roles
 
 >[!note] Prerequisite roles
->
+>Dictates that a user can only be assigned to a particular role if it is already assigned to some other specified role.
+
+## Attributes-Based Access Control (ABAC)
+Can define authorizations that express conditions on properties of both the resource and the subject. Strength is its flexibility and expressive power. Main obstacle to its adoption in real systems has been concern about the performance impact of evaluating predicates on both resource and introduction of the *eXtensible Access Control Markup Language (XAMCL)*.
+There is considerable interest in applying the model to cloud services.
