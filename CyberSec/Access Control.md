@@ -39,5 +39,17 @@ Confidentiality is achieved if a subject at a high level *may not convey informa
 >[!note] Multilevel security confidentiality
 >- **No read up**: A subject can only read an object or less or equal security level
 >- **No write down**: a subject can only write into an objec of greater or equal security level
->- 
 
+### Role-based Access Control
+- Define roles and then specify access control rights for these roles, rather than for subjects directly
+![[Pasted image 20251113193826.png]]
+>[!note] RBAC Goals
+>- Describe organizational access control **policies**
+>- Based on job function
+>	- A user's permissions are determined by his roles than by identity or clearence
+>- Increase flexibility/scalability in policy administration 
+>	- easy to meet new security requirements
+>	- reduce errors in administration
+>	- reduce cost of administration
+
+![[Pasted image 20251113194123.png]]
