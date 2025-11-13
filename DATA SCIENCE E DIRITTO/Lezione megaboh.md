@@ -11,4 +11,3 @@ Se il PM vuole che il GIP accolga la limitazione della libertà dell'inputato gl
 Tutte le volte che manca il dolo allora il soggetto è assolto anche se il fatto esiste perché non costituisce reato. Deve esserci il *principio di causalità*, se manca il fatto non costituisce il reato. Se c'è il dolo ma ci sono le **cause di giustificazione** allora si può assolvere l'inputato.
 
 
-

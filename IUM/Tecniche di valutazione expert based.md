@@ -42,6 +42,11 @@ Gli utenti non dovrebbero chiedersi se parole, situazioni o azioni diverde signi
 Ancor meglio dei buoni messaggi di errore è una progettazione attenta che impedisce il verificarsi di un problema. Eliminare le condizione soggette a errori o verificarle  e presentare agli utenti un'opzione di conferma prima di impegnarsi nell'azione.
 **Fare in modo che gli utenti non possano commettere errori**
 
+### 6 Riconoscimento piuttosto che richiamo
+Bisogna ridurre al minimo lo sforzo di memoria dell'utente rendendo visibili oggetti, azioni e opzioni. L'utente non deve ricordare informazioni da una parte all'altra del sito. Le istruzioni per l'uso del sistema dovrebbero essere visibili o facilmente recuperabili ogni volta che è opportuno.
+### 7 Flessibilità ed efficienza d'uso 
+
+
 
 
 
