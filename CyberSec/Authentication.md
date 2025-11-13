@@ -97,3 +97,4 @@ Based on pattern recognition, technically complex and expensive when compared to
 High cost not always high accuracy.
 
 ### Remote user authentication
+Authentication over a network, the Internet or a communication link is more complex
