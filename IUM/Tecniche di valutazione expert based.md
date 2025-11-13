@@ -56,6 +56,10 @@ I testi non dovrebbero contenere informazioni irrilevanti o comunque poco necess
 I messaggi di errore dovrebbero essere espressi in un linguaggio semplice (nessun codice), indicare con precisione il problema e suggerire in modo costruttivo una soluzione
 **I messaggi di errore devono aiutare gli utenti a notarli, riconoscerli e capirli.**
 
+### 10 Aiuto e documentazione
+Anche se è meglio che il sito e i suoi percorsi possano essere utilizzati senza "istruzioni", potrebe essere necessario fornire assistenza per alcuni passaggi (es. la registrazione a uno shop online).
+**redendere be**
+
 
 
 
