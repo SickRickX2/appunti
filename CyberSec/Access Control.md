@@ -60,4 +60,23 @@ Users have access to objects based on the assigned role.
 #### RBAC1: Role Hierarchy
 Some roles subsume others:
 - many operations are common to large number of roles
-Thi suggests a hierarchy of roles, it reflects an organization's role structure. *Inheritance among role*
+Thi suggests a hierarchy of roles, it reflects an organization's role structure. *Inheritance among roles.*
+![[Pasted image 20251113194724.png|500]]
+
+#### RBAC2: constraints
+Provide a means of adapting RBAC to the specifics of administrative and security policies of an organization.
+A defined relationship among roles or a condition related to roles.
+Types:
+- *Mutually exclusive roles*
+- *Cardinality*
+- *Prerequisite roles*
+
+>[!note] Mutually exclusive roles
+> A user can only be assigned to one role in the set (either during session or statically)
+>.Any permission (access right) can be granted to only one role in the set.
+
+>[!note] Cardinality
+>Setting a maximum number with respect to roles
+
+>[!note] Prerequisite roles
+>
