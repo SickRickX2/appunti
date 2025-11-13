@@ -11,3 +11,9 @@ Definitions:
 >[!note] RFC 4949
 >"*A process by which use of system resources is regulated according to a security policy and is permitted only by authorized entities (users, programs, processes, or other systems) according to that policy*"
 
+### Capabilities
+Takes a subject oriented approach to access control. It defines, for each subject, the list of the objects for which has non-empty access control rights, together with the specific rights for each subject.
+>[!example] Example:
+
+#### Extended access control matrix
+Considers the ability of one subject to transfer rights, create another subject and to have ‘owner’ access right to that subject.
