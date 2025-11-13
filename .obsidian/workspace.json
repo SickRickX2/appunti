@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA SCIENCE E DIRITTO/Lezione megaboh.md",
+                "file": "IUM/Tecniche di valutazione expert based.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione megaboh"
+              "title": "Tecniche di valutazione expert based"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,9 @@
   },
   "active": "4ab6d2dab6ae484e",
   "lastOpenFiles": [
-    "CyberSec/3 Authentication.md",
     "DATA SCIENCE E DIRITTO/Lezione megaboh.md",
+    "IUM/Tecniche di valutazione expert based.md",
+    "CyberSec/3 Authentication.md",
     "CyberSec/Lezione 2.md",
     "Senza nome.base",
     "Reti degli Elaboratori (class).md",
@@ -220,7 +220,6 @@
     "WASA/Lezione 5.md",
     "IUM/Lezione 6.md",
     "WASA/YAML approfondito.md",
-    "IUM/Lezione 5.md",
     "imgs/Pasted image 20250519112034.png",
     "imgs",
     "imgs/Pasted image 20250520114017.png",
