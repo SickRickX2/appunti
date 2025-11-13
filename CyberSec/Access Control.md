@@ -52,4 +52,12 @@ Confidentiality is achieved if a subject at a high level *may not convey informa
 >	- reduce errors in administration
 >	- reduce cost of administration
 
-![[Pasted image 20251113194123.png]]
+![[Pasted image 20251113194123.png|600]]
+
+Roles are defined based on job functions and permissions are defined based on job authority and responsabilities within a role. 
+Users have access to objects based on the assigned role.
+
+#### RBAC1: Role Hierarchy
+Some roles subsume others:
+- many operations are common to large number of roles
+Thi suggests a hierarchy of roles, it reflects an organization's role structure. *Inheritance among role*
