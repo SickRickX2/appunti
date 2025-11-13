@@ -5,7 +5,6 @@
 	- Contact
 	- Contactless
 - RFIDs
-
 ### Authentication via Barcodes
 Boarding passes, which are created at flight check-in and scanned before boarding.
 In most applications, however, barcodes provide convenience but not security.
@@ -97,4 +96,11 @@ Based on pattern recognition, technically complex and expensive when compared to
 High cost not always high accuracy.
 
 ### Remote user authentication
-Authentication over a network, the Internet or a communication link is more complex
+Authentication over a network, the Internet or a communication link is more complex.
+Addionatl securty threats such as:
+	Eavesdropping, capturing passwords, replaying an authentication sequence that has been observed.
+It generally rely on some form of a challenge-response protocol to counter threats.
+
+>[!tip] Eavesdropping
+>Eavesdropping in cybersecurity refers to the unauthorized interception of data being transmitted over networks, allowing attackers to access sensitive information such as passwords and personal details. This can occur through various methods, including passive monitoring of unsecured networks or active interference in communication channels.
+
