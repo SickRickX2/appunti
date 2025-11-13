@@ -21,5 +21,12 @@ Valuta quanto facile e ben supportato è per l'utente imparare a fare un task. L
 
 ### Heuristic Evaluation
 
+>[!tip] Euristica = linea guida o principio generale semplice ed efficiente
+>Per guidare le decisioni di progetto o per criticare decisioni già prese
+
+Ci baseremo sulle 10 euristiche di Nielsen e Molich per scoprire problemi usando sistemi interattivi.
+
+
+
 
 
