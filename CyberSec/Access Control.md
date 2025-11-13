@@ -88,4 +88,14 @@ There is considerable interest in applying the model to cloud services.
 #### Attributes
 
 >[!note] Subject attributes
->A subject is an active entity that causes information to flow among objec
+>A subject is an active entity that causes information to flow among objects or changes the system state.
+>Attributes define the identity and characteristics of the subject
+
+>[!note] Object attributes
+>An object (or resource) is a passive informarion system-related entity containing or receiving information.
+>Objects have attributes that can be leveragess to make access control decisions.
+
+>[!note] Enviroment attributes
+>Describe the operational, technical and even situational enviroment or context in which the information access occurs.
+>These attributes have so far been largely ignored in most access control policies.
+
