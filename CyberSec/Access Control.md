@@ -84,3 +84,8 @@ Types:
 ## Attributes-Based Access Control (ABAC)
 Can define authorizations that express conditions on properties of both the resource and the subject. Strength is its flexibility and expressive power. Main obstacle to its adoption in real systems has been concern about the performance impact of evaluating predicates on both resource and introduction of the *eXtensible Access Control Markup Language (XAMCL)*.
 There is considerable interest in applying the model to cloud services.
+
+#### Attributes
+
+>[!note] Subject attributes
+>A subject is an active entity that causes information to flow among objec
