@@ -113,7 +113,9 @@ Systems are capable of enforcing DAC, RBAC, and MAC concepts. Allows an unlimite
 
 >[!note] ABAC vs RBAC
 >In RBAC as the number of attributes increases to accomdate finer grained policies, the number roles and permissions **grows exponentially**
->$\prod_{k =1}^{k}\text{Range}(SA_{k})\text{ and } \prod^{M}_{m=1}\text{Range}(SA_{m})$
+>$\displaystyle\prod_{k =1}^{k}\text{Range}(SA_{k})\text{ and } \prod^{M}_{m=1}\text{Range}(SA_{m})$
 >
 >The ABAC model deals with additional attributes in an efficient way.
 
+>[!note] Finer grained policy example 
+>
