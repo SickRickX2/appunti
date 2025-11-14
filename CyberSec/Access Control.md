@@ -118,4 +118,11 @@ Systems are capable of enforcing DAC, RBAC, and MAC concepts. Allows an unlimite
 >The ABAC model deals with additional attributes in an efficient way.
 
 >[!note] Finer grained policy example 
+>Movies are classified as either New Release or Old Release, based on release date compared to the current date.
+>Users are classified as Premium User and Regular User, based on the fee they pay.
+>Policy: only premium users can view new movies.
 >
+>**RBAC**
+>- Double the number of roles to distinguish each user by age and fee.
+>- Double the number of separate permissions.
+
