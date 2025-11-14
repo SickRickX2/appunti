@@ -125,4 +125,8 @@ Systems are capable of enforcing DAC, RBAC, and MAC concepts. Allows an unlimite
 >**RBAC**
 >- Double the number of roles to distinguish each user by age and fee.
 >- Double the number of separate permissions.
+>
+>![[Pasted image 20251114110425.png|600]]
+
+
 
