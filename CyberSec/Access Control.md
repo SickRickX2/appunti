@@ -112,5 +112,8 @@ Systems are capable of enforcing DAC, RBAC, and MAC concepts. Allows an unlimite
 >- Other terms commonly used isntead of privileges are: rights, authorizations and entitlements.
 
 >[!note] ABAC vs RBAC
->In RBAC as the number of attributes increases to accomdate finer gr
+>In RBAC as the number of attributes increases to accomdate finer grained policies, the number roles and permissions **grows exponentially**
+>$\prod_{k =1}^{k}\text{Range}(SA_{k})\text{ and } \prod^{M}_{m=1}\text{Range}(SA_{m})$
+>
+>The ABAC model deals with additional attributes in an efficient way.
 
