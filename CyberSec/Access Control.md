@@ -108,5 +108,9 @@ Systems are capable of enforcing DAC, RBAC, and MAC concepts. Allows an unlimite
 >[!note] ABAC Policies
 >A policy is a set of rules and relationships that govern allowable behavior wihtin an organization, absed on the privileges of subjects and how resources or objects are to be protected under which environment conditions.
 >- Typically written from the perspective of the object that needs protecting and the privileges available to subjects.
->Privileges
+>Privileges represent the authorized behavior of a subject and are defined by an authority and embodied in a policy.
+>- Other terms commonly used isntead of privileges are: rights, authorizations and entitlements.
+
+>[!note] ABAC vs RBAC
+>In RBAC as the number of attributes increases to accomdate finer gr
 
