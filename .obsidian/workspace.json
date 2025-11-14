@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSec/Access Control.md",
+                "file": "CyberSec/Malware.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Access Control"
+              "title": "Malware"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 286,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,10 +191,11 @@
   },
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
+    "CyberSec/Access Control.md",
+    "CyberSec/Malware.md",
+    "CyberSec/Authentication.md",
     "CyberSec/Introduction.md",
     "CyberSec/Encryption.md",
-    "CyberSec/Authentication.md",
-    "CyberSec/Access Control.md",
     "Pasted image 20251114110425.png",
     "Pasted image 20251113194724.png",
     "Ingegneria del Software/index.md",
