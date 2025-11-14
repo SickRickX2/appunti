@@ -99,4 +99,5 @@ There is considerable interest in applying the model to cloud services.
 >Describe the operational, technical and even situational enviroment or context in which the information access occurs.
 >These attributes have so far been largely ignored in most access control policies.
 
-A
+Distinguishable because it controls access to objects by evaluating tules against the attributes of entities, operations, and the environment relevant to a request. Relies upon the evaluation of attributes of the subject, attributes of the object, and a formal relationship or access control rule defining the allowable operations for subject-object attribute combinations in a given environment.
+Systems are capable of enforcing DAC, RBAC, and MAC concepts.
