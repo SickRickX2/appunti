@@ -104,3 +104,5 @@ It generally rely on some form of a challenge-response protocol to counter threa
 >[!tip] Eavesdropping
 >Eavesdropping in cybersecurity refers to the unauthorized interception of data being transmitted over networks, allowing attackers to access sensitive information such as passwords and personal details. This can occur through various methods, including passive monitoring of unsecured networks or active interference in communication channels.
 
+
+
