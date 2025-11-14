@@ -103,4 +103,10 @@ Distinguishable because it controls access to objects by evaluating tules agains
 
 Relies upon the evaluation of attributes of the subject, attributes of the object, and a formal relationship or access control rule defining the allowable operations for subject-object attribute combinations in a given environment.
 
-Systems are capable of enforcing DAC, RBAC, and MAC concepts.
+Systems are capable of enforcing DAC, RBAC, and MAC concepts. Allows an unlimited number of atttributes to be combined to be vombined to satisfy any access control rule.
+
+>[!note] ABAC Policies
+>A policy is a set of rules and relationships that govern allowable behavior wihtin an organization, absed on the privileges of subjects and how resources or objects are to be protected under which environment conditions.
+>- Typically written from the perspective of the object that needs protecting and the privileges available to subjects.
+>Privileges
+
