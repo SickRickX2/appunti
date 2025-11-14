@@ -99,3 +99,4 @@ There is considerable interest in applying the model to cloud services.
 >Describe the operational, technical and even situational enviroment or context in which the information access occurs.
 >These attributes have so far been largely ignored in most access control policies.
 
+A
