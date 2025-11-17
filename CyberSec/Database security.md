@@ -70,3 +70,9 @@ SQLi *causes*:
 - missing input validation
 - application-generated queries contains user-fed input
 
+**SQL sinks** (where to inject our SQL code)
+- *User Input*
+	- GET/POST parameters
+	- many client-side technologies communicate with the server through GET/POST
+- *HTTP Headers*
+	- every HTTP head
