@@ -46,3 +46,11 @@ The SQLi attack typically works by prematurely terminating a text string appendi
 >- *Cookies*
 >- *Physical user input*
 
+## Inband Attacks
+Uses the same communication channel for injecting SQL code and retrieving results.
+The retrieved data are presented directly in application Web page.
+- **Tautology**: Injects code in one or more conditional statements so that they always evaluate to true
+- **End of line comment**: Legitimate code that follows a particular field are nullified through usage of end of line commnets.
+- **Piggybacked queries**: The attacker adds additional queries beyond the intended query, piggybacking the attack on top of a legitimate request
+## Inferential Attack
+There is no actual transfer of data, but the attacker is able to reconstruct the informa
