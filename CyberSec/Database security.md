@@ -80,3 +80,4 @@ SQLi *causes*:
 	- they are basically headers and they come from the client -> **dangerous**
 - *The database itself: second order injection*
 	- The input of the application is stored in the database later, the same input may be fetched from the database and used to build another query -> **dangerous**
+
