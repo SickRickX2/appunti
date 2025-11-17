@@ -54,3 +54,11 @@ The retrieved data are presented directly in application Web page.
 - **Piggybacked queries**: The attacker adds additional queries beyond the intended query, piggybacking the attack on top of a legitimate request
 ## Inferential Attack
 There is no actual transfer of data, but the attacker is able to reconstruct the information by sending particular requests and observing the resulting behavior of the website/database server.
+- *Illegal/logically incorrect queries*
+	- This attack lets an attacker gather important information about the type and structure of the backend databse of a Web application
+	- The attack is considered a preliminary, information-gathering step for other attacks
+- *Blind SQL injection*
+	- Allows attackers to infer the data present in a database system even when the system is sufficently secure to not display any erroneous information back to the attacker
+- *Out of Band Attack*
+	- Data are retrieved using a different channel
+	- This can be used when there are limitations on information retrieval, but outbount connectivity from the database server is lax
