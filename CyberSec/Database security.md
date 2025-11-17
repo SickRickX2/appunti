@@ -62,3 +62,11 @@ There is no actual transfer of data, but the attacker is able to reconstruct the
 - *Out of Band Attack*
 	- Data are retrieved using a different channel
 	- This can be used when there are limitations on information retrieval, but outbount connectivity from the database server is lax
+
+**SQL Injection**
+Many web applications require the ability to store structured data and use a *database*. We have a **SQLi** when it is possible to modify the syntax of the query by altering the application input.
+
+SQLi *causes*:
+- missing input validation
+- application-generated queries contains user-fed input
+

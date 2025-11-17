@@ -127,6 +127,3 @@ Systems are capable of enforcing DAC, RBAC, and MAC concepts. Allows an unlimite
 >- Double the number of separate permissions.
 >
 >![[Pasted image 20251114110425.png|600]]
-
-
-
