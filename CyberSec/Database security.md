@@ -12,11 +12,23 @@ Table of data consisting of rows and columns
 - ideally has one column where all values are unique, forming an identifier/key for that row
 Enables the creation of multiple tables linked together by a unique identifier that is present in all tables. Use a relational query language to access the database.
 >[!tip] Relational Database Elements
->- Relation
+>- *Relation*
 >	- table/file
->- Tuple
+>- *Tuple*
 >	- row/record
->- Attribute
+>- *Attribute*
 >	- Column/field
+>
 >**Primary key** -> uniquely identifies a row, consists of one or more column names
->**Foreign key** -> links one t
+>**Foreign key** -> links one table to attributes in another
+>**View/virtual table** -> result of a query that returns selected rows and columns from one or more tables. Views are often used for security purposes.
+
+
+### Structured Query Language (SQL)
+Standardized language to define schema, manipulated, and query data in relational databse. Several similar versions of ANSI/ISO standard. All follow the same basic syntax and semantics.
+
+### SQL Injection Attacks (SQLi)
+One of the most prevakent and dangerous network-based security threats. Designed to exploit the nature of Web application pages. Sends malicious SQL commands to the databse server. Most comon attack goal is *bulk extraction of data*.
+>[!tip] 
+>Depending on the environment SQL injecion can also be exploited to:
+>- Mo
