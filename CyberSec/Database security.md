@@ -29,6 +29,20 @@ Standardized language to define schema, manipulated, and query data in relationa
 
 ### SQL Injection Attacks (SQLi)
 One of the most prevakent and dangerous network-based security threats. Designed to exploit the nature of Web application pages. Sends malicious SQL commands to the databse server. Most comon attack goal is *bulk extraction of data*.
+
 >[!tip] 
 >Depending on the environment SQL injecion can also be exploited to:
->- Mo
+>- Modiffy or delete data
+>- Execute arbitrary operating system commands
+>- Launch DDOS attacks
+
+### Injection Technique
+The SQLi attack typically works by prematurely terminating a text string appending a new command.
+
+>[!note] SQLi Attack Avenues
+>- *User input*
+>- *Server variables*
+>- *Second order injection*
+>- *Cookies*
+>- *Physical user input*
+
