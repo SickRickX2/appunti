@@ -53,4 +53,4 @@ The retrieved data are presented directly in application Web page.
 - **End of line comment**: Legitimate code that follows a particular field are nullified through usage of end of line commnets.
 - **Piggybacked queries**: The attacker adds additional queries beyond the intended query, piggybacking the attack on top of a legitimate request
 ## Inferential Attack
-There is no actual transfer of data, but the attacker is able to reconstruct the informa
+There is no actual transfer of data, but the attacker is able to reconstruct the information by sending particular requests and observing the resulting behavior of the website/database server.
