@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSec/Malware.md",
+                "file": "CyberSec/Database security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Malware"
+              "title": "Database security"
             }
           }
         ]
@@ -191,17 +191,18 @@
   },
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
+    "Classes/CyberSec (Class).md",
+    "CyberSec/Database security.md",
+    "CyberSec/Malware.md",
     "CyberSec/Access Control.md",
     "CyberSec/Authentication.md",
     "CyberSec/Encryption.md",
     "CyberSec/Introduction.md",
-    "CyberSec/Malware.md",
     "Pasted image 20251114110425.png",
     "Pasted image 20251113194724.png",
     "Ingegneria del Software/index.md",
     "Pasted image 20251113194123.png",
     "Pasted image 20251113193826.png",
-    "Classes/CyberSec (Class).md",
     "DATA SCIENCE E DIRITTO/Lezione megaboh.md",
     "DATA SCIENCE E DIRITTO/Lezione boh 2.md",
     "DATA SCIENCE E DIRITTO/Lezione boh.md",
@@ -222,7 +223,6 @@
     "IUM/Interazione uomo macchina.md",
     "IUM/Lezione 5.md",
     "IUM/Paper prototype mini project.md",
-    "IUM/The man behind the curtain.md",
     "imgs/Pasted image 20251016102631.png",
     "imgs/Pasted image 20251024115830.png",
     "IUM/Senza nome.canvas",
