@@ -180,4 +180,9 @@ Two commands for managing access rights:
 Typically access rights are:
 - Select, Insert, Update, Delete, References
 
+>[!note] Cascading Authorizations
+>The grant option enables an access right to cascade through a number of users.
+>Similarly, the revocation of privileges also cascaded.
+>>[!example] Example: 
+>>When an user A revokes an access right, any cascaded access right is also revoked, unless that access right would exist even if the original grant from A had never occurred.
 
