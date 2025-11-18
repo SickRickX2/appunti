@@ -207,6 +207,11 @@ Categories of databse users:
 Inference, as it relates to database security, is the process of performing **authorized queries** and **deducing unauthorized information** from the legitimate responses received.
 
 A user that knows the structure of the Inventory tbale and who knows that the view tables maintain the **same row order** as ithe inventory table is then able to merge the two view.
+#### Inference Detection
+Inference detection during database design 
+- Remove inference channels by altering the database structure or by changing the access control regime to pre
+
+
 
 
 
