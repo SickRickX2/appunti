@@ -216,6 +216,21 @@ Progress has been made in devising specific inference detection technqiues for m
 ### Database Encryption
 The database is typically the most valuable information resource for any organization.
 - Protected by multiple layers of security -> firewalls, authentication, general access control system...
+Encryption becomes the last line of defense in database security.
+- It can be applied to the entire database, at the record level the attribute level, or level of the individual field
+
+>[!warning] Disadvantages to encryption
+>*Key managment:* authorized users must have access to decryption key for the data for which they have access
+>*Inflexibility:* when part of all the database is encrypted it becomes more difficult to perform **record searching**
+
+>[!note] A database encryption scheme
+>A straighforward solution: encrypt the entire database and not provide the encryption/decryption keys to the service provider
+>- the solution by itsekf is inflexible
+>- little ability to access individual items based on searches or indexing on key parameters
+>To provide more flexibility, it must be possible to work with the database in **its encrypted form**.
+
+
+
 
 
 
