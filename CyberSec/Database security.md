@@ -173,5 +173,11 @@ If a number is expected, check that the input really is a number.
 - *Ownership-based administration* -> The creator of a table may grant and revoke access right to table
 - *Decentralized administration* -> The owner of the table may grant and revoke authorization rights to the other users, allowing them to grant and revoke access rights to the table
 
+### SQL Access Controls
+Two commands for managing access rights:
+- *Grant*: used to grant one or more access rights or can be used to assign a user to a role.
+- *Revoke*: revokes the access rights
+Typically access rights are:
+- Select, Insert, Update, Delete, References
 
 
