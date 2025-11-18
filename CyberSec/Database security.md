@@ -146,3 +146,12 @@ When systems do not allow you to see output in the form of error messages or ext
 	- SUBSTRING(str, pos, len)
 	- SUBSTRING(str, FROM, pos, FOR, len)
 
+### SQLi Countermeasures
+We got 3 types:
+- **Manual defensive coding practices**
+- **Parameterized query insertion**
+- **SQL DOM**
+All of these are *Defensive coding*.
+
+#### Defensive coding practices
+Programmer must take careof *input sanitization*. Programmers are oft
