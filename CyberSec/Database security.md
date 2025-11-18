@@ -161,5 +161,17 @@ If a number is expected, check that the input really is a number.
 #### Parametrized queries and SQL DOM
 - Prepared statements
 	**Parametrized query** (if the language supports it)
-- SQL DOM: a set of classes that emables automated data type validation and escaping, using encapsulation of database queries
+- *SQL DOM*: a set of classes that emables automated data type validation and escaping, using encapsulation of database queries
 	- The query-building process changes from an unregulated one that uses string concatenation to a systematic one that uses **type-checked API**
+
+### Database Access Control
+*Database Access Control System determines:*
+- If the user has access to the entire database or just portions of it
+- What access rights the user has (creat, insert, delete, update, read, write)
+**Support a range of administration policies**
+- *Centralized administration* -> Small numebr of privileged users may grant and revoke access rights
+- *Ownership-based administration* -> The creator of a table may grant and revoke access right to table
+- *Decentralized administration* -> The owner of the table may grant and revoke authorization rights to the other users, allowing them to grant and revoke access rights to the table
+
+
+
