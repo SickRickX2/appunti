@@ -119,3 +119,16 @@ Query executed:
 ```SQL
 $q = "SELECT id FROM users WHERE user =''; DROP TABLE users --' AND pass= ''";
 ```
+*oss*: Both queries are executed
+
+>[!warning] 
+>This is strictly dependent from the method/function invoked to eprform the query.
+
+
+**SQLi with missing info**
+*How to know how tables and columns are named?*
+- Brute forcing
+- INFORMATION_SCHEMA
+
+Information schema are metadata about the objects within database. Can be used to gather data about any tables from the available databases.
+
