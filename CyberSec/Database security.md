@@ -209,7 +209,14 @@ Inference, as it relates to database security, is the process of performing **au
 A user that knows the structure of the Inventory tbale and who knows that the view tables maintain the **same row order** as ithe inventory table is then able to merge the two view.
 #### Inference Detection
 Inference detection during database design 
-- Remove inference channels by altering the database structure or by changing the access control regime to pre
+- Remove inference channels by altering the database structure or by changing the access control regime to precent inference
+- Technqiues in this category often result in unnecessarily stricter access controls that reduce availability
+Some inference detection algorithm is needed for either of these approaches.
+Progress has been made in devising specific inference detection technqiues for multilevel secure databases and statistical databases.
+### Database Encryption
+The database is typically the most valuable information resource for any organization.
+- Protected by multiple layers of security -> firewalls, authentication, general access control system...
+
 
 
 
