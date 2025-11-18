@@ -198,5 +198,15 @@ Categories of databse users:
 >An end user who owns database objects as aprt of an application
 
 >[!tip] End user
->An end user who operates on databse objects via a particular a
+>An end user who operates on databse objects via a particular application but does not own any of the database objects.
+
+>[!tip] Administrator
+>User who has administrative responsability for part or all of the database
+
+### Inference 
+Inference, as it relates to database security, is the process of performing **authorized queries** and **deducing unauthorized information** from the legitimate responses received.
+
+A user that knows the structure of the Inventory tbale and who knows that the view tables maintain the **same row order** as ithe inventory table is then able to merge the two view.
+
+
 
