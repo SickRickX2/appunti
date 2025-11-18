@@ -186,3 +186,17 @@ Typically access rights are:
 >>[!example] Example: 
 >>When an user A revokes an access right, any cascaded access right is also revoked, unless that access right would exist even if the original grant from A had never occurred.
 
+### Role Based Access Control
+- Role Based Access control eases administrative burden and improves security
+A database RBAC needs to provide the following capabilities:
+- Create and delete roles
+- Define permissions for a role
+- Assign and cancel assignment of users to roles
+Categories of databse users:
+
+>[!tip] Application owner
+>An end user who owns database objects as aprt of an application
+
+>[!tip] End user
+>An end user who operates on databse objects via a particular a
+
