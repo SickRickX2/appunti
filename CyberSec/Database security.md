@@ -103,4 +103,19 @@ WHERE user='".$row['user']."'";
 ```
 If the data coming from the database is not properly sanitized, the query will be:
 ```SQL
-$q = "UPDATE users SET pass= 'password' WHERE user='admin'#'"
+$q = "UPDATE users SET pass= 'password' WHERE user='admin'#'";
+```
+**piggy-backed**
+Target: execute an arbitrary number of distinct queries.
+Query:
+```SQL
+$q = "SELECT id FROM users WHERE user='".$user."' AND pass='".$pass."'";
+```
+Inected parameters;
+```SQL
+$user = "'; DROP TABLE users --";
+```
+Query executed:
+```SQL
+$q = "SELECT id FROM users WHERE user =''; DROP TABLE users --' AND pass= ''";
+```
