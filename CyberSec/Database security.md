@@ -154,4 +154,5 @@ We got 3 types:
 All of these are *Defensive coding*.
 
 #### Defensive coding practices
-Programmer must take careof *input sanitization*. Programmers are oft
+Programmer must take careof *input sanitization*. Programmers often rely on "automagic" methods. How to sanititze strongly depends on which kind of attack we want to prevent. **Avoid** manually crafted regexps.
+**Best practice**: use mysql_real_escape_string()
