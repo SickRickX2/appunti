@@ -132,3 +132,17 @@ $q = "SELECT id FROM users WHERE user =''; DROP TABLE users --' AND pass= ''";
 
 Information schema are metadata about the objects within database. Can be used to gather data about any tables from the available databases.
 
+**Blind SQLi**
+When systems do not allow you to see output in the form of error messages or extracted database fields whilst conductin SQL injections.
+
+**Exploiting blind SQLi**
+- *BENCHMARK* or *SLEEP* (only with MySQL >= 5) (or equivalent functions)
+	- BENCHMARK (loop count, expression)
+- *IF*
+	- IF (expression, expr true, expr false)
+- *SUBSTRING*
+	- SUBSTRING(str, pos)
+	- SUBSTRING(str, FROM pos)
+	- SUBSTRING(str, pos, len)
+	- SUBSTRING(str, FROM, pos, FOR, len)
+
