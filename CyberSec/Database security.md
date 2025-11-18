@@ -92,4 +92,15 @@ Usually the parameters include comment symbols:
 **Second order inject**
 To perform the attack a user with a malicious name is registered.
 ```SQL
-$user = ""
+$user = "admin'#";
+```
+
+\$user is correctly sanitized when it is inserted in the DB.
+Later on, the attacker asks to change the password of its malicious user, so the web app fetches info aboout the user from the db and uses them to perform another query:
+```SQL
+$q = "UPDATE users SET = pass = '".$_POST['newPass']."' 
+WHERE user='".$row['user']."'";
+```
+If the data coming from the database is not properly sanitized, the query will be:
+```SQL
+$q = "UPDATE users SET pass= 'password' WHERE user='admin'#'"
