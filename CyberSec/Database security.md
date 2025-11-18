@@ -88,3 +88,8 @@ Terminating the query properly can be cumbersome. Frrequently the problem comes 
 Usually the parameters include comment symbols:
 - \#
 - \--
+**UNION query**
+**Second order inject**
+To perform the attack a user with a malicious name is registered.
+```SQL
+$user = ""
