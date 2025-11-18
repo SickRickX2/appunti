@@ -156,3 +156,10 @@ All of these are *Defensive coding*.
 #### Defensive coding practices
 Programmer must take careof *input sanitization*. Programmers often rely on "automagic" methods. How to sanititze strongly depends on which kind of attack we want to prevent. **Avoid** manually crafted regexps.
 **Best practice**: use mysql_real_escape_string()
+If a number is expected, check that the input really is a number.
+
+#### Parametrized queries and SQL DOM
+- Prepared statements
+	**Parametrized query** (if the language supports it)
+- SQL DOM: a set of classes that emables automated data type validation and escaping, using encapsulation of database queries
+	- The query-building process changes from an unregulated one that uses string concatenation to a systematic one that uses **type-checked API**
