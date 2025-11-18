@@ -81,3 +81,10 @@ SQLi *causes*:
 - *The database itself: second order injection*
 	- The input of the application is stored in the database later, the same input may be fetched from the database and used to build another query -> **dangerous**
 
+
+#### Methods of SQLi
+**Ending the query**
+Terminating the query properly can be cumbersome. Frrequently the problem comes from what follows the integrated user parameter. This SQL segment is part of the query and the malicious input must be crafted to handle it without generating syntax errors.
+Usually the parameters include comment symbols:
+- \#
+- \--
