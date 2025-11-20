@@ -31,4 +31,5 @@ I gesti standardizzati invece sono le *Standard Gestures*.
 - **Bottoni** devono essere il meno possibile, usati in cards, modal windwos, forms, toolbars
 - **FAB, Floating Action Buttons** 
 - **Bottom sheets**
-- 
+- **Tabs** organizza contenuti tra le diverse schermate e finestre
+- **Sistema cromatico** utilizzato anche in iOS
