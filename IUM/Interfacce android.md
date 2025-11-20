@@ -21,4 +21,7 @@ I gesti standardizzati invece sono le *Standard Gestures*.
 - *avoid modes*
 - *same function, same widget*
 - *themes*
-- 
+
+- Colori pieni
+- Se qualcosa si muove c'è un motivo, non ci sono cose che si muovono senza significato per l'utente
+- Gli oggetti li vediamo frontalmente (2D) ma in realtà sono 3D hanno più livelli
