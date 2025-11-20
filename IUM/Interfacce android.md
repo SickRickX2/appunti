@@ -33,4 +33,3 @@ I gesti standardizzati invece sono le *Standard Gestures*.
 - **Bottom sheets**
 - **Tabs** organizza contenuti tra le diverse schermate e finestre
 - **Sistema cromatico** utilizzato anche in iOS! Un algortimo che parte da un tema di colore del branding dell'app. Il modello si basa su tre componenti principali:
-	- 
