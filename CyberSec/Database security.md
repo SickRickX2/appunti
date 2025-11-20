@@ -32,7 +32,7 @@ One of the most prevakent and dangerous network-based security threats. Designed
 
 >[!tip] 
 >Depending on the environment SQL injecion can also be exploited to:
->- Modiffy or delete data
+>- Modify or delete data
 >- Execute arbitrary operating system commands
 >- Launch DDOS attacks
 

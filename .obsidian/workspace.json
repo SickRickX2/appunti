@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Interfacce android.md",
+                "file": "CyberSec/Database security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interfacce android"
+              "title": "Database security"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,8 +190,8 @@
   },
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
-    "CyberSec/Database security.md",
     "IUM/Interfacce android.md",
+    "CyberSec/Database security.md",
     "CyberSec/Malware.md",
     "CyberSec/Access Control.md",
     "Pasted image 20251117112858.png",
