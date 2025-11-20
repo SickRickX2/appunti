@@ -26,4 +26,6 @@ I gesti standardizzati invece sono le *Standard Gestures*.
 - Se qualcosa si muove c'è un motivo, non ci sono cose che si muovono senza significato per l'utente
 - Gli oggetti li vediamo frontalmente (2D) ma in realtà sono 3D hanno più livelli e generano ombre.
 - **Lists and cards**: In android c'è il concetto della lista (a differenza di ios che ha le tables), le liste non hanno la tipizzazione in quello che mostrano (mittente:, titolo:, ecc...). Le cards permettono di fare liste di oggetti diversi, hanno diverse tipologie e diversi oggetti di interazioni.
-- **Alerts** finestre più piccole che si sovrappongono all'app oscurando quello che c
+- **Alerts** finestre più piccole che si sovrappongono all'app oscurando quello che c'è al di sotto per far capire che l'alert ha il focus, informa riguardo situazioni critiche in cui l'utente deve prendere delle decisioni che riguardano azioni distruttive.
+- **Bottom sheets** elementi che si sovrappongono nella parte inferiore dello schermo, contengono un po' di azioni, sono sollecitate dall'utente.
+- 
