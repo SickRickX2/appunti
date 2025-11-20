@@ -16,3 +16,9 @@ I gesti standardizzati invece sono le *Standard Gestures*.
 **Memory** bisogna non sovraccaricare la memoria, meglio selezionare che ricordare.
 **Users in control** l'utente deve poter sapere cosa sta facendo, annullare o tornare indietro e ricevere notifche se fa qualcosa di sbagliato. L'app deve permettere all'utente di sapere sempre dove si trova.
 
+**Consistency** 
+- *same gesture, same action*
+- *avoid modes*
+- *same function, same widget*
+- *themes*
+- 
