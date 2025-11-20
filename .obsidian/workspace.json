@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IUM/Senza nome.md",
+                "file": "IUM/Interfacce android.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Senza nome"
+              "title": "Interfacce android"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 286,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,7 +192,7 @@
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
     "CyberSec/Database security.md",
-    "IUM/Senza nome.md",
+    "IUM/Interfacce android.md",
     "CyberSec/Malware.md",
     "CyberSec/Access Control.md",
     "Pasted image 20251117112858.png",
