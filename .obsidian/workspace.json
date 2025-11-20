@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSec/Database security.md",
+                "file": "WASA/Lezione 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database security"
+              "title": "Lezione 8"
             }
           }
         ]
@@ -190,8 +190,17 @@
   },
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
-    "IUM/Interfacce android.md",
+    "WASA/Lezione 9.md",
+    "JAVA/3 Polimorfismo e Binding.md",
+    "JAVA/19 Eccezioni.md",
+    "JAVA/18 PECS.md",
+    "JAVA/17 Collectors.md",
+    "JAVA/16 Streams.md",
+    "JAVA/13 Tipi Generici.md",
+    "JAVA/12 Riferimento ai Metodi.md",
+    "JAVA/11 Classi Anonime.md",
     "CyberSec/Database security.md",
+    "IUM/Interfacce android.md",
     "CyberSec/Malware.md",
     "CyberSec/Access Control.md",
     "Pasted image 20251117112858.png",
@@ -214,15 +223,6 @@
     "Classes/Algoritmi 2 (class).md",
     "Senza nome.base",
     "Classes",
-    "Basi di Dati/Modulo 1/Lezione 7 La terza forma normale.md",
-    "Basi di Dati/Modulo 1/Lezione 6.md",
-    "Basi di Dati/Modulo 1/Lezione 8.md",
-    "Basi di Dati/Modulo 1/Lezione 9.md",
-    "Reti degli Elaboratori (class).md",
-    "IUM/Introduzione.md",
-    "IUM/forno.md",
-    "IUM/Interazione uomo macchina.md",
-    "IUM/Lezione 5.md",
     "imgs/Pasted image 20251016102631.png",
     "imgs/Pasted image 20251024115830.png",
     "IUM/Senza nome.canvas",
