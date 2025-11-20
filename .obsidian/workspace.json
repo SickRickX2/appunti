@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSec/Database security.md",
+                "file": "IUM/Senza nome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database security"
+              "title": "Senza nome"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,9 +190,10 @@
   },
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
+    "CyberSec/Database security.md",
+    "IUM/Senza nome.md",
     "CyberSec/Malware.md",
     "CyberSec/Access Control.md",
-    "CyberSec/Database security.md",
     "Pasted image 20251117112858.png",
     "Classes/CyberSec (Class).md",
     "CyberSec/Authentication.md",
