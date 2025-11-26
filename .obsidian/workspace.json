@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Lezione 8"
             }
+          },
+          {
+            "id": "4acbd8764a3a0c7e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "95ffe7ac8bf8156b",
+  "active": "4acbd8764a3a0c7e",
   "lastOpenFiles": [
     "WASA/Lezione 9.md",
     "JAVA/3 Polimorfismo e Binding.md",
