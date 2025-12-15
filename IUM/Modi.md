@@ -72,6 +72,15 @@ Un'interfaccia è **modale rispetto ad un gesto** se:
 >[!note] Interfaccia non modale
 >Un'interfaccia può essere modale rispetto a uno o più gesti e non modale risposto a un altro o vari altri gesti.
 >Un'interfaccia è non modale se *non è modale rispetto a qualunque possibile gesto*.
->Si può dare una misura precisa di quanto un'interfaccia è modale come probabilità che un gesto non modale venga usata, dove 0=interfaccia completamente modale e 1=i
+>Si può dare una misura precisa di quanto un'interfaccia è modale come probabilità che un gesto non modale venga usata, dove 0=interfaccia completamente modale e 1=interfaccia totalmente non modale
+
+## Modi particolari
+- *modo temporaneo*: un modo che svanisce dopo l'uso (esempio: pannello di word, attivato con un solo click)
+- *quasi-modo*: un modo ottenuto attivando e mantenendo fisicamente un controllo: es tasti maiuscole, ctrl...
+
+## Interazione noun-verb e verb-noun
+eseguire azioni *verb* su oggetti *noun*
+- *noun-verb* si seleziona prima l'oggetto
+- *verb-noun* si seleziona prima l'azi
 
 
