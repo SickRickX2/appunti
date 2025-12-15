@@ -31,5 +31,12 @@ Quando il gesto viene interpretato in maniera diversa, l'interfaccia si trova in
 >L'interfaccia dell'esempio presenta due modi (torcia accesa vs torcia spenta):
 >- non permette di stabilire quale operazione si debba effettuare per raggiungere un dato risultato solamente ispezionando il meccanismo di controllo (cioè il pulsante)
 >- è necessario verificare anche lo stato del sistema
+>
+>*Sveglia*
+>Bottone per attivare o disattivare una sveglia tradizionale (non su smartphone!):
+>- se la sveglia è attiva, premendo il bottone la si attiva
+>- se la sveglia è disattivata, premendo il bottone la si attiva
+>Al buio non si vede il display: non conoscendo lo stato del sistema
+>
 
 
