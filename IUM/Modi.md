@@ -63,8 +63,15 @@ L'esperienza non protegge dagli errori dovuti ai modi: l'esperto ha acquisito de
 1. Non avere modi
 2. Essere sicuri che i modi siano distinti
 3. Essere sicuri che i comandi richiesti dai diversi modi non siano gli stessi, così che il comando scorretto fatto nel modo sbagliato non produca errore (di fatto non produce nulla)
+>[!note] Interfaccia modale
 Un'interfaccia è **modale rispetto ad un gesto** se:
-- lo stato corrente dell'interfaccia non è il luogo dell'attenzione dell'utente
-*AND*
-- l'interfaccia risponderà al gesto
+>- lo stato corrente dell'interfaccia non è il luogo >dell'attenzione dell'utente
+>*AND*
+>- l'interfaccia risponderà al gesto con una tra N>1 >possibili risposte, a seconda dello stato del sistema
+
+>[!note] Interfaccia non modale
+>Un'interfaccia può essere modale rispetto a uno o più gesti e non modale risposto a un altro o vari altri gesti.
+>Un'interfaccia è non modale se *non è modale rispetto a qualunque possibile gesto*.
+>Si può dare una misura precisa di quanto un'interfaccia è modale come probabilità che un gesto non modale venga usata, dove 0=interfaccia completamente modale e 1=i
+
 
