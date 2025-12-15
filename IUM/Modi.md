@@ -49,5 +49,17 @@ Quando il gesto viene interpretato in maniera diversa, l'interfaccia si trova in
 >Il tasto blocco maiuscole crea un modo.
 >Spesso si inizia a scrivere e ci si accorge dell'errore solo dopo aver digitato alcune parole.
 >Eppure:
->- un LED verde sul tasto 
+>- un LED verde sul tasto indica chiaramente lo stato del sistema
+>- alcune applicazioni hanno un indicatore di caps lock nella barra di stato
+>
+>*Allora perché si commette questo errore?*
+>*Si può prevenire?*
+
+#### Utente esperto e principiante
+I modi possono comunque essere utili, aggiungendo flessibilità, ma possono indurre in errore.
+L'esperienza non protegge dagli errori dovuti ai modi: l'esperto ha acquisito delle abitudini, ma anche l'inesperienza non protegge.
+#### Minimizzare i "mode errors"
+**Mode errors**: mistakes that occur when a user misclassifies or when the user makes an erroneous analysis of a situation
+1. Non avere modi
+2. Essere sicuri che i modi siano distinti 
 
