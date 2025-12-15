@@ -21,4 +21,15 @@ Una sequenza di azioni completata "automaticamente" una volta avviata
 ## Modi
 I modi si manifestano nella maniera in cui un'interfaccia risponde ai gesti. Dato un gesto, un'interfaccia è in un modo se l'interpretazione di quel gesto è sempre la stessa.
 Quando il gesto viene interpretato in maniera diversa, l'interfaccia si trova in un modo diverso.
->[!example] Example: il tasto invio può essere interpretato come "andare a capo" o  "confermare l'inserimento" o ""
+
+>[!example] Example: il tasto invio può essere interpretato come "andare a capo" o  "confermare l'inserimento" o "seleziona elemento" (di una select)
+
+>[!warning] oss: Problema dei modi
+>*Torcia*
+>Una torcia che si accende e spegne facendo il tap su un pulsante.
+>*Se ho la torcia in tasca posso dire che succederà se premo il pulsante?*
+>L'interfaccia dell'esempio presenta due modi (torcia accesa vs torcia spenta):
+>- non permette di stabilire quale operazione si debba effettuare per raggiungere un dato risultato solamente ispezionando il meccanismo di controllo (cioè il pulsante)
+>- è necessario verificare anche lo stato del sistema
+
+
