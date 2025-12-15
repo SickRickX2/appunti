@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Daedalus"
             }
+          },
+          {
+            "id": "44afc7f0435946f9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +202,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "95ffe7ac8bf8156b",
+  "active": "44afc7f0435946f9",
   "lastOpenFiles": [
     "WASA/Lezione 8.md",
     "DATA SCIENCE E DIRITTO/Daedalus.md",
