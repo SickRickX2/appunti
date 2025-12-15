@@ -38,5 +38,16 @@ Quando il gesto viene interpretato in maniera diversa, l'interfaccia si trova in
 >- se la sveglia è disattivata, premendo il bottone la si attiva
 >Al buio non si vede il display: non conoscendo lo stato del sistema, non si può stabilire l'effetto della pressione del bottone
 
+### Luogo dell'attenzione
+**DEF:** Oggetto fisico o idea della quale stiamo pensando attivamente e intenzionalmente
+*oss:* può esserci solo un luogo dell'attenzione alla volta
+*Quali sono le implicazioni?*
+*Se qualcosa accade al di fuori del luogo dell'attenzione che succede?*
+(concetto collegato a, ma diverso da, *focus*)
 
+>[!example] Example: Caps Lock
+>Il tasto blocco maiuscole crea un modo.
+>Spesso si inizia a scrivere e ci si accorge dell'errore solo dopo aver digitato alcune parole.
+>Eppure:
+>- un LED verde sul tasto 
 
