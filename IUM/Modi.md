@@ -61,5 +61,10 @@ L'esperienza non protegge dagli errori dovuti ai modi: l'esperto ha acquisito de
 #### Minimizzare i "mode errors"
 **Mode errors**: mistakes that occur when a user misclassifies or when the user makes an erroneous analysis of a situation
 1. Non avere modi
-2. Essere sicuri che i modi siano distinti 
+2. Essere sicuri che i modi siano distinti
+3. Essere sicuri che i comandi richiesti dai diversi modi non siano gli stessi, così che il comando scorretto fatto nel modo sbagliato non produca errore (di fatto non produce nulla)
+Un'interfaccia è **modale rispetto ad un gesto** se:
+- lo stato corrente dell'interfaccia non è il luogo dell'attenzione dell'utente
+*AND*
+- l'interfaccia risponderà al gesto
 
