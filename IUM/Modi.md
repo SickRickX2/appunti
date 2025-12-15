@@ -81,6 +81,16 @@ Un'interfaccia è **modale rispetto ad un gesto** se:
 ## Interazione noun-verb e verb-noun
 eseguire azioni *verb* su oggetti *noun*
 - *noun-verb* si seleziona prima l'oggetto
-- *verb-noun* si seleziona prima l'azi
+- *verb-noun* si seleziona prima l'azione
+**Pro e contro**
+*Noun-verb*
+- si seleziona l'oggetto mentre è nel luogo dell'attenzione
+- il luogo dell'attenzione si sposta sull'azione e la si esegue (un solo spostamente in totale)
+- interrompere l'azione non richiede un'altra azione (cancel o escape): semplicità e reversibilità
+*Verb-noun*
+- si sposta il luogo dell'attenzione sull'azione e la si seleziona
+- si sposta il luogo dell'attenzione sull'oggetto
+- troppi spostamenti, se ci si distrae -> errore di modo
+
 
 

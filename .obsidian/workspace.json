@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 286,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -190,8 +191,9 @@
   },
   "active": "95ffe7ac8bf8156b",
   "lastOpenFiles": [
-    "IUM/Interfacce android.md",
+    "Senza nome.md",
     "IUM/Modi.md",
+    "IUM/Interfacce android.md",
     "DATA SCIENCE E DIRITTO/Daedalus.md",
     "WASA/Lezione 8.md",
     "WASA/Lezione 9.md",
@@ -220,7 +222,6 @@
     "DATA SCIENCE E DIRITTO/Lezione boh 2.md",
     "DATA SCIENCE E DIRITTO/Lezione boh.md",
     "DATA SCIENCE E DIRITTO/Lezione 3.md",
-    "DATA SCIENCE E DIRITTO/Lezione 2.md",
     "Senza nome.base",
     "Classes",
     "imgs/Pasted image 20251016102631.png",
