@@ -9,6 +9,7 @@
 
 ## Gesture (gesto)
 Una sequenza di azioni completata "automaticamente" una volta avviata
+
 >[!example] Example: scrivere una parola comune es: "che"
 
 >[!example] Example: premere il tasto "invio"
@@ -17,7 +18,6 @@ Una sequenza di azioni completata "automaticamente" una volta avviata
 >- Appoggio il dito su un oggetto, tengo fermo il dito (l'oggetto viene "agganciato")
 >- Sposto il dito
 >- Stacco il dito dallo schermo
-
 ## Modi
 I modi si manifestano nella maniera in cui un'interfaccia risponde ai gesti. Dato un gesto, un'interfaccia è in un modo se l'interpretazione di quel gesto è sempre la stessa.
 Quando il gesto viene interpretato in maniera diversa, l'interfaccia si trova in un modo diverso.
@@ -36,7 +36,7 @@ Quando il gesto viene interpretato in maniera diversa, l'interfaccia si trova in
 >Bottone per attivare o disattivare una sveglia tradizionale (non su smartphone!):
 >- se la sveglia è attiva, premendo il bottone la si attiva
 >- se la sveglia è disattivata, premendo il bottone la si attiva
->Al buio non si vede il display: non conoscendo lo stato del sistema
->
+>Al buio non si vede il display: non conoscendo lo stato del sistema, non si può stabilire l'effetto della pressione del bottone
+
 
 
