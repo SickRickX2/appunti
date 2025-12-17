@@ -7,6 +7,11 @@ deve esserci il contenuto.
 
 coscienza e volontà -> suitas
 volontà e previsione -> dolo
+
+bisogna farne uso altrimenti non è reato
+
+**recesso operoso** -> l'agente volontariamente impedisce la realizzazione dell'evento
+
 # 1
 
 
