@@ -14,6 +14,8 @@ bisogna farne uso altrimenti non è reato
 
 se non c'è dolo specifico o uso il reato non sorge
 # 1 
-
+negligenza -> non la fai
+imprudenza -> la fai male
+imperiza -> non sei competente e la fai
 
 
