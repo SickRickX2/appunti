@@ -13,6 +13,7 @@ bisogna farne uso altrimenti non è reato
 **recesso operoso** -> l'agente volontariamente impedisce la realizzazione dell'evento
 
 se non c'è dolo specifico o uso il reato non sorge
-# 1
+# 1 
+
 
 
