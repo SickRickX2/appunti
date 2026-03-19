@@ -203,8 +203,8 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorit√† P0‚
 - [x] Aggiungere eventuali controlli membership/permessi coerenti con contratto.
 
 #### delete-message.go
-- [ ] Verificare status/body attesi dal YAML definitivo per `DELETE /messages/{messageId}`.
-- [ ] Allineare output (es. `204` senza body vs `200` con body) in base alla spec.
+- [x] Verificare status/body attesi dal YAML definitivo per `DELETE /messages/{messageId}`.
+- [x] Allineare output (es. `204` senza body vs `200` con body) in base alla spec.
 
 ---
 
