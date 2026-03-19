@@ -27,28 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA SCIENCE E DIRITTO/Correzione Esercitazione Data Science.md",
+                "file": "WASA/PROGETTO/TODO LIST GoLang.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Correzione Esercitazione Data Science"
-            }
-          },
-          {
-            "id": "9cec41d1d409e671",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Note di rilascio 1.11.5"
+              "title": "TODO LIST GoLang"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,18 +203,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9cec41d1d409e671",
+  "active": "1919a6c223e2c20e",
   "lastOpenFiles": [
-    "Progetto e sviluppo di sistemi interattivi.md",
+    "WASA/YAML approfondito.md",
+    "WASA/PROGETTO/TODO LIST GoLang.md",
+    "WASA/PROGETTO",
+    "WASA/Lezione 5.md",
+    "WASA/Lezione 8.md",
+    "WASA/Lezione 9.md",
+    "DATA SCIENCE E DIRITTO/Daedalus.md",
     "DATA SCIENCE E DIRITTO/Correzione Esercitazione Data Science.md",
+    "Progetto e sviluppo di sistemi interattivi.md",
     "IUM/Lezione 5.md",
     "IUM/Tecniche di valutazione expert based.md",
     "IUM/Modi.md",
     "Senza nome.md",
     "IUM/Interfacce android.md",
-    "DATA SCIENCE E DIRITTO/Daedalus.md",
-    "WASA/Lezione 8.md",
-    "WASA/Lezione 9.md",
     "JAVA/3 Polimorfismo e Binding.md",
     "JAVA/19 Eccezioni.md",
     "JAVA/18 PECS.md",
@@ -241,11 +233,8 @@
     "Pasted image 20251117112858.png",
     "Classes/CyberSec (Class).md",
     "CyberSec/Authentication.md",
-    "CyberSec/Encryption.md",
-    "CyberSec/Introduction.md",
     "Pasted image 20251114110425.png",
     "Pasted image 20251113194724.png",
-    "Ingegneria del Software/index.md",
     "Pasted image 20251113194123.png",
     "Pasted image 20251113193826.png",
     "Senza nome.base",
@@ -262,7 +251,6 @@
     "Automi",
     "IUM",
     "DATA SCIENCE E DIRITTO",
-    "WASA",
-    "Sistemi Operativi/Modulo 1 2.0"
+    "WASA"
   ]
 }
