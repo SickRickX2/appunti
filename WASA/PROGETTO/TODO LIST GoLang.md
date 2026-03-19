@@ -159,8 +159,8 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorit√† P0‚
   - [x] Aggiungere `GET /conversations/:convId`
   - [x] Aggiungere `GET /users/:userId/conversations`
 - [x] Allineare leave-group:
-  - [ ] Sostituire `DELETE /conversations/:convId/participants/:userId` con `DELETE /conversations/:convId/participants/me`
-- [ ] Verificare endpoint extra (`/liveness`, `/images/*filepath`): mantenerli solo se documentati o interni.
+  - [x] Sostituire `DELETE /conversations/:convId/participants/:userId` con `DELETE /conversations/:convId/participants/me`
+- [x] Verificare endpoint extra (`/liveness`, `/images/*filepath`): mantenerli solo se documentati o interni.
 
 #### put-user-photo.go
 - [ ] Cambiare successo da `204` a `200` come da YAML.
