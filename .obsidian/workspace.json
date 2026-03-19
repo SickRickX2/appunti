@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Correzione Esercitazione Data Science"
             }
+          },
+          {
+            "id": "9cec41d1d409e671",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Note di rilascio 1.11.5"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +203,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
+      "bases:Crea nuova Base": false,
       "switcher:Apri selezione rapida": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
@@ -203,7 +215,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1919a6c223e2c20e",
+  "active": "9cec41d1d409e671",
   "lastOpenFiles": [
     "Progetto e sviluppo di sistemi interattivi.md",
     "DATA SCIENCE E DIRITTO/Correzione Esercitazione Data Science.md",
