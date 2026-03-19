@@ -163,8 +163,8 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorit√† P0‚
 - [x] Verificare endpoint extra (`/liveness`, `/images/*filepath`): mantenerli solo se documentati o interni.
 
 #### put-user-photo.go
-- [ ] Cambiare successo da `204` a `200` come da YAML.
-- [ ] Verificare payload di risposta conforme allo schema previsto (`User` o payload definito in YAML).
+- [x] Cambiare successo da `204` a `200` come da YAML.
+- [x] Verificare payload di risposta conforme allo schema previsto (`User` o payload definito in YAML).
 
 #### set-group-photo.go
 - [ ] Cambiare successo da `204` a `200`.
