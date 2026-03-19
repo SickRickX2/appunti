@@ -199,8 +199,8 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorit√† P0‚
 - [x] Enforce BearerAuth su `DELETE /session` (se richiesto da security globale YAML).
 
 #### put-group-participants.go
-- [ ] Verificare response body/status esatti da YAML per `POST /participants`.
-- [ ] Aggiungere eventuali controlli membership/permessi coerenti con contratto.
+- [x] Verificare response body/status esatti da YAML per `POST /participants`.
+- [x] Aggiungere eventuali controlli membership/permessi coerenti con contratto.
 
 #### delete-message.go
 - [ ] Verificare status/body attesi dal YAML definitivo per `DELETE /messages/{messageId}`.
