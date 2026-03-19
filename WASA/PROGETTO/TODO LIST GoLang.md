@@ -144,7 +144,7 @@
 - **Path params non sfruttati**: reazioni ignorano [convId](vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench.html).
 
 ---
-## Checklist operativa **file per file** (da passare ad Agent in VS Code)
+## Checklist operativa **file per file** 
 
 Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorità P0→P2.
 
@@ -186,9 +186,9 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorità P0�
 ### P1 — Mismatch funzionali importanti
 
 #### post-message.go
-- [ ] Allineare request body a schema OpenAPI (`Message`): verificare uso `media` object vs `mediaId` string.
-- [ ] Mappare errori con status coerenti (`400/404/...`) invece di fallback generico.
-- [ ] Mantenere controlli `errcheck` su encode/write.
+- [x] Allineare request body a schema OpenAPI (`Message`): verificare uso `media` object vs `mediaId` string.
+- [x] Mappare errori con status coerenti (`400/404/...`) invece di fallback generico.
+- [x] Mantenere controlli `errcheck` su encode/write.
 
 #### reactions.go
 - [ ] In `commentMessage` e `uncommentMessage`, usare/validare anche `convId` (non solo `messageId`).
@@ -208,7 +208,7 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorità P0�
 
 ---
 
-### P2 — Qualità/consistenza/linter
+### P2 — Qualità/consistenza/linter sta roba la posso pure scartare tanto non penso cambi realmente qualcosa
 
 #### post-session.go
 - [ ] Impostare `Content-Type` **prima** di `WriteHeader`.
