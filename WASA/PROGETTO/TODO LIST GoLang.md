@@ -153,12 +153,12 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorità P0�
 ### P0 — Bloccanti compliance
 
 #### api-handler.go
-- [ ] Allineare route mancanti:
+- [x] Allineare route mancanti:
   - [x] Aggiungere `GET /users/:userId/pfp`
   - [x] Aggiungere `DELETE /users/:userId/pfp`
-  - [ ] Aggiungere `GET /conversations/:convId`
-  - [ ] Aggiungere `GET /users/:userId/conversations`
-- [ ] Allineare leave-group:
+  - [x] Aggiungere `GET /conversations/:convId`
+  - [x] Aggiungere `GET /users/:userId/conversations`
+- [x] Allineare leave-group:
   - [ ] Sostituire `DELETE /conversations/:convId/participants/:userId` con `DELETE /conversations/:convId/participants/me`
 - [ ] Verificare endpoint extra (`/liveness`, `/images/*filepath`): mantenerli solo se documentati o interni.
 
