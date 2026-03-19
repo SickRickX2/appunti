@@ -167,19 +167,19 @@ Obiettivo: allineare `service/api/*` a api.yaml (OpenAPI 3.1), con priorit√† P0‚
 - [x] Verificare payload di risposta conforme allo schema previsto (`User` o payload definito in YAML).
 
 #### set-group-photo.go
-- [ ] Cambiare successo da `204` a `200`.
-- [ ] Verificare payload risposta conforme a YAML.
+- [x] Cambiare successo da `204` a `200`.
+- [x] Verificare payload risposta conforme a YAML.
 
 #### delete-group-participant.go
-- [ ] Adeguare handler al path `/participants/me` (target user = utente autenticato).
-- [ ] Allineare status successo a quello definito in YAML (atteso `200` nella tua spec corrente).
-- [ ] Verificare body di risposta se richiesto dallo schema.
+- [x] Adeguare handler al path `/participants/me` (target user = utente autenticato).
+- [x] Allineare status successo a quello definito in YAML (atteso `200` nella tua spec corrente).
+- [x] Verificare body di risposta se richiesto dallo schema.
 
 #### Nuovi file handler (se mancanti)
-- [ ] Creare handler per `GET /users/:userId/pfp`.
-- [ ] Creare handler per `DELETE /users/:userId/pfp`.
-- [ ] Creare handler per `GET /conversations/:convId`.
-- [ ] Creare handler per `GET /users/:userId/conversations`.
+- [x] Creare handler per `GET /users/:userId/pfp`.
+- [x] Creare handler per `DELETE /users/:userId/pfp`.
+- [x] Creare handler per `GET /conversations/:convId`.
+- [x] Creare handler per `GET /users/:userId/conversations`.
 
 ---
 
