@@ -13,3 +13,6 @@ It learns through tunable parameters, machine learning can be categorized in two
 >[!note] Semi-supervised 
 >We give solutions only for a selected part of the dataset
 
+### Neural Networks
+They try to resume our brain in a very very high level way, but of course they have some limitations.
+Artificial NN didnt born like Neural Networks.
