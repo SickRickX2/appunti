@@ -35,6 +35,12 @@ The smallest NN is composed by 3 layers:
 The only thing to change to get more precision is to add more hidden layers.
 
 >[!note] Backpropagation
->
+>It's used when we don t get the expected output -> error, and we compute the derivatives to tune the hidden perceptron
+
+### Important terms for ML
+- **Batch**: subset of elements from the dataset for training
+- **Epoch**: number of (complete) iterations over the whole dataset
+- **Parameters**: the data related to the model that is tuned during the training
+- **Hyperparameters**:  the data related to the model that must be set by us -> other "knobs" to tune that the model is not able to tune by himself, ex: how big should be the batch, how many iterations we need to do? ... and so on. We *must* tune for the model.
 
 
