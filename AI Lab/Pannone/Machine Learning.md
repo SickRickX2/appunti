@@ -16,3 +16,9 @@ It learns through tunable parameters, machine learning can be categorized in two
 ### Neural Networks
 They try to resume our brain in a very very high level way, but of course they have some limitations.
 Artificial NN didnt born like Neural Networks.
+
+>[!tip] Perceptron
+>Works like a neuron but has a flexible threshold, we can put a mathematical function as threshold, not only a fixed value. It was actually sufficient to "solve" the neuron.
+
+
+
