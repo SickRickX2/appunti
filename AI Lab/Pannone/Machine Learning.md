@@ -20,5 +20,19 @@ Artificial NN didnt born like Neural Networks.
 >[!tip] Perceptron
 >Works like a neuron but has a flexible threshold, we can put a mathematical function as threshold, not only a fixed value. It was actually sufficient to "solve" the neuron.
 
+cs came up with the *multi-level perceptron* so an artificial brain -> **Artificial Neural Network**.
+
+Some perceptron are stacked one on top of the others, and we introduce the concept of **layers**.
+
+>[!note] Layer
+>A layer is a single column of stacked perceptron.
+
+The smallest NN is composed by 3 layers:
+- *input layer* -> it takes the input
+- *hidden layer* -> where the parameters are tuned 
+- *output layer* -> provides the result/output
+
+
+
 
 
