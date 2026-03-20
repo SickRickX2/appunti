@@ -32,7 +32,9 @@ The smallest NN is composed by 3 layers:
 - *hidden layer* -> where the parameters are tuned 
 - *output layer* -> provides the result/output
 
+The only thing to change to get more precision is to add more hidden layers.
 
-
+>[!note] Backpropagation
+>
 
 
