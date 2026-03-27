@@ -45,10 +45,16 @@ The only thing to change to get more precision is to add more hidden layers.
 
 ### Convolutional Neural Network
 In CNNs there are three type of layers
+
 >[!note] Convoutional Layers
 >Uses filters that perform convolution operations. The parameters that are tuned are the kernels (not the edges like ANN).
+
+*<> the backbone*
 
 >[!note] Pooling Layers
 >They allows to reduce the size of the data needed between the layers. In particular *max* and *average* pooling are special kinds of pooling.
 
->[!note] 
+>[!note] Fully Connected
+>It s actually a MLP that operates on flattened input. We need it bc convolution is used just to extract the features from the data, they don say anything about it but just extract it, so we need to provide those features to something that can put a label/classification on the data -> the Artificial Neural Network.
+
+
