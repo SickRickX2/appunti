@@ -43,4 +43,5 @@ The only thing to change to get more precision is to add more hidden layers.
 - **Parameters**: the data related to the model that is tuned during the training
 - **Hyperparameters**:  the data related to the model that must be set by us -> other "knobs" to tune that the model is not able to tune by himself, ex: how big should be the batch, how many iterations we need to do? ... and so on. We *must* tune for the model.
 
+### Convolutional Neural Network
 
