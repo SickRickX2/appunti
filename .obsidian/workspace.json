@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Lab/Pannone/Machine Learning.md",
+                "file": "B.Sc./CSI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
+              "title": "CSI"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -206,11 +205,12 @@
   },
   "active": "1919a6c223e2c20e",
   "lastOpenFiles": [
-    "JAVA/1 Introduzione di Java.md",
     "AI Lab/Pannone/Machine Learning.md",
+    "B.Sc./CSI.md",
+    "B.Sc.",
+    "JAVA/1 Introduzione di Java.md",
     "AI Lab/Pannone",
     "WASA/PROGETTO/TODO LIST GoLang.md",
-    "Senza nome",
     "AI Lab",
     "WASA/YAML approfondito.md",
     "WASA/PROGETTO",
@@ -235,7 +235,6 @@
     "JAVA/11 Classi Anonime.md",
     "CyberSec/Database security.md",
     "CyberSec/Malware.md",
-    "CyberSec/Access Control.md",
     "Pasted image 20251117112858.png",
     "Pasted image 20251114110425.png",
     "Pasted image 20251113194724.png",
