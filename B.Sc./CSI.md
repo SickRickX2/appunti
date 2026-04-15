@@ -1,3 +1,3 @@
 >[!note] CSI
->CSI Channel State Information
+>Channel State Information
 
