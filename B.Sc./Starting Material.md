@@ -26,3 +26,7 @@ $$
 >>- *amplitude* -> refers to the **peak value** or **maximum magnitude** of a signal, representing how far the signal moves from its baseline (zero) during each cycle (**strenght or intensity** of the signal)
 >>- *frequency* -> refers to the **number of cycles** a signal completes **per second** and is measured in Hertz (Hz)
 
+### CSI Mathematical Structure
+>[!note] CFR
+>*CFR channel frequency response* is defined as: 
+>$$ 
