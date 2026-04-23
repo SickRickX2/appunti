@@ -30,3 +30,8 @@ $$
 >[!note] CFR
 >*CFR channel frequency response* is defined as: 
 >$$ 
+>H(f;t) = \int_{-\infty}^{\infty} h(\tau,t)e^{-j2\pi f \tau} d\tau = \sum_{i} a_i(t)e^{-j2\pi f \tau_i(t)} = |H(f;t)|e^{j\angle H(f;t)}
+>$$
+>where $|H(f;t)|$ and $\angle H(f;t)$ indicate the signal amplitude and phase responses respectively, and j is the imaginary component
+
+
