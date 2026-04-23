@@ -35,4 +35,11 @@ $$
 >where $|H(f;t)|$ and $\angle H(f;t)$ indicate the signal amplitude and phase responses respectively, and j is the imaginary component
 
 
-The CSI is a frequency-domain evaluation measure involving the CFR values computed for all the K OFDM-based subcarriers related to each p ∈ P packet reaching the receiver. Given Θ and Γ arrays of fixed receiving and transmitting antennas placed in a static environment, respectively, for each subcarrier k ∈ K over the wireless communication established between the θ ∈ Θ and γ ∈ Γ antennas, the frequency response $H(f)_k^{\theta, \gamma}$  can be specified as:
+The CSI is a frequency-domain evaluation measure involving the CFR values computed for all the K OFDM-based subcarriers related to each p ∈ P packet reaching the receiver. Given Θ and Γ arrays of fixed receiving and transmitting antennas placed in a static environment, respectively, for each subcarrier k ∈ K over the wireless communication established between the θ ∈ Θ and γ ∈ Γ antennas, the frequency response $H(f)_k^{\theta, \gamma}$  can be specified as: 
+$$
+H(f)_k^{\theta,\gamma} = |H(f)_k^{\theta,\gamma}|e^{j\angle H(f)_k^{\theta,\gamma}}
+$$
+where $|H(f)_k^{\theta,\gamma}|$ is the signal amplitude and $j\angle H(f)_k^{\theta,\gamma}$ is the signal phase, while $j$ is the imaginary component resulting from the *Fourier transformation* applied to the impulse response.
+The final CSI measurement estimated over all the K subcarriers,
+considering all the antennas in the TX and RX arrays, is a complex matrix of size
+Θ × Γ × K, defined as:
