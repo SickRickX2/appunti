@@ -1,4 +1,6 @@
+****
 ## Orthogonal Frequency-Division Multiplexing
+****
 
 The *Orthogonal Frequency-Division Multiplexing* it's a **signal modulation** used by most of the modern wireless communications in order to transmit data encoded on multiple orthogonal carrier frequencies (**subcarries**) within the same individual communication channel.
 
@@ -16,13 +18,11 @@ signal correlating the known set of orthogonal sinusoids without interference de
 $$
 
 >[!note] CSI
->The **Channel State Information** **(CSI)** is an alternative and more fine-grained wireless communication channel measurement than the RSSI metric. It's widely used in modern wireless communication systems based on OFDM, it obtains detailed signal propagation characteristics from the transmitter to the receiver at the subcarrier level. Transmissions can be adapted to the current link conditions enabling reliable communications in multiple-input multiple-output (MIMO) antenna configuration:  
+>The **Channel State Information** **(CSI)** is an alternative and more fine-grained wireless communication channel measurement than the RSSI metric. It's widely used in modern wireless communication systems based on OFDM, it obtains detailed signal propagation characteristics from the transmitter to the receiver at the subcarrier level. Transmissions can be adapted to the current link conditions enabling reliable communications in **multiple-input multiple-output (MIMO)** antenna configuration:  
 >![[Pasted image 20260423150244.png|300]]
 >>[!tip] CSI Informations
 >>It contains:
 >>- *phase* -> refers to the **specific position or timing of a waveform** in its cycle relative to a reference point, typically measured in degrees or radians
 >>- *amplitude* -> refers to the **peak value** or **maximum magnitude** of a signal, representing how far the signal moves from its baseline (zero) during each cycle (**strenght or intensity** of the signal)
 >>- *frequency* -> refers to the **number of cycles** a signal completes **per second** and is measured in Hertz (Hz)
-
-
 
