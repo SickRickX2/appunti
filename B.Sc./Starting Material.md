@@ -35,3 +35,4 @@ $$
 >where $|H(f;t)|$ and $\angle H(f;t)$ indicate the signal amplitude and phase responses respectively, and j is the imaginary component
 
 
+The CSI is a frequency-domain evaluation measure involving the CFR values computed for all the K OFDM-based subcarriers related to each p ∈ P packet reaching the receiver. Given Θ and Γ arrays of fixed receiving and transmitting antennas placed in a static environment, respectively, for each subcarrier k ∈ K over the wireless communication established between the θ ∈ Θ and γ ∈ Γ antennas, the frequency response $H(f)_k^{\theta, \gamma}$  can be specified as:
