@@ -41,7 +41,10 @@ H(f)_k^{\theta,\gamma} = |H(f)_k^{\theta,\gamma}|e^{j\angle H(f)_k^{\theta,\gamm
 $$
 where $|H(f)_k^{\theta,\gamma}|$ is the signal amplitude and $j\angle H(f)_k^{\theta,\gamma}$ is the signal phase, while $j$ is the imaginary component resulting from the *Fourier transformation* applied to the impulse response.
 The final CSI measurement estimated over all the K subcarriers,
-considering all the antennas in the TX and RX arrays, is a complex matrix of size
-Θ × Γ × K, defined as:
+considering all the antennas in the TX and RX arrays, is a complex matrix of size Θ × Γ × K, defined as:
 $$ CSI = \begin{bmatrix} H(f)_1^{(1,1)} & H(f)_2^{(1,1)} & \dots & H(f)_\kappa^{(1,1)} \\ H(f)_1^{(1,2)} & H(f)_2^{(1,2)} & \dots & H(f)_\kappa^{(1,2)} \\ \vdots & \vdots & \vdots & \vdots \\ H(f)_1^{(\theta,\gamma)} & H(f)_2^{(\theta,\gamma)} & \dots & H(f)_\kappa^{(\theta,\gamma)} \end{bmatrix} $$
-where H(f)(θ,γ) κ is a signed 8-bit complex number indicating the κ-th subcarrier CFR value over the θ ∈ Θ and γ ∈ Γ antennas.
+where $H(f)_k^{\theta,\gamma}$ is a signed 8-bit complex number indicating the κ-th subcarrier CFR value over the θ ∈ Θ and γ ∈ Γ antennas.
+
+>[!warning] Fourier Transform
+>In simple terms, the **Fourier Transform** is a mathematical tool that takes a complex, messy radio signal and breaks it down into its individual pure frequencies—allowing a receiver to perfectly separate and analyze the overlapping data streams (like our OFDM subcarriers).
+
