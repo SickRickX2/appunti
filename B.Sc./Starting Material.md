@@ -2,7 +2,7 @@
 
 The *Orthogonal Frequency-Division Multiplexing* it's a **signal modulation** used by most of the modern wireless communications in order to transmit data encoded on multiple orthogonal carrier frequencies (**subcarries**) within the same individual communication channel.
 
-By applying any data modulation scheme to a pure carrier wave, the signal's energy expands beyond its central frequency. This physical process generates **sidebands*adjacent frequency ranges located just above and below the main carrier. 
+By applying any data modulation scheme to a pure carrier wave, the signal's energy expands beyond its central frequency. This physical process generates **sidebands**,adjacent frequency ranges located just above and below the main carrier. 
 
 In a densely packed multiple carrier scenario, these sidebands naturally expand and overlap with neighboring subcarriers. Without specific countermeasures, this spectral overlap creates severe **inter-carrier interference (ICI)** at the overlapping frequencies. The *orthogonal* nature of **OFDM** is specifically designed to solve this issue, allowing subcarriers to overlap safely without their sidebands disrupting the data decoding process at the receiver.
 Therefore, the receiver can recover the original
@@ -20,9 +20,9 @@ $$
 >![[Pasted image 20260423150244.png|300]]
 >>[!tip] CSI Informations
 >>It contains:
->>- *phase* -> 
->>- *amplitude* ->
->>- *frequency* ->
+>>- *phase* -> refers to the **specific position or timing of a waveform** in its cycle relative to a reference point, typically measured in degrees or radians
+>>- *amplitude* -> refers to the **peak value** or **maximum magnitude** of a signal, representing how far the signal moves from its baseline (zero) during each cycle (**strenght or intensity** of the signal)
+>>- *frequency* -> refers to the **number of cycles** a signal completes **per second** and is measured in Hertz (Hz)
 
 
 
