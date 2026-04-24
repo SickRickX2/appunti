@@ -5,3 +5,5 @@ Let s move in a manufactury domain, we have to control the engine quality and th
 
 So for us it's ok to use with 95% rate of success but only in simple cases not important for social and industrial context.
 
+We have to shrink as possible the result or trying to get something for us to understand that the result is not entirely trustful.
+
