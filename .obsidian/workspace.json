@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B.Sc./Starting Notes.md",
+                "file": "AI Lab/Avola.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Starting Notes"
+              "title": "Avola"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -191,6 +192,7 @@
   "active": "1919a6c223e2c20e",
   "lastOpenFiles": [
     "B.Sc./Starting Notes.md",
+    "AI Lab/Avola.md",
     "WASA/PROGETTO/TODO LIST GoLang.md",
     "AI Lab/Lezochè/Ontology based supervised transformers like models for automatic triple extraction.md",
     "IUM/Lezione 5.md",
@@ -222,7 +224,6 @@
     "JAVA/16 Streams.md",
     "JAVA/13 Tipi Generici.md",
     "JAVA/12 Riferimento ai Metodi.md",
-    "JAVA/11 Classi Anonime.md",
     "Pasted image 20251117112858.png",
     "Pasted image 20251114110425.png",
     "Pasted image 20251113194724.png",
