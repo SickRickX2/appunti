@@ -15,7 +15,7 @@ Solution 2.2
 >>Instead of trusting only local pairwise matches, it adjusts transformations across many frames together, so the full mosaic remains coherent overall.
 >
 >>[!tip] Loop Constraints
->>
+>>If the camera sees apreviously observed region again, the system adds a constraint: the new view must match the old area. This helps correct the accumulated drift and “close the loop” cleanly.
 
 
 
