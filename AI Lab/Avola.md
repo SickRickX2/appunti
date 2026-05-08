@@ -18,4 +18,7 @@ Solution 2.2
 >>If the camera sees apreviously observed region again, the system adds a constraint: the new view must match the old area. This helps correct the accumulated drift and “close the loop” cleanly.
 
 
+Solution 2.3
+#### Deep Homography / Learned Alignment (Modern Registration Models)
+
 
