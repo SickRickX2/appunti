@@ -271,7 +271,7 @@ The Teacher achieves a mean Weighted F1 of 0.382, with Ban recall consistently b
 |Strike|0.532|0.801|0.640|
 |Normal|0.584|0.791|0.672|
 |**Weighted**|**0.540**|**0.554**|**0.529**|
-
+Results of the best fold (Fold 2) of the thread-aware model.
 **Table 4: Context-Aware model — Weighted F1 across all folds.**
 
 |Fold|Ban F1|Strike F1|Normal F1|Weighted F1|
