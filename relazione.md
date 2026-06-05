@@ -209,27 +209,27 @@ All training was performed on Google Colab Pro with an NVIDIA A100 SXM4-80GB GPU
 
 **Training Configuration**
 
-|Parameter|Baseline (No-Thread)|Context-Aware (Thread)|
-|---|---|---|
-|Base model|roberta-large|roberta-large|
-|Parameters|355M|355M|
-|max_length|256|512|
-|Batch size|16|16|
-|Grad. accum. steps|2|2|
-|Effective batch size|32|32|
-|Epochs|4|4|
-|K-Folds|5|5|
-|LR (encoder)|5e-6|5e-6|
-|LR (classifier)|1e-4|1e-4|
-|Optimizer|AdamW|AdamW|
-|Weight decay|0.01|0.01|
-|eps|1e-6|1e-6|
-|LR schedule|Linear warmup|Linear warmup|
-|Warmup steps|10% of total|10% of total|
-|Loss|Cross-Entropy|Cross-Entropy|
-|Class weights|sqrt(balanced) norm.|sqrt(balanced) norm.|
-|alpha (distillation)|0.0|0.0|
-|Training time|~2h (A100)|~4h (A100)|
+| Parameter            | Baseline (No-Thread) | Context-Aware (Thread) |
+| -------------------- | -------------------- | ---------------------- |
+| Base model           | roberta-large        | roberta-large          |
+| Parameters           | 355M                 | 355M                   |
+| max_length           | 256                  | 512                    |
+| Batch size           | 16                   | 16                     |
+| Grad. accum. steps   | 2                    | 2                      |
+| Effective batch size | 32                   | 32                     |
+| Epochs               | 4                    | 4                      |
+| K-Folds              | 5                    | 5                      |
+| LR (encoder)         | 5e-6                 | 5e-6                   |
+| LR (classifier)      | 1e-4                 | 1e-4                   |
+| Optimizer            | AdamW                | AdamW                  |
+| Weight decay         | 0.01                 | 0.01                   |
+| eps                  | 1e-6                 | 1e-6                   |
+| LR schedule          | Linear warmup        | Linear warmup          |
+| Warmup steps         | 10% of total         | 10% of total           |
+| Loss                 | Cross-Entropy        | Cross-Entropy          |
+| Class weights        | sqrt(balanced) norm. | sqrt(balanced) norm.   |
+| alpha (distillation) | 0.0                  | 0.0                    |
+| Training time        | ~2h (A100)           | ~4h (A100)             |
 
 **Evaluation Metrics**  
 The primary evaluation metric is **Weighted F1-score**, which accounts for class imbalance by weighting each class's F1 by its support. Per-class Precision, Recall, and F1 are reported for all three classes, with particular attention to the minority classes (Ban, Strike) where performance differences are most diagnostically meaningful. Confusion matrices are reported for qualitative error analysis.
