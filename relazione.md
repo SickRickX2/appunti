@@ -140,6 +140,7 @@ This softer weighting provides meaningful upweighting of minority classes withou
 **Gradient Accumulation**  
 Gradient accumulation over 2 steps yields an effective batch size of 32, improving gradient estimates without exceeding GPU memory limits.
 
+
 ### 3.3 Rules Prompt-Injection
 
 **[Sezione di Luca — già ampiamente descritta nel template alle sezioni 3.4–3.9. Riportare qui la versione condensata focalizzata sull'architettura, rimandando le sezioni 3.4–3.9 per i dettagli.]**
