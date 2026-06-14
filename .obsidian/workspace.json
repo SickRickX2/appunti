@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "relazione"
             }
+          },
+          {
+            "id": "60e49bbaf3288025",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Note di rilascio 1.12.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,7 +216,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "93d7aed84af3da78",
+  "active": "60e49bbaf3288025",
   "lastOpenFiles": [
     "relazione.md",
     "AI Lab/Avola.md",
