@@ -27,28 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "relazione.md",
+                "file": "WASA/1_orale_api_rest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "relazione"
-            }
-          },
-          {
-            "id": "60e49bbaf3288025",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Note di rilascio 1.12.7"
+              "title": "1_orale_api_rest"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -216,9 +203,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "60e49bbaf3288025",
+  "active": "93d7aed84af3da78",
   "lastOpenFiles": [
     "relazione.md",
+    "WASA/5_orale_funzioni.md",
+    "WASA/4_orale_docker_infra.md",
+    "WASA/3_orale_frontend_vue.md",
+    "WASA/2_orale_backend_go.md",
+    "WASA/1_orale_api_rest.md",
     "AI Lab/Avola.md",
     "B.Sc./Starting Notes.md",
     "WASA/PROGETTO/TODO LIST GoLang.md",
@@ -246,11 +238,6 @@
     "Senza nome.md",
     "IUM/Interfacce android.md",
     "JAVA/3 Polimorfismo e Binding.md",
-    "JAVA/19 Eccezioni.md",
-    "JAVA/18 PECS.md",
-    "JAVA/17 Collectors.md",
-    "JAVA/16 Streams.md",
-    "JAVA/13 Tipi Generici.md",
     "Pasted image 20251117112858.png",
     "Pasted image 20251114110425.png",
     "Pasted image 20251113194724.png",
