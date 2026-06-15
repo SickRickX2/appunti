@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WASA/5_orale_funzioni.md",
+                "file": "WASA/6_orale_scaletta_operazioni.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_orale_funzioni"
+              "title": "6_orale_scaletta_operazioni"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c70ed05d89edd114",
@@ -205,12 +206,13 @@
   },
   "active": "93d7aed84af3da78",
   "lastOpenFiles": [
+    "WASA/5_orale_funzioni.md",
+    "WASA/6_orale_scaletta_operazioni.md",
     "WASA/4_orale_docker_infra.md",
     "WASA/3_orale_frontend_vue.md",
     "WASA/2_orale_backend_go.md",
     "WASA/1_orale_api_rest.md",
     "relazione.md",
-    "WASA/5_orale_funzioni.md",
     "AI Lab/Avola.md",
     "B.Sc./Starting Notes.md",
     "WASA/PROGETTO/TODO LIST GoLang.md",
@@ -237,7 +239,6 @@
     "IUM/Modi.md",
     "Senza nome.md",
     "IUM/Interfacce android.md",
-    "JAVA/3 Polimorfismo e Binding.md",
     "Pasted image 20251117112858.png",
     "Pasted image 20251114110425.png",
     "Pasted image 20251113194724.png",
