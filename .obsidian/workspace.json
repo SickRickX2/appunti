@@ -11,14 +11,12 @@
             "id": "1919a6c223e2c20e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "B.Sc./Starting Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260423150244.png"
               },
-              "icon": "lucide-file",
-              "title": "Starting Notes"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260423150244"
             }
           },
           {
@@ -204,6 +202,13 @@
   },
   "active": "1919a6c223e2c20e",
   "lastOpenFiles": [
+    "Pasted image 20260423150028.png",
+    "Pasted image 20251117112858.png",
+    "Pasted image 20251114110425.png",
+    "Pasted image 20251113194724.png",
+    "Pasted image 20251113194123.png",
+    "Pasted image 20251113193826.png",
+    "B.Sc./Starting Notes.md",
     "AI Lab/Avola.md",
     "WASA/6_orale_scaletta_operazioni.md",
     "WASA/5_orale_funzioni.md",
@@ -212,14 +217,12 @@
     "WASA/2_orale_backend_go.md",
     "WASA/1_orale_api_rest.md",
     "relazione.md",
-    "B.Sc./Starting Notes.md",
     "WASA/PROGETTO/TODO LIST GoLang.md",
     "AI Lab/Lezochè/Ontology based supervised transformers like models for automatic triple extraction.md",
     "IUM/Lezione 5.md",
     "AI Lab/Lezochè/Semantic Web.md",
     "AI Lab/Lezochè",
     "Pasted image 20260423150244.png",
-    "Pasted image 20260423150028.png",
     "AI Lab/Pannone/Machine Learning.md",
     "B.Sc.",
     "JAVA/1 Introduzione di Java.md",
@@ -236,12 +239,6 @@
     "IUM/Tecniche di valutazione expert based.md",
     "IUM/Modi.md",
     "Senza nome.md",
-    "IUM/Interfacce android.md",
-    "Pasted image 20251117112858.png",
-    "Pasted image 20251114110425.png",
-    "Pasted image 20251113194724.png",
-    "Pasted image 20251113194123.png",
-    "Pasted image 20251113193826.png",
     "Senza nome.base",
     "Classes",
     "imgs/Pasted image 20251016102631.png",
