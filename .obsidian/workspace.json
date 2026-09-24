@@ -11,12 +11,14 @@
             "id": "1919a6c223e2c20e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260423150244.png"
+                "file": "B.Sc./Starting Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260423150244"
+              "icon": "lucide-file",
+              "title": "Starting Notes"
             }
           },
           {
@@ -202,6 +204,7 @@
   },
   "active": "1919a6c223e2c20e",
   "lastOpenFiles": [
+    "Pasted image 20260423150244.png",
     "Pasted image 20260423150028.png",
     "Pasted image 20251117112858.png",
     "Pasted image 20251114110425.png",
@@ -222,7 +225,6 @@
     "IUM/Lezione 5.md",
     "AI Lab/Lezochè/Semantic Web.md",
     "AI Lab/Lezochè",
-    "Pasted image 20260423150244.png",
     "AI Lab/Pannone/Machine Learning.md",
     "B.Sc.",
     "JAVA/1 Introduzione di Java.md",
