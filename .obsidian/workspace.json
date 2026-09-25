@@ -4,35 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cc0062e3bb9e9a2f",
+        "id": "87c806e37811a859",
         "type": "tabs",
         "children": [
           {
-            "id": "1919a6c223e2c20e",
+            "id": "aa4d4cae94594e30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Computer science/Network infrastructures.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.13.7"
               },
-              "icon": "lucide-file",
-              "title": "Network infrastructures"
-            }
-          },
-          {
-            "id": "93d7aed84af3da78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WASA/6_orale_scaletta_operazioni.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6_orale_scaletta_operazioni"
+              "icon": "lucide-book-up",
+              "title": "Note di rilascio 1.13.7"
             }
           }
         ]
@@ -191,11 +175,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Apri selettore rapido": false,
+      "daily-notes:Apri nota giornaliera": false,
       "bases:Crea nuova Base": false,
-      "switcher:Apri selezione rapida": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "omnisearch:Omnisearch": false,
@@ -203,12 +187,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1919a6c223e2c20e",
+  "active": "aa4d4cae94594e30",
   "lastOpenFiles": [
-    "Pasted image 20260925083929.png",
-    "Computer science/Senza nome",
+    "WASA/6_orale_scaletta_operazioni.md",
     "B.Sc./Starting Notes.md",
     "Computer science/Network infrastructures.md",
+    "Pasted image 20260925083929.png",
+    "Computer science/Senza nome",
     "Computer science",
     "Pasted image 20260423150244.png",
     "Pasted image 20260423150028.png",
@@ -218,7 +203,6 @@
     "Pasted image 20251113194123.png",
     "Pasted image 20251113193826.png",
     "AI Lab/Avola.md",
-    "WASA/6_orale_scaletta_operazioni.md",
     "WASA/5_orale_funzioni.md",
     "WASA/4_orale_docker_infra.md",
     "WASA/3_orale_frontend_vue.md",
@@ -250,7 +234,6 @@
     "imgs/Pasted image 20251016102631.png",
     "imgs/Pasted image 20251024115830.png",
     "IUM/Senza nome.canvas",
-    "imgs/Pasted image 20250519112034.png",
     "imgs"
   ]
 }
